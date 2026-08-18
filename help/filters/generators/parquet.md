@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/parquet.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/parquet.html"
 breadcrumb-title: ''
 description: Utilice el generador de parquet de Substance 3D Sampler para crear patrones y texturas realistas de parquet para los materiales.
 helpx_creative_field: ""

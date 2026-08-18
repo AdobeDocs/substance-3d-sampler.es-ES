@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/vibrance.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/vibrance.html"
 breadcrumb-title: ''
 description: Utilice el filtro Intensidad en Substance 3D Sampler para mejorar la saturación y la intensidad del color en las texturas al tiempo que conserva los tonos de piel.
 helpx_creative_field: ""

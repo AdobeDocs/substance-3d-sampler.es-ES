@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/metal-finish.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/metal-finish.html"
 breadcrumb-title: ''
 description: Utilice el filtro Acabado metálico de Substance 3D Sampler para aplicar diversos acabados y texturas de superficies metálicas a sus materiales.
 helpx_creative_field: ""

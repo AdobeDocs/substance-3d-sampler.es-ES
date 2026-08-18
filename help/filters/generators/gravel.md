@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/gravel.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/gravel.html"
 breadcrumb-title: ''
 description: Utilice el generador de gravilla de Substance 3D Sampler para crear texturas de agregado de gravilla y piedra realistas para materiales.
 helpx_creative_field: ""

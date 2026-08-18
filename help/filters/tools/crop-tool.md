@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/crop-tool.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/crop-tool.html"
 breadcrumb-title: ''
 description: Utiliza la herramienta Recortar de Substance 3D Sampler para recortar y cambiar el tamaño de las texturas y las capas de materiales con un control preciso de las dimensiones.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/perspective-correction.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/perspective-correction.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Corrección de perspectiva de Substance 3D Sampler para corregir la distorsión de perspectiva en imágenes y texturas capturadas.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/hue-saturation.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/hue-saturation.html"
 breadcrumb-title: ''
 description: Utilice el filtro Tono/Saturación en Substance 3D Sampler para ajustar los valores de tono, saturación y luminosidad en texturas y materiales.
 helpx_creative_field: ""

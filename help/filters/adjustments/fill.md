@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/fill.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/fill.html"
 breadcrumb-title: ''
 description: Utilice el filtro Relleno de Substance 3D Sampler para rellenar áreas de textura con colores sólidos o patrones para los flujos de trabajo de creación de materiales.
 helpx_creative_field: ""

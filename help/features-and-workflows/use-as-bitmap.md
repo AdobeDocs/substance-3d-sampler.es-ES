@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/use-as-bitmap.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/features-and-workflows/use-as-bitmap.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la función Usar como mapa de bits en Substance 3D Sampler para convertir capas a formato de mapa de bits para una edición de material eficaz.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/color-temperature-adjustment.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/color-temperature-adjustment.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Color temperature adjustment de Substance 3D Sampler para ajustar la temperatura de color en imágenes de entorno HDRI.
 helpx_creative_field: ""

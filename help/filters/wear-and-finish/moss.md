@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/moss.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/moss.html"
 breadcrumb-title: ''
 description: Usa el filtro Musgo en Substance 3D Sampler para añadir un crecimiento realista del musgo y efectos de superficie orgánica a tus materiales.
 helpx_creative_field: ""

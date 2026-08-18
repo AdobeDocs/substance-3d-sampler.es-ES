@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/brightness-contrast.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/brightness-contrast.html"
 breadcrumb-title: ''
 description: Utilice el filtro Brillo/Contraste de Substance 3D Sampler para ajustar los niveles de brillo y contraste en las texturas y las capas de materiales.
 helpx_creative_field: ""

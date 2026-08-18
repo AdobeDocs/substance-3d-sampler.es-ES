@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/plane-light.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Luz plana de Substance 3D Sampler para añadir fuentes de luz planas a entornos HDRI para efectos de iluminación de área.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/match.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/match.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Coincidencia de Substance 3D Sampler para hacer coincidir los colores, los tonos y la iluminación entre diferentes texturas y capas de materiales.
 helpx_creative_field: ""

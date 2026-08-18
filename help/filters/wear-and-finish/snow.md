@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/snow.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/snow.html"
 breadcrumb-title: ''
 description: Usa el filtro Snow de Substance 3D Sampler para añadir a tus materiales efectos realistas de acumulación de nieve y meteorología invernal.
 helpx_creative_field: ""

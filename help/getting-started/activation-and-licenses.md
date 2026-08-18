@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Aprenda a activar y administrar licencias para que Substance 3D Sampler empiece a utilizar la aplicación y acceda a todas las funciones.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ El proceso de activación depende de dónde haya comprado Sampler o tenga acceso
 
 | Tipo de aplicación | Proceso de activación |
 | --- | --- |
-| Escritorio de Creative Cloud | Consulte la página dedicada en la [documentación de HelpX](https://helpx.adobe.com/support/substance-3d-sampler.html).En caso de que haya algún problema, la [documentación del Creative Cloud](https://helpx.adobe.com/creative-cloud/user-guide.html) puede proporcionar respuestas adicionales. |
+| Escritorio de Creative Cloud | Consulte la página dedicada en la [documentación de HelpX](https://helpx.adobe.com/es/support/substance-3d-sampler.html).En caso de que haya algún problema, la [documentación del Creative Cloud](https://helpx.adobe.com/es/creative-cloud/user-guide.html) puede proporcionar respuestas adicionales. |
 | Vapor | Inicie el producto directamente desde la biblioteca de Steam. |
 | Substance 3D independiente | Consulte el proceso de activación que se describe a continuación. |
 
@@ -42,7 +42,7 @@ Hay tres opciones disponibles:
 
 * **Evaluar este producto**: Las pruebas heredadas ya no están disponibles. En su lugar, puedes iniciar una versión de prueba de 30 días para cada aplicación de Substance 3D [aquí](https://www.adobe.com/creativecloud/3d-augmented-reality.html) o con Creative Cloud Desktop. Cada versión de prueba es independiente de las demás aplicaciones de Substance 3D, por lo que puede probarlas una a una o todas a la vez.
 * **Activar usando un archivo de licencia**: active el producto con un archivo de licencia (**\*.key**) descargado de la página de su cuenta en el [sitio web de Substance 3D](https://store.substance3d.com/user) antes del 30 de septiembre de 2022.
-* **Activar usando tu cuenta**: Las cuentas de sustancias heredadas ya no se pueden utilizar para la activación. [Aquí encontrará más información sobre las cuentas de Substance](https://helpx.adobe.com/substance-3d/unlisted/faq-end-of-life-accounts.html).
+* **Activar usando tu cuenta**: Las cuentas de sustancias heredadas ya no se pueden utilizar para la activación. [Aquí encontrará más información sobre las cuentas de Substance](https://helpx.adobe.com/es/substance-3d/unlisted/faq-end-of-life-accounts.html).
 
 >[!WARNING]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/hdr-merge.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
 description: Utiliza la herramienta Combinación HDR de Substance 3D Sampler para combinar varias imágenes de exposición en una sola imagen de alto rango dinámico.
 helpx_creative_field: ""

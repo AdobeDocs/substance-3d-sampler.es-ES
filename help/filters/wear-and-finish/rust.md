@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/rust.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/rust.html"
 breadcrumb-title: ''
 description: Usa el filtro de Óxido de Substance 3D Sampler para añadir efectos realistas de óxido y corrosión a los materiales y superficies metálicos.
 helpx_creative_field: ""

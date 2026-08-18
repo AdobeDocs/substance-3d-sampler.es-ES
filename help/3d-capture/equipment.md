@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/3d-capture/equipment.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/3d-capture/equipment.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre los equipos de Captura 3D recomendados para que Substance 3D Sampler logre digitalizar materiales y objetos de alta calidad.
 helpx_creative_field: ""

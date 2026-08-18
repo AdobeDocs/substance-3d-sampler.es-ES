@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/splatter.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/splatter.html"
 breadcrumb-title: ''
 description: Usa el generador de salpicaduras en Substance 3D Sampler para crear salpicaduras de pintura y efectos de patrones aleatorios para texturas de materiales.
 helpx_creative_field: ""

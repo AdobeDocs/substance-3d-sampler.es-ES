@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/stonewall.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/stonewall.html"
 breadcrumb-title: ''
 description: Usa el generador de Stonewall en Substance 3D Sampler para crear patrones realistas de paredes de piedra y texturas de mampostería para materiales.
 helpx_creative_field: ""

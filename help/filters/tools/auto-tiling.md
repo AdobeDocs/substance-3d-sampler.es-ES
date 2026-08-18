@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/auto-tiling.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/auto-tiling.html"
 breadcrumb-title: ''
 description: Utiliza la herramienta Mosaico automático de Substance 3D Sampler para crear automáticamente patrones de mosaico perfectos a partir de texturas con tecnología de IA.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/pavement.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/pavement.html"
 breadcrumb-title: ''
 description: Utilice el generador de pavimentos de Substance 3D Sampler para crear texturas realistas de pavimentos y superficies de carreteras para materiales.
 helpx_creative_field: ""

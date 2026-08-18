@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/decal.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/decal.html"
 breadcrumb-title: ''
 description: Utilice el generador de pegatinas de Substance 3D Sampler para crear patrones de pegatinas y texturas de superposición para superficies de materiales.
 helpx_creative_field: ""

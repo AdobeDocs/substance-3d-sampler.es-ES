@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/blender-cycles-eevee.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/blender-cycles-eevee.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales desde Substance 3D Sampler utilizando el ajuste preestablecido Ciclos de fusión/Subida para la compatibilidad con Blender.
 helpx_creative_field: ""

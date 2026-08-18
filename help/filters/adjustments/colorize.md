@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/colorize.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/colorize.html"
 breadcrumb-title: ''
 description: Utilice el filtro Colorear de Substance 3D Sampler para aplicar tintes de color y efectos de coloración monocromos a texturas y materiales.
 helpx_creative_field: ""

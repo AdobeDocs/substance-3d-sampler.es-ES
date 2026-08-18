@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/color-replace.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/color-replace.html"
 breadcrumb-title: ''
 description: Utilice el filtro Sustitución de color de Substance 3D Sampler para sustituir colores específicos de texturas por nuevos valores de color.
 helpx_creative_field: ""

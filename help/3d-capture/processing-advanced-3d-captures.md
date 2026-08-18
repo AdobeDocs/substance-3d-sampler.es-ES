@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/3d-capture/processing-advanced-3d-captures.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/3d-capture/processing-advanced-3d-captures.html"
 breadcrumb-title: ''
 description: Aprende a procesar capturas en 3D avanzadas en Substance 3D Sampler para optimizar la geometría, las texturas y la calidad del material.
 helpx_creative_field: ""

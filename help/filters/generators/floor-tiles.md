@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/floor-tiles.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/floor-tiles.html"
 breadcrumb-title: ''
 description: Utilice el generador de azulejos de piso en Substance 3D Sampler para crear patrones de azulejos de piso realistas y texturas cerámicas para materiales.
 helpx_creative_field: ""

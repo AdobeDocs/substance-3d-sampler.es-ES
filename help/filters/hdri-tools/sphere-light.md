@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Esfera clara de Substance 3D Sampler para añadir fuentes de luz esférica a entornos HDRI para conseguir efectos de iluminación puntual.
 helpx_creative_field: ""
