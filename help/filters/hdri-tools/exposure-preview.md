@@ -43,7 +43,7 @@ En la imagen anterior, se ha creado una luz de ambiente y los datos de la imagen
 
 ![](../../assets/filters-cropped-0028-exposure-preview-out.jpg)
 
-Con el **filtro de vista previa de exposición****añadido a la pila de capas, un nuevo canal, Diagnóstico de entorno, estará disponible para mostrar la luz del entorno en diversas exposiciones.**
+Con el **filtro de vista previa de exposición**&#x200B;**añadido a la pila de capas, un nuevo canal, Diagnóstico de entorno, estará disponible para mostrar la luz del entorno en diversas exposiciones.**
 
 </td>
 </tr>

@@ -46,7 +46,7 @@ Cambie los canales de los mapas de salida del material.
 * **Canal de salida:** Seleccione qué canal es el destino del canal de entrada.
 * **Opacidad:** 0-1\
   Ajuste la opacidad de la información del canal en relación con la información del canal existente. En otras palabras, esto controla la opacidad de la máscara utilizada para aplicar el nuevo relleno de canal.
-* **Modo de fusión****:** Seleccione el modo de fusión para el canal de color base. El cambio del modo de fusión puede cambiar sustancialmente el aspecto del canal.
+* **Modo de fusión**&#x200B;**:** Seleccione el modo de fusión para el canal de color base. El cambio del modo de fusión puede cambiar sustancialmente el aspecto del canal.
 
 **Avanzado**
 

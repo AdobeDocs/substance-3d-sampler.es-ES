@@ -26,7 +26,7 @@ La plantilla **Multiángulo a material** crea un material de 2 a 8 imágenes de 
 
 >[!NOTE]
 >
-> Puedes encontrar más información sobre cómo crear tu propio escáner de materiales [ en este artículo](https://www.adobe.com/products/substance3d/magazine/your-smartphone-is-a-material-scanner-vol-ii.html).
+> Puedes encontrar más información sobre cómo crear tu propio escáner de materiales [&#x200B; en este artículo](https://www.adobe.com/products/substance3d/magazine/your-smartphone-is-a-material-scanner-vol-ii.html).
 
 ## Ejemplo
 

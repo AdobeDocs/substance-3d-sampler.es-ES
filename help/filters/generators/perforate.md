@@ -79,7 +79,7 @@ Utilice el filtro Perforar para añadir taladros al material.
   * **Invertir mapa de escala**: alternar\
     Invertir los valores del mapa de escala
   * **Asignación de escala personalizada**: imagen/pincel\
-    Importa una imagen para usarla como mapa de escala o usa el pincel para pintar un mapa de escala directamente en la **vista en 2D** **3}**
+    Importa una imagen para usarla como mapa de escala o usa el pincel para pintar un mapa de escala directamente en la **vista en 2D** **3&rbrace;**
 
 **Máscara**
 

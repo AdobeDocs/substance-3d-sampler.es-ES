@@ -141,6 +141,6 @@ Utilice Ctrl+Clic en la vista 2D para añadir un nuevo origen. Al agregar un nue
 
 | Acción | Windows + Linux | MacOs |
 | --- | --- | --- |
-| Aumentar tamaño de pincel | ] o Ctrl + Rueda del ratón | ] o Cmd + Rueda del ratón |
-| Reducir tamaño de pincel | [ o Ctrl + Rueda del ratón | [ o Cmd + Rueda del ratón |
+| Aumentar tamaño de pincel | &rbrack; o Ctrl + Rueda del ratón | &rbrack; o Cmd + Rueda del ratón |
+| Reducir tamaño de pincel | &lbrack; o Ctrl + Rueda del ratón | &lbrack; o Cmd + Rueda del ratón |
 | Establecer el origen | Ctrl + clic izquierdo | Cmd + clic izquierdo |

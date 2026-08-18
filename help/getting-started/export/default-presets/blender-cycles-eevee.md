@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Ciclos de mezclador/Eeve | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **ColorBase ****Rugosidad****Metálico ****Desplazamiento****Normal ****Emisor****Alpha** |
+| Ciclos de mezclador/Eeve | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **ColorBase &#x200B;**&#x200B;**Rugosidad**&#x200B;**Metálico &#x200B;**&#x200B;**Desplazamiento**&#x200B;**Normal &#x200B;**&#x200B;**Emisor**&#x200B;**Alpha** |

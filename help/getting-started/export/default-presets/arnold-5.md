@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Arnold 5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **ColorBase ****Rugosidad****Metálico***Normal **(OpenGL)** Desplazamiento ****Emisor**** Opacidad** |
+| Arnold 5 | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **ColorBase &#x200B;**&#x200B;**Rugosidad**&#x200B;**Metálico***Normal **(OpenGL)** Desplazamiento **&#x200B;**&#x200B;Emisor&#x200B;**&#x200B;** Opacidad** |
