@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/performance-issues/interface-lags-when-interacting-with-the-layer-stack-or-other-elements.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues/performance-issues/interface-lags-when-interacting-with-the-layer-stack-or-other-elements.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar los problemas de retraso de la interfaz en Substance 3D Sampler causados por controladores Wacom antiguos u otros problemas de compatibilidad.
 helpx_creative_field: ""

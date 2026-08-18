@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/export-window.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/export-window.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la ventana de exportación de Substance 3D Sampler para configurar y exportar materiales en diversos formatos y ajustes preestablecidos.
 helpx_creative_field: ""

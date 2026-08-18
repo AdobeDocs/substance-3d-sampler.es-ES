@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unity-standard.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/unity-standard.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales desde Substance 3D Sampler utilizando el ajuste preestablecido Unity Standard para la compatibilidad con el motor de juegos Unity.
 helpx_creative_field: ""

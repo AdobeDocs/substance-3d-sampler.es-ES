@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-4-0.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/version-4-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 4.0 de Substance 3D Sampler para obtener más información sobre la creación de objetos 3D a partir de imágenes, máscaras automáticas y mejoras en la experiencia de usuario.
 helpx_creative_field: ""

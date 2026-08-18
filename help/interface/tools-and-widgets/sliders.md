@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/tools-and-widgets/sliders.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/interface/tools-and-widgets/sliders.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los reguladores en Substance 3D Sampler para ajustar los parámetros de filtro y las propiedades del material con un control preciso.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unity-hdrp-specular.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/unity-hdrp-specular.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales desde Substance 3D Sampler utilizando el ajuste preestablecido de Speculares HDRP de Unity para la canalización de procesamiento de alta definición.
 helpx_creative_field: ""

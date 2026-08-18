@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/startup-issues/application-doesn-t-start-on-linux.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues/startup-issues/application-doesn-t-start-on-linux.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar problemas de inicio de Substance 3D Sampler en Linux para resolver problemas de inicio de aplicaciones y mensajes de error.
 helpx_creative_field: ""

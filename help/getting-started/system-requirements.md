@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html'
+helpx_url: 'https://helpx.adobe.com/es/substance-3d-sampler/getting-started/system-requirements.html'
 breadcrumb-title: ''
 description: Revise los requisitos del sistema de Substance 3D Sampler para asegurarse de que el hardware y el software cumplen los estándares de compatibilidad.
 helpx_creative_field: ''

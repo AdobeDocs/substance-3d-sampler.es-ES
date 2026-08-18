@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/hp-z-captis-support.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/pipeline-and-integrations/hp-z-captis-support.html"
 breadcrumb-title: ''
 description: Aprenda a usar el hardware HP Z Captis con Substance 3D Sampler para flujos de trabajo profesionales de Captura 3D y digitalización de materiales.
 helpx_creative_field: ""

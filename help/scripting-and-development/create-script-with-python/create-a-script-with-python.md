@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/create-a-script-with-python.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/scripting-and-development/create-a-script-with-python.html"
 breadcrumb-title: ''
 description: Aprenda a crear scripts de Python para Substance 3D Sampler para automatizar flujos de trabajo y ampliar la funcionalidad de la aplicación.
 helpx_creative_field: ""

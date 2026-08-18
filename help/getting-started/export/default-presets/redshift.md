@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/redshift.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/redshift.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler mediante el ajuste preestablecido Redshift para obtener compatibilidad con el motor de procesamiento Redshift.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/substance-connector.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/pipeline-and-integrations/substance-connector.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo utilizar Enviar a Substance en Substance 3D Sampler para enviar recursos directamente a otras aplicaciones a través del conector.
 helpx_creative_field: ""
@@ -37,11 +37,11 @@ Estas son las versiones mínimas que necesita para poder utilizar Enviar a:
 
 * <b>Complemento Maya v3.0.0+</b>
   * Compatible con Maya 2025, 2024, 2023 y 2022
-  * *Disponible desde Maya 2025, para versiones anteriores, el complemento debe descargarse del [sitio web](https://www.adobe.com/products/substance3d/plugins/substance-in-maya.html "Substance en la página web maya")*
+  * *Disponible desde Maya 2025, para versiones anteriores, el complemento debe descargarse del [sitio web](https://www.adobe.com/es/products/substance3d/plugins/substance-in-maya.html "Substance en la página web maya")*
 
 * <b>Complemento 3ds Max v3.0.0+</b>
   * Compatible con 3ds Max 2025, 2024, 2023 y 2022
-  * *Disponible de inmediato desde 3ds Max 2025, para versiones anteriores, el complemento debe descargarse del [sitio web](https://www.adobe.com/products/substance3d/plugins/substance-in-3ds-max.html "Substance en la página web de 3ds Max")*
+  * *Disponible de inmediato desde 3ds Max 2025, para versiones anteriores, el complemento debe descargarse del [sitio web](https://www.adobe.com/es/products/substance3d/plugins/substance-in-3ds-max.html "Substance en la página web de 3ds Max")*
 
 * <b>Complemento Unity v3.11+</b>
   * Versiones de Unity 2022, 2021 o 2020
@@ -49,4 +49,4 @@ Estas son las versiones mínimas que necesita para poder utilizar Enviar a:
 
 * <b>Complemento Blender v2.1+</b>
   * Blender, versiones 3.0 y superiores
-  * *El complemento está disponible para su descarga en el [sitio web](https://www.adobe.com/products/substance3d/plugins/substance-in-blender.html "Substance en la página web de Blender")*
+  * *El complemento está disponible para su descarga en el [sitio web](https://www.adobe.com/es/products/substance3d/plugins/substance-in-blender.html "Substance en la página web de Blender")*

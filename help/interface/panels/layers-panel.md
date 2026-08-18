@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/panels/layers-panel.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/interface/panels/layers-panel.html"
 breadcrumb-title: ''
 description: Aprende a utilizar el panel Capas de Substance 3D Sampler para gestionar capas de filtro y crear pilas de materiales complejas.
 helpx_creative_field: ""

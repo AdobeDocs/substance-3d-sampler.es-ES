@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/create-a-plugin-with-python-and-qml.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/scripting-and-development/create-a-plugin-with-python-and-qml.html"
 breadcrumb-title: ''
 description: Aprenda a crear complementos con Python y QML para Substance 3D Sampler para crear interfaces de usuario personalizadas y ampliar la funcionalidad.
 helpx_creative_field: ""

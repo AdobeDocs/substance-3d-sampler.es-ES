@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/corona-renderer.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/corona-renderer.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler utilizando el ajuste preestablecido de Procesador Corona para flujos de trabajo de visualización de la arquitectura.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/preferences/normal-format.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/interface/preferences/normal-format.html"
 breadcrumb-title: ''
 description: Aprenda a configurar las preferencias de formato de mapa de normales en Substance 3D Sampler para cambiar entre los formatos DirectX y OpenGL.
 helpx_creative_field: ""

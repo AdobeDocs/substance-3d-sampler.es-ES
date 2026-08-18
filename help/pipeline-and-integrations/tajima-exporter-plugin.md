@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/tajima-exporter-plugin.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/pipeline-and-integrations/tajima-exporter-plugin.html"
 breadcrumb-title: ''
 description: Aprenda a usar el plugin Tajima Exporter en Substance 3D Sampler para exportar diseños de bordado al software Tajima DG17.
 helpx_creative_field: ""

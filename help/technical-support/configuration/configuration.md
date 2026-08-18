@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/configuration.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/configuration.html"
 breadcrumb-title: ''
 description: Conozca las opciones de configuración avanzadas de Substance 3D Sampler para personalizar el comportamiento de la aplicación y optimizar el rendimiento.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 11%
 
 Estas son algunas formas avanzadas de configurar Substance 3D Sampler:
 
-* [Recuperación de la ruta de instalación](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/retrieving-installation-path-188974574.html)
+* [Recuperación de la ruta de instalación](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sadoc/retrieving-installation-path-188974574.html)
 * [Comprobador de actualizaciones](update-checker.md)
 * [Configuración de controlador NVIDIA](nvidia-driver-settings.md)
 * [Configuración de captura 3D en Linux](3d-capture-set-up-on-linux.md)

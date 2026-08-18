@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo recuperar la ruta de instalación de Substance 3D Sampler en diferentes plataformas con fines de secuencias de comandos y configuración.
 helpx_creative_field: ""

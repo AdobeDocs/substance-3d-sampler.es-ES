@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-2019-1.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/old-versions/version-2019-1.html"
 breadcrumb-title: ''
 description: Consulta las notas de la versión 2019.1 de Substance 3D Sampler para obtener más información sobre la gestión de proyectos, las mejoras en la pila de capas y las actualizaciones más interesantes.
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ La pila de capas se ha reconstruido desde cero para ampliar sus posibilidades y 
 
 ![](../../assets/sa-notes-viewport.jpg)
 
-Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su uso. Se puede acceder a estos nuevos ajustes en el [panel Configuración del visor](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html).
+Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su uso. Se puede acceder a estos nuevos ajustes en el [panel Configuración del visor](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html).
 
 * **Modo de cámara**\
   El modo de proyección de cámara permite elegir entre Perspectiva y Ortográfica.

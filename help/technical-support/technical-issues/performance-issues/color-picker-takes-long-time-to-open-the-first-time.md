@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/performance-issues/color-picker-takes-long-time-to-open-the-first-time.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues/performance-issues/color-picker-takes-long-time-to-open-the-first-time.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo corregir la apertura lenta del selector de color en Substance 3D Sampler causada por controladores antiguos de Wacom o por problemas de compatibilidad.
 helpx_creative_field: ""

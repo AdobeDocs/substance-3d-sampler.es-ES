@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/pipeline-and-integrations.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre las opciones de canalización e integración para que Substance 3D Sampler se conecte con otras aplicaciones y automatice los flujos de trabajo.
 helpx_creative_field: ""

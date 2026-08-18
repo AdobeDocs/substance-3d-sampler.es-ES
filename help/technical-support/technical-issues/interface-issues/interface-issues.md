@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/interface-issues.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues/interface-issues.html"
 breadcrumb-title: ''
 description: Acceda a las guías de solución de problemas de la interfaz de Substance 3D Sampler para resolver problemas de visualización y errores de procesamiento de IU.
 helpx_creative_field: ""
