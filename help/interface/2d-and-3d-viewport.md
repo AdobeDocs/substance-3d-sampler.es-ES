@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../assets/main-3d-viewport-5.png)
 
-La **Ventana gráfica** muestra el activo actual. En la parte superior de la ventana **V****i**, puedes ver el nombre de tu activo y las opciones para cambiar el aspecto de la **ventana**. Utilice estas opciones para:
+La **Ventana gráfica** muestra el activo actual. En la parte superior de la ventana **V**&#x200B;**i**, puedes ver el nombre de tu activo y las opciones para cambiar el aspecto de la **ventana**. Utilice estas opciones para:
 
 * Cambie la anchura y el height del recurso en píxeles.
 * Muestra <b>vista 2D</b>, <b>vista 3D</b> o muestra <b>vistas 2D </b> y <b>3D </b> juntas.
@@ -36,7 +36,7 @@ La **Ventana gráfica** muestra el activo actual. En la parte superior de la ven
 
 La <b>Ventana gráfica 3D</b> tiene dos barras de herramientas que le permiten realizar cambios en la apariencia de su activo en la <b>Ventana gráfica</b>. De forma predeterminada, estas barras de herramientas aparecen en la esquina superior derecha y en el centro inferior de la <b>Ventana gráfica 3D</b>.
 
-![]()
+![] ()
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ La barra de herramientas situada en la parte superior derecha de la <b>Ventana g
 >
 > Active las sombras para mejorar los efectos visuales de la ventana gráfica. Mantenga las sombras alejadas para mejorar el rendimiento de los muestreadores.
 
-![]()
+![] ()
 
 La barra de herramientas en la parte inferior central de la <b>Ventana gráfica 3D</b> tiene la siguiente información y controles:
 
@@ -71,7 +71,7 @@ La barra de herramientas en la parte inferior central de la <b>Ventana gráfica 
 * <b>Guardar instantánea</b>: Guarde una instantánea de la <b>Ventana gráfica 3D</b> en un archivo de imagen.
 * <b>Controles de vista 3D</b>: Consulte una referencia rápida para los controles de cámara en la ventana gráfica 3D.
 
-![]()
+![] ()
 
 ## Mover la cámara
 
@@ -89,7 +89,7 @@ Tanto en la <b>vista 3D </b> como en la <b>vista 2D</b>, usa <b>F</b> para centr
 
 ## Vista 2D
 
-![]()
+![] ()
 
 De forma predeterminada, solo está visible la <b>vista 3D</b>; sin embargo, la <b>vista 2D</b> puede contener mucha información y controles útiles para algunos filtros.
 

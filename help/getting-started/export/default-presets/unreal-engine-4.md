@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Unreal Engine 4 | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **BaseColor****OcclusionRoughnessMetallic:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>: Oclusión ambiental</li><li data-preserve-html="true"><strong>G</strong>: Rugosidad</li><li data-preserve-html="true"><strong>B</strong>: Metálico</li></ul>**Height ****Normal****Emisor** |
+| Unreal Engine 4 | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **BaseColor**&#x200B;**OcclusionRoughnessMetallic:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>R</strong>: Oclusión ambiental</li><li data-preserve-html="true"><strong>G</strong>: Rugosidad</li><li data-preserve-html="true"><strong>B</strong>: Metálico</li></ul>**Height &#x200B;**&#x200B;**Normal**&#x200B;**Emisor** |

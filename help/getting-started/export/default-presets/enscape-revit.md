@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Enscape - Revit | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **Albedo ****Brillo****Normal (OpenGL)****Transparencia** |
+| Enscape - Revit | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **Albedo &#x200B;**&#x200B;**Brillo**&#x200B;**Normal (OpenGL)**&#x200B;**Transparencia** |

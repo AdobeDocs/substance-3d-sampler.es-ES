@@ -79,7 +79,7 @@ La ventana de selección de canales le permite añadir o quitar canales del mate
 
 Para agregar un canal a su material, seleccione un canal disponible y use el botón **>**.
 Para quitar un canal del material, selecciónelo en la **lista Canales seleccionados** y use el botón **&lt;**.
-Puedes añadir todos los canales disponibles a tu material con el botón **** o eliminar todos los canales de tu material con el botón **≪**.
+Puedes añadir todos los canales disponibles a tu material con el botón **&#x200B;**&#x200B;o eliminar todos los canales de tu material con el botón **≪**.
 
 También puedes usar los ajustes preestablecidos para seleccionar rápidamente una lista de canales para tu material. De forma predeterminada, Sampler incluye varios ajustes preestablecidos, pero también puede crear los suyos propios:
 

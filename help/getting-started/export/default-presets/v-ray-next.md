@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| V-Ray siguiente | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **Rugosidad ****Difusa****Metalness ****Normal****Desplazamiento****Auto-Illum** **Opacidad** |
+| V-Ray siguiente | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **Rugosidad &#x200B;**&#x200B;**Difusa**&#x200B;**Metalness &#x200B;**&#x200B;**Normal**&#x200B;**Desplazamiento**&#x200B;**Auto-Illum** **Opacidad** |
