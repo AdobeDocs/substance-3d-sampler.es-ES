@@ -13,4 +13,4 @@ ht-degree: 0%
 
 Como su nombre indica, los canales de recubrimiento le permiten agregar un recubrimiento a su material. Los recubrimientos pueden tener su propio valor de rugosidad, que puede afectar a la rugosidad base del material, lo que ayuda a crear efectos como una superficie barnizada o pulida. Vea el vídeo siguiente para aprender a utilizar el canal de recubrimiento de Sampler para crear un material de parquet barnizado desde cero.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483521)
+>[!VIDEO](https://video.tv.adobe.com/v/3483546?captions=spa)
