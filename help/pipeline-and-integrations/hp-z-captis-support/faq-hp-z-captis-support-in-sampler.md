@@ -116,7 +116,7 @@ Se aconseja que seleccione el LDR, ya que esto hará que el tamaño del proyecto
 +++¿Cómo puedo usar Captis en mi canal 3D actual si uso formatos de archivo, estándares y especificaciones específicos o aplicaciones de terceros?
 HP Z Captis es operado de forma nativa por Adobe Substance 3D Sampler. Una vez que haya capturado y digitalizado su muestra de material en Substance 3D Sampler, puede exportar sin problemas sus materiales digitales:
 
-En cualquier aplicación del ecosistema de Substance 3D (incluidos Substance 3D Designer o Substance 3D Painter que admitan varios formatos de exportación): https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats).
+En cualquier aplicación del ecosistema de Substance 3D (incluidos Substance 3D Designer o Substance 3D Painter que admitan varios formatos de exportación): https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats).
 
 En cualquier aplicación que integre el formato de archivo Substance como 3DS Max, Maya, Blender, C4D, Rhino, Browzwear, CLO... (ver la lista completa aquí: <https://www.adobe.com/es/products/substance3d/plugins.html>). Si utilizas una aplicación que no figure en la lista, siempre puedes exportar imágenes de texturas PBR y conectarlas manualmente a cualquier aplicación que no admita el formato de archivo de Substance de forma nativa.
 

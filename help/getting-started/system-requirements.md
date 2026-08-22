@@ -95,7 +95,7 @@ A continuación se muestra una lista de hardware y sistemas compatibles con la a
 
 A continuación se muestra una lista de las versiones mínimas del controlador de la GPU necesarias para que la aplicación se ejecute sin problemas. Esta lista está sujeta a cambios a medida que se lancen nuevas versiones.
 
-Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SO | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
