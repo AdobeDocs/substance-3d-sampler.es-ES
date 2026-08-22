@@ -29,5 +29,5 @@ ht-degree: 0%
 * Al cerrar la ventana durante una captura, se pierden los metadatos que se rellenaron.
 * Al hacer clic en cualquiera de los botones &quot;Examinar contenido&quot; o &quot;Apagar&quot; durante la transferencia de los datos de Captis a través de USB, la transferencia se detiene.
 
-* Si tiene problemas de TDR, consulte [esta página de documentación](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de Substance Painter, que debería ayudarle a corregirlos.
+* Si tiene problemas de TDR, consulte [esta página de documentación](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) de Substance Painter, que debería ayudarle a corregirlos.
 * Si el paso &quot;Vista previa&quot; es todo negro en lugar de ver la fuente en vivo dentro del dispositivo, asegúrese de que ha eliminado la tapa de la lente desde el interior del cono del dispositivo.
