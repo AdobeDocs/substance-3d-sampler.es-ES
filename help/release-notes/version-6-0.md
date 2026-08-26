@@ -74,29 +74,29 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 
 **Agregado:**
 
-* &amp;lbrack;Assets&amp;rbrack; Comprobar la versión sbsar y avisar a los usuarios si el motor es demasiado antiguo para leerlo
-* &amp;lbrack;Captis&amp;rbrack; Opción Añadir atrás para guardar los pies de ilustración de la fotometría en las preferencias
+* &lbrack;Assets&rbrack; Comprobar la versión sbsar y avisar a los usuarios si el motor es demasiado antiguo para leerlo
+* &lbrack;Captis&rbrack; Opción Añadir atrás para guardar los pies de ilustración de la fotometría en las preferencias
 
 **Corregido:**
 
-* &amp;lbrack;2D View&amp;rbrack; No mostrar con proporción física si el tamaño físico está desactivado
-* &amp;lbrack;Análisis&amp;rbrack; Faltan eventos de análisis
-* &amp;lbrack;Análisis&amp;rbrack; Evitar que crashpad informe de un bloqueo en el dispositivo vk perdido
-* &amp;lbrack;Aplicación&amp;rbrack; No destruya los dispositivos vk al salir para evitar un bloqueo en el controlador nvidia
-* &amp;lbrack;Aplicación&amp;rbrack; Corregir salida del Observador de colecciones vinculadas + Administrador de canales
-* &amp;lbrack;Aplicación&amp;rbrack; Evitar un bloqueo al salir
-* &amp;lbrack;Contenido&amp;rbrack; El filtro de &quot;acabado metálico&quot; no afecta al metal
-* &amp;lbrack;Contenido&amp;rbrack; Añadir tamaño físico a los filtros dinámicos en los que falta
-* &amp;lbrack;Filters&amp;rbrack; Quitar el relleno según el contenido de la lista de activos ocultos
-* &amp;lbrack;Capas&amp;rbrack; Al hacer clic en Restablecer todos los ajustes, no se restablece el menú desplegable &quot;Se aplica a&quot;
-* &amp;lbrack;Capas&amp;rbrack; Corrección de los ajustes mínimo y máximo para el widget de posición
-* &amp;lbrack;Capas&amp;rbrack; Actualizar correctamente el filtro
-* &amp;lbrack;Tamaño físico&amp;rbrack; Asegúrate de que la escala física funciona en todas partes + haz que el tamaño físico sea adecuado con filtros dinámicos
-* &amp;lbrack;Proyecto&amp;rbrack; Asegúrese de que la resolución del recurso sea la predeterminada (2k x 2k) al crear un recurso nuevo
-* &amp;lbrack;Proyecto&amp;rbrack; Volver a abrir el proyecto actual utilizado para abrir la versión anterior
-* &amp;lbrack;Proyecto&amp;rbrack; Sampler ya no ofrece la restauración de una copia de seguridad de los proyectos dañados
-* &amp;lbrack;Procesando&amp;rbrack; Procesamiento de miniaturas de material con una resolución máxima de 2k
-* &amp;lbrack;UI&amp;rbrack; Código defensivo para evitar el bloqueo si el usuario es más rápido que la IU
+* &lbrack;2D View&rbrack; No mostrar con proporción física si el tamaño físico está desactivado
+* &lbrack;Análisis&rbrack; Faltan eventos de análisis
+* &lbrack;Análisis&rbrack; Evitar que crashpad informe de un bloqueo en el dispositivo vk perdido
+* &lbrack;Aplicación&rbrack; No destruya los dispositivos vk al salir para evitar un bloqueo en el controlador nvidia
+* &lbrack;Aplicación&rbrack; Corregir salida del Observador de colecciones vinculadas + Administrador de canales
+* &lbrack;Aplicación&rbrack; Evitar un bloqueo al salir
+* &lbrack;Contenido&rbrack; El filtro de &quot;acabado metálico&quot; no afecta al metal
+* &lbrack;Contenido&rbrack; Añadir tamaño físico a los filtros dinámicos en los que falta
+* &lbrack;Filters&rbrack; Quitar el relleno según el contenido de la lista de activos ocultos
+* &lbrack;Capas&rbrack; Al hacer clic en Restablecer todos los ajustes, no se restablece el menú desplegable &quot;Se aplica a&quot;
+* &lbrack;Capas&rbrack; Corrección de los ajustes mínimo y máximo para el widget de posición
+* &lbrack;Capas&rbrack; Actualizar correctamente el filtro
+* &lbrack;Tamaño físico&rbrack; Asegúrate de que la escala física funciona en todas partes + haz que el tamaño físico sea adecuado con filtros dinámicos
+* &lbrack;Proyecto&rbrack; Asegúrese de que la resolución del recurso sea la predeterminada (2k x 2k) al crear un recurso nuevo
+* &lbrack;Proyecto&rbrack; Volver a abrir el proyecto actual utilizado para abrir la versión anterior
+* &lbrack;Proyecto&rbrack; Sampler ya no ofrece la restauración de una copia de seguridad de los proyectos dañados
+* &lbrack;Procesando&rbrack; Procesamiento de miniaturas de material con una resolución máxima de 2k
+* &lbrack;UI&rbrack; Código defensivo para evitar el bloqueo si el usuario es más rápido que la IU
 
 ### **6.0.1**
 
