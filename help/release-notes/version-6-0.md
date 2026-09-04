@@ -4,10 +4,10 @@ description: Consulte las notas de la versión de Substance 3D Sampler 6.0 para 
 title: Versión 6.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: fe26cb37891204d5b93265643c23d8e717b3d524
+source-git-commit: 56f4ac8b2b5ec271edb8338d51f8ac51e6746c6c
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 2%
+source-wordcount: '1627'
+ht-degree: 1%
 
 ---
 
@@ -60,9 +60,49 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 
 ## Notas de la versión V6.0
 
+### **6.0.3**
+
+*(Lanzado: 24 de agosto de 2026)*
+
+**Corregido:**
+
+[Procesando]: Invierta la solución temporal para los controladores NVIDIA defectuosos
+
+### **6.0.2**
+
+*(Lanzado: 25 de junio de 2026)*
+
+**Agregado:**
+
+* &lbrack;Assets&rbrack; Comprobar la versión sbsar y avisar a los usuarios si el motor es demasiado antiguo para leerlo
+* &lbrack;Captis&rbrack; Opción Añadir atrás para guardar los pies de ilustración de la fotometría en las preferencias
+
+**Corregido:**
+
+* &lbrack;2D View&rbrack; No mostrar con proporción física si el tamaño físico está desactivado
+* &lbrack;Análisis&rbrack; Faltan eventos de análisis
+* &lbrack;Análisis&rbrack; Evitar que crashpad informe de un bloqueo en el dispositivo vk perdido
+* &lbrack;Aplicación&rbrack; No destruya los dispositivos vk al salir para evitar un bloqueo en el controlador nvidia
+* &lbrack;Aplicación&rbrack; Corregir salida del Observador de colecciones vinculadas + Administrador de canales
+* &lbrack;Aplicación&rbrack; Evitar un bloqueo al salir
+* &lbrack;Contenido&rbrack; El filtro de &quot;acabado metálico&quot; no afecta al metal
+* &lbrack;Contenido&rbrack; Añadir tamaño físico a los filtros dinámicos en los que falta
+* &lbrack;Filters&rbrack; Quitar el relleno según el contenido de la lista de activos ocultos
+* &lbrack;Capas&rbrack; Al hacer clic en Restablecer todos los ajustes, no se restablece el menú desplegable &quot;Se aplica a&quot;
+* &lbrack;Capas&rbrack; Corrección de los ajustes mínimo y máximo para el widget de posición
+* &lbrack;Capas&rbrack; Actualizar correctamente el filtro
+* &lbrack;Tamaño físico&rbrack; Asegúrate de que la escala física funciona en todas partes + haz que el tamaño físico sea adecuado con filtros dinámicos
+* &lbrack;Proyecto&rbrack; Asegúrese de que la resolución del recurso sea la predeterminada (2k x 2k) al crear un recurso nuevo
+* &lbrack;Proyecto&rbrack; Volver a abrir el proyecto actual utilizado para abrir la versión anterior
+* &lbrack;Proyecto&rbrack; Sampler ya no ofrece la restauración de una copia de seguridad de los proyectos dañados
+* &lbrack;Procesando&rbrack; Procesamiento de miniaturas de material con una resolución máxima de 2k
+* &lbrack;UI&rbrack; Código defensivo para evitar el bloqueo si el usuario es más rápido que la IU
+
+### **6.0.1**
+
 *(Lanzado: 16 de abril de 2026)*
 
-## Añadido:
+**Agregado:**
 
 * [Vista 3D] Proporcione mallas predeterminadas en formato USD
 * [Aplicación] Detecta usos en un material que no está disponible en el modelo de material actual
@@ -110,7 +150,7 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 * [IU] Implementación de la búsqueda en la edición de lista de canales
 * [IU] Mostrar una notificación al guardar una instantánea en un archivo
 
-## Corregido:
+**Corregido:**
 
 * [Vista 2D] Ordene la vista 2D según el índice de uso de resultados en la especificación
 * [Aplicación] Solucionar un bloqueo al iniciar
@@ -194,7 +234,7 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 * [IU] Actualizar la configuración del canal al ajustar el uso de una imagen
 * [UI] Actualizar la redacción en la ventana emergente de conversión de Modelo de material
 
-## Eliminado:
+## Eliminado
 
 * [UI] Quitar elemento de menú del Captura 3D
 * [IU]: Quitar el panel de IA generativa
