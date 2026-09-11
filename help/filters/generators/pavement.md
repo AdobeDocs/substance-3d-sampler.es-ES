@@ -69,7 +69,7 @@ Cada patrón tiene un conjunto diferente de parámetros disponibles que aparecer
 
 **Conjunto**
 
-* **Height****conjunto: 0-1**\
+* **Height**&#x200B;**conjunto: 0-1**\
   Modificar el height del material entre ladrillos
 * **Ancho de unión**: 0-1\
   Ajustar hasta dónde se superpone el material entre los ladrillos a los bordes de los ladrillos

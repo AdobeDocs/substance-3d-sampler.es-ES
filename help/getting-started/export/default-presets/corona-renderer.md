@@ -22,7 +22,7 @@ ht-degree: 2%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Procesador Corona | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li><li data-preserve-html="true">SPECULAR/Brillo de PBR</li></ul> | **Difuso****ReflectionGlossiness** (\*)**ReflectionColor** (\*\*)**FresnelIOR** (\*\*\*)**Desplazamiento normal ****Emisivo**** Opacidad****** |
+| Procesador Corona | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li><li data-preserve-html="true">SPECULAR/Brillo de PBR</li></ul> | **Difuso**&#x200B;**ReflectionGlossiness** (\*)**ReflectionColor** (\*\*)**FresnelIOR** (\*\*\*)**Desplazamiento normal &#x200B;**&#x200B;**Emisivo**&#x200B;**&#x200B; Opacidad**&#x200B;**&#x200B;** |
 
 >[!NOTE]
 >

@@ -85,7 +85,7 @@ Parámetros
 
 **Avanzado**
 
-* **Modo de fusión****:** Seleccione el modo de fusión para el canal de color base. Cambiar el modo de fusión puede cambiar sustancialmente el aspecto del tejido.
+* **Modo de fusión**&#x200B;**:** Seleccione el modo de fusión para el canal de color base. Cambiar el modo de fusión puede cambiar sustancialmente el aspecto del tejido.
 * **Intensidad de imperfección:** 0-1\
   Establezca la intensidad de las imperfecciones de los hilos.
 * **Intensidad normal:** 0-2\

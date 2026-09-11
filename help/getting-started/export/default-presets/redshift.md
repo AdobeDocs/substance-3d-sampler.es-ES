@@ -22,4 +22,4 @@ ht-degree: 6%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Redshift | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **Rugosidad del Difuso ****Reflejo****Metal ****Normal****Desplazamiento ****Emisión****Opacidad** |
+| Redshift | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li></ul> | **Rugosidad del Difuso &#x200B;**&#x200B;**Reflejo**&#x200B;**Metal &#x200B;**&#x200B;**Normal**&#x200B;**Desplazamiento &#x200B;**&#x200B;**Emisión**&#x200B;**Opacidad** |

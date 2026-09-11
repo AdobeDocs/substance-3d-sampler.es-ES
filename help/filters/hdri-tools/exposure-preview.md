@@ -43,7 +43,7 @@ En la imagen anterior, se ha creado una luz ambiental y los datos de HDR. image 
 
 ![](../../assets/filters-cropped-0028-exposure-preview-out.jpg)
 
-Con el **filtro de vista previa de exposición****añadido a la pila de capas, un nuevo canal, Diagnóstico de entorno, estará disponible para mostrar la luz ambiental en diversas exposiciones.**
+Con el **filtro de vista previa de exposición**&#x200B;**añadido a la pila de capas, un nuevo canal, Diagnóstico de entorno, estará disponible para mostrar la luz ambiental en diversas exposiciones.**
 
 </td>
 </tr>

@@ -35,7 +35,7 @@ ht-degree: 1%
 
 Añade un motivo a tu material desde una de las opciones disponibles o usa una imagen o un pincel para personalizar los tuyos propios.
 
-*Ejemplo del **filtro de motivo**aplicado al vaquero.*
+*Ejemplo del **filtro de motivo**&#x200B;aplicado al vaquero.*
 
 <table>
 <tr style="border: 0;">
