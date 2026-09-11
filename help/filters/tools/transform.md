@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/transform.html"
 breadcrumb-title: ''
-description: Utiliza la herramienta Transformar de Substance 3D Sampler para escalar, rotar, traducir y manipular texturas y capas de materiales.
+description: Utilice la herramienta Transformar de Substance 3D Sampler para escalar, rotar, trasladar y manipular texturas y capas de material.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Transform
 helpx_experience_level: ""
@@ -44,12 +44,12 @@ Usa la **herramienta Transformar** para mover, escalar o rotar tu imagen o mater
 **Parámetros básicos**
 
 * **Modo de control**:\
-  Elija si desea mostrar parámetros para controlar la transformación con reguladores además de los controladores de la **vista 2D**.
+  Elija si desea mostrar parámetros para controlar el transformo con controles deslizantes además de los controles **Vista 2D**.
 
   Con **Widget y parámetros** seleccionados, aparecerán los siguientes controles adicionales:
 
   * **Transformación segura**: alternar\
-    Activar o desactivar transformaciones seguras. Cuando está activado, el nodo de transformación mantiene el mosaico y evita perder detalles de píxeles debido a pequeños desplazamientos y rotaciones. Esto reduce la libertad que tiene para controlar la transformación y al habilitar **Transformación segura** se ocultarán algunos parámetros.
+    Activar o desactivar transformaciones seguras. Cuando está activado, el nodo transformar mantiene el mosaico y evita perder detalles de píxeles debido a pequeños desplazamientos y rotaciones. Esto reduce la libertad que tiene para controlar la transformación y habilitar **Transformo seguro** ocultará algunos parámetros.
   * **Mantener proporción**: alternar\
     Cuando se habilita, solo se muestra un parámetro **Scale** que controla la escala en ambos ejes simultáneamente. Cuando esté desactivada, los controles estarán disponibles para modificar la escala en los ejes Horizontal y Vertical por separado.
 
@@ -69,19 +69,19 @@ Usa la **herramienta Transformar** para mover, escalar o rotar tu imagen o mater
 **Parámetros avanzados**
 
 * **Transformación**:\
-  Ajuste la transformación de los controles con controles deslizantes en lugar de hacerlo en la **vista 2D**.
+  Ajuste la transformación de los controles con controles deslizantes en lugar de en **Vista 2D**.
   * **Escala X**: 0-2
   * **Sesgar vertical**: -7,44 a 2
   * **Sesgar horizontal**: 0-1
   * Escala Y **: 0 - 13,15**
-* **Desactivar transformación por canal**: alternar\
-  Cuando se activa, aparecen controles adicionales que le permiten desactivar esta transformación para cada canal.
+* **Desactivar Transformar por canal**: alternar\
+  Cuando se activa, aparecen controles adicionales que le permiten desactivar esta transforma para cada canal.
 
 ## Guía de uso
 
-Haga clic en la **herramienta Transformar** para agregar una nueva capa de filtro Transformar a la parte superior de la pila de capas.
+Haga clic en la **herramienta Transformar** para agregar una nueva capa Transformar filtro a la parte superior de la pila de capas.
 
-Al crear o seleccionar una capa de filtro Transformar, se abre automáticamente la **vista 2D**. Con la capa Transformar seleccionada, aparece una **Barra de herramientas** en la parte superior de la **vista 2D**.
+Al crear o seleccionar una capa de Transformar filtro, se abre automáticamente **Vista 2D**. Con la capa Transformar seleccionada, aparece una **Barra de herramientas** en la parte superior de la **Vista 2D**.
 
 ## Funcionalidad
 
@@ -91,21 +91,21 @@ Al crear o seleccionar una capa de filtro Transformar, se abre automáticamente 
 
 Para mover la capa:
 
-1. Pase el ratón por encima del cuadro de transformación
+1. Pase el ratón por encima del cuadro transformar
 1. El cursor se convertirá en cuatro flechas
-1. Haga clic y arrastre para mover el cuadro de transformación.
+1. Haga clic y arrastre para mover el cuadro transformar.
 
 ### Escala
 
 Para escalar la capa:
 
-1. Pase el ratón sobre uno de los controles situados en el borde o en la esquina del cuadro de transformación
+1. Pase el ratón sobre uno de los controles situados en el borde o en la esquina del cuadro transformar
 1. El cursor se convertirá en cuatro flechas.
-1. Haga clic y arrastre para escalar el cuadro de transformación.
+1. Haga clic y arrastre para escalar el cuadro transformar.
 
 >[!NOTE]
 >
-> Los controles situados en la esquina del cuadro de transformación le permitirán escalar en dos dimensiones a la vez, mientras que los controles situados en el borde del cuadro de transformación le limitarán a escalar en una dimensión.
+> Los controles situados en la esquina del cuadro transformar (Handles) le permitirán escalar en dos dimensiones a la vez, mientras que los controles situados en el borde del cuadro transformar (Handles) le limitarán a escalar en una dimensión.
 
 ### Rotar
 
@@ -113,11 +113,11 @@ Para rotar la capa:
 
 1. Coloque el puntero del ratón fuera del cuadro de transformación, pero dentro de la **vista 2D**.
 1. Aparecerá una pequeña flecha horizontal junto al cursor.
-1. Haga clic y arrastre para rotar el cuadro de transformación.
+1. Haga clic y arrastre para rotar el cuadro transformar.
 
 >[!NOTE]
 >
-> Puede cambiar el centro de rotación arrastrando el círculo pequeño situado en el centro del cuadro de transformación. El cuadro de transformación siempre gira alrededor de este círculo.
+> Puede cambiar el centro de rotación arrastrando el círculo pequeño situado en el centro del cuadro transformar. El cuadro transformar siempre gira alrededor de este círculo.
 
 ## Barra de herramientas
 
@@ -128,5 +128,5 @@ La barra de herramientas contiene los siguientes métodos abreviados:
 * Hazlo cuadrado: Ajuste la escala de la transformación actual para que sea cuadrada.
 * Rotación +90° (a la derecha): rotación de 90° hacia la derecha.
 * Rotación -90° (a la izquierda): rotación de 90° a la izquierda.
-* Restablecer centro de rotación: Restablezca el centro de rotación en el centro del cuadro Transformar.
+* Restablecer centro de rotación: Restablezca el centro de rotación al centro del cuadro Transformar.
 * Restablecer transformación: Restablezca la herramienta Transformar a su posición predeterminada.

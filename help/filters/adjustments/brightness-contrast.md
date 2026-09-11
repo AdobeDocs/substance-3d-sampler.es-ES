@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/brightness-contrast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/brightness-contrast.html"
 breadcrumb-title: ''
-description: Utilice el filtro Brillo/Contraste de Substance 3D Sampler para ajustar los niveles de brillo y contraste en las texturas y las capas de materiales.
+description: Utilice el filtro Brillo/Contraste de Substance 3D Sampler para ajustar los niveles de brillo y contraste en texturas y capas de material.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Adjustments > BrightnessContrast
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Descripción
 
-Como su nombre indica, el filtro Brillo/Contraste le permite ajustar el brillo y el contraste del material. Es importante tener en cuenta que puede utilizar el filtro Brillo/Contraste para dirigirse a canales específicos. Por ejemplo, puede aumentar el contraste del canal de rugosidad o el brillo del canal de emisión.
+Como su nombre indica, el filtro Brillo/Contraste le permite ajustar el brillo y el contraste del material. Es importante tener en cuenta que puede utilizar el filtro Brillo/Contraste para dirigirse a canales específicos. Por ejemplo, puede aumentar el contraste del canal de rugosidad o el brillo del canal de emisivo.
 
 En las imágenes siguientes, se ha utilizado el filtro **Brillo/Contraste** para aumentar el brillo y el contraste de un material de azulejo.
 
@@ -72,7 +72,7 @@ En las imágenes siguientes, se ha utilizado el filtro **Brillo/Contraste** para
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfocar la máscara
   * **Máscara personalizada - Invertir**: alternar\

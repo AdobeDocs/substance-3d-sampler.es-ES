@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/old-versions/version-0-6-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-0-6-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 0.6.1 de Substance 3D Sampler para obtener información sobre actualizaciones, mejoras y correcciones de errores.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Añadido:
 
 * [Motor] Actualización del Substance Engine para que sea compatible con la última versión del Substance Designer
 * [Licencia] Actualizar la carpeta de licencias para las primeras instalaciones
-* [Capas] Vuelva a cargar la pila de capas en cualquier momento para actualizar los filtros personalizados.
+* [Layers] Recarga en cualquier momento tu pila de capas para actualizar tus filtros personalizados
 
 Corregido:
 

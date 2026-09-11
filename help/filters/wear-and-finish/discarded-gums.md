@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/discarded-gums.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/discarded-gums.html"
 breadcrumb-title: ''
 description: Usa el filtro Encías descartadas de Substance 3D Sampler para añadir residuos de encías y efectos de superficie adhesivos a tus materiales.
 helpx_creative_field: ""
@@ -85,7 +85,7 @@ Añade chicle desechado a tu material. Este filtro es ideal para crear pavimento
 * **Máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. El siguiente control aparecerá si **Máscara personalizada** está habilitado:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
 
 **Parámetros avanzados**
 

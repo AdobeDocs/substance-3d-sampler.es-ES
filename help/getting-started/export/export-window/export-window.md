@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/export-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/export-window.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar la ventana de exportación de Substance 3D Sampler para configurar y exportar materiales en diversos formatos y ajustes preestablecidos.
 helpx_creative_field: ""
@@ -81,7 +81,7 @@ Al exportar materiales, el panel Ajustes de material de la ventana de exportaci�
 
 ![](../../../assets/SAPR_ResolutionTextures.png)
 
-* **Modelo de material** (todos los formatos están en el ajuste preestablecido predeterminado): Seleccione un estándar de sombreado para las texturas exportadas.
+* **Modelo de material** (todos los formatos están en el ajuste preestablecido predeterminado): Seleccione un estándar de sombreador para las texturas exportadas.
   * Cambiar el Modelo de material afectará a los nombres de archivo de los archivos exportados. Por ejemplo, el OpenPBR utiliza &quot;Metalness&quot; en lugar de ASM que utiliza &quot;Metallic&quot;.
 
 ### Más información

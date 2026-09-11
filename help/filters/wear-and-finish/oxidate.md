@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/oxidate.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/oxidate.html"
 breadcrumb-title: ''
 description: Usa el filtro Oxidate en Substance 3D Sampler para añadir efectos de oxidación y empañamiento a los materiales metálicos para conseguir apariencias envejecidas.
 helpx_creative_field: ""
@@ -91,7 +91,7 @@ Añade una capa de oxidación sobre la parte superior del material.*Una superfic
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\
@@ -110,4 +110,4 @@ Los siguientes parámetros le permiten ajustar el valor con nombre de todo el ma
 * **Intensidad normal**: 0-1
 * **Intervalo de Height**: 0-1
 * **Posición del Height**: 0-1
-* **Intensidad de Oclusión ambiente**: 0-1
+* **Intensidad de Oclusión ambiental**: 0-1

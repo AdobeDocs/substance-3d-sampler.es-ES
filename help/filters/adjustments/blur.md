@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/blur.html"
 breadcrumb-title: ''
 description: Usa el filtro Desenfocar de Substance 3D Sampler para aplicar efectos de desenfoque y reducir el enfoque de la imagen en texturas y capas de materiales.
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 Desenfoca todo el material o selecciona canales específicos para desenfocar.
 
-En las imágenes que aparecen debajo, el **filtro Desenfocar** se ha aplicado al canal de color base.
+En las imágenes que aparecen debajo, el filtro **Desenfocar** se ha aplicado al canal de color base.
 
 <table>
 <tr style="border: 0;">

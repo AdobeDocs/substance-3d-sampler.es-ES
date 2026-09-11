@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues/startup-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/startup-issues.html"
 breadcrumb-title: ''
 description: Acceda a las guías de solución de problemas de inicio de Substance 3D Sampler para resolver problemas y errores de inicio de aplicaciones.
 helpx_creative_field: ""
@@ -21,4 +21,4 @@ ht-degree: 0%
 # Problemas de inicio
 
 * [La aplicación no se inicia en Linux](application-doesn-t-start-on-linux.md)
-* [Bloqueo al iniciar: versión antigua de Obs](crash-at-start-up-old-obs-version.md)
+* [Bloqueo en el arranque - Versión Obs antigua](crash-at-start-up-old-obs-version.md)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/tiling.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/tiling.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Mosaico de Substance 3D Sampler para crear patrones de mosaico perfectos a partir de texturas para superficies de materiales repetibles.
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ Usa el **filtro Mosaico** para que tu material sea apto para mosaicos. El filtro
 * **Usar máscara**: alternar\
   Si está activada, puede crear una máscara personalizada para controlar la ubicación de la unión
   * **Máscara**: imagen/pincel\
-    Importa una imagen para usarla como máscara o usa el pincel para pintar una máscara directamente en la **vista 2D**
+    Importa una imagen para usarla como máscara o usa el pincel para pintura una máscara directamente en **Vista 2D**
 
 **Edge**
 
@@ -67,8 +67,8 @@ Usa el **filtro Mosaico** para que tu material sea apto para mosaicos. El filtro
     Ajusta el smoothness de la costura. Esto puede ayudar a evitar artefactos
   * **Resolución de cuadrícula**: 1-11\
     Ajuste la resolución de la rejilla en la que se dibuja la unión. Una resolución más baja puede mejorar el rendimiento, pero disminuye la calidad de la costura
-  * **Usar color base**: alternar\
-    Cambiar si la información de color base se tiene en cuenta en la generación de costuras
+  * **Usar Color base**: alternar\
+    Cambiar si la información de color base se tiene en cuenta en la generación de juntas
   * **Usar normal**: alternar\
     Cambiar si la información normal se tiene en cuenta en la generación de juntas
   * **Usar Height**: alternar\
@@ -79,7 +79,7 @@ Usa el **filtro Mosaico** para que tu material sea apto para mosaicos. El filtro
 **Parámetros avanzados**
 
 * **Transformar**: 0-2\
-  Ajuste los valores de transformación de matriz. Aumente los valores X y W para ajustar el grado de superposición existente entre el material subyacente y el superpuesto.
+  Ajuste los valores de transformar matriciales. Aumente los valores X y W para ajustar el grado de superposición existente entre el material subyacente y el superpuesto.
 * **Desplazamiento**: 0-1\
   desplazar el material en los ejes X e Y
 * **Filtrado**:\
@@ -101,6 +101,6 @@ Por lo tanto, para usar el **filtro Mosaico**, ajustar estas dos partes del proc
    1. Escalar el material puede resultar útil para crear una superposición, pero también puede provocar la pérdida de detalles.
 1. Ajuste los parámetros en la sección **Edge** para ajustar la unión.
 
-Para algunos materiales que usan el **filtro de baldosas** por sí solo, se producirán artefactos o problemas a lo largo de la costura. En este caso, es recomendable utilizar otros filtros, como **Tampón de clonar**, para corregir los problemas de costura y mosaico.
+Para algunos materiales que usan el **filtro de baldosas** por sí solo, se producirán artefactos o problemas a lo largo de la costura. En este caso, es recomendable utilizar otros filtros, como **Sello de Clonar**, para corregir problemas de costura y mosaico.
 
 Es una buena práctica trabajar en el mosaico del material al principio del proceso de creación del material - tan pronto como se añade un elemento no mosaico al material, es una buena idea asegurarse de que se mosaicos antes de seguir trabajando. Los filtros de Sampler están diseñados para que no rompan los materiales de mosaico. Esto significa que, una vez que los azulejos de material subyacente, puede seguir trabajando con filtros y los materiales incluidos de Sampler y su material seguirá siendo azulejo.

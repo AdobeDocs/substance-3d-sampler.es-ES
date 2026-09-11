@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/features-and-workflows/3d-capture.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/3d-capture.html"
 breadcrumb-title: ''
 description: Aprende a usar Captura 3D en Substance 3D Sampler para crear materiales a partir de objetos del mundo real mediante técnicas de fotogrametría.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## ¿Qué es la fotogrametría?
 
-Sampler utiliza la fotogrametría para transformar imágenes en una malla con texturas. La fotogrametría es la ciencia de hacer mediciones a partir de imágenes. Se utiliza para extraer información de fotografías y crear texturas y modelos en 3D. El proceso implica tomar varias fotografías de un objeto desde diferentes ángulos y, a continuación, procesar las imágenes para extraer información sobre la forma y la ubicación de las características en las imágenes.
+Sampler utiliza la fotogrametría para transformar imágenes en una malla con texturas. La fotogrametría es la ciencia de hacer mediciones a partir de imágenes. Se utiliza para extraer información de fotografías y crear modelos y texturas 3D. El proceso implica tomar varias fotografías de un objeto desde diferentes ángulos y, a continuación, procesar las imágenes para extraer información sobre la forma y la ubicación de las características en las imágenes.
 
 El objetivo es hacer coincidir las características correspondientes entre las imágenes para establecer las posiciones relativas de la cámara para cada imagen. A partir de las funciones coincidentes, se reconstruye un modelo 3D del objeto. El paso final es proyectar las texturas en el modelo 3D.
 
@@ -40,12 +40,12 @@ Recomendamos lo siguiente:
 * 16 Gb de RAM. Idealmente, 32 Gb y 64 Gb.
 * 10 Gb como mínimo de espacio en disco
 
-[Configuración de Linux](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sadoc/3d-capture-set-up-on-linux-255426606.html)
+[Configuración de Linux](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/3d-capture-set-up-on-linux-255426606.html)
 
 Mac
 
 * Se recomienda encarecidamente utilizar dispositivos con Apple Silicon (M1 o M2)
-* GPU AMD y basada en Intel con al menos 4 Gb de VRAM y compatibilidad con trazado de rayos
+* GPU AMD y basada en Intel con al menos 4 Gb de compatibilidad con VRAM y trazado de rayos
 
 ## Iniciar una nueva Captura 3D
 
@@ -140,9 +140,9 @@ Si el contorno de la imagen es naranja, significa que la imagen no se ha alinead
 
 ![](../assets/3d-capture-alignment-results.png)
 
-Puede hacer clic en la imagen del panel izquierdo para encuadrar la nube de puntos en la cámara asociada.
+Puede hacer clic en la imagen del panel izquierdo para crear un marco de la nube de puntos de la cámara asociada.
 
-Puede hacer clic en una cámara para encuadrar la nube de puntos en ella.
+Puede hacer clic en una cámara para marco la nube de puntos en ella.
 
 ## Reconstrucción
 
@@ -177,7 +177,7 @@ Si pulsa Mayús al escalar, cambiará la escala del cuadro desde el centro.
 
 ## Posprocesamiento
 
-El procesamiento posterior le ayuda a adaptar y optimizar su malla y texturas a sus necesidades y a cómo desea usarlas.
+El posprocesamiento le ayuda a adaptar y optimizar su malla y texturas a sus necesidades y a cómo desea usarlas.
 
 El resultado de la reconstrucción puede generar una malla con millones de polígonos y hasta 16K de texturas. A menudo, esto no se optimiza para el procesamiento, el tiempo real o la experiencia de realidad aumentada.
 
@@ -188,7 +188,7 @@ El paso posterior al procesamiento encadena 4 pasos automáticamente:
 * Diezmación: Reduzca el número de polígonos definiendo el número de caras que desea
 * Desempaquetado UV: Define automáticamente las costuras, desenvuelve y empaqueta las UV de la malla diezmada
 * Reproyección: Volver a proyectar la textura de color de la malla de fotogrametría en la malla diezmada
-* Horneado: Hornee los detalles normales, de height y de AO de la malla de fotogrametría en la malla diezmada. Esto asegurará transferir todos los detalles de malla perdidos durante la diezmación en mapas de textura.
+* Haciendo un bake: Haga un bake los detalles normales, de height y de AO de la malla de fotogrametría en la malla diezmada. Esto asegurará transferir todos los detalles de la malla perdidos durante la diezmación en mapas de textura.
 
 ![](../assets/3d-capture-original-version-post-processing.png)
 
@@ -220,7 +220,7 @@ La primera capa es el resultado de la reconstrucción.
 
 La segunda capa (si ha realizado algún postprocesamiento) es la capa de postprocesamiento de malla con los valores definidos en la ventana captura 3D. Puede seguir editando los parámetros en este paso si desea utilizar otros ajustes.
 
-La tercera capa es una capa de transformación de malla para escalar, trasladar y rotar el objeto 3D.
+La tercera capa es una capa de malla transformada para escalar, trasladar y rotar su objeto 3D.
 
 En esta fase, puede añadir filtros que se utilizan para aplicar en materiales para editar las texturas en el objeto 3D.
 

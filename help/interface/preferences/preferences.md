@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/interface/preferences.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/preferences.html"
 breadcrumb-title: ''
 description: Aprenda a configurar las preferencias en Substance 3D Sampler para personalizar la configuración de la aplicación y optimizar su flujo de trabajo.
 helpx_creative_field: ""
@@ -62,14 +62,14 @@ Están disponibles las siguientes opciones:
   * **Mosaico de textura de material predeterminado - U**\
     Establezca el mosaico de textura U predeterminado.
   * **Mosaico de textura de material predeterminado - V**\
-    Defina el mosaico de texturas en V predeterminado.
+    Establezca el mosaico de textura en V predeterminado.
   * **Escala de Height predeterminada**\
     Establezca la escala de height predeterminada para los materiales.
 * **Privacidad**
   * **Enviar automáticamente estadísticas de uso**
     Alterne el envío de estadísticas de uso anónimas para ayudar a mejorar Sampler.
 * **Configuración de color**
-  * **Selector experimental de tintas planas**\
+  * **Selector de colores de punto experimental**\
     Active o desactive el selector de color experimental siempre que aparezca un parámetro de selección de color. El selector de color experimental le permite seleccionar colores directamente de una colección de muestras de PANTONE.
 * **Recursos**
   * **Calidad de miniatura**\

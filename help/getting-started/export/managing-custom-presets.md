@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/managing-custom-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/managing-custom-presets.html"
 breadcrumb-title: ''
 description: Aprende a crear y editar ajustes preestablecidos de exportación personalizados en Substance 3D Sampler con Substance Designer para la optimización del flujo de trabajo.
 helpx_creative_field: ""
@@ -39,11 +39,11 @@ Abra las propiedades del gráfico y rellene la siguiente información obligatori
 
 ### Entradas
 
-Las entradas representan los canales de materiales que desea transformar antes de la exportación.
+Las entradas representan los canales de material que desea transformar antes de la exportación.
 
 Crea un nodo de color de entrada (o escala de grises) por canal de material y añade un <b>uso</b> en los atributos de cada nodo de entrada para asegurarte de que hay una conexión entre tus materiales y tu ajuste preestablecido personalizado.
 
-Ejemplo: Definición de la entrada de color base
+Ejemplo: Definición de la entrada de Color base
 
 ![](../../assets/custom-input.png){width="600px"}
 
@@ -51,7 +51,7 @@ Ejemplo: Definición de la entrada de color base
 
 Los resultados representan el resultado de la exportación de textura.
 
-Cree un nodo de salida por textura y agregue <b>usage</b> y una <b>label</b> en los atributos a cada nodo de salida. La <b>etiqueta</b> se mostrará en la lista Canales de la ventana del exportador y en el nombre del archivo de textura.
+Cree un nodo de salida por textura y agregue <b>usage</b> y una <b>label</b> en los atributos a cada nodo de salida. <b>label</b> se mostrará en la lista Canales en la ventana del Exportador y en el nombre del archivo de textura.
 
 Ejemplo: Definición de la textura personalizada Color Opacidad
 
@@ -59,11 +59,11 @@ Ejemplo: Definición de la textura personalizada Color Opacidad
 
 #### Ejemplo de empaquetado de canal y conversión de canal
 
-Empaquetado de 3 canales en escala de grises en una textura RGB:
+Empaquetado de 3 canales en escala de grises en una textura de RGB:
 
 ![](../../assets/channel-packing-example.png){width="600px"}
 
-Conversión de canal de PBR Metallic/Roughness a PBR Specular/Glossiness:
+Conversión de canal de PBR Metallic/Roughness a PBR Specular/Brillo:
 
 ![](../../assets/channel-conversion.png){width="600px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/features-and-workflows/export-parametric-assets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/export-parametric-assets.html"
 breadcrumb-title: ''
 description: Aprenda a exportar recursos paramétricos de Substance 3D Sampler para habilitar la modificación de parámetros en otras aplicaciones sin volver a Sampler.
 helpx_creative_field: ""
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 # Exportar recursos paramétricos
 
-Los parámetros expuestos se pueden modificar en otras aplicaciones sin volver a Sampler. Esto reduce el tiempo de iteración, por lo que puede centrarse en encontrar el mejor aspecto sin necesidad de moverse de una aplicación a otra.
+Los parámetros expuestos se pueden modificar en otras aplicaciones sin volver a Sampler. Esto reduce el tiempo de iteración, por lo que puedes centrarte en encontrar el mejor aspecto sin tener que cambiar de una aplicación a otra.
 
 ## Exponer y desexponer parámetros
 
-Para exponer parámetros, abra el **panel Propiedades**. Pase el ratón o haga clic con el botón derecho en el parámetro deseado y, a continuación, haga clic en el icono de pin o en &quot;exponer este parámetro&quot;.
+Para exponer parámetros, abra el **panel Propiedades**. Pase el ratón o haga clic con el botón derecho en el parámetro deseado y, a continuación, haga clic en el icono del pin o en &quot;exponer este parámetro&quot;.
 
 ![](../assets/ezgif-com-gif-maker-2.gif)
 
@@ -33,7 +33,7 @@ Hay dos formas de dejar de exponer un parámetro:
 * En el **Panel Parámetros expuestos**, haz clic con el botón derecho en el parámetro y elige &quot;desexponer&quot;.
 
   ![](../assets/ezgif-com-gif-maker-3.gif)
-* En el **panel Propiedades**, haz clic en el icono de chincheta cruzada o haz clic con el botón derecho en el parámetro y elige &quot;desexponer este parámetro&quot;.
+* En el **panel Propiedades**, haz clic en el pin cruzado o haz clic con el botón derecho en el parámetro y elige &quot;desexponer este parámetro&quot;.
 
   ![](../assets/ezgif-com-gif-maker-4.gif)
 

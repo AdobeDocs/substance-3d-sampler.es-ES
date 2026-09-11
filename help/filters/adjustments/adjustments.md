@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar los filtros de ajuste en Substance 3D Sampler para modificar el color, el brillo, el contraste y otras propiedades del material.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 # Ajustes
 
-Los filtros de ajuste le permiten ajustar los valores del material. La mayoría de los filtros de ajuste te permiten orientar canales específicos para ofrecerte un control total sobre el aspecto de tu material. Al ajustar un canal específico, es recomendable utilizar la **vista 2D** para ver los canales que estás modificando en lugar de depender exclusivamente de la **vista 3D**. La **vista 2D** puede facilitar la detección de errores o problemas en un canal.
+Los filtros de ajuste le permiten ajustar los valores del material. La mayoría de los filtros de ajuste te permiten orientar canales específicos para ofrecerte un control total sobre el aspecto de tu material. Al ajustar un canal específico, es una buena idea usar **Vista 2D** para ver los canales que estás modificando en lugar de confiar únicamente en la **vista 3D**. **Vista 2D** puede facilitar la detección de errores o problemas en un canal.
 
 A continuación se muestra una lista de filtros de ajuste:
 

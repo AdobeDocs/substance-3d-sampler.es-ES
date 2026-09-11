@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/version-4-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-4-2.html"
 breadcrumb-title: ''
 description: Consulta las notas de la versión 4.2 de Substance 3D Sampler para obtener más información sobre la conversión de imágenes a material con tecnología de IA, la función Mejora de IA y los controles de resolución.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ![](../assets/sa_whats-new-screen_v4-2-0_image_to_material.png)
 
-Imagen a material genera canales de material (color base, rugosidad, normal, desplazamiento y metálico) para usted a partir de una sola imagen.
+Imagen a material genera canales materiales (color base, rugosidad, normal, desplazamiento y metálico) para usted a partir de una sola imagen.
 
 La versión actualizada de Imagen a material mejora la generación de materiales y la gama de materiales admitidos.
 
@@ -46,7 +46,7 @@ Gracias a la nueva capa de ampliación, Sampler mejora las funciones del materia
 
 Esto permite aumentar la calidad y el nivel de detalles de las texturas de baja resolución y mantener la coherencia de funciones entre los mapas durante la ampliación de las texturas.
 
-El filtro Ampliación mejora el color base, los canales normales, de height, la rugosidad y los canales metálicos del material.
+El filtro de ampliación mejora los canales de color base, normal, de height, de rugosidad y metálicos del material.
 
 Para maximizar la calidad de los resultados, se debe utilizar el filtro Upscale en los datos (materiales e imágenes) con su resolución original, sin cambios de resolución previos.
 
@@ -82,20 +82,20 @@ Esto le permite aumentar la calidad de sus materiales, así como el rendimiento 
 * [Plantilla de creación de material] Proporcionar comentarios cuando no se pueden utilizar algunas imágenes importadas
 * [Plantilla de creación de material] Avisar cuando los tamaños de imagen no sean coherentes
 * [Plantilla de creación de materiales] Nuevas advertencias e información sobre herramientas
-* [Capas] Muestra la resolución de las capas de la pila de capas
+* [Layers] Muestra la resolución de las capas en la pila de capas
 * [Capas] La resolución de cálculo de capa ahora se puede establecer en Tamaño de documento o Tamaño de entrada
-* [Capas] Mostrar la resolución de las capas en la pila de capas
+* [Layers] Muestra la resolución de las capas en la pila de capas
 * [Capas] Cambie una directiva de resolución de capa a Documento o Entrada de capa cuando corresponda
 * [Layers] Advierte al usuario cuando se añade manualmente un filtro Upscale y proporciona cierta documentación
 * [Layers] Advierte al usuario al realizar una ampliación lineal y ofrece utilizar el filtro de ampliación
-* [Capas] El cálculo de una capa de imagen a material (AI) ahora se puede cancelar más rápido, para mejorar los tiempos de procesamiento al ajustar la pila de capas
-* [Capas] El cálculo de una capa de ampliación ahora se puede cancelar más rápido, para mejorar los tiempos de procesamiento al ajustar la pila de capas
-* [Exportar] Permite anular la resolución de texturas exportadas
+* [Layers] El cálculo de una capa de imagen a material (AI) ahora se puede cancelar más rápido, para mejorar los tiempos de procesamiento al ajustar la pila de capas
+* [Layers] El cálculo de una capa Upscale ahora se puede cancelar más rápido, para mejorar los tiempos de procesamiento al ajustar la pila de capas
+* [Exportar] Permitir la resolución de sustitución de texturas exportadas
 * [Exportar] La lista Canales para exportar ahora está ordenada
 * [Exportar] Muestra la resolución del canal en la lista de canales que exportar
 * [Aplicación] Nueva preferencia para activar o desactivar las redes neuronales aceleradas por GPU
 * [UI] Mejoras en los menús desplegables de resolución
-* [UI] Nuevos iconos para los filtros Transformación de malla, Posprocesamiento de malla y Tejido
+* [UI] Nuevos iconos para los filtros Transformar malla, Posprocesar malla y Tejer
 * [UI] Cambie el nombre del panel &quot;Compartir&quot; a &quot;Exportar&quot;
 * [Scripting] Añadir compatibilidad con la resolución de salida de capa a la API de exportación
 * [Scripts] Se ha añadido Recortar, Aumentar y Tamaño de documento a la API de importación de imágenes.
@@ -108,10 +108,10 @@ Esto le permite aumentar la calidad de sus materiales, así como el rendimiento 
 * [captura 3D] Mejorar las opciones de Precisión nombrar en Parámetros de configuración de alineación
 * [Aplicación] Importar imágenes con no múltiplo de 16 dimensiones puede producir un bloqueo
 * [Aplicación] Bloqueo al duplicar un recurso en el panel Proyecto
-* [Aplicación] Bloqueo al cambiar de recursos en el panel Proyecto
+* bloqueo [Aplicación] al cambiar de recursos en el panel Proyecto
 * [Contenido] Pintar una máscara personalizada para el filtro Snow no funciona correctamente
 * [Parámetros expuestos] Los cambios de parámetros expuestos pueden perderse al cambiar materiales
-* [Interoperabilidad] Enviar un material desde el panel Exportar puede producir un bloqueo
+* [Interoperabilidad] Enviar un material desde el panel Exportar puede provocar un bloqueo
 * [Capas] El Relleno según el contenido deja de computar al pasar de una entrada de imagen única a una entrada de material
 * [Layers] Bloqueo después de duplicar una luz de ambiente que contiene un material
 * [Capas] La capa de importación de imágenes muestra un nombre de imagen incorrecto en el panel Propiedades si se ha cambiado el nombre del archivo de imagen

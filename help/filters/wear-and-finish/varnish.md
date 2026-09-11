@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/varnish.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/varnish.html"
 breadcrumb-title: ''
 description: Utilice el filtro Barniz de Substance 3D Sampler para añadir a sus materiales efectos de barniz brillante y acabados de revestimiento protector.
 helpx_creative_field: ""
@@ -52,7 +52,7 @@ Añade una capa de barniz sobre el material. Este filtro ajusta principalmente l
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\

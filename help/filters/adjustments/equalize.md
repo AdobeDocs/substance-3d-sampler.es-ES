@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/equalize.html"
 breadcrumb-title: ''
 description: Utilice el filtro Ecualizar en Substance 3D Sampler para redistribuir los valores de brillo y mejorar el contraste de la imagen automáticamente.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ Las imágenes siguientes muestran el **filtro Ecualizar** en acción.
 
 ![](../../assets/3d-2d-filters-cropped-0033-equalizer-in.jpg)
 
-Antes de agregar el filtro **Ecualizar**, hay una variación significativa en el mapa de height y el color base de este material.
+Antes de agregar el filtro **Ecualizar**, hay una variación significativa en el mapa de altura y el color base de este material.
 
 ![](../../assets/3d-2d-filters-cropped-0032-equalizer-out.jpg)
 
@@ -80,13 +80,13 @@ Los controles de cada canal funcionan del mismo modo.
   Seleccione cómo sesgar el efecto Ecualizar. De forma predeterminada, Ecualizar intenta mover los colores hacia el color medio del canal. Utilice el parámetro para sesgar hacia un color o valor seleccionado. Con la opción Parámetro seleccionada, aparecerá un control adicional:
   * <b>Destino</b>: selección de color\
     Seleccione un color o valor para que actúe como destino del algoritmo de ecualización.
-* <b>Variación de color personalizada</b>: Reguladores de HSL\
-  Ajuste el tono, el croma (saturación) y la luminancia (luminancia) del resultado después de ejecutar el algoritmo de ecualización para el canal especificado.
+* <b>Variación de color personalizada</b>: HSL reguladores\
+  Ajuste el tono, el croma (saturación) y la Luminosidad (luminancia) del resultado después de ejecutar el algoritmo de ecualización para el canal especificado.
 
 <b>Máscara</b>
 
 * <b>Máscara personalizada</b>: alternar\
   Habilitar o deshabilitar el uso de una máscara personalizada para este filtro
 * <b>Máscara personalizada</b>: imagen/pincel\
-  Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+  Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
 * <b>Inversión de máscara personalizada</b>: alternar

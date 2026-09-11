@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/fold-remover.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/fold-remover.html"
 breadcrumb-title: ''
-description: Usa el filtro Eliminador de pliegues de Substance 3D Sampler para eliminar pliegues y pliegues de las texturas de la tela en busca de superficies de material limpias.
+description: Usa el filtro Eliminador de pliegues de Substance 3D Sampler para eliminar pliegues y pliegues de las texturas de tela para superficies de materiales limpias.
 helpx_creative_field: ""
 helpx_description: Substance 3D Sampler
 helpx_experience_level: ""

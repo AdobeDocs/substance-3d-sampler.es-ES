@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/cloth-weave.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/cloth-weave.html"
 breadcrumb-title: ''
 description: Usa el generador de tejido de tela de Substance 3D Sampler para crear patrones de tejido y texturas textiles para la creación de materiales.
 helpx_creative_field: ""
@@ -85,7 +85,7 @@ Parámetros
 
 **Avanzado**
 
-* **Modo de fusión**&#x200B;**:** Seleccione el modo de fusión para el canal de color base. Cambiar el modo de fusión puede cambiar sustancialmente el aspecto del tejido.
+* **Modo de fusión****:** Seleccione el modo de fusión para el canal de color base. Cambiar el modo de fusión puede cambiar sustancialmente el aspecto del tejido.
 * **Intensidad de imperfección:** 0-1\
   Establezca la intensidad de las imperfecciones de los hilos.
 * **Intensidad normal:** 0-2\

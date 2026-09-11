@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/beta-version.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/beta-version.html"
 breadcrumb-title: ''
 description: Accede a las versiones beta de Substance 3D Sampler para probar las nuevas funciones y dejar comentarios antes del lanzamiento oficial.
 helpx_creative_field: ""
@@ -29,7 +29,7 @@ Esta página contiene registros de cambios para las versiones beta de Sampler. O
 
 ## 4.4.0 Beta - Texto a textura
 
-Presentamos Text to Texture con tecnología de Adobe Firefly, una nueva forma que tienen los artistas de obtener imágenes de texturas con solo una descripción. Esta nueva función expande el conjunto de herramientas de los artistas más allá de la importación de fotografías personalizadas o de archivo, ya que proporciona una forma de generar texturas directamente en Sampler. Todas las imágenes de Texto a Textura son cuadradas y en mosaico con la perspectiva adecuada, listas para el flujo de trabajo de creación de materiales.
+Presentamos Text to Textura con tecnología de Adobe Firefly, una nueva forma que tienen los artistas de obtener imágenes de texturas con solo una descripción. Esta nueva función expande el conjunto de herramientas de los artistas más allá de la importación de fotografías personalizadas o de archivo, ya que proporciona una forma de generar texturas directamente en Sampler. Todas las imágenes de Texto a Textura son cuadradas y en mosaico con la Perspectiva adecuada, listas para el flujo de trabajo de creación de materiales.
 
 ![](../assets/wood-ui.png)
 
@@ -50,7 +50,7 @@ Presentamos Text to Texture con tecnología de Adobe Firefly, una nueva forma qu
 <b>Agregado:</b>
 
 * [Firefly] Nuevo panel Generativo (Beta)
-* [Firefly] Generar texturas en mosaico a partir de un mensaje
+* [Firefly] Generar texturas en mosaico a partir de una solicitud
 * [Firefly] Genera más variaciones después de una primera generación
 * [Firefly] Añada un resultado como una capa o en su biblioteca de recursos
 * [Firefly] Examinar el historial de sus mensajes anteriores

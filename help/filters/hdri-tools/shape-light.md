@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/shape-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/shape-light.html"
 breadcrumb-title: ''
 description: Utiliza la herramienta Luz de forma en Substance 3D Sampler para añadir fuentes de luz con forma personalizada a entornos HDRI para una iluminación creativa.
 helpx_creative_field: ""
@@ -64,7 +64,7 @@ Cree una luz con la forma de un rectángulo o disco.
 * **Posición del área interactiva**: 0-1\
   Desplazar la posición del punto de conexión
 * **Desplazamiento de matriz**: -2 a 2\
-  Cambie la posición de la luz de forma. También puedes arrastrar la luz en la **vista 2D** para recolocarla.
+  Cambie la posición de la luz de forma. También puedes arrastrar la luz en el **Vista 2D** para recolocarla.
 
 **Forma**
 

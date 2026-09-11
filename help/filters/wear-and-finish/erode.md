@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/erode.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/erode.html"
 breadcrumb-title: ''
 description: Usa el Filtro erosionado de Substance 3D Sampler para añadir efectos de erosión y meteorización que simulen la degradación natural de los materiales.
 helpx_creative_field: ""
@@ -78,7 +78,7 @@ Las imágenes siguientes muestran cómo se puede usar el **Filtro erosionado** p
 * **Ranuras**: 0-1
 * **Intensidad de Dust de las ranuras**: 0-1
 * **Intensidad de los Scratches Grooves**: 0-1\
-  Ajuste el impacto de las ranuras en los mapas normales y de height.
+  Ajuste el impacto de las ranuras en los mapas normales y de altura.
 * **Densidad de grano micro**: 0-1\
   Ajuste la densidad de los arañazos de la ranura.
 * **Intensidad de cuarzo**: 0-1\
@@ -90,7 +90,7 @@ Las imágenes siguientes muestran cómo se puede usar el **Filtro erosionado** p
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\

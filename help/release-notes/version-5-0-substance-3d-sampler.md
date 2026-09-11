@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/version-5-0-substance-3d-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-5-0-substance-3d-sampler.html"
 breadcrumb-title: ''
 description: Consulta las notas de la versión 5.0 de Substance 3D Sampler para obtener más información sobre las nuevas herramientas de digitalización, funciones y mejoras en el flujo de trabajo.
 helpx_creative_field: ""
@@ -73,18 +73,18 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/hp-z
 * [Incorporación] [Contenido] Las acciones rápidas son flujos de trabajo predefinidos que rellenan la pila de capas con las capas más utilizadas
 * [Onboarding] Posibilidad de crear un nuevo proyecto a través de un nuevo menú Inicio rápido, a través de acciones rápidas o Proyecto personalizado
 * [Onboarding] Posibilidad de crear un proyecto vacío directamente desde la página de inicio mediante un botón específico
-* [Vista 3D] El nuevo rasterizador y trazador de trazados avanzados aportan nuevas capacidades de representación (propiedades como el revestimiento, el brillo, la translucidez, la dispersión subsuperficial) y coherencia visual en todo el ecosistema Substance
+* [Vista 3D] El nuevo rasterizador y trazador de trazadores avanzados aportan nuevas capacidades de representación (propiedades como el revestimiento, el brillo, la translucidez, la dispersión subsuperficial) y coherencia visual en todo el ecosistema Substance
 * [Vista 3D] Ahora se puede acceder directamente a la configuración del visor en la vista 3D
 * [Vista 3D] Posibilidad de guardar una instantánea de procesamiento en el portapapeles o en archivos
 * [Vista 3D] Visualización de una cuadrícula para visualizar el origen de la escena
-* [Vista 3D] Active el plano de tierra para capturar sombras y reflejos
-* [Vista 3D] Controla qué nivel de reflectancia y opacidad tiene el plano de tierra
+* [Vista 3D] Activar el plano de tierra para capturar sombras y reflejos
+* [Vista 3D] Controla qué tan reflectante y opaco es tu plano del suelo
 * [captura 3D] Posicionar la malla sobre el suelo
 * [Aplicación] Comprobar la compatibilidad del hardware al iniciar la aplicación
-* [Aplicación] Ahora se abre la ventana Informes de bloqueos justo después de que se produzca un bloqueo
+* [Aplicación] La ventana de informes de Bloqueos ahora se abre justo después de que se produzca un bloqueo
 * [Contenido] Abra un proyecto de muestra para comenzar fácilmente
-* [Exportar] Exportar el sombreador de Adobe Standard Material en archivos USD
-* [IA generativa] Marque la etiqueta &quot;No inferir&quot; cuando utilice image como entrada en los flujos de trabajo de Imagen a textura.
+* [Exportar] Exportar sombreador de Adobe Standard Material en archivos USD
+* [IA generativa] Marque la opción &quot;No inferir&quot; cuando utilice image como entrada en los flujos de trabajo de Imagen a Textura
 * [Project] Las miniaturas se almacenan en el archivo de proyecto para abrir los proyectos más rápido
 * [Proyecto] Configuración de las preferencias para almacenar datos de caché en el archivo de proyecto, con diferentes modos (sin caché, caché ligera, caché completa)
 * [Scripting] [Breaking change] Migración de Qt a Qt6.15: compatibilidad de efectos de los complementos existentes
@@ -96,21 +96,21 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/hp-z
 
 <b>Corregido:</b>
 
-* [captura 3D] Bloqueo si no se puede iniciar la captura de objetos en macOS
-* [Application] Bloqueo al salir
+* [captura 3D] Bloqueo si Captura de objetos no se puede iniciar en macOS
+* bloqueo [Aplicación] al salir
 * [Aplicación] Colgar al salir al añadir recursos al panel Proyecto
 * [Aplicación] Cambiar el nombre de un recurso de proyecto no funciona a menos que presione Intro
 * [Aplicación] Las entradas de menú Deshacer y Rehacer no se desactivan cuando deberían
 * [Assets] No se pueden eliminar activos de la sección Todas las bibliotecas del panel Activos
 * [Contenido] Creador del atlas: utilizar el mapa de opacidad existente, si existe.
-* [Contenido] Fusión de ID de color: corrige la selección de color en el color base
+* [Contenido] Fusión de ID de color: corrección de la selección de color en el color base
 * [Capas] Evite cálculos inútiles al utilizar generadores
 * [Capas] Si se retoca un generador, se pueden activar demasiados equipos
 * [Rendimiento] Mejora de la gestión de memoria de la GPU
 * [Rendimiento] La caché de procesamiento no se puede usar al reiniciar la aplicación
 * [Recursos] Los archivos de solo lectura no están visibles en el panel Activos
 * [Scripting] Permitir reutilizar una capa después de añadir otra
-* [Scripting] Puede producirse un error al cambiar la estructura de la pila de capas varias veces en una secuencia de comandos
+* [Scripting] Puede fallar el cambio de la estructura de pila de capas varias veces en un script
 
 <b>Eliminado:</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/metal-finish.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/metal-finish.html"
 breadcrumb-title: ''
 description: Utilice el filtro Acabado metálico de Substance 3D Sampler para aplicar diversos acabados y texturas de superficies metálicas a sus materiales.
 helpx_creative_field: ""
@@ -96,7 +96,7 @@ Convierte tu material en un metal con varios acabados y estilos.
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\
@@ -105,7 +105,7 @@ Convierte tu material en un metal con varios acabados y estilos.
 **Parámetros avanzados**
 
 * **Color base**: alternar\
-  Defina si el canal de color base se ve afectado por el filtro.
+  Establezca si el canal de color base se ve afectado por el filtro.
 * **Metálico**: alternar\
   Defina si el canal metálico se ve afectado por el filtro.
 * **Rugosidad**: alternar\
@@ -125,13 +125,13 @@ Convierte tu material en un metal con varios acabados y estilos.
     Ajuste la intensidad de la modificación normal mediante el filtro.
 * **Height**: alternar\
   Establezca si el canal de height se ve afectado por el filtro.
-* **Emisor**: alternar\
-  Establezca si el canal de emisión se ve afectado por el filtro. Si se habilita, aparece un control adicional:
-  * **Emisor - Color**: selección de color\
-    Defina el color del canal de emisión.
-* **Oclusión de ambiente**: alternar\
+* **Emisivo**: alternar\
+  Establezca si el canal de emisivo se ve afectado por el filtro. Si se habilita, aparece un control adicional:
+  * **Emisivo - Color**: selección de color\
+    Defina el color del canal de emisivo.
+* **Oclusión ambiental**: alternar\
   Establezca si el canal de oclusión ambiente se ve afectado por el filtro. Si se habilita, aparecen los siguientes controles adicionales:
-  * **Oclusión ambiente - Intensidad**: 0-1\
+  * **Oclusión ambiental - Intensidad**: 0-1\
     Ajuste la intensidad del AO generado.
   * **Oclusión de ambiente** **- Radio**: 0-1\
     Ajuste el radio del efecto AO.

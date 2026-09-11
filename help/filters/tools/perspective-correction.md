@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/perspective-correction.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/perspective-correction.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Corrección de perspectiva de Substance 3D Sampler para corregir la distorsión de perspectiva en imágenes y texturas capturadas.
+description: Utilice la herramienta Corrección de Perspectiva de Substance 3D Sampler para corregir la distorsión de Perspectiva en las imágenes y texturas capturadas.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Perspective Correction
 helpx_experience_level: ""
@@ -33,13 +33,13 @@ ht-degree: 2%
 
 ## Descripción
 
-Usa la herramienta <b>Transformación de perspectiva </b> para corregir los problemas de perspectiva en una imagen. <b>Transformación de perspectiva</b> también se puede usar en materiales.
+Use la <b>herramienta Transformar Perspectiva </b> para corregir problemas de Perspectiva en una imagen. <b>Transformación de perspectiva</b> también se puede usar en materiales.
 
-La siguiente imagen muestra un material de ejemplo antes de que lo corrija la <b>herramienta Transformación de perspectiva</b>. Observe cómo las formas situadas cerca de la parte superior de la vista 2D se estiran verticalmente en comparación con las formas situadas en la parte inferior de la vista 2D.
+La siguiente imagen muestra un material de ejemplo antes de que lo corrija la <b>herramienta de Transforma de Perspectivas</b>. Observe cómo las formas situadas cerca de la parte superior del Vista 2D se estiran verticalmente en comparación con las formas situadas en la parte inferior del Vista 2D.
 
 ![](../../assets/3d-2d-filters-cropped-0005-perspective-in.jpg)
 
-Con <b>Transformación de perspectiva</b>, las formas son uniformes y forman una cuadrícula. Desde este punto, sería fácil usar filtros como <b>Mosaico</b> o <b>Hacer Mosaico</b> para convertirlo en un material en mosaico.
+Con la <b>Perspectiva Transformar</b>, las formas son uniformes y forman una cuadrícula. Desde este punto, sería fácil usar filtros como <b>Mosaico</b> o <b>Hacer Mosaico</b> para convertirlo en un material en mosaico.
 
 ![](../../assets/3d-2d-filters-cropped-0004-perspective-out.jpg)
 
@@ -49,10 +49,10 @@ Con <b>Transformación de perspectiva</b>, las formas son uniformes y forman una
 
 ## Guía de uso
 
-Con la capa Transformación de perspectiva seleccionada, aparece un control en cada esquina de la textura en la vista 2D. Muévelos individualmente en el espacio 2D para corregir la perspectiva.
+Con la capa Transformar Perspectiva seleccionada, aparece un control en cada esquina de la textura en la Vista 2D. Muévelos individualmente en el espacio 2D para corregir la perspectiva.
 
 ![](../../assets/alchemist-2020-2-perspective.gif){width="300px"}
 
 ## Barra de herramientas
 
-Con la capa Transformación de perspectiva seleccionada, aparece una barra de herramientas en la parte superior de la **vista 2D**. Utilice el botón **Restablecer posiciones** para restablecer los controles de la capa de transformación de perspectiva a las posiciones predeterminadas.
+Con la Perspectiva Transformar capa seleccionada, aparece una barra de herramientas en la parte superior de **Vista 2D**. Utilice el botón **Restablecer posiciones** para restablecer los controles de la capa de Transformo de Perspectiva a las posiciones predeterminadas.

@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/clone-stamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/clone-stamp.html"
 breadcrumb-title: ''
-description: Utiliza la herramienta Tampón de clonar de Substance 3D Sampler para clonar y pintar áreas de textura para una edición y reparación de materiales perfectas.
+description: Utiliza la herramienta Sello de Clonar de Substance 3D Sampler para clonar y pintura áreas de textura para una edición y reparación de materiales perfectas.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Clone Stamp
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Tampón de clonar
+title: Sello de Clonar
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 55277f7a92e97bf530dd2a2edf4e16c88bb57793
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Tampón de clonar
+# Sello de Clonar
 
 <table>
 <tr style="border: 0;">
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## Descripción
 
-La herramienta **Tampón de clonar** te ayuda a duplicar o parchear manualmente partes de tu material. Esto es útil para arreglar costuras o eliminar errores de su material. El **filtro Tampón de clonar** es una de las herramientas disponibles en la barra lateral izquierda.
+La **herramienta Sello de Clonar** te ayuda a duplicar o parchear manualmente partes de tu material. Esto es útil para arreglar costuras o eliminar errores de su material. El filtro **Sello de Clonar** es una de las herramientas disponibles en la barra lateral izquierda.
 
-En las imágenes que aparecen a continuación se muestra el **Tampón de clonar** que se está utilizando para eliminar los escombros de un material de nieve.
+En las imágenes que aparecen a continuación se muestra el **Sello de Clonar** que se está utilizando para eliminar los escombros de un material de nieve.
 
 ![](../../assets/3d-2d-filters-cropped-0049-clone-stamp-in.jpg)
 
@@ -43,13 +43,13 @@ En la imagen de arriba, el material de nieve incluye una serie de ramitas y otro
 
 ![](../../assets/3d-2d-filters-cropped-0048-clone-stamp-out.jpg)
 
-La herramienta **Tampón de clonar** se usa para quitar algunas ramitas y reemplazarlas con nieve limpia.
+La herramienta **Sello de Clonar** se usa para quitar algunas ramitas y reemplazarlas con nieve limpia.
 
 </td>
 </tr>
 </table>
 
-## Tutorial sobre Tampón de clonar
+## Tutorial sobre el sello de Clonar
 
 ## Parámetros
 
@@ -91,13 +91,13 @@ Utilice los controles de fusión de fundido para ajustar individualmente la fusi
 
 ## Guía de uso
 
-Haz clic en la **herramienta Tampón de clonar** para crear una nueva capa de filtro Tampón de clonar en la parte superior de la pila de capas. También puedes añadir un filtro Tampón de clonar con el botón **Añadir una capa** en el **panel Capas**.
+Haz clic en la **herramienta Sello de Clonar** para crear una nueva capa de filtro Sello de Clonar en la parte superior de la pila de capas. También puedes añadir un Clonar de sello con el botón **Añadir una capa** en el **panel Capas**.
 
-La creación de una capa de filtro Tampón de clonar abre automáticamente la **vista 2D** en el **área de visualización**. Aparece una **Barra de herramientas** en la parte superior de la **vista 2D** cuando se selecciona la capa Tampón de clonar.
+La creación de una capa de Clonar de sello abre automáticamente el **Vista 2D** en el **área de visualización**. Aparece una **Barra de herramientas** en la parte superior del **Vista 2D** cuando se selecciona la capa de sello del Clonar.
 
 ![](../../assets/alchemist-2020-2-clone.gif){width="300px"}
 
-Para empezar a usar la herramienta Tampón de clonar, haz clic y arrastra el cursor sobre el área problemática en la **vista 2D**. El material comenzará a actualizarse automáticamente en función de la fuente. Las áreas en las que use la **herramienta Tampón de clonar** aparecen resaltadas.
+Para empezar a usar la herramienta Tampón de Clonar, haz clic y arrastra el cursor sobre el área problemática de **Vista 2D**. El material comenzará a actualizarse automáticamente en función de la fuente. Las áreas en las que use la **herramienta Sello de Clonar** aparecen resaltadas.
 
 ## Barra de herramientas
 
@@ -118,7 +118,7 @@ Mientras está seleccionada la capa Tampón de clonar, aparece una barra de herr
   * <b>Mosaico de pincel</b>: \
     Alternar el mosaico de pinceles X e Y.
   * <b>Superposición:</b>\
-    Alterne si la superposición se muestra al pasar el puntero sobre la vista 2D.
+    Alterne si la superposición se muestra al pasar el ratón sobre el Vista 2D.
 * Ver controles de vista 2D.
 
 </td>
@@ -131,7 +131,7 @@ Mientras está seleccionada la capa Tampón de clonar, aparece una barra de herr
 
 ## Selección de origen
 
-Utilice Ctrl+Clic en la vista 2D para añadir un nuevo origen. Al agregar un nuevo origen, se creará un sello adicional bajo la capa Tampón de clonar en el <b>panel Capas</b>. Puede controlar cada sello de forma individual.
+Utilice Ctrl+Clic en el vista 2D para añadir un nuevo origen. Al agregar un nuevo origen, se creará un sello adicional bajo la capa de sello del Clonar en el <b>panel Capas</b>. Puede controlar cada sello de forma individual.
 
 >[!NOTE]
 >
@@ -141,6 +141,6 @@ Utilice Ctrl+Clic en la vista 2D para añadir un nuevo origen. Al agregar un nue
 
 | Acción | Windows + Linux | MacOs |
 | --- | --- | --- |
-| Aumentar tamaño de pincel | &rbrack; o Ctrl + Rueda del ratón | &rbrack; o Cmd + Rueda del ratón |
-| Reducir tamaño de pincel | &lbrack; o Ctrl + Rueda del ratón | &lbrack; o Cmd + Rueda del ratón |
+| Aumentar tamaño de pincel | ] o Ctrl + Rueda del ratón | ] o Cmd + Rueda del ratón |
+| Reducir tamaño de pincel | [ o Ctrl + Rueda del ratón | [ o Cmd + Rueda del ratón |
 | Establecer el origen | Ctrl + clic izquierdo | Cmd + clic izquierdo |

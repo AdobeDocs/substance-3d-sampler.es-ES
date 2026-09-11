@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/features-and-workflows/end-to-end-physical-size-workflow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/end-to-end-physical-size-workflow.html"
 breadcrumb-title: ''
 description: Aprende a usar el flujo de trabajo de tamaño físico integral en Substance 3D Sampler para crear materiales físicamente precisos a la altura de la escala real.
 helpx_creative_field: ""
@@ -41,12 +41,12 @@ Haz coincidir el tamaño físico de la vida real de tus muestras e imágenes esc
 1. Agregue un recorte y ajústelo a la muestra. Puede ver el tamaño físico que se muestra en la esquina inferior derecha de la ventana gráfica 2D actualizada.
 
    Visualícelo con proporción física en la ventana gráfica 2D para ver con precisión los mapas en los que está trabajando.\
-   Puede configurar la vista 2D para que se ajuste al tamaño físico, de modo que el valor de PPP de la proporción de pantalla coincida con la escala del material. En otras palabras, puede poner su muestra real junto a la pantalla para verificar las dimensiones.
+   Puede configurar el Vista 2D para que se ajuste al tamaño físico, de modo que el valor de la proporción de pantalla coincida con la escala del material. En otras palabras, puede poner su muestra real junto a la pantalla para verificar las dimensiones.
 
    ![](../assets/cq5dam.web.1280.png)
 1. Agregue un Ecualizador para deshacerse de los degradados.
 1. Añadir mosaico para corregir el mosaico parece
-1. Si es necesario, la transformación de deformación resulta útil para realinear solo partes del mapa.
+1. Si es necesario, el transforme de deformación resulta útil para realinear solo partes del mapa.
 
    <b>Listo para exportar</b>
 1. Exportar como

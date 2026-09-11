@@ -30,7 +30,7 @@ Sampler 6.0 adopta [OpenPBR](../features-and-workflows/openpbr.md), el modelo de
 
 ## Materiales complejos en un solo clic
 
-Crea materiales más ricos y más complejos al instante. Las nuevas plantillas como fuzz, translucency y clear coat te permiten añadir efectos físicos avanzados sin la complejidad. ¡Elige una plantilla y vete!
+Crea materiales más ricos y más complejos al instante. Las nuevas plantillas como fuzz, translucidez y clear coat te permiten añadir efectos físicos avanzados sin la complejidad. ¡Elige una plantilla y vete!
 
 Más información *[aquí](../interface/tools-and-widgets/material-creation-presets.md)*
 
@@ -74,29 +74,29 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 
 **Agregado:**
 
-* &lbrack;Assets&rbrack; Comprobar la versión sbsar y avisar a los usuarios si el motor es demasiado antiguo para leerlo
-* &lbrack;Captis&rbrack; Opción Añadir atrás para guardar los pies de ilustración de la fotometría en las preferencias
+* &amp;lbrack;Assets&amp;rbrack; Comprobar la versión sbsar y avisar a los usuarios si el motor es demasiado antiguo para leerlo
+* &amp;lbrack;Captis&amp;rbrack; Opción Añadir atrás para guardar los pies de ilustración de la fotometría en las preferencias
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; No mostrar con proporción física si el tamaño físico está desactivado
-* &lbrack;Análisis&rbrack; Faltan eventos de análisis
-* &lbrack;Análisis&rbrack; Evitar que crashpad informe de un bloqueo en el dispositivo vk perdido
-* &lbrack;Aplicación&rbrack; No destruya los dispositivos vk al salir para evitar un bloqueo en el controlador nvidia
-* &lbrack;Aplicación&rbrack; Corregir salida del Observador de colecciones vinculadas + Administrador de canales
-* &lbrack;Aplicación&rbrack; Evitar un bloqueo al salir
-* &lbrack;Contenido&rbrack; El filtro de &quot;acabado metálico&quot; no afecta al metal
-* &lbrack;Contenido&rbrack; Añadir tamaño físico a los filtros dinámicos en los que falta
-* &lbrack;Filters&rbrack; Quitar el relleno según el contenido de la lista de activos ocultos
-* &lbrack;Capas&rbrack; Al hacer clic en Restablecer todos los ajustes, no se restablece el menú desplegable &quot;Se aplica a&quot;
-* &lbrack;Capas&rbrack; Corrección de los ajustes mínimo y máximo para el widget de posición
-* &lbrack;Capas&rbrack; Actualizar correctamente el filtro
-* &lbrack;Tamaño físico&rbrack; Asegúrate de que la escala física funciona en todas partes + haz que el tamaño físico sea adecuado con filtros dinámicos
-* &lbrack;Proyecto&rbrack; Asegúrese de que la resolución del recurso sea la predeterminada (2k x 2k) al crear un recurso nuevo
-* &lbrack;Proyecto&rbrack; Volver a abrir el proyecto actual utilizado para abrir la versión anterior
-* &lbrack;Proyecto&rbrack; Sampler ya no ofrece la restauración de una copia de seguridad de los proyectos dañados
-* &lbrack;Procesando&rbrack; Procesamiento de miniaturas de material con una resolución máxima de 2k
-* &lbrack;UI&rbrack; Código defensivo para evitar el bloqueo si el usuario es más rápido que la IU
+* &amp;lbrack;vista 2D&amp;rbrack; No mostrar con proporción física si el tamaño físico está desactivado
+* &amp;lbrack;Análisis&amp;rbrack; Faltan eventos de análisis
+* &amp;lbrack;Análisis&amp;rbrack; Evitar que crashpad informe de un bloqueo en el dispositivo vk
+* &amp;lbrack;Aplicación&amp;rbrack; No destruya los dispositivos vk al salir para evitar un bloqueo en el controlador nvidia
+* &amp;lbrack;Aplicación&amp;rbrack; Corregir salida del Observador de colecciones vinculadas + Administrador de canales
+* &amp;lbrack;Aplicación&amp;rbrack; Evitar un bloqueo al salir
+* &amp;lbrack;Contenido&amp;rbrack; El filtro de &quot;acabado metálico&quot; no afecta al metal
+* &amp;lbrack;Contenido&amp;rbrack; Añadir tamaño físico a los filtros dinámicos en los que falta
+* &amp;lbrack;Filters&amp;rbrack; Quitar el relleno según el contenido de la lista de activos ocultos
+* &amp;lbrack;Capas&amp;rbrack; Al hacer clic en Restablecer todos los ajustes, no se restablece el menú desplegable &quot;Se aplica a&quot;
+* &amp;lbrack;Capas&amp;rbrack; Corrección de los ajustes mínimo y máximo para el widget de posición
+* &amp;lbrack;Capas&amp;rbrack; Actualizar correctamente el filtro
+* &amp;lbrack;Tamaño físico&amp;rbrack; Asegúrate de que la escala física funciona en todas partes + haz que el tamaño físico sea adecuado con filtros dinámicos
+* &amp;lbrack;Proyecto&amp;rbrack; Asegúrese de que la resolución del recurso sea la predeterminada (2k x 2k) al crear un recurso nuevo
+* &amp;lbrack;Proyecto&amp;rbrack; Volver a abrir el proyecto actual utilizado para abrir la versión anterior
+* &amp;lbrack;Proyecto&amp;rbrack; Sampler ya no ofrece la restauración de una copia de seguridad de los proyectos dañados
+* &amp;lbrack;Procesando&amp;rbrack; Procesamiento de miniaturas de material con una resolución máxima de 2k
+* &amp;lbrack;UI&amp;rbrack; Código defensivo para evitar el bloqueo si el usuario es más rápido que la IU
 
 ### **6.0.1**
 
@@ -132,7 +132,7 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 * [Preferencias] Agregar una preferencia de modelo de material predeterminada
 * [Ajuste preestablecido] El ajuste preestablecido predeterminado ahora usa el modelo de material de OpenPBR
 * [Procesando] Habilitar procesamiento 8K
-* [Procesando] sombreador de OpenPBR de control en una escena de USD
+* [Representación] Controlar el sombreador del OpenPBR en USD escena
 * [Representación] Representa imágenes con el tamaño del documento cuando no se exportan
 * [Scripting] modelo de material de identificador para la creación de recursos en la API de Python
 * [Secuencias de comandos] Nueva propiedad MaterialModel en el recurso
@@ -152,8 +152,8 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 
 **Corregido:**
 
-* [Vista 2D] Ordene la vista 2D según el índice de uso de resultados en la especificación
-* [Aplicación] Solucionar un bloqueo al iniciar
+* [vista 2D] Vista 2D de pedidos según el índice de uso de resultados en la especificación
+* [Aplicación] Solucionar un bloqueo al inicio
 * [Aplicación] Corrige la lógica incorrecta para el filtrado de uso de flujo de trabajo con OpenPBR
 * [La lista de versiones conocidas de la aplicación] se lee ahora al buscar una actualización
 * [Aplicación] Evita un bloqueo de acceso simultáneo
@@ -177,11 +177,11 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 * [Captis] de tamaño de recorte incorrecto
 * [Configuración de canal] Enmascara los canales en el panel si son invisibles
 * [Exportar] Abrir una carpeta con caracteres especiales funciona correctamente
-* [Exportar] Evita el bloqueo al exportar cuando se ha descargado el árbol
+* [Exportar] Impide el bloqueo al exportar cuando se ha descargado el árbol
 * [Exportar] Las salidas seleccionadas no se mantienen en el cuadro de diálogo de exportación
 * [Filtros] Al exportar un árbol con imágenes se rompe la resolución dinámica de la imagen
 * [Filtros] Solucionar la disponibilidad de filtros de C++
-* [Filtros] Corrección de detección de filtro dinámico de Tampón de clonar
+* [Filtros] Solucionar problema de detección de Clonar dinámico de sello
 * [Filtros] Corrige la inicialización del contador UID al rellenar usos dinámicos
 * [Filtros] Corregir el espacio de color en el Asistente para segmentación automática
 * [Filtros] Corrige los tamaños de salida de recorte
@@ -195,7 +195,7 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 * [Capas] No funciona asignar un uso a una imagen escribiéndola
 * [Capas] Evite bloqueos al agregar capas a la pila
 * [Capas] Se quitaron los parámetros expuestos que no necesitaban actualizarse
-* [Capas] Corrección al agregar un generador de texturas como mapa
+* [Capas] Se ha solucionado la adición de un generador de texturas como mapa
 * [Capas] Corregir acoplar
 * [Capas] Acoplar subpila en tamaño de entrada, no en tamaño de documento
 * [Capas] Evita el bloqueo al acoplar una pila que contiene capas acopladas
@@ -205,13 +205,13 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 * [Proyecto] Corrige la importación de proyectos .alch
 * [Proyecto] Ya no se producen errores al guardar de forma silenciosa
 * [Procesamiento] Evite el bloqueo en macOS manteniendo el modo de programación en modo automático
-* [El procesamiento] del cambio del componente V del mosaico de texturas no tuvo ningún efecto
+* [El procesamiento] del cambio del componente V del mosaico de textura no tuvo ningún efecto
 * [Procesando] Se ha corregido la falta de representación y miniaturas
 * [Procesamiento] Impide el acceso simultáneo a los valores de salida
 * [Procesando] administra correctamente los valores de salida de un árbol en el procesador
 * [Procesando] Deje de recrear la estructura de árbol en cada procesamiento
 * [Secuencias de comandos] Solucionar un bloqueo en get_project_assets
-* [Secuencias de comandos] Evita el bloqueo al acoplar desde la API de Python
+* [Secuencias de comandos] Evitan el bloqueo en el acoplado desde la API de Python
 * [UI] Todos los divisores del panel de propiedades ahora tienen el ancho del panel
 * [IU] Evite mostrar los usos internos de segmentación automática como personalizados
 * [IU] Solucionar menú contextual roto

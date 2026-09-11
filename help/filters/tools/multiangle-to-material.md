@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/multiangle-to-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/multiangle-to-material.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Multiángulo a material de Substance 3D Sampler para crear materiales a partir de varias fotografías angulares de una superficie.
 helpx_creative_field: ""
@@ -26,14 +26,14 @@ La plantilla **Multiángulo a material** crea un material de 2 a 8 imágenes de 
 
 >[!NOTE]
 >
-> Puedes encontrar más información sobre cómo crear tu propio escáner de materiales [&#x200B; en este artículo](https://www.adobe.com/products/substance3d/magazine/your-smartphone-is-a-material-scanner-vol-ii.html).
+> Puedes encontrar más información sobre cómo crear tu propio escáner de materiales [ en este artículo](https://www.adobe.com/products/substance3d/magazine/your-smartphone-is-a-material-scanner-vol-ii.html).
 
 ## Ejemplo
 
 A continuación se muestra un ejemplo de un material creado a partir de 8 imágenes de entrada:
 
 * Las primeras 8 imágenes son las imágenes escaneadas tomadas bajo 8 ángulos de luz.
-* Las imágenes inferiores son las salidas de la plantilla (color base, normal, height, metálico y rugosidad).
+* Las imágenes inferiores son los resultados de la plantilla (color base, normal, height, metálico y rugosidad).
 
 ![](../../assets/scan-801x697.jpg){width="400px"}
 

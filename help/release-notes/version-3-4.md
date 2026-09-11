@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/version-3-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-3-4.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 3.4 de Substance 3D Sampler para obtener más información sobre las nuevas funciones diseñadas para aumentar la velocidad y la calidad en los flujos de trabajo 3D.
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 0%
 Modifique materiales paramétricos dentro de cualquier software que admita archivos SBSAR, como CLO, UE5, Blender, Photoshop y Illustrator, entre otros.\
 Esto es ahora posible gracias a la nueva capacidad de Sampler de exponer parámetros de recursos, lo que le permite acelerar las iteraciones y deshacerse de las idas y venidas entre Sampler y otros software.
 
-Expone los parámetros de tu material con solo hacer clic en una chincheta.
+Expone los parámetros de tu material con solo hacer clic en un pin.
 
 Los puntos de color le ayudarán a navegar por los parámetros expuestos y los diferentes paneles.
 
@@ -96,19 +96,19 @@ Imagen a material (con tecnología de IA) ya está disponible en MacOS y se ejec
 
 **Corregido:**
 
-[Aplicación] La aplicación se podía bloquear al salir cuando estaba en curso una generación de miniaturas\
+[Aplicación] La aplicación podía entrar en bloqueo al salir cuando estaba en curso una generación de miniaturas\
 [Aplicación] La aplicación puede bloquearse al utilizar Guardar como al salir\
 [Aplicación] La aplicación se puede bloquear durante el apagado en MacOS\
 [Aplicación] Al guardar con el cuadro de diálogo de color abierto, no se guardan los cambios\
 [Exportar] La convención de nomenclatura de uso no es correcta al exportar\
-[Capas] Si se suelta un material encima de un filtro, es posible que se bloquee\
+[Capas] Si se suelta un material encima de un filtro, se puede producir un bloqueo\
 [Capas] Si se actualiza una pila de capas obsoleta, es posible que se actualicen pilas de capas no relacionadas\
 [Metadatos] Se exportan los campos vacíos\
 [Metadatos] Cuando solo hay un elemento de metadatos, la interfaz de usuario le permite intentar reordenarlo\
 [Proyecto] El cálculo nunca termina después de duplicar un material\
 [Project] El recurso del proyecto se duplica después de guardar el proyecto inicial\
 [Project] Cálculos innecesarios al cambiar de recurso\
-[Procesamiento] Algunas pilas de capas no se procesan correctamente después de eliminar una capa\
+[Procesamiento] Algunas pilas de capas no se procesan correctamente después de eliminarlas\
 [Security] Solucione CVE-2015-20107\
 [UI] Las salidas 2D pueden ser borrosas dependiendo del tamaño de la ventana\
 [UI] La vista previa de activos puede permanecer abierta en la parte superior cuando la aplicación pierde el enfoque\

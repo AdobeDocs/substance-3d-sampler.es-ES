@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/version-4-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/version-4-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 4.0 de Substance 3D Sampler para obtener más información sobre la creación de objetos 3D a partir de imágenes, máscaras automáticas y mejoras en la experiencia de usuario.
 helpx_creative_field: ""
@@ -56,7 +56,7 @@ Alternar Región de interés para activar un cuadro delimitador después de alin
 
 Una vez reconstruido el objeto 3D, optimice el resultado con la diezmación automática, el desenvolvimiento UV y el horneado.
 
-El procesamiento posterior le ayuda a adaptar y optimizar su malla y texturas a sus necesidades y a cómo desea usarlas.
+El posprocesamiento le ayuda a adaptar y optimizar su malla y texturas a sus necesidades y a cómo desea usarlas.
 
 El resultado de la reconstrucción puede generar una malla con millones de polígonos y hasta 16K de texturas. A menudo, esto no se optimiza para el procesamiento, el tiempo real o la experiencia de realidad aumentada.
 
@@ -116,10 +116,10 @@ Sampler se cargará ahora en el script de inicio y los complementos almacenados 
 * [captura 3D] Definir la precisión geométrica de la malla reconstruida
 * [captura 3D] Optimice sus mallas y texturas creando una nueva versión
 * [captura 3D] Cada una de las versiones se diezma automáticamente al conjunto de números de caras de destino
-* [captura 3D] El paso posterior al proceso desenvuelve, reproyecta texturas automáticamente y, a continuación, hornea la información normal de height y AO de la malla de alta densidad de poli
+* [captura 3D] El paso posterior al proceso desenvuelve, vuelve a proyectar las texturas y, a continuación, hace un bake la información normal de height y de AO de la malla de alta densidad de poli
 * [captura 3D] Agregue el resultado original o una versión al proyecto de Sampler
 * [captura 3D] Nueva capa de proceso posterior de malla para diezmar, desenvolver, volver a proyectar texturas y hornear detalles de la capa de malla subyacente de forma automática
-* [captura 3D] Nueva capa de transformación de malla para escalar, rotar o trasladar la capa de malla subyacente
+* [captura 3D] Nueva malla Transforma la capa para escalar, rotar o trasladar la capa de malla subyacente
 * [Exportar] Nueva ventana de exportación
 * [Exportar] Ajustes e interfaz de usuario específicos en función del tipo de recurso (material, luz de entorno, malla)
 * [Exportar] Exporte la malla como USD, USDA, USDZ, glTF, glb, obj, fbx, stl
@@ -128,29 +128,29 @@ Sampler se cargará ahora en el script de inicio y los complementos almacenados 
 * [Aplicación] Las ventanas gráficas 2D y 3D ahora se pueden cambiar de tamaño, intercambiar y apilar verticalmente
 * [Aplicación] Nueva variable de entorno SAMPLER\_RESOURCES\_PATH para añadir recursos de inicio adicionales
 * [Scripting] Se han añadido variables de entorno SAMPLER\_PLUGIN\_PATH y SAMPLER\_SCRIPT\_PATH para importar complementos y secuencias de comandos al inicio
-* [Scripts] Se han añadido funciones de exportación para materiales, luces de entorno y objetos 3D
+* [Scripts] Se han añadido funciones de exportación para materiales, luces ambientales y objetos 3D
 * [Scripting] Se han añadido a los parámetros identificadores, valores predeterminados, valores mínimos y máximos, etiquetas y valores de enumeración
 * [Scripting] Se ha añadido la función import\_textures para introducir un uso personalizado al importar imágenes
 
 **Corregido**
 
-* [Aplicación] Bloqueo al abrir un proyecto reciente y guardar en el cuadro de diálogo de confirmación
+* [Aplicación] Bloqueo al abrir un proyecto reciente y guardarlo en el cuadro de diálogo de confirmación
 * [Aplicación] El cuadro de diálogo Archivo impide abrir archivos .ssa
 * [Aplicación] Los cuadros de diálogo de archivo pueden aparecer en una ventana de fondo en macOS
-* [Aplicación] Bloqueo potencial al abrir proyectos de la versión 3.2
+* [Aplicación] bloqueo potencial al abrir proyectos 3.2
 * [Aplicación] Al seleccionar un archivo, se cierra el cuadro de diálogo Archivo antes de mostrar advertencias
-* [Parámetros expuestos] La exportación de luces de entorno paramétricas no funciona
+* [Parámetros expuestos] La exportación de luces ambientales paramétricas no funciona
 * [Capas] El vínculo &quot;Haga clic aquí para examinar&quot; de la pila de capas ya no funciona
 * [Capas] Pintar varias imágenes dentro de la misma capa a veces no funciona
 * [Capas] Al configurar una imagen en las propiedades de capa, no se actualiza la miniatura del selector de imágenes
 * [Capas] La modificación de un recurso de Sampler añadido como capa no funciona
 * [Project] Actualización de recursos no deseada al abrir un proyecto
 * [Scripts] En ocasiones, se producen errores al examinar la carpeta del complemento en Windows
-* [Scripting] Bloqueo al utilizar &#39;open\_project()&#39; en un script de Python
+* [Scripting] Bloqueo al utilizar &#39;open\_project()&#39; en una secuencia de comandos de Python
 * Falta la exportación del JPEG [Scripting] en la API
 * [Scripting] El panel de registro no es de solo lectura
 * El valor del parámetro image\_picker de [Scripting] no funciona
-* [UI] Falta el icono de recurso para las luces de entorno en el panel Proyecto
+* [UI] Falta el icono de recurso para las luces ambientales en el panel Proyecto
 * [UI] El menú desplegable Enviar a formato Designer en el menú emergente Preferencias puede estar vacío
 * [UI] Algunos botones tienen un estilo incorrecto
 * [UI] La etiqueta se superpone a los botones en los widgets de grupo de botones
@@ -160,8 +160,8 @@ Sampler se cargará ahora en el script de inicio y los complementos almacenados 
 **Problemas conocidos**
 
 * [captura 3D] Al utilizar máscaras, la proyección de textura puede romperse
-* [captura 3D] Pueden aparecer pequeños defectos en el objeto si la escala en la transformación de malla es demasiado pequeña
-* [captura 3D] La malla exportada puede ser muy pequeña. Restablecer la escala de la transformación de malla y volver a exportar
+* [captura 3D] Pueden aparecer pequeños defectos en el objeto si la escala en el transforme de malla es demasiado pequeña
+* [captura 3D] La malla exportada puede ser muy pequeña. Restablecer la escala de la malla transformar y volver a exportar
 * [Selector de color] Es posible que no funcione seleccionar un color en un segundo monitor con una resolución diferente
 * [Contenido] El widget de luz de forma no funciona en modo de proyección esférica
 * [Interoperabilidad] El material con desplazamiento enviado a Stager perderá los controles de desplazamiento

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/fill.html"
 breadcrumb-title: ''
-description: Utilice el filtro Relleno de Substance 3D Sampler para rellenar áreas de textura con colores sólidos o patrones para los flujos de trabajo de creación de materiales.
+description: Utilice el filtro Rellenar de Substance 3D Sampler para rellenar áreas de textura con colores sólidos o patrones para los flujos de trabajo de creación de materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Adjustments > Fill
 helpx_experience_level: ""
@@ -90,9 +90,9 @@ Se utiliza cuando el filtro Relleno se aplica a los canales de color.
 * Color
 Selecciona el color del RGB utilizado para rellenar el canal.
 * Valor personalizado
-Cambie el botón deslizante para abrir el mapa personalizado. Seleccione una imagen para reemplazar el canal seleccionado o pinte directamente en la **vista 2D**.
+Cambie el botón deslizante para abrir el mapa personalizado. Seleccione una imagen para reemplazar el canal seleccionado o pintura directamente en **Vista 2D**.
 * Grano aleatorio
-Cambia la aleatorización utilizada cuando se habilitan las variaciones de procedimientos.
+Cambia la aleatorización utilizada cuando se habilitan las variaciones procedimientas.
 * Modo de fusión
 Determina cómo se fusiona el relleno con las capas inferiores (por ejemplo: Copiar, Agregar, Multiplicar).
 * Opacidad
@@ -116,9 +116,9 @@ Se utiliza cuando el filtro Relleno se aplica a canales de escala de grises esca
 * Valor
 Define un único valor de escala de grises para el canal.
 * Grano aleatorio
-Cambia la aleatorización utilizada cuando se habilitan las variaciones de procedimientos.
+Cambia la aleatorización utilizada cuando se habilitan las variaciones procedimientas.
 * Valor personalizado
-Cambie el botón deslizante para abrir el mapa personalizado. Seleccione una imagen para reemplazar el canal seleccionado o pinte directamente en la **vista 2D**.
+Cambie el botón deslizante para abrir el mapa personalizado. Seleccione una imagen para reemplazar el canal seleccionado o pintura directamente en **Vista 2D**.
 * Modo de fusión
 Copiar, Añadir (Sobreexposición lineal), Sustract, Multiply, Añadir Sub, Max (aclarar), Min (oscurecer), Cambiar, Dividir, Superponer, Trama, Luz suave.
 Seleccione el modo de fusión para fusionar la entrada personalizada con las capas siguientes.
@@ -127,7 +127,7 @@ Ajuste la opacidad de la información del nuevo canal en relación con la inform
 
 Este modo resulta útil para definir propiedades físicas uniformes, como un valor de rugosidad u opacidad constante.
 
-#### Parámetros normales del mapa
+#### parámetros de mapa de normales
 
 Se utiliza cuando el filtro Relleno se aplica a los canales **Normal**.
 
@@ -139,9 +139,9 @@ Se utiliza cuando el filtro Relleno se aplica a los canales **Normal**.
 ##### Parámetros disponibles
 
 * Grano aleatorio
-Cambia la aleatorización utilizada cuando se habilitan las variaciones de procedimientos.
+Cambia la aleatorización utilizada cuando se habilitan las variaciones procedimientas.
 * Valor personalizado
-Cambie el botón deslizante para abrir el mapa personalizado. Seleccione una imagen para reemplazar el canal seleccionado o pinte directamente en la **vista 2D**.
+Cambie el botón deslizante para abrir el mapa personalizado. Seleccione una imagen para reemplazar el canal seleccionado o pintura directamente en **Vista 2D**.
 * Opacidad
 Ajuste la opacidad de la información del nuevo canal en relación con la información del canal existente. En otras palabras, esto controla la opacidad de la máscara utilizada para aplicar el nuevo relleno de canal.
 
@@ -158,7 +158,7 @@ Se utiliza para canales que dependen de un único valor físico uniforme en luga
 #### Parámetros disponibles
 
 * Grano aleatorio
-Cambia la aleatorización utilizada cuando se habilitan las variaciones de procedimientos.
+Cambia la aleatorización utilizada cuando se habilitan las variaciones procedimientas.
 * Valor
 Define el valor constante aplicado al canal.
 * Modo de fusión

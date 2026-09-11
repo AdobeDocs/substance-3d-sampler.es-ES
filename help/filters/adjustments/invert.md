@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/invert.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/invert.html"
 breadcrumb-title: ''
 description: Usa el filtro Invertir en Substance 3D Sampler para invertir los valores de color y crear efectos de imagen negativos en texturas y materiales.
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ En las imágenes siguientes puede ver el impacto de invertir el canal de rugosid
 
 ![](../../assets/3d-2d-filters-cropped-0019-invert-in.jpg)
 
-Antes de invertir, las baldosas son brillantes y reflejan la luz ambiental claramente.
+Antes de invertir, los azulejos son brillantes y reflejan la luz ambiental claramente.
 
 ![](../../assets/invert-rough-filter.jpg.img.jpg)
 
@@ -53,14 +53,14 @@ Después de invertir, los azulejos son mate y no tienen fuertes reflejos de spec
 
 **Parámetros básicos**
 
-Cada canal se puede invertir de forma independiente mediante el uso de un conmutador. Active el botón de alternancia para invertir el canal. Si los resultados no son visibles en la vista 3D, seleccione el canal en la parte inferior de la vista 2D para ver el impacto.
+Cada canal se puede invertir de forma independiente mediante el uso de un conmutador. Active el botón de alternancia para invertir el canal. Si los resultados no están visibles en la vista 3D, seleccione el canal en la parte inferior del Vista 2D para ver el impacto.
 
 **Máscara**
 
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfocar la máscara
   * **Máscara personalizada - Invertir**: alternar\

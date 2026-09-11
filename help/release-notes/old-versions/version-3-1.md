@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/old-versions/version-3-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-3-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 3.1 de Substance 3D Sampler para obtener más información sobre el selector de color, la compatibilidad con SVG y las mejoras en la interoperabilidad.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ El Selector de color aparece siempre que necesita seleccionar un color. Se puede
 
 ### Compatibilidad con SVG
 
-Sampler ahora admite archivos de SVG. Puede importarlos en sus activos, directamente en la pila de capas o en una entrada de imagen de capa.
+Sampler ahora admite archivos de SVG. Puede importarlos en sus recursos, directamente en la pila de capas o en una entrada de imagen de la capa.
 
 ![](../../assets/svg-support.jpg){width="500px"}
 
@@ -46,7 +46,7 @@ Una nueva función de &quot;editar en&quot; aporta una gran flexibilidad a la ac
 
 ### Nueva interfaz de usuario y experiencia de usuario de recorte
 
-Sampler ahora obtiene un widget de recorte adecuado y rediseñado para definir fácilmente el área recortada. También obtendrá resultados no ampliados al recortar imágenes no cuadradas en texturas cuadradas.
+Sampler ahora obtiene un widget de recorte adecuado y rediseñado para definir fácilmente el área recortada. También obtendrá resultados no estirados al recortar imágenes no cuadradas en texturas cuadradas.
 
 ![](../../assets/crop-9.jpg){width="500px"}
 
@@ -58,7 +58,7 @@ Edita tus preferencias para establecer el [formato normal](../../interface/prefe
 
 ### Exportación de propiedades de materiales en SBSAR
 
-Todos los parámetros de material de los ajustes de sombreado (escala normal, escala de height, nivel de height, etc.) se exportará en el archivo SBSAR para leerlo en Substance 3D Stager y obtener una coincidencia de material perfecta.
+Todos los parámetros de material de los ajustes de Sombreador (escala normal, escala de height, nivel de height,...) se exportará en el archivo SBSAR para leerlo en Substance 3D Stager y obtener una coincidencia de material perfecta.
 
 ![](../../assets/material-consistency-sa-sg.jpg){width="500px"}
 
@@ -85,11 +85,11 @@ Todos los parámetros de material de los ajustes de sombreado (escala normal, es
 * [UI] Nueva interfaz de usuario del regulador de escala de grises
 * [Aplicación] Añadir la selección de formato normal en las preferencias
 * [Aplicación] El formato normal de las capas de importación de imágenes sigue el formato normal predeterminado establecido en las preferencias
-* [Aplicación] En la vista 2D, la normal se muestra según el formato normal definido en las preferencias
+* [Aplicación] En la Vista 2D, la normal se muestra siguiendo el formato normal establecido en las preferencias
 * [Aplicación] La normal se exporta en el formato normal definido en las preferencias
-* [Exportar] Añadir parámetros de formato normal a las exportaciones de archivos SBSAR y SBS
-* [Exportar] Añadir configuración de sombreado a exportaciones de archivos SBSAR y SBS
-* [Exportar] Establezca la resolución predeterminada de los gráficos SBS exportados
+* [Exportar] Añadir un parámetro de formato normal a las exportaciones de archivos SBS y SBSAR
+* [Exportar] Añadir configuración de sombreador a las exportaciones de archivos SBS y SBSAR
+* [Exportar] Establezca la resolución predeterminada de los gráficos de SBS exportados
 * [Filtros compuestos] Empaquetar filtros SSA con 7z
 * [Filtros compuestos] Añadir metadatos de categoría en filtros compuestos
 * [Filtros compuestos] Los filtros compuestos pueden tener una miniatura incrustada
@@ -100,24 +100,24 @@ Todos los parámetros de material de los ajustes de sombreado (escala normal, es
 **Corregido:**
 
 * [Aplicación] Las carpetas locales conectadas pueden bloquearse
-* [Application] Bloqueo al salir
+* bloqueo [Aplicación] al salir
 * [Aplicación] Bloqueo al iniciar dos instancias de Sampler
 * [Contenido] El filtro Recortar tiene un ajuste aleatorio de la velocidad
 * [Contenido] A veces, algunos materiales de Substance no se actualizan
-* [Export] Bloqueo al exportar con un ajuste preestablecido personalizado recién añadido
+* [Exportar] Bloqueo al exportar con un ajuste preestablecido personalizado recién añadido
 * [Exportar] Falta el tamaño estimado del paquete en la ventana emergente de exportación
-* [Exportar] Se ha corregido la pérdida de memoria al exportar archivos SBS y SBSAR
+* [Exportar] Solución de pérdida de memoria al exportar archivos SBS y SBSAR
 * [Filtros compuestos] Los filtros compuestos pueden tener entradas duplicadas
 * [Filtros compuestos] Bloqueo si un filtro tiene referencias no satisfechas
 * [Filtros compuestos] Bloqueo al reordenar una pila de capas con un filtro compuesto
 * [Filtros compuestos] El procesamiento a veces se bloquea
 * [Importación de imágenes] Importar una imagen activa varias representaciones
-* [Layers] Bloqueo al deshacer/rehacer
-* [Layers] Bloqueo al añadir un Material base
-* [Layers] Bloqueo al utilizar una imagen no válida como luz ambiental
+* bloqueo [Layers] en deshacer/rehacer
+* [Capas] Bloqueo al añadir un Material base
+* bloqueo [Layers] al utilizar una imagen no válida como luz ambiental
 * [Capas] Corrección de la importación duplicada al insertar un filtro con varios gráficos
 * [Capas] Reordenar capas no siempre funciona
-* [Project] Bloqueo al cargar un archivo de proyecto incompleto
+* bloqueo [Project] al cargar un archivo de proyecto incompleto
 * [Project] Bloqueo al abrir un proyecto dañado
 * [Project] Algunos recursos pueden desaparecer de un proyecto
 * [Propiedades] Corregir los ajustes preestablecidos de filtros que faltan
@@ -130,6 +130,6 @@ Todos los parámetros de material de los ajustes de sombreado (escala normal, es
 
 **Problemas conocidos:**
 
-* [Realtime Engine 2021] El cálculo intenso puede bloquear la aplicación
-* [Realtime Engine 2021] Realtime Engine 2021 se bloquea en un equipo Windows con CPU AMD y GPU NVIDIA instaladas
+* [Realtime Engine 2021] El cálculo intenso puede generar bloqueos en la aplicación
+* [Realtime Engine 2021] El bloqueo de Realtime Engine 2021 se producirá en un equipo Windows con la CPU AMD y la GPU NVIDIA instaladas
 * [Selector de color] Es posible que no funcione seleccionar un color en un segundo monitor con una resolución diferente

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/image-to-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/image-to-material.html"
 breadcrumb-title: ''
 description: Utiliza la herramienta Imagen a material de Substance 3D Sampler para convertir imágenes individuales en materiales PBR mediante el procesamiento impulsado por IA.
 helpx_creative_field: ""
@@ -55,7 +55,7 @@ La red neuronal ha sido entrenada en una amplia gama de materiales como telas, o
 
 ### B2M
 
-El algoritmo **B2M** utiliza el método Bitmap to Material basado en Substance para generar varios canales, como el color base, normal, metálico, de rugosidad y de oclusión de ambiente, mediante técnicas de procedimiento.
+El algoritmo **B2M** utiliza el método Bitmap to Material basado en Substance para generar varios canales, como color base, normal, metálico, rugosidad y oclusión ambiental, utilizando técnicas procedimientas.
 
 Este algoritmo puede producir resultados menos precisos, pero funcionará en una gama más amplia de imágenes de entrada.
 

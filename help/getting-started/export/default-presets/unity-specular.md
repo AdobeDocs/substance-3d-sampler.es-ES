@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/unity-specular.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unity-specular.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler mediante el ajuste preestablecido Specular Unity para la compatibilidad con el motor de juegos Unity.
 helpx_creative_field: ""
@@ -22,4 +22,4 @@ ht-degree: 4%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Specular Unity | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li><li data-preserve-html="true">SPECULAR/Brillo PBR</li></ul> | **Albedo:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Color base</li><li data-preserve-html="true"><strong>A</strong>: Opacidad</li></ul>**Specular:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Specular</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>**Normal** (OpenGL)**Height &#x200B;**&#x200B;**Oclusión**&#x200B;**Emisora** |
+| Specular Unity | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li><li data-preserve-html="true">SPECULAR/Brillo de PBR</li></ul> | **Albedo:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Color base</li><li data-preserve-html="true"><strong>A</strong>: Opacidad</li></ul>**Specular:**<ul data-preserve-html="true"><li data-preserve-html="true"><strong>RGB</strong>: Specular</li><li data-preserve-html="true"><strong>A</strong>: Smoothness</li></ul>**Normal** (OpenGL)**Height ****Oclusión****Emisivo** |

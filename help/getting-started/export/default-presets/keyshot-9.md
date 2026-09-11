@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/keyshot-9.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/keyshot-9.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler utilizando el ajuste preestablecido de Keyshot 9 para la compatibilidad con el procesamiento de Keyshot.
 helpx_creative_field: ""
@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Keyshot9+ | <ul data-preserve-html="true"> <li data-preserve-html="true">PBR Metálico/Rugosidad</li> </ul> | <b>base\_color</b> <b>normal</b> <b>rugosidad</b> <b>metálico</b> <b>desplazamiento</b> <b>emisor</b> <b>opacidad</b> <b>specular</b> |
+| Keyshot9+ | <ul data-preserve-html="true"> <li data-preserve-html="true">PBR Metálico/Rugosidad</li> </ul> | <b>base\_color</b> <b>normal</b> <b>rugosidad</b> <b>metálico</b> <b>desplazamiento</b> <b>emisivo</b> <b>opacidad</b> <b>specular</b> |

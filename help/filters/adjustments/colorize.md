@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/colorize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/colorize.html"
 breadcrumb-title: ''
-description: Utilice el filtro Colorear de Substance 3D Sampler para aplicar tintes de color y efectos de coloración monocromos a texturas y materiales.
+description: Utilice el filtro Colorear de Substance 3D Sampler para aplicar matices de color y efectos de coloración monocromos a texturas y materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Adjustments > Colorize
 helpx_experience_level: ""
@@ -67,12 +67,12 @@ En estas imágenes se ha utilizado el filtro **Colorear** para ajustar el color 
 Los parámetros disponibles en esta sección cambian en función de **Selección de canal**.
 
 * **Selección de canal**:\
-  Seleccione el canal al que afectará el filtro. Es recomendable ver el canal seleccionado en la vista 2D para ver directamente los resultados del filtro.
-  * ***Opciones de color base/emisión***
+  Seleccione el canal al que afectará el filtro. Es recomendable ver el canal seleccionado en la Vista 2D para ver directamente los resultados del filtro.
+  * ***Opciones de Color base/Emisivo***
     * ***Nombre de canal*** **- Color**: selección de color\
       Seleccione el color utilizado para colorear el canal
     * ***Nombre de canal*** **: mantener luminosidad**: alternar\
-      Si se activa, se mantendrán los valores de Luminosidad o Luminosidad de los colores originales
+      Si se activa, se mantendrán los valores de Luminosidad o luminosidad de los colores originales
     * ***Nombre de canal*** **- Intensidad**: 0-1\
       Ajuste la intensidad del efecto Colorear.
   * ***Opciones de canal normal***
@@ -87,7 +87,7 @@ Los parámetros disponibles en esta sección cambian en función de **Selección
 * **Máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfocar la máscara
   * **Máscara personalizada - Invertir**: alternar\

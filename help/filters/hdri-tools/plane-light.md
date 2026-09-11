@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/plane-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/plane-light.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Luz plana de Substance 3D Sampler para añadir fuentes de luz planas a entornos HDRI para efectos de iluminación de área.
+description: Utilice la herramienta Luz plana de Substance 3D Sampler para añadir fuentes de luz plana a entornos HDRI para efectos de iluminación de área.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > HDRI Tools > Plane Light
 helpx_experience_level: ""
@@ -61,7 +61,7 @@ Añada una luz con la forma de un plano plano a su entorno.
   * **Fondo de muestra**
     * El fondo de muestra no ofrece nuevos parámetros, sino que basa el color de la luz en los valores del fondo.
 * **Modo de posición**:\
-  Cambie el método utilizado para determinar la posición de las luces. Los parámetros de la sección **Coordenadas de posición** cambiarán en función de la selección. Con **Posición del mundo** seleccionado, los controladores desaparecerán de la **vista 2D**, en su lugar, utilice los parámetros de **Coordenadas de posición** para modificar la posición de la luz.
+  Cambie el método utilizado para determinar la posición de las luces. Los parámetros de la sección **Coordenadas de posición** cambiarán en función de la selección. Con **Posición del mundo** seleccionado, los controladores desaparecerán del **Vista 2D**, en su lugar, utilice los parámetros de **Coordenadas de posición** para modificar la posición de la luz.
 
 **Forma**
 
@@ -76,7 +76,7 @@ Añada una luz con la forma de un plano plano a su entorno.
 * **Dureza del motivo**: 0-1\
   Suaviza o desenfoca los bordes de la luz
 * **Modo UV De Patrón**:\
-  Elija si las transformaciones estiran toda la forma o solo el centro de la forma para mantener los detalles de los bordes y las esquinas.
+  Elija si transforma estirar toda la forma o solo el centro de la forma para mantener los detalles de los bordes y los vértices.
 
 **Coordenadas de posición**
 

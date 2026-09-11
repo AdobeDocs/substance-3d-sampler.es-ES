@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/dirt.html"
 breadcrumb-title: ''
-description: Usa el filtro de Dirt de Substance 3D Sampler para añadir una acumulación de dirt realista y efectos de suciedad a tus materiales y texturas.
+description: Usa el filtro de Dirt de Substance 3D Sampler para añadir efectos realistas de acumulación de dirt y suciedad a tus materiales y texturas.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Wear and Finish > Dirt
 helpx_experience_level: ""
@@ -74,13 +74,13 @@ Compare los azulejos limpios de arriba con el filtro de dirt aplicado a ellos a 
   Define qué tan reflectante es la superficie del dirt
 
 * <b>Height de Dirt</b>: 0-1 \
-  Controla el impacto del dirt en el mapa de Height
+  Controla el impacto del dirt en el mapa de altura
 
 * <b>Intensidad normal del Dirt</b>: 0-1 \
-  Controla en qué medida el nivel de dirt afecta al mapa Normal
+  Controla en qué medida el nivel de dirt afecta al Mapa de normales
 
 * <b>Usar imperfecciones de superficie</b>: alternar \
   Activar o desactivar el uso de una imperfección de superficie. Si se habilita, aparece un control adicional:
 
   <b>Imperfecciones superficiales</b>: image \
-  Importe una imagen para utilizarla como una imperfección de superficie o utilice uno de los generadores de texturas disponibles de forma predeterminada en la biblioteca de recursos de Sampler, como &quot;Mancha&quot; o &quot;Manchas negras&quot;
+  Importe una imagen para utilizarla como imperfección de la superficie o utilice uno de los generadores de textura disponibles de forma predeterminada en la biblioteca de recursos de Sampler, como &quot;Mancha&quot; o &quot;Manchas negras&quot;

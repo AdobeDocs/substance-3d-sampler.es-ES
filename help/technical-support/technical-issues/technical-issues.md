@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues.html"
 breadcrumb-title: ''
 description: Acceda a las guías de solución de problemas para problemas técnicos comunes en Substance 3D Sampler para resolver problemas y optimizar el rendimiento.
 helpx_creative_field: ""
@@ -48,4 +48,4 @@ Esta página reagrupa problemas conocidos comunes o preguntas relacionadas con S
 ## Problemas de inicio
 
 * [La aplicación no se inicia en Linux](startup-issues/application-doesn-t-start-on-linux.md)
-* [Bloqueo al iniciarse: versión OBS antigua](startup-issues/crash-at-start-up-old-obs-version.md)
+* [Bloqueo al inicio: versión antigua de OBS](startup-issues/crash-at-start-up-old-obs-version.md)

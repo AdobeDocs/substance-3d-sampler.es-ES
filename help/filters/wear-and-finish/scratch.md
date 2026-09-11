@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/scratch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/scratch.html"
 breadcrumb-title: ''
 description: Usa el filtro de rasguños de Substance 3D Sampler para añadir marcas de rasguño realistas y efectos de daño superficial a tus materiales.
 helpx_creative_field: ""
@@ -121,7 +121,7 @@ Añade arañazos y desgaste a tu material.
 * **Máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\
@@ -152,20 +152,20 @@ Añade arañazos y desgaste a tu material.
 * **Height**: alternar\
   Establezca si el canal de height se ve afectado por el filtro. Si se habilita, aparece un control adicional:
   * **Height - Intensidad**: 0-1\
-    Ajusta el contraste del mapa de height.
-* **Emisor**: alternar\
-  Establezca si el canal de emisión se ve afectado por el filtro. Si se habilita, aparece un control adicional:
-  * **Emisor - Color**: selección de color\
-    Defina el color del canal de emisión.
+    Ajuste el contraste del mapa de altura.
+* **Emisivo**: alternar\
+  Establezca si el canal de emisivo se ve afectado por el filtro. Si se habilita, aparece un control adicional:
+  * **Emisivo - Color**: selección de color\
+    Defina el color del canal de emisivo.
 * **Specular level**: alternar\
   Controlar si el canal de specular level se ve afectado por el filtro. Si se habilita, aparece un control adicional:
   * **Specular level** **- Valor**: 0-1\
     Ajuste el valor del canal de specular.
-* **Oclusión de ambiente**: alternar\
-  Establezca si el canal de oclusión ambiente se ve afectado por el filtro. Si se habilita, aparecen los siguientes controles adicionales:
-  * **Oclusión ambiente - Intensidad**: 0-1\
+* **Oclusión ambiental**: alternar\
+  Establezca si el canal de oclusión ambiental se ve afectado por el filtro. Si se habilita, aparecen los siguientes controles adicionales:
+  * **Oclusión ambiental - Intensidad**: 0-1\
     Ajuste la intensidad del AO generado.
-  * **Oclusión de ambiente** **- Radio**: 0-1\
+  * **Oclusión ambiental** **- Radio**: 0-1\
     Ajuste el radio del efecto AO.
 * **Opacidad**: alternar\
   Establezca si el filtro afecta al canal de opacidad. Si se habilita, aparece un control adicional:

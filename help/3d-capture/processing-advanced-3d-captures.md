@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/3d-capture/processing-advanced-3d-captures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/3d-capture/processing-advanced-3d-captures.html"
 breadcrumb-title: ''
 description: Aprende a procesar capturas en 3D avanzadas en Substance 3D Sampler para optimizar la geometría, las texturas y la calidad del material.
 helpx_creative_field: ""
@@ -84,10 +84,10 @@ Pulse <b>Enviar para iniciar el procesamiento de la malla</b>. Este proceso pued
 
 ## Previsualización y posprocesamiento
 
-Una vez realizada la malla, la ventana final nos permite previsualizar y postprocesar la malla antes de añadirla a nuestro proyecto de Sampler. Este modo tiene algunos botones en la parte inferior para ver tu malla con <b>textura</b>, <b>sólido sombreado</b>, como <b>malla metálica</b> y con un <b>material de verificador UV</b>. La configuración de posprocesamiento en el lateral le permite generar una nueva versión de la malla. Eso significa una malla reteselada, con nuevos UV automáticos y textura cocida de la malla original. Los controles principales le permiten definir un recuento de caras objetivo y alternar entre el horneado Normal, height y AO. Hay muchos ajustes avanzados que se pueden modificar, pero los valores predeterminados suelen funcionar correctamente.
+Una vez realizada la malla, la ventana final nos permite previsualizar y postprocesar la malla antes de añadirla a nuestro proyecto de Sampler. Este modo tiene algunos botones en la parte inferior para ver tu malla con <b>textura</b>, <b>sólido sombreado</b>, como <b>malla metálica</b> y con un <b>material de verificador UV</b>. La configuración de posprocesamiento en el lateral le permite generar una nueva versión de la malla. Eso significa una malla reteselada, con nuevos UV automáticos y textura cocida de la malla original. Los controles principales le permiten definir un recuento de caras objetivo y cambiar entre hacer un bake Normal, height y AO. Hay muchos ajustes avanzados que se pueden modificar, pero los valores predeterminados suelen funcionar correctamente.
 
 También puede realizar este paso de procesamiento de malla posteriormente, una vez que la malla se haya añadido a Sampler. Una vez que lo haya añadido a Sampler, puede ponerle un nombre y aparecerá en la lista de proyectos.
 
-Puedes editar la malla y las texturas, pero ya puedes exportar el resultado usando <b>Compartir</b> > <b>Cuadro de diálogo Exportar como</b>. <b>Configuración general</b> te permite elegir el nombre y la ruta de acceso, <b>Configuración de malla</b> te permite elegir el formato de malla 3D y <b>Configuración de material</b> te permite configurar el material de la malla. Puede desactivar la malla o el material para exportar solo uno de ellos de forma individual. Una vez exportada, la malla está lista para utilizarse en otras aplicaciones 3D.
+Puedes editar la malla y las texturas, pero ya puedes exportar tu resultado usando <b>Compartir</b> > <b>Cuadro de diálogo Exportar como</b>. <b>Configuración general</b> te permite elegir el nombre y la ruta de acceso, <b>Configuración de malla</b> te permite elegir el formato de malla 3D y <b>Configuración de material</b> te permite configurar el material de la malla. Puede desactivar la malla o el material para exportar solo uno de ellos de forma individual. Una vez exportada, la malla está lista para utilizarse en otras aplicaciones 3D.
 
 Ahora aprende a [editar aún más tus mallas 3D capturadas en Sampler](editing-3d-captured-meshes.md).

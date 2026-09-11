@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/scripting-and-development/create-a-script-with-python/example-scripts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/scripting-and-development/create-a-script-with-python/example-scripts.html"
 breadcrumb-title: ''
 description: Acceda a ejemplos de secuencias de comandos de Python para Substance 3D Sampler para aprender a utilizar la API y automatizar los flujos de trabajo de creación de materiales.
 helpx_creative_field: ""
@@ -186,7 +186,7 @@ with open(csv_path, newline='') as csvfile:
 
 ## Exponer todos los parámetros de color
 
-Este script muestra el parámetro de color de cada capa de la pila de capas.
+Este script expone el parámetro de color de cada capa de la pila de capas.
 
 ### expose\_all\_color\_parameters.py
 
@@ -227,7 +227,7 @@ for layer in my_asset_layers:
 ```
 
 
-## Plantilla de pila de capas
+## plantilla de pila de capas
 
 Este script agrega automáticamente un conjunto de filtros (definidos dentro del script) al material actual.
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/vibrance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/vibrance.html"
 breadcrumb-title: ''
 description: Utilice el filtro Intensidad en Substance 3D Sampler para mejorar la saturación y la intensidad del color en las texturas al tiempo que conserva los tonos de piel.
 helpx_creative_field: ""
@@ -46,14 +46,14 @@ La intensidad y la saturación funcionan de forma similar, ya que aumentan la in
 **Parámetros básicos**
 
 * **Intensidad**: -1 a 1\
-  Aumente o disminuya la intensidad del color base o del canal difuso.
+  Aumenta o disminuye la intensidad del color base o canal difuso.
 
 **Máscara**
 
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfocar la máscara
   * **Máscara personalizada - Invertir**: alternar\

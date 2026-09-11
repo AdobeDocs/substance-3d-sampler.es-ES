@@ -38,7 +38,7 @@ De forma predeterminada, el sistema de enfoque automático de la cámara control
 
 Todas las DSLR pueden cambiar del enfoque automático a un <b>enfoque manual</b> completo. Esto significa que tiene el control total del enfoque, girando el anillo de enfoque en el objetivo. De esta forma, estás seguro de que el enfoque no saltará entre tomas. Si lee el manual de la cámara, probablemente habrá ajustes que le ayudarán, como &quot;enfoque máximo&quot;, donde se dibuja un efecto de color sobre la pantalla de la cámara. Esto ayuda a ver qué parte de la imagen está enfocada. Incluso puede haber un ampliador de zoom, en el que la pantalla muestre una pequeña parte de la vista actual ampliada, lo que le ayudará a lograr un enfoque perfecto en píxeles. Especialmente este ampliador de zoom es crucial para ayudar a conseguir el enfoque.
 
-El uso del enfoque manual te ayudará a ver y comprender mejor lo que está sucediendo con tu apertura <b></b> y el enfoque <b>3&rbrace;. </b>El inconveniente es que <b>tienes que reajustar el enfoque cada vez que la cámara o el sujeto se mueve</b>. Es fácil olvidar y arruinar una foto, así que conviértela en un hábito que hay que comprobar.
+El uso del enfoque manual te ayudará a ver y comprender mejor lo que está sucediendo con tu apertura <b></b> y el enfoque <b>3}. </b>El inconveniente es que <b>tienes que reajustar el enfoque cada vez que la cámara o el sujeto se mueve</b>. Es fácil olvidar y arruinar una foto, así que conviértela en un hábito que hay que comprobar.
 
 ## Selección del valor de apertura
 
@@ -60,7 +60,7 @@ Si tiene 2 o más fotografías con diferente enfoque, cárguelas en capas difere
 
 Seleccione todas las capas y vaya a <b>Editar</b> > <b>Alinear capas automáticamente</b>. Pulse Aceptar con la configuración predeterminada. Photoshop intentará hacer una alineación perfecta de todas las capas seleccionadas
 
-A continuación, ve a <b>Editar</b> > <b>Fusionar capas automáticamente</b>. De nuevo, seleccione Aceptar con todos los ajustes predeterminados. Photoshop fusionará las partes más nítidas de las capas.
+A continuación, ve a <b>Editar</b> > <b>Capas de Fusión automática</b>. De nuevo, seleccione Aceptar con todos los ajustes predeterminados. Photoshop fusionará las partes más nítidas de las capas.
 
 Si todo salió bien, ahora tienes una fotografía perfectamente nítida. Vale la pena convertir al menos algunos de estos pasos en una acción grabada, para ahorrarte tiempo.
 

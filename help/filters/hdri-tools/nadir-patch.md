@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: Utilice la herramienta de Nadir patch de Substance 3D Sampler para parchear el área de nadir de las imágenes HDRI y obtener mapas de entorno perfectos.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Descripción
 
-Retoca el nadir de la luz de tu entorno para ocultar artefactos o costuras.
+Retoca el nadir de tu luz ambiental para ocultar artefactos o costuras.
 
 En las imágenes siguientes, puedes ver cómo se usa el **Nadir patch** para quitar el soporte de la cámara en esta imagen panorámica.
 
@@ -49,9 +49,9 @@ En las imágenes siguientes, puedes ver cómo se usa el **Nadir patch** para qui
 
 * **Habilitar**: alternar\
   Activar o desactivar el parche: esto puede resultar útil para ver rápidamente el impacto del parche sin tener que cambiar la visibilidad de la capa.
-* **Ayuda para mostrar fotogramas**: alternar\
-  Encienda o apague los fotogramas.
-* **Thickness de fotogramas**: 0-1\
+* **Mostrar Ayudante de Marcos**: alternar\
+  Encienda o apague los Marcos.
+* **Thickness de Marco**: 0-1\
   Ajuste el thickness del marco. Esto puede resultar útil cuando el origen del parche está lejos del nadir.
 * **Escala del parche**: 0-1\
   Ajuste el límite del área a la que se aplicará el parche.
@@ -62,7 +62,7 @@ En las imágenes siguientes, puedes ver cómo se usa el **Nadir patch** para qui
 * **Alpha de parches**:\
   Seleccione la forma utilizada para enmascarar el parche. Si se selecciona **Entrada de máscara**, aparecerá un parámetro adicional:
   * **Entrada de máscara**: imagen/pincel\
-    Importa una imagen para usarla como máscara o pinta una máscara directamente en la **vista 2D**.
+    Importa una imagen para usarla como máscara o pintura una máscara directamente en **Vista 2D**.
 * **Dureza del parche**: 0-1\
   Ajuste el desenfoque en los bordes de la máscara de parche.
 * **Desplazamiento de rotación de origen**: 0-1\
@@ -70,9 +70,9 @@ En las imágenes siguientes, puedes ver cómo se usa el **Nadir patch** para qui
 
 ## Guía de uso
 
-Un problema común que se puede producir al crear una luz de entorno a partir de fotografías son los artefactos que se producen alrededor de los niveles superior e inferior de la textura. El **Nadir patch** **filter** ayuda a minimizar estos problemas.
+Un problema común que se puede producir al crear una luz ambiental a partir de fotografías son los artefactos que se producen en los niveles superior e inferior de la textura. El **Nadir patch** **filter** ayuda a minimizar estos problemas.
 
 1. Agregue el **filtro de Nadir patch** a la parte superior de la pila de capas.
-1. Utilice el identificador de la **vista 2D** para cambiar la ubicación de origen del parche.
-   1. El nadir de parches cambia en función de la ubicación del origen. Si el origen se encuentra en la mitad inferior del espacio de textura, se aplicará el parche en el nadir inferior; si el origen está en la mitad superior, se aplicará un parche en el nadir superior.
-1. Modifique los parámetros para afinar la transformación del parche y ocultar mejor las costuras y los defectos.
+1. Use el identificador de **Vista 2D** para cambiar la ubicación de origen del parche.
+   1. El nadir de parches cambia en función de la ubicación del origen. Si el origen se encuentra en la mitad inferior del espacio de textura, se aplicará el parche al nadir inferior; si el origen está en la mitad superior, se aplicará un parche en el nadir superior.
+1. Modifique los parámetros para ajustar el transformo del parche y ocultar mejor las costuras y los defectos.

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/old-versions/version-0-8-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-0-8-0.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 0.8.0 de Substance 3D Sampler para obtener más información sobre las nuevas funciones, actualizaciones y mejoras.
 helpx_creative_field: ""
@@ -51,9 +51,9 @@ ht-degree: 0%
 
 **Corregido:**
 
-* [Inspire] Se ha solucionado el bloqueo al utilizar más de 10 colores
-* [Vista 2D] Se ha corregido la barra de desplazamiento en la lista de canales de la vista 2D
-* [Visualizador] Se ha solucionado el bloqueo al importar un mapa de entorno que no es de alimentación de 2.
+* [Inspire] Corrección de bloqueo al utilizar más de 10 colores
+* [vista 2D] Se ha corregido la barra de desplazamiento en la lista de canales de la Vista 2D
+* [Visualizador] Se corrige el bloqueo al importar un mapa de entorno que no es de alimentación 2.
 * [Contenido] Se ha corregido la importación de PNG para el patrón personalizado de filtros de relieve y perforación
 * [Exportar] Solución normal y exportación de height de 16 bits por canal
 * Corrección de un bucle infinito al importar un material con dos ajustes preestablecidos con el mismo nombre

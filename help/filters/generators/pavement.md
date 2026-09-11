@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/pavement.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/pavement.html"
 breadcrumb-title: ''
-description: Utilice el generador de pavimentos de Substance 3D Sampler para crear texturas realistas de pavimentos y superficies de carreteras para materiales.
+description: Utilice el generador de pavimentos en Substance 3D Sampler para crear texturas realistas de pavimentos y superficies de carreteras para materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Generators > Pavement
 helpx_experience_level: ""
@@ -69,7 +69,7 @@ Cada patrón tiene un conjunto diferente de parámetros disponibles que aparecer
 
 **Conjunto**
 
-* **Height**&#x200B;**conjunto: 0-1**\
+* **Height****conjunto: 0-1**\
   Modificar el height del material entre ladrillos
 * **Ancho de unión**: 0-1\
   Ajustar hasta dónde se superpone el material entre los ladrillos a los bordes de los ladrillos
@@ -85,7 +85,7 @@ Cada patrón tiene un conjunto diferente de parámetros disponibles que aparecer
 * **Tamaño de superficie (cm)**: 0-1000\
   Ajustar el tamaño físico representado por el material
 * **Escala de Height superficial (cm)**: 0-1000\
-  Cambiar el espacio físico representado por el mapa de height
+  Cambiar el espacio físico representado por el mapa de altura
 * **Smoothness de superficie**: 0-1\
   Controlar la cantidad de variación y detalle en la superficie
 * **Surface Poke**: 0-1\

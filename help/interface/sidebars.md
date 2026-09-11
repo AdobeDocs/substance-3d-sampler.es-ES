@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/interface/sidebars.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/interface/sidebars.html"
 breadcrumb-title: ''
 description: Obtenga más información sobre las barras laterales izquierda y derecha en la interfaz de Substance 3D Sampler para navegar por herramientas, paneles y funciones de la aplicación.
 helpx_creative_field: ""
@@ -30,12 +30,12 @@ Desde la **barra lateral izquierda**, puedes:
 
 * **Agregar e importar contenido**: Importe imágenes y seleccione cómo se deben integrar en el proyecto.
 * **Examinar activos 3D**: Accede a miles de materiales desde Substance 3D Assets en el escritorio de Creative Cloud.
-* Accede a **Acciones rápidas**: Conjunto de acciones para alcanzar rápidamente determinados objetivos. [Más información sobre **Acciones rápidas &#x200B;**](../features-and-workflows/quick-actions.md)**.**
+* Accede a **Acciones rápidas**: Conjunto de acciones para alcanzar rápidamente determinados objetivos. [Más información sobre **Acciones rápidas **](../features-and-workflows/quick-actions.md)**.**
 * Añada rápidamente filtros a la pila de capas:
-  * **Recortar:** Recorta imágenes y materiales con controladores en la **vista 2D**.
-  * **Transformación de perspectiva:** Corrija errores de perspectiva con controladores en la vista **2D.**
-  * **Transformar:** Cambie el tamaño de las imágenes y los materiales con controladores en la vista **2D.**
-  * **Tampón de clonar:** Pinta áreas en la **vista en 2D** para corregir costuras u otros problemas.
+  * **Recortar:** Recorta imágenes y materiales con controladores en el **Vista 2D**.
+  * **transformar Perspectiva:** Corrija errores de Perspectiva con identificadores en la **Vista 2D.**
+  * **Transformar:** Cambiar el tamaño de imágenes y materiales con identificadores en la Vista 2D **2}.**
+  * **Sello de Clonar:** áreas de Pintura en el **Vista 2D** para corregir costuras u otros problemas.
 * Vuelva a abrir los siguientes paneles cuando estén cerrados:
   * [El **panel Acciones rápidas**.](panels/quick-actions-panel.md)
   * [El **panel Proyecto**.](panels/project-panel.md)

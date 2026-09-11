@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/embroidery.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/embroidery.html"
 breadcrumb-title: ''
 description: Usa el generador de bordados de Substance 3D Sampler para crear patrones de tejidos bordados y texturas de pespunte para los materiales.
 helpx_creative_field: ""
@@ -61,7 +61,7 @@ Más información [aquí](../../pipeline-and-integrations/tajima-exporter-plugin
 * <b>Raíz aleatoria</b>:\
   Semilla aleatoria en la que se basan todos los demás parámetros aleatorios de este filtro.
 * <b>Imagen</b>: imagen/máscara\
-  Seleccione una imagen de su sistema o pinte una máscara personalizada.
+  Seleccione una imagen de su sistema o pintura una máscara personalizada.
 * <b>Recuento de colores</b>: 1-8\
   El filtro de bordado intentará dividir las imágenes importadas en colores independientes. Modifique este valor para cambiar el número de colores utilizados.
 * <b>Densidad</b>: 80-300\
@@ -94,8 +94,8 @@ Utilice los controles para ajustar cada zona de color individualmente.
   Cambie el valor de Rugosidad para que el bordado sea áspero o brillante.
 * <b>Metálico: </b>0-1\
   Cambie el valor Metálico para añadir una sensación metálica a las roscas.
-* <b>Nivel de Anisotropía: </b>0-1\
-  Cambie el nivel de Anisotropía para acentuar la metalidad.
+* <b>Nivel de anisotropía: </b>0-1\
+  Cambia el Nivel de anisotropía para acentuar la metalidad.
 
 <b>Avanzado</b>
 
@@ -116,7 +116,7 @@ El filtro de bordado puede resultar un poco confuso al principio, pero con solo 
 
 Para utilizar el filtro Bordado:
 
-1. Añade el filtro Bordado a la pila de capas.
+1. Añada el filtro Bordado a la pila de capas.
 1. Utilice <b>Parámetros básicos > Imagen</b> para agregar una imagen al filtro o una imagen a la pila de capas debajo del filtro Bordado (no en una de las ranuras de entrada). Si una imagen no se agrega a <b>Parámetros básicos > Imagen</b>, el filtro selecciona automáticamente las imágenes de los canales de digitalización si están disponibles.
 1. Ajuste <b>Parámetros básicos > Recuento de colores </b> hasta que el equilibrio de color se vea correcto para la imagen. Con un límite de 8 colores, habilite o deshabilite los colores para aislar los colores que necesita.\
    El filtro Bordado funciona mejor con colores planos e imágenes ilustradas.

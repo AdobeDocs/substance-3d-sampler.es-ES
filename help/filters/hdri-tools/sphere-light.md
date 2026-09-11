@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/sphere-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/sphere-light.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Esfera clara de Substance 3D Sampler para añadir fuentes de luz esférica a entornos HDRI para conseguir efectos de iluminación puntual.
 helpx_creative_field: ""
@@ -53,7 +53,7 @@ Añade una luz de esfera a tu entorno.
       Seleccione el color de la luz.
   * **Entrada de imagen**
     * **Entrada de imagen de forma**: imagen/pincel\
-      Importe una imagen para utilizarla como color. Puedes usar la herramienta Pincel para pintar directamente en la **vista 2D**, pero esto puede tener resultados impredecibles con este filtro.
+      Importe una imagen para utilizarla como color. Puede usar la herramienta Pincel para realizar la pintura directamente en la **Vista 2D**, pero esto puede tener resultados impredecibles con este filtro.
   * **Fondo de muestra**
     * El fondo de muestra no ofrece nuevos parámetros, sino que basa el color de la luz en los valores del fondo.
 * **Exposición (VE)**: 0-10\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/rust.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/rust.html"
 breadcrumb-title: ''
 description: Usa el filtro de Óxido de Substance 3D Sampler para añadir efectos realistas de óxido y corrosión a los materiales y superficies metálicos.
 helpx_creative_field: ""
@@ -72,7 +72,7 @@ En las imágenes siguientes puedes ver un material metálico antes y después de
 * **Intensidad normal de cáscara**: 0-1\
   Ajuste la visibilidad de las normales de la cáscara.
 * **Intensidad del Height de pelado**: 0-1\
-  Ajuste el impacto de las cáscaras en el mapa de height.
+  Ajuste el impacto de las cáscaras en el mapa de altura.
 
 **Drips**
 
@@ -88,7 +88,7 @@ En las imágenes siguientes puedes ver un material metálico antes y después de
 * **Usar máscara**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\

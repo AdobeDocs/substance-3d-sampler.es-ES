@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/height-to-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/height-to-normal.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Height a normal de Substance 3D Sampler para convertir mapas de heightes en mapas normales para los flujos de trabajo de creación de materiales.
+description: Utilice la herramienta Height a normal de Substance 3D Sampler para convertir los mapas de altura en mapas de normales para los flujos de trabajo de creación de materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Height to Normal
 helpx_experience_level: ""
@@ -39,11 +39,11 @@ En las imágenes siguientes puedes ver el **Height a filtro normal** en acción.
 
 ![](../../assets/h2n-in.jpg)
 
-En la imagen de arriba, no hay datos normales del material. Solo está disponible el mapa del height, que se muestra en la **vista 2D**.
+En la imagen de arriba, no hay datos normales del material. Solo está disponible el mapa de altura, que se muestra en el **Vista 2D**.
 
 ![](../../assets/h2n-out.jpg)
 
-Con el filtro **Height a normal**, los datos normales se generan a partir del mapa de height que se muestra en la imagen superior. La luz rebota de forma más realista en el material de la segunda imagen gracias al mapa normal generado.
+Con el filtro **Height a normal**, los datos normales se generan a partir del mapa de altura que se muestra en la imagen superior. La luz rebota de forma más realista en el material de la segunda imagen gracias al mapa de normales generado.
 
 </td>
 </tr>
@@ -59,19 +59,19 @@ Con el filtro **Height a normal**, los datos normales se generan a partir del ma
     * **Tamaño de superficie (cm)**: 0-500\
       Establecer el tamaño del espacio UV en unidades de mundo
     * **Profundidad de Height (cm)**: 0-10\
-      Establezca la distancia representada por el mapa de height. Si el mapa de height representa una distancia pequeña, una gran diferencia en los valores del mapa de height puede tener un pequeño impacto en el ángulo normal. Si el mapa de height representa una distancia grande, una pequeña diferencia en los valores del mapa de height puede representar un ángulo grande en el mapa normal.
+      Establezca la distancia representada por el mapa de altura. Si el mapa de altura representa una distancia pequeña, una gran diferencia en los valores del mapa de altura puede tener un pequeño impacto en el ángulo normal. Si el mapa de altura representa una gran distancia, una pequeña diferencia en los valores del mapa de altura puede representar un gran ángulo en el mapa de normales.
   * **Si Usar unidades del mundo está deshabilitado:**
     * **Intensidad**: 0-3\
       Ajuste la inclinación de los ángulos normales
 * **Combinar normal inferior**: 0-1\
-  Añada la asignación normal existente a los resultados de este filtro.
+  Añada el mapa de normales existente a los resultados de este filtro.
 
 **Máscara**
 
 * **Máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfocar la máscara
   * **Máscara personalizada - Invertir**: alternar\

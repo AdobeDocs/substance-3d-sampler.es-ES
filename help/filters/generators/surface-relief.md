@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/surface-relief.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/surface-relief.html"
 breadcrumb-title: ''
 description: Utilice el generador de Relieves de superficie en Substance 3D Sampler para crear patrones de superficies en relieve y de relieve en materiales.
 helpx_creative_field: ""
@@ -49,17 +49,17 @@ Utilice el filtro Relieve de superficie para añadir ruido al material. Esto pue
   Cambiar la amplitud del ruido
 * <b>Intensidad De Desenfoque</b>: 0-1\
   Intensidad del desenfoque aplicado al ruido
-* <b>Imperfección de superficie </b>: Generador de imágenes/pinceles/texturas\
-  Utilice una imagen o un generador de texturas como imperfección de la superficie.
+* <b>Imperfección de superficie </b>: Generador de imágenes/pinceles/Texturas\
+  Utilice una imagen o un generador de Texturas para utilizarlos como imperfección de la superficie.
 
 <b>Parámetros de ruido</b>
 
-* <b>Abrazadera</b>: 0-1\
-  Fijar el ruido a un cierto rango
+* <b>Ajustar</b>: 0-1\
+  Ajustar el ruido a un rango determinado
 * <b>Contraste</b>: 0-1\
   Modificar el contraste del ruido
 * <b>Invertir</b>: alternar\
-  Invertir el mapa de height de ruido
+  Invertir el mapa de altura del ruido
 
 <b>Transformar</b>
 
@@ -76,8 +76,8 @@ Utilice el filtro Relieve de superficie para añadir ruido al material. Esto pue
 
 * <b>Usar máscara personalizada</b>: alternar\
   Active esta opción para ver los controles de Máscara personalizada :
-  * <b>Máscara</b>: image/brush/Texture Generator\
-    Importa una imagen para usarla como máscara o usa el pincel para pintar directamente en la <b>vista 2D</b>
+  * <b>Máscara</b>: Generador de imágenes/pinceles/Texturas\
+    Importa una imagen para usarla como máscara o usa el pincel para realizar la pintura directamente en <b>Vista 2D</b>
   * <b>Máscara personalizada - Desenfocar</b>: 0-1\
     Desenfocar la máscara
   * <b>Máscara personalizada - Invertir</b>: alternar
@@ -89,11 +89,11 @@ Utilice el filtro Relieve de superficie para añadir ruido al material. Esto pue
 * <b>Height - Reemplazar base</b>: alternar\
   Alternar entre reemplazar o no el height base
 * <b>Intensidad normal</b>: 0-1\
-  Ajuste la intensidad del mapa normal del ruido
+  Ajuste la intensidad del mapa de normales del ruido
 * <b>Normal - Reemplazar base</b>: alternar\
   Alternar entre reemplazar o no el mapa normal base
 * <b>Dirección normal</b>:\
   Modificar los ejes que se utilizarán para la generación normal
 * <b>Normal - Girar dirección</b>
-* <b>Oclusión ambiente - Intensidad</b>
-* <b>Oclusión ambiente - Radio</b>
+* <b>Oclusión ambiental - Intensidad</b>
+* <b>Oclusión ambiental - Radio</b>

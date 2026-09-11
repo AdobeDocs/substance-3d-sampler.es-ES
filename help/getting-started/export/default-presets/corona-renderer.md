@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/corona-renderer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/corona-renderer.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler utilizando el ajuste preestablecido de Procesador Corona para flujos de trabajo de visualización de la arquitectura.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Procesador Corona | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li><li data-preserve-html="true">SPECULAR/Brillo PBR</li></ul> | **BrilloReflejo**&#x200B;**Difuso** (\*)**ColorReflejo** (\*\*)**FresnelIOR** (\*\*\*)**Desplazamiento &#x200B;**&#x200B;**Normal**&#x200B;**&#x200B; Emisor**&#x200B;**Opacidad** |
+| Procesador Corona | <ul data-preserve-html="true"><li data-preserve-html="true">PBR Metálico/Rugosidad</li><li data-preserve-html="true">SPECULAR/Brillo de PBR</li></ul> | **Difuso****ReflectionGlossiness** (\*)**ReflectionColor** (\*\*)**FresnelIOR** (\*\*\*)**Desplazamiento normal ****Emisivo**** Opacidad****** |
 
 >[!NOTE]
 >

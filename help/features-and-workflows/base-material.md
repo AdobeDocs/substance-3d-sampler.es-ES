@@ -70,7 +70,7 @@ Para cada parámetro expuesto, el Material base proporciona dos formas de trabaj
 ### Valores uniformes (predeterminado)
 
 De forma predeterminada, los parámetros utilizan valores uniformes (reguladores o selectores de color).
-Esto te permite definir rápidamente el aspecto general de tu material sin entradas de textura.
+Esto le permite definir rápidamente el aspecto general del material sin entradas de textura.
 
 Los valores uniformes son ideales para:
 
@@ -108,9 +108,9 @@ Qué hace esto
 
 Lo que no hace
 
-* No hornea ni congela los valores
+* No hace un bake ni congele los valores
 * No impide que se sigan editando
-* No añade mapas de textura automáticamente
+* No añade automáticamente mapas de textura
 
 Puedes pensar en ello como elegir dónde empezar, no limitar a dónde puedes ir.
 

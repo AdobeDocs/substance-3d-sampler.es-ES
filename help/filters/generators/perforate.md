@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/perforate.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/perforate.html"
 breadcrumb-title: ''
 description: Utilice el generador Perforar de Substance 3D Sampler para crear patrones perforados y conjuntos de taladros en materiales y texturas.
 helpx_creative_field: ""
@@ -79,7 +79,7 @@ Utilice el filtro Perforar para añadir taladros al material.
   * **Invertir mapa de escala**: alternar\
     Invertir los valores del mapa de escala
   * **Asignación de escala personalizada**: imagen/pincel\
-    Importa una imagen para usarla como mapa de escala o usa el pincel para pintar un mapa de escala directamente en la **vista en 2D** **3&rbrace;**
+    Importa una imagen para usarla como mapa de escala o usa el pincel para pintura un mapa de escala directamente en la **vista en 2D** **3}**
 
 **Máscara**
 
@@ -91,7 +91,7 @@ Esta sección solo está visible si **Parámetros básicos > Usar máscara** est
 * **Umbral de máscara**: 0-1\
   Modifique el umbral de la máscara. Utiliza los valores de **Desenfoque de máscara** y **Umbral de máscara** para perfeccionar los bordes de tu máscara.
 * **Máscara personalizada**: imagen/pincel\
-  Importa una imagen para usarla como máscara o pinta tu propia máscara directamente en la **vista en 2D**
+  Importa una imagen para usarla como máscara o pintura de tu propia máscara directamente en **Vista 2D**
 
 **Perforación**
 
@@ -123,4 +123,4 @@ Esta sección solo está visible si **Parámetros básicos > Usar máscara** est
 * **Intensidad normal**: -1 a 1\
   Ajuste la intensidad de cada perforación normal
 * **Intensidad de Height**: 0-1\
-  Ajuste la intensidad de cada mapa de height de perforaciones
+  Ajuste la intensidad de cada mapa de altura de perforaciones

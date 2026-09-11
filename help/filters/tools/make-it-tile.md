@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/make-it-tile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/make-it-tile.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Convertir en mosaico de Substance 3D Sampler para crear automáticamente patrones de mosaico perfectos a partir de texturas que no sean de mosaico.
 helpx_creative_field: ""
@@ -64,7 +64,7 @@ Después de **Make it Tile**, este material se aleja bien y sin la línea roja, 
 * **Color Equalizer**: 0-50\
   Ecualice los valores de color para disminuir la visibilidad de la unión.
 * **Coincidencia de Height**:\
-  Cambie la forma en que se mezclan los mapas de height para las capas superior e inferior del filtro. Para ver los resultados con más claridad, vea el canal de height en la **vista 2D**. Tenga en cuenta que la coincidencia de height no afecta a los canales que no sean el canal de height, por lo que las normales y el AO no se verán afectados por los cambios en la coincidencia de height.
+  Cambie la forma en que se mezclan los mapas de altura de las capas superior e inferior del filtro. Para ver los resultados con más claridad, vea el canal de height en el **Vista 2D**. Tenga en cuenta que la coincidencia de height no afecta a los canales que no sean el canal de height, por lo que las normales y el AO no se verán afectados por los cambios en la coincidencia de height.
 
 **Parámetros avanzados**
 

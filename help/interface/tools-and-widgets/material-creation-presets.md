@@ -27,7 +27,7 @@ Para crear un material utilizando una plantilla:
 
 Abra el cuadro de diálogo Crear material nuevo. Seleccione una plantilla de las pestañas Predefinidas o Personalizadas. Ajuste la configuración del material (nombre, resolución, modelo de material, canales). Haga clic en Crear para empezar a trabajar con el material configurado.
 
-La plantilla seleccionada define la estructura inicial del material, incluidos los canales que están activados y cómo se configuran en la pila de capas.
+La plantilla seleccionada define la estructura inicial del material, incluidos los canales que están activados y cómo se configuran en la Pila de capas.
 
 ## Categorías de ajustes preestablecidos
 
