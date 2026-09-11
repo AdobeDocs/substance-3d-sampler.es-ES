@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/arnold-5.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/arnold-5.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler utilizando el ajuste preestablecido de Arnold 5 para la compatibilidad con el motor de procesamiento de Arnold.
 helpx_creative_field: ""

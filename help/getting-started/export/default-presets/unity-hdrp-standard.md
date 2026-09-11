@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unity-hdrp-standard.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/unity-hdrp-standard.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales desde Substance 3D Sampler utilizando el ajuste preestablecido Unity HDRP Standard para la tubería de procesamiento de alta definición.
 helpx_creative_field: ""

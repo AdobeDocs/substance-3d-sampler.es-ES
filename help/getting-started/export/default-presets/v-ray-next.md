@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/v-ray-next.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/v-ray-next.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler utilizando el ajuste preestablecido V-Ray Next para la compatibilidad con la representación de V-Ray.
 helpx_creative_field: ""

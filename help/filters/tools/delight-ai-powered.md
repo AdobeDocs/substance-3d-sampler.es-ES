@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/delight-ai-powered.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/delight-ai-powered.html"
 breadcrumb-title: ''
 description: Utiliza el filtro de Deleite de Substance 3D Sampler, impulsado por IA, para eliminar la información de iluminación de las imágenes y crear materiales base neutros.
 helpx_creative_field: ""

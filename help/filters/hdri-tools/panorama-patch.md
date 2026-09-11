@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/panorama-patch.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/panorama-patch.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Parche panorámico de Substance 3D Sampler para aplicar parches y reparar áreas en imágenes de entorno HDRI panorámicas.
 helpx_creative_field: ""

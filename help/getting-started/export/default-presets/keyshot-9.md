@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/keyshot-9.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/keyshot-9.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler utilizando el ajuste preestablecido de Keyshot 9 para la compatibilidad con el procesamiento de Keyshot.
 helpx_creative_field: ""

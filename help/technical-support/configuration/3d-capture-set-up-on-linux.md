@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/configuration/3d-capture-set-up-on-linux.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/configuration/3d-capture-set-up-on-linux.html"
 breadcrumb-title: ''
 description: Aprenda a configurar Captura 3D en Linux para Substance 3D Sampler instalando Wine 8 y configurando los requisitos del sistema.
 helpx_creative_field: ""

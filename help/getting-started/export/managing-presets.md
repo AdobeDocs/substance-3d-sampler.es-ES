@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/managing-presets.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/managing-presets.html"
 breadcrumb-title: ''
 description: Aprenda a administrar los ajustes preestablecidos de exportación en Substance 3D Sampler para configurar materiales para diferentes aplicaciones y canalizaciones.
 helpx_creative_field: ""

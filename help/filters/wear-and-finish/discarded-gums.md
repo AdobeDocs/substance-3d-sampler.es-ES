@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/discarded-gums.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/discarded-gums.html"
 breadcrumb-title: ''
 description: Usa el filtro Encías descartadas de Substance 3D Sampler para añadir residuos de encías y efectos de superficie adhesivos a tus materiales.
 helpx_creative_field: ""

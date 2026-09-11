@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/cracks.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/cracks.html"
 breadcrumb-title: ''
 description: Usa el filtro Grietas de Substance 3D Sampler para añadir patrones de grietas realistas y efectos de daño de la superficie a tus materiales.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/interface-issues/main-interface-is-transparent.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues/interface-issues/main-interface-is-transparent.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar problemas de interfaz transparente en Substance 3D Sampler ajustando la configuración del controlador de la GPU y las opciones de suavizado.
 helpx_creative_field: ""

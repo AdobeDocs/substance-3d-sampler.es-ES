@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/straighten-horizon.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/straighten-horizon.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Enderezar horizonte de Substance 3D Sampler para corregir la alineación del horizonte en imágenes de entorno HDRI.
 helpx_creative_field: ""

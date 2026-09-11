@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/features-and-workflows/flatten-layers.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/features-and-workflows/flatten-layers.html"
 breadcrumb-title: ''
 description: Aprende a acoplar capas en Substance 3D Sampler para mejorar el rendimiento y simplificar la pila de capas mientras conoces el impacto.
 helpx_creative_field: ""

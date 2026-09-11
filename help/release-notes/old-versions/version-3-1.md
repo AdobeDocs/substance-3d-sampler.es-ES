@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-3-1.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/old-versions/version-3-1.html"
 breadcrumb-title: ''
 description: Consulte las notas de la versión 3.1 de Substance 3D Sampler para obtener más información sobre el selector de color, la compatibilidad con SVG y las mejoras en la interoperabilidad.
 helpx_creative_field: ""

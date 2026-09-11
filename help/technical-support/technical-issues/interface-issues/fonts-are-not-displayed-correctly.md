@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support/technical-issues/interface-issues/fonts-are-not-displayed-correctly.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support/technical-issues/interface-issues/fonts-are-not-displayed-correctly.html"
 breadcrumb-title: ''
 description: Obtenga información sobre cómo solucionar problemas de visualización de fuentes en Substance 3D Sampler en sistemas Windows Enterprise con bloqueo de fuentes que no son de confianza activado.
 helpx_creative_field: ""

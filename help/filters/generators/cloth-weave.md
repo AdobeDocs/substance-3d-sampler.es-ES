@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/cloth-weave.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/cloth-weave.html"
 breadcrumb-title: ''
 description: Usa el generador de tejido de tela de Substance 3D Sampler para crear patrones de tejido y texturas textiles para la creación de materiales.
 helpx_creative_field: ""

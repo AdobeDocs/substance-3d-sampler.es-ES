@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish/dirt.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/dirt.html"
 breadcrumb-title: ''
 description: Usa el filtro de Dirt de Substance 3D Sampler para añadir efectos realistas de acumulación de dirt y suciedad a tus materiales y texturas.
 helpx_creative_field: ""

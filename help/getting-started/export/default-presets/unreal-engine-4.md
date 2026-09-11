@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/unreal-engine-4.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/unreal-engine-4.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler mediante el ajuste preestablecido Unreal Engine 4 para flujos de trabajo de desarrollo de juegos.
 helpx_creative_field: ""

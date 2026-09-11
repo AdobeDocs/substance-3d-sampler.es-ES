@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools/make-it-tile.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/make-it-tile.html"
 breadcrumb-title: ''
 description: Utilice la herramienta Convertir en mosaico de Substance 3D Sampler para crear automáticamente patrones de mosaico perfectos a partir de texturas que no sean de mosaico.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/brickwall.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/brickwall.html"
 breadcrumb-title: ''
 description: Usa el generador de paredes de ladrillo en Substance 3D Sampler para crear patrones realistas de paredes de ladrillo y texturas de mampostería para materiales.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/pipeline-and-integrations/environment-variables.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/pipeline-and-integrations/environment-variables.html"
 breadcrumb-title: ''
 description: Aprenda a utilizar variables de entorno en Substance 3D Sampler para anular el comportamiento predeterminado de la aplicación y configurar los ajustes.
 helpx_creative_field: ""

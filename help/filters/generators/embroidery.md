@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/generators/embroidery.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/embroidery.html"
 breadcrumb-title: ''
 description: Usa el generador de bordados de Substance 3D Sampler para crear patrones de tejidos bordados y texturas de pespunte para los materiales.
 helpx_creative_field: ""

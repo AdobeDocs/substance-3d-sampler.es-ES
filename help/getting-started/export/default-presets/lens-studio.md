@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/getting-started/export/default-presets/lens-studio.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export/default-presets/lens-studio.html"
 breadcrumb-title: ''
 description: Aprenda a exportar materiales de Substance 3D Sampler mediante el ajuste preestablecido Lens Studio para los flujos de trabajo de desarrollo de lentes de realidad aumentada de Snapchat.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: Utilice la herramienta de Nadir patch de Substance 3D Sampler para parchear el área de nadir de las imágenes HDRI y obtener mapas de entorno perfectos.
 helpx_creative_field: ""

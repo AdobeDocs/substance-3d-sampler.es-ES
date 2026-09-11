@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/3d-capture/editing-3d-captured-meshes.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/3d-capture/editing-3d-captured-meshes.html"
 breadcrumb-title: ''
 description: Aprenda a editar mallas capturadas en 3D en Substance 3D Sampler para perfeccionar la geometría, corregir problemas y optimizar la calidad de la malla.
 helpx_creative_field: ""

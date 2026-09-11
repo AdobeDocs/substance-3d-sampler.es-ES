@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/tools.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools.html"
 breadcrumb-title: ''
 description: Aprenda a usar filtros de herramientas en Substance 3D Sampler para solucionar problemas técnicos y mejorar los flujos de trabajo de creación de materiales.
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ Sampler incluye las siguientes herramientas:
 * [Coincidencia](match.md)
 * [Multiángulo a material](multiangle-to-material.md)
 * [Normal al Height](normal-to-height.md)
-* [Deformación de pintura](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/paint-warp-255426602.html)
+* [Deformación de pintura](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sadoc/paint-warp-255426602.html)
 * [Validación PBR](pbr-validate.md)
 * [Corrección de perspectiva](perspective-correction.md)
 * [Mosaico](tiling.md)

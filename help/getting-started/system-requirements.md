@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html'
+helpx_url: 'https://helpx.adobe.com/es/substance-3d-sampler/getting-started/system-requirements.html'
 breadcrumb-title: ''
 description: Revise los requisitos del sistema de Substance 3D Sampler para asegurarse de que el hardware y el software cumplen los estándares de compatibilidad.
 helpx_creative_field: ''
@@ -95,7 +95,7 @@ A continuación se muestra una lista de hardware y sistemas compatibles con la a
 
 A continuación se muestra una lista de las versiones mínimas del controlador de la GPU necesarias para que la aplicación se ejecute sin problemas. Esta lista está sujeta a cambios a medida que se lancen nuevas versiones.
 
-Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SO | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |

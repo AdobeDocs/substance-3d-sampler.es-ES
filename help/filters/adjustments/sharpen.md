@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/sharpen.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/sharpen.html"
 breadcrumb-title: ''
 description: Utilice el filtro Perfilar de Substance 3D Sampler para mejorar la nitidez y los detalles de la imagen en texturas y capas de materiales.
 helpx_creative_field: ""

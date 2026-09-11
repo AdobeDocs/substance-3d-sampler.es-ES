@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/filters/wear-and-finish.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish.html"
 breadcrumb-title: ''
 description: Aprenda a usar los filtros Desgaste y Acabado en Substance 3D Sampler para añadir efectos de intemperismo, envejecimiento y acabado superficial a los materiales.
 helpx_creative_field: ""
