@@ -13,4 +13,4 @@ ht-degree: 0%
 
 Los canales subsuperficiales son útiles para materiales opacos pero translúcidos, imitando el efecto de la dispersión de luz debajo de la superficie del material. Este efecto suele producirse con materiales como la piel, las hojas y muchos plásticos. Vea el siguiente vídeo para obtener más información sobre los parámetros de la subsuperficie y utilizarlos para crear un material de resina.
 
->[!VIDEO](https://video.tv.adobe.com/v/3483521)
+>[!VIDEO](https://video.tv.adobe.com/v/3483546?captions=spa)
