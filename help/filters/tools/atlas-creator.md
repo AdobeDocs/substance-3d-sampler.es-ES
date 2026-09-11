@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/atlas-creator.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Atlas Creator en Substance 3D Sampler para crear atlas de texturas a partir de varias imágenes para una organización eficaz del material.
+description: Utilice la herramienta Atlas Creator en Substance 3D Sampler para crear atlas de textura a partir de varias imágenes para una organización eficaz del material.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Atlas Creator
 helpx_experience_level: ""
@@ -78,11 +78,11 @@ Antes de usar el **filtro Atlas Creator**, es recomendable que te asegures de qu
 1. Importe la imagen de origen a la pila de capas.
 1. Si se le solicita que seleccione una plantilla de creación de material, seleccione Imagen a material. De lo contrario, con la imagen en la pila de capas, añade un filtro **Imagen a material (impulsado por IA)** encima de la imagen.
 1. Espera a que el filtro **Imagen a material** convierta tu imagen de origen en un material. Ajuste los parámetros hasta que esté satisfecho con el resultado.
-1. Agregue el **filtro Creador de Atlas** a la parte superior de la pila de capas.
+1. Agregue el **filtro Atlas Creator** a la parte superior de la pila de capas.
 1. Ajusta los parámetros del **Creador de Atlas** hasta que te guste el resultado.
 
 1. Añada la imagen a la pila de capas. Si se le solicita que seleccione una plantilla de creación de material, seleccione **Usar como mapa de bits**.
 1. Con la capa de imagen seleccionada, en el **panel Propiedades**, cambia **Uso de salida** a **Color base**.
-1. Agregue **Atlas Creator** a la parte superior de la pila de capas.
-1. Ajuste los parámetros del **Creador de Atlas** hasta que esté satisfecho con los resultados: vea el canal de opacidad en la **vista 2D** para ver los resultados del filtro con mayor claridad.
+1. Agrega **Atlas Creator** a la parte superior de la pila de capas.
+1. Ajusta los parámetros del **Creador de Atlas** hasta que te guste el resultado: consulta el canal de opacidad en el **Vista 2D** para ver los resultados del filtro con mayor claridad.
 1. Use el **panel Exportar** para exportar los canales generados.

@@ -36,7 +36,7 @@ Más información *[aquí](../filters/tools/auto-tiling.md)*.
 
 ## Flujos de trabajo de capa eficientes
 
-Aumenta el rendimiento y reduce el tiempo de cálculo con la capa Acoplar transformando las capas apiladas en un único conjunto de mapas dentro de una capa unificada. Cambie el nombre y duplíquelas para obtener más eficacia.
+Aumente el rendimiento y reduzca el tiempo de cálculo con la capa Acoplar transformando los resultados de las capas apiladas en un único conjunto de mapas dentro de una sola capa unificada. Cambie el nombre y duplíquelas para obtener más eficacia.
 
 Más información *[aquí](../features-and-workflows/flatten-layers.md)*.
 
@@ -44,7 +44,7 @@ Más información *[aquí](../features-and-workflows/flatten-layers.md)*.
 
 ## Herramientas potentes para el procesamiento de escaneo
 
-Con los filtros mejorados Ecualizar y Tampón de clonar, además de una nueva función de eliminación automática de pliegues para las telas, puedes conseguir escaneos perfectos con solo unos clics, independientemente de la complejidad del material.
+Con los filtros de sello de ecualización y Clonar mejorados, además de una nueva función de eliminación automática de pliegues para las telas, puedes lograr escaneos perfectos con solo unos clics, sin importar lo complejo que sea el material.
 
 ![](../assets/WhatsNew_Equalize-5_1.jpg)
 
@@ -60,8 +60,8 @@ Ahora, con la generación de mapas de rugosidad y la detección automática de t
 
 ## Añadido:
 
-* [Vista 2D] El tamaño del pincel ahora se adapta a la resolución de textura actual
-* [Vista 3D] Alterne la escala de visualización nativa para el procesamiento 3D en las preferencias
+* [vista 2D] El tamaño del pincel ahora se adapta a la resolución de textura actual
+* [Vista 3D] Cambiar la escala de visualización nativa para el procesamiento 3D en las preferencias
 * [Aplicación] Actualización del motor de procesamiento
 * [Captis] Añadir la posibilidad de &quot;hacer cuadrado&quot; durante la previsualización
 * [Captis] Detección automática de tamaños físicos
@@ -72,13 +72,13 @@ Ahora, con la generación de mapas de rugosidad y la detección automática de t
 * [Captis] Avisar al usuario si faltan los archivos de calibración predeterminados
 * [Filters] Filtro de segmentación automática para escaneos y materiales estructurados
 * [Filters] Nuevo filtro Eliminador de plegado
-* [Filters] Nuevas funciones del filtro Tampón de clonar
+* [Filters] Nuevas funciones del filtro Sello de Clonar
 * [Filters] Nuevas funciones del filtro Ecualizar
 * [Capas] Capacidad para acoplar capas
 * [Capas] Menú contextual al hacer clic con el botón derecho en una capa para cambiar el nombre, duplicar, eliminar o acoplar la capa
 * [Onboarding] Actualización Bienvenida y contenido de las pantallas Novedades
 * [Rendimiento] Mejor rendimiento al utilizar el filtro Recortar
-* [Rendimiento] Mejora del uso de memoria para la vista 3D
+* [Rendimiento] Mejorar el uso de memoria para la Vista 3D
 * [Rendimiento] La actualización de la vista 3D es más rápida
 * [Tamaño físico] Habilitar &quot;visualización con proporción física&quot; al trabajar con filtros de Substance cuando el Tamaño físico está habilitado
 * [Tamaño físico] Al importar imágenes en una pila vacía, proponga una resolución más coherente con la proporción de imágenes
@@ -91,27 +91,27 @@ Ahora, con la generación de mapas de rugosidad y la detección automática de t
 
 ## Corregido:
 
-* [Vista 2D] La selección de &quot;Mostrar con proporción física&quot; puede no funcionar al utilizar filtros de Substance
+* [vista 2D] Es posible que la selección de &quot;Mostrar con proporción física&quot; no funcione al utilizar filtros de Substance.
 * [captura 3D] Los archivos SVG aparecen en el selector de archivos, pero no son compatibles
-* [Vista 3D] El parámetro de intensidad de emisión de la configuración del sombreado no funciona
+* [Vista 3D] El parámetro de intensidad de emisión en la configuración del Sombreador no funciona
 * [Vista 3D] En ocasiones, la posición de la malla es incorrecta al crear un activo nuevo
-* [Vista 3D] El cambio al procesamiento de seguimiento de trazado de trazado se bloquea en el hardware no compatible
+* [Vista 3D] Cambiar a bloqueos de procesamiento de seguimiento de trazado en hardware no compatible
 * [Aplicación] La aplicación se bloquea al cerrar la ventana emergente de medida manual sin establecer un tamaño
 * Bloqueo de [aplicación]
-* [Aplicación] Bloqueo en Windows al mostrar el escritorio (tecla Windows + método abreviado de teclado D)
+* [Aplicación] Bloqueo en Windows al mostrar el escritorio (tecla Windows + método abreviado D)
 * [Aplicación] Posible bloqueo al cambiar de idioma
 * [Captis] Bloqueo cuando los datos de vista previa no son válidos
 * [Captis] No es posible reducir completamente el zoom después de acercarlo
 * [Captis] Falta la localización en algunos pasos del asistente
 * [Captis] Posible bloqueo al salir al utilizar Captis
 * [Captis] El análisis no funciona si el dispositivo carece de archivos de calibración
-* [Filtros] La vista previa del pincel al utilizar el filtro Tampón de clonar puede ser incorrecta en función de la textura y los tamaños de pincel
+* [Filtros] La vista previa del pincel al utilizar el filtro Tampón de Clonar puede ser incorrecta en función de la textura y los tamaños de pincel
 * [Filters] Tamaño de salida incorrecto después de utilizar el filtro de aumento de escala
 * [Filters] Faltan iconos para los filtros de rotación de entorno y estilización
 * [Filters] Si se actualizan algunos filtros, el procesamiento puede ser incorrecto
 * [Capas] Primer procesamiento incorrecto al mezclar dos materiales
 * [Capas] El botón para actualizar capas muestra &quot;Actualizar todo&quot; incluso cuando solo hay una actualización
-* [Capas] Cálculos innecesarios al importar imágenes en la pila de capas
+* [Layers] Cálculos innecesarios al importar imágenes en la pila de capas
 * [Rendimiento] Mejora el control de formatos de mapa de normales para reducir los tiempos de procesamiento
 * [Tamaño físico] La ventana emergente de medición manual solo funciona después de realizar una medición automática
 * [Tamaño físico] Resolución de exportación incorrecta en la ventana emergente de exportación cuando se activa el Tamaño físico
@@ -123,7 +123,7 @@ Ahora, con la generación de mapas de rugosidad y la detección automática de t
 * [UI] El botón Restablecer el valor predeterminado para el parámetro de punto de vista no funciona
 * [UI] Se restablece la superposición del botón de valor predeterminado
 * [UI] Algunos botones no se pueden hacer clic cuando un panel no está acoplado
-* [UI] Parámetro V de segmentación de texturas parcialmente oculto en Ajustes del visor y Vista 3D
+* [UI] Parámetro V de segmentación de Textura parcialmente oculto en Configuración y Vista 3D del visor
 
 ## Eliminado:
 

@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/Assets-panel-gen.png.img.png)
 
-El **panel Activos** contiene activos que puedes usar para crear tus creaciones. Sampler incluye una colección de materiales, filtros y generadores de texturas para que puedas ponerte en marcha.
+El **panel Activos** contiene activos que puedes usar para crear tus creaciones. Sampler incluye una colección de materiales, filtros y generadores de textura para que pueda empezar a trabajar.
 
 El **panel Activos** tiene algunos controles para ayudar a organizar y encontrar activos:
 
@@ -37,9 +37,9 @@ Para agregar tus propios activos al panel de activos, haz clic en **+** en la es
 
 ## Activar canales adicionales
 
-Al arrastrar y soltar materiales desde el panel de activos a la pila de capas, es posible que se te ofrezca activar canales adicionales. Se ofrece cuando el material emite un canal que no está activado actualmente en su activo. Es posible que desee activarlo si desea beneficiarse de toda la complejidad del material, como algunos efectos de anisotropía o revestimiento.
+Al arrastrar y soltar materiales desde el panel de recursos a la pila de capas, es posible que se te ofrezca activar canales adicionales. Se ofrece cuando el material emite un canal que no está activado actualmente en su activo. Es posible que desee activarlo si desea beneficiarse de toda la complejidad del material, como algunos efectos de anisotropía o revestimiento.
 
-![aparece la activación de canal cuando se agrega un material a la pila de capas](../../../help/assets/sampler_assets-panel_additional-channels-activation.png)
+![aparece la activación del canal cuando se agrega un material a la pila de capas](../../../help/assets/sampler_assets-panel_additional-channels-activation.png)
 
 >[!NOTE]
 >

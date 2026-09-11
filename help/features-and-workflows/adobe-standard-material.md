@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/features-and-workflows/adobe-standard-material.html"
 breadcrumb-title: ''
-description: Aprenda a utilizar Adobe Standard Material en Substance 3D Sampler para crear materiales compatibles con el estándar de materiales de Adobe.
+description: Aprenda a usar Adobe Standard Material en Substance 3D Sampler para crear materiales compatibles con el estándar de materiales de Adobe.
 helpx_creative_field: ""
 helpx_description: Sampler > Features and workflows > Adobe Standard Material
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> Substance 3D Sampler ahora utiliza de forma predeterminada el modelo de material [OpenPBR](openpbr.md) en lugar de Adobe Standard Material.
+> Substance 3D Sampler ahora utiliza de forma predeterminada el modelo de material [OpenPBR](openpbr.md) en lugar del Adobe Standard Material.
 
 
 ## Propiedades de material estándar
@@ -77,7 +77,7 @@ La intensidad del efecto normal.
 
 **Combinar normal y height**
 
-Aplica la textura normal sobre la textura del height.
+Aplica la textura normal en la parte superior de la textura de height.
 
 **Height**
 
@@ -93,7 +93,7 @@ Valor de la textura de height que representa el desplazamiento cero.
 
 **Nivel de Anisotropía**
 
-La cantidad de reflejos que se estiran en una dirección a lo largo de la superficie.
+Cantidad de reflejos que estiran en una dirección a lo largo de la superficie.
 
 ![](../assets/surface-anisotropy.jpg)
 
@@ -133,7 +133,7 @@ Suavidad del efecto brillo.
 
 ## Propiedades interiores
 
-**Transparencia**
+**Translucidez**
 
 Cantidad de luz capaz de transmitir a través de la superficie.
 
@@ -203,19 +203,19 @@ Multiplicador del thickness de volumen.
 
 ## Propiedades de capa
 
-**Opacidad de la capa**
+**Opacidad de capa**
 
 Simula una capa sobre el material. Se utiliza para crear capas, lacas y barnices transparentes.
 
 ![](../assets/coat-coatopacity.jpg)
 
-**Color de la capa**
+**Color de capa**
 
 El color del abrigo.
 
 ![](../assets/coat-coatcolor.jpg)
 
-**Rugosidad del abrigo**
+**Rugosidad de capa**
 
 Qué tan suave o mate es la superficie de la capa.
 
@@ -227,18 +227,18 @@ La cantidad de luz se dobla a medida que pasa a través de la capa.
 
 ![](../assets/cooat-coatior.jpg)
 
-**specular level de abrigo**
+**Nivel especular de capa**
 
 La intensidad de los reflejos de luz en la capa en ángulos de mirada.
 
 ![](../assets/coat-coatspecular.jpg)
 
-**Abrigo normal**
+**Normal de capa**
 
 Simule los detalles de la superficie, como los golpes y las grietas, en la superficie de la capa.
 
 ![](../assets/coat-coatnormal.jpg)
 
-**Recubrir escala normal**
+**escala de Normal de capa**
 
-La intensidad del efecto normal de la capa.
+La intensidad del efecto normal de capa.

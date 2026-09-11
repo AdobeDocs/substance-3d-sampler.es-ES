@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/pattern.html"
 breadcrumb-title: ''
-description: Utilice el generador de motivos de Substance 3D Sampler para crear patrones de procedimiento y diseños repetidos para texturas de materiales.
+description: Utilice el generador de motivos de Substance 3D Sampler para crear motivos procedimientos y diseños repetidos para texturas de materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Generators > Pattern
 helpx_experience_level: ""
@@ -78,11 +78,11 @@ Añade un motivo a tu material desde una de las opciones disponibles o usa una i
   Establecer la rugosidad del color seleccionado depende de la <b>Cantidad de color</b>
 * <b>Metálico</b>: 0-1\
   Establecer la rugosidad del color seleccionado depende de la <b>Cantidad de color</b>
-* <b>Modo de relieve</b>: alternar\
-  Seleccione la dirección del relieve del color seleccionado, según la <b> Cantidad de color</b>
-* <b>Intensidad de relieve: </b>0-1<b>\
+* <b>Modo Relieve</b>: alternar\
+  Seleccionar la dirección del Relieve del color seleccionado, depende de la <b> Cantidad de color</b>
+* <b>Intensidad de Relieve: </b>0-1<b>\
   </b>Ajustar la intensidad del relieve del color seleccionado, depende de la<b> Cantidad de color</b>
-* <b>Distancia de relieve: </b>0-1\
+* <b>Distancia de Relieve: </b>0-1\
   Estirar y suavizar la zona de relieve del color seleccionado, depende de la <b> Cantidad de color</b>
-* Granulado en relieve <b>: </b>0-1\
+* <b>Grano de Relieve: </b>0-1\
   Agregar granulado en el color seleccionado, dependiendo de la <b>Cantidad de color</b>

@@ -39,11 +39,11 @@ A continuación puedes ver lo que hace el **filtro de vista previa de exposició
 
 ![](../../assets/3d-2d-filters-cropped-0029-exposure-preview-in.jpg)
 
-En la imagen anterior, se ha creado una luz de ambiente y los datos de la imagen HDR son visibles en la **vista 2D**.
+En la imagen anterior, se ha creado una luz ambiental y los datos de HDR. image están visibles en **Vista 2D**.
 
 ![](../../assets/filters-cropped-0028-exposure-preview-out.jpg)
 
-Con el **filtro de vista previa de exposición**&#x200B;**añadido a la pila de capas, un nuevo canal, Diagnóstico de entorno, estará disponible para mostrar la luz del entorno en diversas exposiciones.**
+Con el **filtro de vista previa de exposición**&#x200B;**añadido a la pila de capas, un nuevo canal, Diagnóstico de entorno, estará disponible para mostrar la luz ambiental en diversas exposiciones.**
 
 </td>
 </tr>
@@ -60,6 +60,6 @@ Con el **filtro de vista previa de exposición**&#x200B;**añadido a la pila de 
 
 ## Guía de uso
 
-El **filtro de vista previa de exposición** funciona de manera un poco diferente a otros filtros de Sampler. Se trata de una herramienta cuyo objetivo es ayudar a encontrar la exposición correcta de la luz de tu entorno, pero que en realidad no afecta en absoluto al canal de entorno. En su lugar, al añadir el **filtro de vista previa de exposición** a la pila de capas, se puede ver un canal adicional en la **vista 2D**: el canal de diagnóstico de entorno.
+El **filtro de vista previa de exposición** funciona de manera un poco diferente a otros filtros de Sampler. Se trata de una herramienta cuyo objetivo es ayudar a encontrar la exposición correcta para tu luz ambiental, pero que en realidad no afecta en absoluto al canal de Entorno; en su lugar, cuando añades el **filtro de Vista previa de exposición** a la pila de capas, se dispone de un canal adicional para ver en el **Vista 2D**: el canal de Diagnóstico de entorno.
 
 Si visualiza el canal de diagnóstico de entorno, debería poder ver algunas instancias de la imagen de entorno 2D con distintos valores de exposición. Ajuste los parámetros del **filtro de vista previa de exposición** para cambiar el intervalo de exposiciones visibles en el canal de diagnóstico de entorno.

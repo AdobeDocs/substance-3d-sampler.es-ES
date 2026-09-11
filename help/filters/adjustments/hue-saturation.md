@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/adjustments/hue-saturation.html"
 breadcrumb-title: ''
-description: Utilice el filtro Tono/Saturación en Substance 3D Sampler para ajustar los valores de tono, saturación y luminosidad en texturas y materiales.
+description: Utilice el filtro Tono/Saturación de Substance 3D Sampler para ajustar los valores de tono, saturación y luminosidad en texturas y materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Adjustments > HueSaturation
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Descripción
 
-El filtro Tono/Saturación le permite ajustar el color de su color base y difundir canales. También puede utilizar una máscara para modificar específicamente los colores solo de partes de la imagen.
+El filtro Tono/Saturación le permite ajustar el color del color base y difundir canales. También puede utilizar una máscara para modificar específicamente los colores solo de partes de la imagen.
 
 Las imágenes siguientes muestran el **filtro Tono/Saturación** que se usa para ajustar el Tono de un material de mosaico.
 
@@ -65,16 +65,16 @@ Las imágenes siguientes muestran el **filtro Tono/Saturación** que se usa para
 * **Saturación**: -1 a 1\
   Ajuste la saturación para hacer que los colores resalten o disminuya la intensidad del color.
 * **Luminosidad**: -1 a 1\
-  Modifica la luminosidad de los colores.
+  Modifique la luminosidad de los colores.
 * **Colorear**: alternar\
-  Cuando está desactivado, el filtro ajusta los colores que ya están presentes. Cuando está activado, el filtro reemplazará los colores en función de los reguladores Tono, Saturación y Luminosidad, al tiempo que mantiene los detalles.
+  Cuando está desactivado, el filtro ajusta los colores que ya están presentes. Cuando está activado, el filtro reemplaza los colores en función de los reguladores de Tono, Saturación y Luminosidad, al tiempo que mantiene los detalles.
 
 **Máscara**
 
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfocar la máscara
   * **Máscara personalizada - Invertir**: alternar\

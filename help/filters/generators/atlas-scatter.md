@@ -57,7 +57,7 @@ Al agregar el **filtro de Atlas scatter** con un atlas de piedras, el material s
   Número de instancias en el eje X
 * **Importe Y**: 1-64\
   Número de instancias en el eje Y
-* **Modo de fusión**:\
+* **Modo de Fusión**:\
   Método utilizado para fusionar con capas subyacentes
 * **Escala**: 0-5\
   Escala de instancias
@@ -125,7 +125,7 @@ Al agregar el **filtro de Atlas scatter** con un atlas de piedras, el material s
   Añada o reste valores de rugosidad de cada instancia.
 * **Aleatorio normal**: 0-1\
   Rotar normales de cada instancia mediante un valor aleatorio por instancia
-* **Recalcular Oclusión ambiental**: alternar\
+* **Actualizar Oclusión ambiental**: alternar\
   Si está activada, los valores de Oclusión ambiental se recalcularán en función de los valores de height modificados
 
 **Detección de formas en Atlas**
@@ -148,7 +148,7 @@ El filtro de Atlas scatter es una forma útil de dispersión de recursos en el m
 
 Para utilizar el filtro de Atlas scatter:
 
-1. Añadir el Atlas scatter a la pila de capas
+1. Añadir el filtro de Atlas scatter a la pila de capas
 1. Debajo de la capa de Atlas scatter, aparecerá una ranura de entrada
 1. Arrastre el material del atlas a la ranura de entrada de Atlas scatter
 

@@ -73,7 +73,7 @@ Se han añadido nuevas funciones de exportación a esta versión.
 
   ![](../../assets/compressionsbsar.png){width="400px"}
 * Definir el tipo de gráfico al exportar un archivo .sbs(ar)
-* Mantener la proporción física para EXR, JPEG, PNG, TARGA, TIFF
+* Mantener proporción física para EXR, JPEG, PNG, TARGA, TIFF
 
   ![](../../assets/screenshot-2022-02-16-at-15-28-09.png){width="400px"}
 
@@ -94,12 +94,12 @@ Se han añadido nuevas funciones de exportación a esta versión.
 * [Tamaño físico] Widget desplegable para establecer el nivel de zoom en la vista 2D
 * [Tamaño físico] Nueva opción &quot;Mostrar con proporción física&quot; en el menú desplegable de nivel de zoom
 * [Tamaño físico] Nueva opción &quot;Ajustar al tamaño físico&quot; en el menú desplegable de nivel de zoom
-* [Tamaño físico] Mostrar el Tamaño físico en la vista 2D
+* [Tamaño físico] Mostrar el Tamaño físico en el Vista 2D
 * [Tamaño físico] Mostrar el Tamaño físico en la ventana gráfica 3D
-* [Tamaño físico] En el cuadro de diálogo de importación de imágenes, mostrar profundidad de tamaño físico si hay un mapa de height importado
+* [Tamaño físico] En el cuadro de diálogo de importación de imágenes, mostrar profundidad de tamaño físico si hay un mapa de altura importado
 * [Tamaño físico] Mostrar el Tamaño físico en el menú contextual del recurso
 * [Tamaño físico] Establezca la unidad de longitud en Preferencias
-* [Tamaño físico] Exportar texturas respetando la proporción física
+* [Tamaño físico] texturas de exportación que respetan la proporción física
 * [Metadatos] Posibilidad de añadir metadatos personalizados a un activo creado por el usuario
 * [Exportar] Exportar metadatos personalizados a archivos .sbs(ar)
 * [Exportar] Exportar descripción, categoría, autor y etiquetas de metadatos a archivos .sbs(ar)
@@ -121,21 +121,21 @@ Se han añadido nuevas funciones de exportación a esta versión.
 * [Contenido] Nuevo filtro de cambio de canal
 * [Contenido] Todos los filtros relevantes ahora conocen el Tamaño físico
 * [Contenido] Nuevos iconos para Acabado en Madera
-* [Contenido] Todos los filtros ahora son compatibles con los canales de Adobe de materiales estándar (ASM)
+* [Contenido] Todos los filtros ahora son compatibles con los canales de Adobes Standards Materiales (ASM)
 * [Contenido] Los filtros ahora pueden tener una variación de &quot;entorno&quot;
 
 **Corregido:**
 
-* [Vista 2D] El canal permanece en la lista cuando se elimina
+* [vista 2D] El canal permanece en la lista cuando se elimina
 * [Aplicación] No se puede duplicar un recurso cargado desde el explorador de archivos del sistema operativo
-* [Application] Bloqueo al salir
-* [Aplicación] A veces se produce un bloqueo al hacer clic en &quot;Activos iniciales&quot; en el panel Activos
-* [Aplicación] Bloqueo al eliminar un material
+* bloqueo [Aplicación] al salir
+* [Aplicación] Bloqueo a veces al hacer clic en &quot;Activos iniciales&quot; en el panel Activos
+* [Aplicación] Bloqueo al borrar un material
 * [Aplicación] La variable de entorno &quot;SUBSTANCE\_DISABLE\_SPECIFIC\_FEATURES&quot; sigue activa cuando se establece en &quot;0&quot; o &quot;&quot;.
 * [Aplicación] Bloqueo al guardar un proyecto con varios materiales
 * [Aplicación] Importar una imagen puede provocar un bloqueo
 * [Aplicación] Faltan algunos recursos de inicio en el primer inicio
-* [Exportar] La exportación de un recurso a veces produce un bloqueo
+* [Exportar] Al exportar un contenido, a veces se produce un bloqueo
 * [Capas] No se pueden importar imágenes cuando el panel de capas está cerrado o es invisible
 * [Capas] Cambiar el idioma hace que el activo actual se vuelva a calcular
 * [Layers] Cambiar el uso de una imagen importada no actualiza qué variación de filtro usar
@@ -146,8 +146,8 @@ Se han añadido nuevas funciones de exportación a esta versión.
 * [Capas] Algunas capas se siguen calculando incluso cuando no están visibles
 * [Capas] Las herramientas de la vista 2D pueden romperse al cambiar la visibilidad de una capa
 * [Capas] La interfaz de usuario se bloquea al utilizar Imagen a material (AI)
-* [Capas] Al cambiar la visibilidad de la capa de filtro Transformar, se rompe la herramienta de vista 2D y puede producirse un bloqueo
-* [Capas] Demasiados cálculos al eliminar una capa de la pila de capas
+* [Layers] Cambiar la visibilidad de la capa Transformar filtra rompe la herramienta Vista 2D y puede provocar un bloqueo
+* [Layers] Demasiados cálculos al eliminar una capa de la pila de capas
 * [Capas] Cuando un filtro compuesto contiene una entrada/salida inusual o personalizada, Sampler no la calcula
 * [Rendimiento] El panel Activos tarda en abrirse
 * [Rendimiento] Evite algunos cálculos innecesarios de la pila de capas
@@ -155,7 +155,7 @@ Se han añadido nuevas funciones de exportación a esta versión.
 * [Rendimiento] No se puede usar la caché de procesamiento en el disco
 * [Rendimiento] El cambio entre capas es lento
 * [Rendimiento] La modificación de un material o un filtro es lenta
-* [Project] Guardar un proyecto al salir puede producir un bloqueo
+* [Project] Guardar un proyecto al salir puede provocar un bloqueo
 * [Renderizado] Al quitar una imagen, es posible que se eliminen todas las salidas
 * [Renderizado] El tiempo de renderizado que se muestra en la ventana gráfica es incorrecto al ajustar
 * [UI] No se puede desplazar verticalmente en la ventana emergente de exportación cuando es necesario

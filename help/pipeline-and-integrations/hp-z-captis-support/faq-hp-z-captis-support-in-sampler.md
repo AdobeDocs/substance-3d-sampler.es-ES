@@ -28,7 +28,7 @@ La solución abarca casos prácticos de varios sectores (automoción, confecció
 +++
 
 +++¿Qué tipos de materiales se pueden escanear y capturar con Captis?
-Se pueden escanear y capturar cualquier tipo de material, excepto con varias capas transparentes (las pinturas de coches no se incluyen en el ámbito de Captis). Algunos materiales específicos pueden requerir un procesamiento adicional en Sampler para optimizar los resultados. Tenga en cuenta que los algoritmos de procesamiento se optimizarán continuamente con el tiempo.
+Todos los tipos de materiales se pueden escanear y capturar, excepto con varias capas transparentes (las pinturas de coches están excluidas del ámbito de Captis). Algunos materiales específicos pueden requerir un procesamiento adicional en Sampler para optimizar los resultados. Tenga en cuenta que los algoritmos de procesamiento se optimizarán continuamente con el tiempo.
 
 +++
 
@@ -77,11 +77,11 @@ A partir de la versión del 20 de febrero de 2025, podrá acceder al flujo de tr
 
 * El flujo de trabajo de Sampler con HP Z Captis solo está disponible en Windows por ahora.
 
-* Los cinco mapas que se exportan hoy son el color base, Rugosidad, Normal, Height, Opacidad.
+* Los cinco mapas que se exportan hoy son el Color base, Rugosidad, Normal, Height, Opacidad.
 
 * El modo Explorador sigue siendo una versión anterior y no se ha optimizado todavía.
 
-* El mosaico se realiza en la pila de capas de Sampler mediante los filtros de mosaico actuales.
+* El mosaico se realiza en la pila de capas de Sampler utilizando los filtros de mosaico actuales.
 
 +++
 
@@ -98,15 +98,15 @@ El filtro de mosaico automático se puede utilizar para mosaico automáticamente
 +++
 
 +++¿En qué formatos se pueden exportar los materiales digitalizados?
-HP Z Captis es operado de forma nativa por Adobe Substance 3D Sampler. HP Z Captis captura 64 imágenes sin procesar (que se pueden recuperar de la carpeta local) y mapas PBR (que se procesan a partir de las imágenes capturadas sin procesar y que se cargan automáticamente en Substance 3D Sampler). Substance 3D Sampler creará un material 3D basado en los canales PBR que se cargan automáticamente en la pila de capas de Sampler después de la captura.
+HP Z Captis es operado de forma nativa por Adobe Substance 3D Sampler. HP Z Captis captura 64 imágenes sin procesar (que se pueden recuperar de la carpeta local) y mapas PBR (que se procesan a partir de las imágenes capturadas sin procesar y que se cargan automáticamente en Substance 3D Sampler). Substance 3D Sampler creará un material en 3D basado en los canales PBR que se cargan automáticamente en la pila de capas de Sampler después de la captura.
 
-Desde Adobe Substance 3D Sampler, puede exportar el material digital en cualquier formato de exportación disponible en Substance 3D Sampler: como archivos de Substance (archivos .SBS y .SBSAR) o como texturas de mapa de bits, incluidos .PNG, .JPG, .TIFF... (consulte los detalles en la página web de documentación de Sampler: [https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export.html](../../getting-started/export/export.md)).
+Desde Adobe Substance 3D Sampler, puede exportar el material digital en cualquier formato de exportación disponible en Substance 3D Sampler: como archivos de Substance (archivos .SBS y .SBSAR) o como texturas de mapa de bits, como .PNG, .JPG, .TIFF... (consulte los detalles en la página web de documentación de Sampler: [https://helpx.adobe.com/es/substance-3d-sampler/getting-started/export.html](../../getting-started/export/export.md)).
 
 +++
 
 +++¿Cuál es la diferencia entre LDR y HDR durante la captura?
-Durante la previsualización, puede elegir el tipo de salida entre LDR (bajo rango dinámico) y HDR (alto rango dinámico).\
-Incluso si se elige LDR, los mapas HDR se capturarán y guardarán en el dispositivo.\
+Durante la previsualización, puede elegir el tipo de salida entre LDR (bajo rango dinámico) y HDR. (alto rango dinámico).\
+Incluso si se elige LDR, los mapas de HDR se capturarán y guardarán en el dispositivo.\
 Se aconseja que seleccione el LDR, ya que esto hará que el tamaño del proyecto sea más manejable en Sampler y en cualquier aplicación de terceros donde se utilizará el archivo sbsar.
 
 +++
@@ -118,12 +118,12 @@ HP Z Captis es operado de forma nativa por Adobe Substance 3D Sampler. Una vez q
 
 En cualquier aplicación del ecosistema de Substance 3D (incluidos Substance 3D Designer o Substance 3D Painter que admitan varios formatos de exportación): https://experienceleague.adobe.com/es/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats).
 
-En cualquier aplicación que integre el formato de archivo Substance como 3DS Max, Maya, Blender, C4D, Rhino, Browzwear, CLO... (ver la lista completa aquí: <https://www.adobe.com/es/products/substance3d/plugins.html>). Si utilizas una aplicación que no figure en la lista, siempre puedes exportar imágenes de texturas PBR y conectarlas manualmente a cualquier aplicación que no admita el formato de archivo de Substance de forma nativa.
+En cualquier aplicación que integre el formato de archivo Substance como 3DS Max, Maya, Blender, C4D, Rhino, Browzwear, CLO... (ver la lista completa aquí: <https://www.adobe.com/es/products/substance3d/plugins.html>). Si está utilizando una aplicación que no aparece en la lista, siempre puede exportar imágenes de textura PBR y conectarlas manualmente a cualquier aplicación que no admita el formato de archivo de Substance de forma nativa.
 
 +++
 
 +++¿Cuántas fotos se están tomando para crear los mapas?
-[8 paneles de luz + 1 luz de fondo] x [8 estados de polarización] x [8 exposiciones de horquillado para HDR] x [4 sobredibuja para reducir el ruido] = 2048 + 256 (para luz de fondo)
+[8 paneles de luz + 1 luz de fondo] x [8 estados de polarización] x [8 exposiciones de horquillado para HDR.] x [4 sobregiros para reducir el ruido] = 2048 + 256 (para luz de fondo)
 
 +++
 

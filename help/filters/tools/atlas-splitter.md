@@ -81,7 +81,7 @@ Con el **Atlas splitter** añadido a la pila de capas, es posible centrarse en u
 * **Precisión de detección de formas**:\
   Seleccione el algoritmo de detección de formas que desea utilizar.
 * **Ancho de dilatación**: 0-32\
-  Modificar la dilatación: de este modo, se extruyen los colores de los bordes del elemento en el área enmascarada para evitar problemas de transparencia en el borde de los elementos del atlas. Vea el canal de color base en la **vista 2D** para ver los resultados.
+  Modificar la dilatación: de este modo, se extruyen los colores de los bordes del elemento en el área enmascarada para evitar problemas de transparencia en el borde de los elementos del atlas. Vea el canal de color base en el **Vista 2D** para ver los resultados.
 * **Color de fondo personalizado**: alternar\
   Si se habilita, aparece un control para modificar el color de fondo del canal normal:
   * **Color de fondo normal**: selección de color\

@@ -186,7 +186,7 @@ with open(csv_path, newline='') as csvfile:
 
 ## Exponer todos los parámetros de color
 
-Este script muestra el parámetro de color de cada capa de la pila de capas.
+Este script expone el parámetro de color de cada capa de la pila de capas.
 
 ### expose\_all\_color\_parameters.py
 
@@ -227,7 +227,7 @@ for layer in my_asset_layers:
 ```
 
 
-## Plantilla de pila de capas
+## plantilla de pila de capas
 
 Este script agrega automáticamente un conjunto de filtros (definidos dentro del script) al material actual.
 

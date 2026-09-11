@@ -116,12 +116,12 @@ Seleccione entre una serie de ajustes preestablecidos para emular rápidamente u
 
 **Parámetros avanzados**
 
-* **Intensidad de fusión de Height**: 0-1\
+* **Intensidad de Fusión de Height**: 0-1\
   Ajuste la fusión del height desde el material base. Un valor de 0 ignora el height del material base y solo utiliza los parámetros de filtro de tipo &quot;Brickwall&quot; para generar información del height. El valor 1 utiliza el material base para generar información de height.
 * **Intensidad normal**: 0-1\
   Ajuste la intensidad de las normales generadas por el filtro de pared de ladrillo. Un valor de 0 significa que no hay valores normales.
 * **Intensidad de Oclusión ambiente**: 0-1\
-  Ajuste la intensidad del AO. Un valor de 0 significa en realidad que no hay Oclusión de ambiente.
+  Ajuste la intensidad del AO. Un valor de 0 significa en realidad que no hay Oclusión ambiental.
 
 Guía de uso
 

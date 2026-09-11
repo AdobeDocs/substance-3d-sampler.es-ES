@@ -31,10 +31,10 @@ Esta página muestra todos los métodos abreviados de teclado disponibles y sus 
 | Guardar | Ctrl + S | ⌘ + S |
 | Guardar como | Ctrl + Mayús + S | ⌘ + Mayús + S |
 | Exportar | Ctrl + E | ⌘ + E |
-| Solo vista 3D | 3 | 3 |
-| Solo vista 2D | 2 | 2 |
+| solo Vista 3D | 3 | 3 |
+| solo vista 2D | 2 | 2 |
 
-## Accesos directos de vista 3D
+## Métodos abreviados de Vista 3D
 
 | *Acción* | *Windows* | *MacOS* |
 | --- | --- | --- |
@@ -130,7 +130,7 @@ Esta página muestra todos los métodos abreviados de teclado disponibles y sus 
 </tr><tr><td>Transformación centrada + Mantener proporción</td>
 <td>Mayús + CTRL + Ratón hacia la izquierda</td>
 <td>Mayús + <span class="NormalTextRun SCXW1728708 BCX0">⌘</span> + Ratón izquierdo</td>
-</tr><tr><td colspan="3" data-highlight-colour="grey" title="Color de fondo : Gris"><b>Tampón de clonar</b></td>
+</tr><tr><td colspan="3" data-highlight-colour="grey" title="Color de fondo : Gris"><b>Sello de Clonar</b></td>
 </tr><tr><td>Nuevo origen</td>
 <td>CTRL + Ratón izquierda</td>
 <td><span class="NormalTextRun SCXW1728708 BCX0">⌘</span> + Ratón izquierdo</td>

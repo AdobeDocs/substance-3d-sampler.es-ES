@@ -117,7 +117,7 @@ Un nodo puede hacer referencia a un filtro interno de Substance 3D Sampler. Defi
 }
 ```
 
-Un nodo puede hacer referencia a un archivo SBSAR que no está en Substance 3D Sampler. Defina un identificador único **Id** que se usará para definir vínculos entre nodos y el nombre de archivo **Archivo** del archivo SBSAR. El archivo SBSAR debe estar en una carpeta **resources** junto al archivo .alchfilter.
+Un nodo puede hacer referencia a un archivo SBSAR que no está en Substance 3D Sampler. Defina un identificador único **Id** que se vaya a usar para definir vínculos entre nodos y el nombre de archivo **Archivo** del archivo SBSAR. El archivo SBSAR debe estar en una carpeta **resources** junto al archivo .alchfilter.
 
 ```JSON
 { 
@@ -146,7 +146,7 @@ Cada elemento tiene 3 atributos:
   * Uso único a la vez y declarar enlace por enlace (baseColor, normal, height, ambienteOclusión, rugosidad, metálico, difuso, specular, brillo, nivel especular, opacidad, emisivo, scan1, ...)
   * También puede especificar una lista [&quot;baseColor&quot;, &quot;normal&quot;]. El primer elemento de la lista de **From** coincidirá con el primer elemento de la lista de **To**. etc...
   * Use **\*** para permitir que Substance 3D Sampler haga la coincidencia entre usos idénticos de todos los usos del nodo De y el nodo A (no es posible combinar **\*** con otro vínculo, mientras que son posibles vínculos únicos y vínculos de lista entre los mismos nodos)
-* Grupo: En el caso de que un nodo tenga varias veces el mismo uso, puede utilizar el atributo Group para seleccionar un uso específico. es decir: Para los filtros de mezcla, para obtener el color base del material inferior, use *Material1* y para obtener el color base del material superior use *Material2*
+* Grupo: En el caso de que un nodo tenga varias veces el mismo uso, puede utilizar el atributo Group para seleccionar un uso específico. es decir: Para los filtros de Fusión, para obtener el valor baseColor del material inferior, use *Material1* y para obtener el valor baseColor del material superior use *Material2*
 
 ```JSON
 Link between two nodes  

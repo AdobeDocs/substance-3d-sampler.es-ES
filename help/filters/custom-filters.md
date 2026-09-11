@@ -22,17 +22,17 @@ ht-degree: 1%
 
 ## Filtros personalizados de Substance
 
-Puedes importar filtros creados con Adobe Substance 3D Designer mediante el botón *Importar* en las acciones de pila de capas.
+Puedes importar filtros creados con Adobe Substance 3D Designer mediante el botón *Importar* en las acciones de Pila de capas.
 
 ### Crear un filtro de Substance
 
 Los filtros se deben crear de una forma específica en Designer para que funcionen correctamente una vez importados en Sampler.
 
-Los nodos de entrada y salida del filtro deben tener definido un identificador o un uso.
+Los nodos de entrada y salida del filtro deben tener definido un identificador o uso.
 
 >[!NOTE]
 >
-> Es posible usar el **uso** o el **identificador** (el uso tiene la prioridad).
+> Es posible usar **usage** o **identificador** (el uso tiene prioridad).
 
 #### Formato
 
@@ -96,37 +96,37 @@ La aplicación administra globalmente parámetros específicos. Es una forma de 
 
 Control del formato normal sobre la aplicación. Establecer en DirectX en Sampler
 
-**Identificador de parámetro**: normalformat, normal_format, $normalformat, $normal_format
+**identificador de parámetros**: normalformat, normal_format, $normalformat, $normal_format
 
 #### Recuento de entradas
 
-Si desea modificar imágenes (scan1 a scanX), puede utilizar el número de imágenes de la pila de capas mediante el parámetro **Número de imágenes**.
+Si desea modificar imágenes (scan1 a scanX), puede utilizar el número de imágenes de la pila de capas mediante el parámetro **Image Count**.
 
-* **Identificador de parámetro**: input_count
+* **identificador de parámetros**: input_count
 * **Tipo de parámetro**: entero1
 
 #### Entrada de material
 
-Si desea mostrar una ranura de material en la pila de capas como el atlas scatter o la salpicadura:
+Si desea mostrar una ranura de material en la pila de capas, como el atlas scatter o la salpicadura:
 
-* Añadir un nuevo conjunto de nodos de entrada (Color base, Normal, ... )
+* Agregar un nuevo conjunto de nodos de entrada (Color base, Normal, ... )
 * Todos los nodos Input del fondo (material inferior de la pila de capas) deben estar en el grupo **Material1**
 * Todos los nodos de entrada del primer material que desee agregar en la parte superior deben estar en el grupo **Material2** y, etcétera, si desea varias ranuras de material.
 * Añada un parámetro de entrada de material:
-  * **Identificador de parámetro**: material_input
+  * **identificador de parámetros**: material_input
   * **Tipo de parámetro**: entero1
 
 #### Tipo de flujo de trabajo
 
-Si desea mostrar u ocultar algunos parámetros basados en el flujo de trabajo del proyecto (Specular/brillo PBR Metálico/Rugosidad o PBR), puede utilizar el parámetro Tipo de flujo de trabajo
+Si desea mostrar u ocultar algunos parámetros basados en el flujo de trabajo de su proyecto (Specular/Brillo PBR Metalic/Roughness o PBR), puede utilizar el parámetro Tipo de flujo de trabajo
 
-**Identificador de parámetro**: workflow_type
+**identificador de parámetros**: workflow_type
 
 **Tipo de parámetro**: entero1, lista desplegable
 
 opciones:
 
 * 0: PBR Metálico/Rugosidad
-* 1: SPECULAR/Brillo PBR
+* 1: SPECULAR/Brillo de PBR
 
 ![](../assets/workflow-type.jpg){width="300px"}

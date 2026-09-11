@@ -35,7 +35,7 @@ ht-degree: 2%
 
 Desenfoca todo el material o selecciona canales específicos para desenfocar.
 
-En las imágenes que aparecen debajo, el **filtro Desenfocar** se ha aplicado al canal de color base.
+En las imágenes que aparecen debajo, el filtro **Desenfocar** se ha aplicado al canal de color base.
 
 <table>
 <tr style="border: 0;">

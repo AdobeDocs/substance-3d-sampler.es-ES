@@ -60,7 +60,7 @@ Si tiene 2 o más fotografías con diferente enfoque, cárguelas en capas difere
 
 Seleccione todas las capas y vaya a <b>Editar</b> > <b>Alinear capas automáticamente</b>. Pulse Aceptar con la configuración predeterminada. Photoshop intentará hacer una alineación perfecta de todas las capas seleccionadas
 
-A continuación, ve a <b>Editar</b> > <b>Fusionar capas automáticamente</b>. De nuevo, seleccione Aceptar con todos los ajustes predeterminados. Photoshop fusionará las partes más nítidas de las capas.
+A continuación, ve a <b>Editar</b> > <b>Capas de Fusión automática</b>. De nuevo, seleccione Aceptar con todos los ajustes predeterminados. Photoshop fusionará las partes más nítidas de las capas.
 
 Si todo salió bien, ahora tienes una fotografía perfectamente nítida. Vale la pena convertir al menos algunos de estos pasos en una acción grabada, para ahorrarte tiempo.
 

@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Bloqueo al utilizar la imagen para Material o Delighter
 
-Los filtros **Image To Material (AI Powered)** y **Delighter** requieren una gran cantidad de VRAM disponible (al menos 1 GB).
+Los filtros **Image To Material (AI Powered)** y **Delighter** requieren muchas VRAM disponibles (al menos 1 GB).
 
 Si tiene una tarjeta GPU con solo 2 GB de VRAM disponible y trabaja con una resolución de 2K/4K, no podremos asignar suficiente memoria para ejecutar el filtro y se producirá un bloqueo.

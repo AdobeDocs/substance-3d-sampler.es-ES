@@ -29,7 +29,7 @@ Las opciones Enviar a... le permiten enviar directamente el contenido a otras ap
 Actualmente, Sampler admite el envío a:
 
 * **Substance 3D Painter**: importa materiales y entornos que puedas usar al aplicar texturas a tus activos.
-* **Substance 3D Stager**: importa luces de ambiente para cambiar el estado de ánimo de la escena. Solo disponible con luces de ambiente, desactivado para materiales.
+* **Substance 3D Stager**: importa luces ambientales para cambiar el estado de ánimo de la escena. Solo disponible con luces ambientales, desactivado para materiales.
 
 Los materiales siempre se envían como SBSAR, los entornos como EXR.
 
@@ -47,11 +47,11 @@ Con la configuración de Material seleccionada, puede cambiar varios parámetros
 
 | Configuración | Descripción |
 | --- | --- |
-| Formato | Elija si desea exportar como SBS, SBSAR o como una colección de imágenes en un formato de imagen específico |
+| Formato | Elija si desea exportar como SBS, SBSAR o como colección de imágenes en un formato de imagen específico |
 | Ajuste preestablecido | Seleccione un ajuste preestablecido para organizar automáticamente la exportación para una aplicación específica. [Aquí tienes disponible más información sobre los ajustes preestablecidos](../../getting-started/export/default-presets/default-presets.md). Los ajustes preestablecidos solo están disponibles cuando se selecciona un formato de imagen. |
 | Compresión | Elija si la compresión prioriza la velocidad o la eficiencia <br> <ul> <li> **Automático**: Permitir que Sampler elija. <li> **Mejores**: Maximiza la eficacia de compresión para archivos más pequeños. <li> **Ninguno**: Sin compresión, los archivos exportados se abren y cierran con mayor rapidez, pero el tamaño de los archivos es mayor. </ul> |
 | Resolución | Cambie la resolución de la exportación. Esta opción aparece de forma diferente según el formato seleccionado <br> <ul> <li> **SBSAR/SBS**: Seleccione una anchura y un height por defecto para el material. Se pueden actualizar más adelante. <li> **Formato de imagen**: Seleccione entre **Salida de capas**, que exporta cada mapa con el tamaño definido por la pila de capas, o **Anular todo**, que le permite especificar un ancho y un height para la exportación. |
-| Modelo de material | Seleccione si desea exportar como material estándar de Adobe o como material de OpenPBR. La opción que seleccione dependerá de las demás aplicaciones que utilice en la canalización. Diferentes canales estarán disponibles en función del Modelo de material. |
+| Modelo de material | Seleccione si desea exportar como Adobe Standard Material o como material de OpenPBR. La opción que seleccione dependerá de las demás aplicaciones que utilice en la canalización. Diferentes canales estarán disponibles en función del Modelo de material. |
 | Canales | Alterne los canales que se deben exportar como parte del activo. |
 
 >[!NOTE]

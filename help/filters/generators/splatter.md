@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/splatter.html"
 breadcrumb-title: ''
-description: Usa el generador de salpicaduras en Substance 3D Sampler para crear salpicaduras de pintura y efectos de patrones aleatorios para texturas de materiales.
+description: Utilice el generador de salpicaduras en Substance 3D Sampler para crear salpicaduras de pintura y efectos de patrones aleatorios para texturas de materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Generators > Splatter
 helpx_experience_level: ""
@@ -75,10 +75,10 @@ Dispersa instancias de otros materiales por el material.
 
 * **Coincidencia de Albedo**: 0-1\
   Hacer coincidir el color de las instancias con el color del material subyacente
-* **Ajuste de HSL**: 0-1\
-  Ajuste del tono, la saturación y la luminosidad de las instancias
-* **Aleatorio de HSL**: 0-1\
-  Controlar la aleatoriedad del tono, la saturación y la luminosidad de cada instancia
+* **Ajuste HSL**: 0-1\
+  Ajuste del tono, la saturación y la Luminosidad de las instancias
+* **HSL aleatorio**: 0-1\
+  Controlar la aleatoriedad del tono, la saturación y la Luminosidad de cada instancia
 
 **Normal**
 
@@ -111,7 +111,7 @@ Dispersa instancias de otros materiales por el material.
 * **Smoothness de Pendiente de fondo**: 0-2\
   Ajuste la pendiente del fondo para los propósitos del parámetro **Sesgar desde Pendiente grande**
 * **Ajustar al fondo**: 0-1\
-  Controle en qué medida el mapa de height de fondo afecta al mapa de height de instancias. Esto le permite ajustar instancias alrededor de los detalles del fondo
+  Controlar en qué medida el mapa de altura de fondo afecta al mapa de altura de instancias. Esto le permite ajustar instancias alrededor de los detalles del fondo
 * **Fondo conformado suave**: 0-1\
   Ajustar la cantidad de detalles visibles debido a **Ajustar al fondo**
 
@@ -129,7 +129,7 @@ Dispersa instancias de otros materiales por el material.
 * **Usar máscara personalizada**: alternar\
   Active esta opción para utilizar una máscara personalizada y acceder a los controles de la máscara personalizada:
   * **Máscara personalizada**: imagen/pincel\
-    Importa una imagen para usarla como máscara personalizada o pinta directamente en la **vista 2D**
+    Importar una imagen para utilizarla como máscara o pintura personalizada directamente en **Vista 2D**
   * **Desenfoque de máscara personalizado**: 0-1\
     Desenfocar los bordes de la máscara personalizada
   * **Inversión de máscara personalizada**: alternar

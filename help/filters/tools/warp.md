@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/warp.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Deformar de Substance 3D Sampler para aplicar efectos de deformación direccional y distorsión a las texturas y capas de material.
+description: Utilice la herramienta Deformar de Substance 3D Sampler para aplicar efectos de deformación direccional y distorsión a texturas y capas de material.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Warp
 helpx_experience_level: ""
@@ -50,7 +50,7 @@ El **filtro de deformación** te permite deformar el material en función de una
 * **Escala de ruido**: 0-10\
   Ajuste la escala del ruido de origen. El ruido siempre será de azulejo.
 * **Tipo**:\
-  Seleccione el método que se utilizará para deformar el material. Si se seleccionan **Deformación direccional** o **Deformación multidireccional**, aparecerá un parámetro adicional:
+  Seleccione el método que se utilizará para deformar el material. Si se seleccionan **Deformación direccional** o **Deformación direccional múltiple**, aparecerá un parámetro adicional:
   * **Ángulo de deformación**: 0-1\
     Ajuste la dirección en la que se produce la deformación
 * **Intensidad**: 0-1\

@@ -35,7 +35,7 @@ Los parámetros que aparecen en el **panel Propiedades** dependen de lo que haya
 </td>
 <td style="border: 0;" valign="top">
 
-En esta imagen del **panel Capas**, cada icono de la pila de capas tiene un conjunto diferente de parámetros para controlar el aspecto de tu material. Por ejemplo, la capa de arcilla tiene el icono de material y el icono de fusión, cada uno de los cuales tiene un conjunto de parámetros independiente. La capa de pintura en rollo también tiene iconos de material y de fusión, pero, como se está pasando el cursor por encima, también tiene un botón de visibilidad.
+En esta imagen del **panel Capas**, cada icono de la pila de capas tiene un conjunto diferente de parámetros para controlar el aspecto de tu material. Por ejemplo, la capa de arcilla tiene el icono de material y el icono de fusión, cada uno de los cuales tiene un conjunto de parámetros independiente. La Capa de pintura de desplazamiento también tiene iconos de material y de mezcla, pero, como se está pasando el cursor por encima, también tiene un selector de visibilidad.
 
 </td>
 </tr>

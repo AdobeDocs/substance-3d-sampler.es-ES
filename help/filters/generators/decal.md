@@ -54,23 +54,23 @@ Con el **filtro de pegatinas** aplicado, se añaden grietas realistas y daños a
 **Parámetros básicos**
 
 * **Modo de segmentación**:\
-  Determina si se va a colocar en mosaico más allá de los identificadores de la **vista 2D**.\
+  Determina si se va a colocar en mosaico más allá de los identificadores en el **Vista 2D**.\
   H significa Horizontal, mientras que V significa Vertical.
 * **Coincidencia de color de material de fondo**: 0-1\
   Ajusta los colores del material de la pegatina para que coincidan con el valor de color de las capas que hay debajo.
 * **Modo de fusión normal**:\
   Ajuste cómo se mezclan las normales entre el material de pegatina y las capas subyacentes
-* **Mezcla de opacidad normal**: 0-1\
+* **Fusión de opacidad normal**: 0-1\
   Cambiar la opacidad de las normales del material de pegatina
 * **Posición del Height de pegatinas**: 0-1\
   Ajuste el height de la pegatina en relación con el height de las capas subyacentes
 * **Escala de Height de pegatinas**: 0-1\
-  Cambio del contraste del mapa de height para el material de pegatina
+  Cambio del contraste del mapa de altura del material de pegatina
 
 **Parámetros avanzados**
 
 * **Transformación de pegatinas**:\
-  Ajuste los valores de transformación de matriz para la pegatina. En general, es más fácil usar los controladores de la **vista 2D** para ajustar la transformación de la pegatina.
+  Ajuste los valores de transforma matricial para la pegatina. En general, es más fácil usar los controladores del **Vista 2D** para ajustar el transforme de la pegatina.
 * **Etiqueta** **Desplazamiento**: -1 a 1\
   Ajuste el desplazamiento del adhesivo.
 

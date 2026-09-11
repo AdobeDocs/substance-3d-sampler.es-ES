@@ -80,7 +80,7 @@ Esta sección solo aparece si se ha elegido **Máscara personalizada** en **Par�
 * **Máscara personalizada - Invertir**: alternar\
   Invierte la máscara.
 * **Máscara personalizada**: imagen/pincel\
-  Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+  Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
 
 **Musgo**
 
@@ -97,7 +97,7 @@ Los parámetros disponibles en esta sección dependen de la opción seleccionada
 * **Superior**
   * **Umbral de musgo superior**: 0-1\
     Controle el umbral que determina si aparece o no musgo.
-  * **Ángulo del musgo superior** Ajusta la forma en que el musgo se aplica al material en función del mapa normal.
+  * **Ángulo del musgo superior** Ajusta la forma en que el musgo se aplica al material según el mapa de normales.
 * **Todos**
   * **Todos** incluye todos los parámetros anteriores para **Oclusión**, **General** y **Superior**.
 
@@ -123,4 +123,4 @@ Los siguientes parámetros están disponibles independientemente de qué opción
 
 * **Intensidad normal**: 0-1\
   Ajusta la fuerza de las normales del musgo.
-* **Intensidad de Oclusión ambiente** Controla la intensidad de la oclusión ambiente del musgo.
+* **Intensidad de Oclusión ambiental** Controla la intensidad de la oclusión ambiental del musgo.

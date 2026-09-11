@@ -46,14 +46,14 @@ La intensidad y la saturación funcionan de forma similar, ya que aumentan la in
 **Parámetros básicos**
 
 * **Intensidad**: -1 a 1\
-  Aumente o disminuya la intensidad del color base o del canal difuso.
+  Aumenta o disminuye la intensidad del color base o canal difuso.
 
 **Máscara**
 
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfocar la máscara
   * **Máscara personalizada - Invertir**: alternar\

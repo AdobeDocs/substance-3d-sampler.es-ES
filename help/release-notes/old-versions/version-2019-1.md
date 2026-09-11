@@ -50,17 +50,17 @@ Para obtener más información sobre proyectos, consulte: [Administración de pr
 
 Hemos mejorado nuestro iluminador, que se utiliza para eliminar las sombras de las fotos. Ahora conserva detalles y los colores originales de las diversas superficies que deberían mejorar la precisión de los materiales generados.
 
-### Nueva pila de capas
+### Nueva Pila de capas
 
 ![](../../assets/sa-notes-layerstack.png)
 
-La pila de capas se ha reconstruido desde cero para ampliar sus posibilidades y acciones. Los cambios notables son:
+La Pila de capas ha sido reconstruida desde cero para ampliar sus posibilidades y acciones. Los cambios notables son:
 
 * Ahora se puede acceder directamente a **Materiales y máscaras mediante su icono dedicado**\
   Al añadir un material en la pila de capas, ahora tendrá un nuevo icono de máscara. Al pulsar en este segundo icono, se mostrarán los parámetros de fusión del material.
 
   ![](../../assets/sa-notes-layermask.png)
-* **El modo de fusión se puede cambiar directamente desde la barra de herramientas**\
+* **El modo de Fusión se puede cambiar directamente desde la barra de herramientas**\
   A partir de ahora, cuando se selecciona una capa de material, su modo de fusión se puede cambiar directamente desde la barra de herramientas Pila de capas, sin necesidad de hacer clic en la máscara.
 
   ![](../../assets/sa-notes-layerstackblendmode.png)
@@ -76,15 +76,15 @@ La pila de capas se ha reconstruido desde cero para ampliar sus posibilidades y 
 Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su uso. Se puede acceder a estos nuevos ajustes en el [panel Configuración del visor](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html).
 
 * **Modo de cámara**\
-  El modo de proyección de cámara permite elegir entre Perspectiva y Ortográfica.
+  El modo de proyección de cámara permite elegir entre Perspectiva y Ortográfico.
 
   ![](../../assets/sa-notes-cameramode.png)
 * **Campo de visión de la cámara**\
-  Ahora puede cambiar el campo de visión (FOV) de la cámara de la ventana gráfica. Ajustar este valor puede ayudar a que tus materiales se visualicen de manera realista. El campo de visión solo se puede controlar en el modo de proyección Perspectiva.
+  Ahora puede cambiar el campo de visión (FOV) de la cámara de la ventana gráfica. Ajustar este valor puede ayudar a que tus materiales se visualicen de manera realista. El campo de visión solo se puede controlar en el modo de proyección de Perspectiva.
 
   ![](../../assets/sa-notes-viewport-fov.png)
 * **Resolución y profundidad de bits por canal**\
-  La vista 2D muestra ahora la resolución de textura y la profundidad de bits de cada canal.
+  Ahora, la Vista 2D muestra la resolución de textura y la profundidad de bits de cada canal.
 
   ![](../../assets/sa-notes-2dviewresolutiondepth.png)
 
@@ -119,7 +119,7 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 **Agregado:**
 
 * [Workflow] Compatibilidad con varios flujos de trabajo
-* [Workflow] Compatibilidad con el flujo de trabajo Brillo de Specular PBR
+* [Workflow] Compatibilidad con el flujo de trabajo de Brillo de Specular PBR
 * [Flujo de trabajo] Nuevo panel Configuración de canal
 * [Workflow] Selección de flujo de trabajo al crear el proyecto
 * [Configuración de canal] Activar/Desactivar cálculo de canal específico
@@ -132,7 +132,7 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 * [Capas] Posibilidad de actualizar a la última versión de las capas obsoletas a través de la notificación
 * [Project] Nuevos campos de metadatos en la creación de proyectos
 * [Inspire] Las variaciones generadas son específicas de un proyecto
-* [Vista 2D] Cambiar entre las entradas de capa, las salidas de capa y las salidas de material
+* [vista 2D] Cambiar entre las entradas de capa, las salidas de capa y las salidas de material
 * [Pantalla de bienvenida] Opción Agregar proyecto de importación (.alch)
 * [Preferencias] Nueva ventana Preferencias para definir la configuración de privacidad de análisis y ubicación de la caché
 * [UI] Nuevos botones de IU
@@ -146,18 +146,18 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 **Corregido:**
 
 * [Layers] Desactiva el parámetro de entrada de imagen al eliminar la capa
-* [Layers] Se ha solucionado un bloqueo al añadir una capa de parche de clonación
-* [Capas] Solucionar algunos bloqueos al mezclar capas y apilar materiales en otros materiales de pila de capas
+* [Layers] Corregir un bloqueo al añadir una capa de parche de clonación
+* [Capas] Corrección de algunos bloqueos al mezclar capas y apilar materiales en otros materiales de pila de capas
 * [Exportar] Ahora se respeta la selección de canales para la exportación
-* [Resources] No se bloquea al navegar por el panel Resources
-* [Recursos] Solucionar el bloqueo al importar archivos de Substance dañados
+* [Resources] No se crea un bloqueo al navegar en el panel Resources (Recursos)
+* [Recursos] Solucionar bloqueo al importar archivos de Substance dañados
 * [Recursos] Reducir el número de bloqueos al cargar carpetas grandes
 * [Miniatura] El cálculo de miniaturas no bloquea la interfaz
 * [Image Import] Uniformización del tipo de imagen compatible en toda la aplicación
 * [Ajuste preestablecido] Guarde la descripción al crear un ajuste preestablecido a partir de una SBSAR
 * [Inspire] Corrección de arrastrar y soltar imágenes
-* [Application] Fix se bloquea al salir
-* [Aplicación] Fix se bloquea al salir cuando se exportan materiales
+* [Aplicación] Solucionar bloqueos al salir
+* [Aplicación] Corrección de bloqueos en la salida al exportar materiales
 * [UI] Correcciones y mejoras
 * [UI] Cambiar el nombre del activo temporal a &quot;material no guardado&quot;
 * [Contenido] Actualización global y limpieza de todos los filtros
@@ -167,9 +167,9 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 * Importar una gran cantidad de recursos puede ralentizar al Substance Alchemist
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a Height puede bloquearse en MacOS
+* El filtro Normal a Height puede generar bloqueo en MacOS
 
 ### 2019.1.2 Sésamo
 
@@ -178,7 +178,7 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 **Agregado:**
 
 * [Workflow] Compatibilidad con varios flujos de trabajo
-* [Workflow] Compatibilidad con el flujo de trabajo Brillo de Specular PBR
+* [Workflow] Compatibilidad con el flujo de trabajo de Brillo de Specular PBR
 * [Flujo de trabajo] Nuevo panel Configuración de canal
 * [Workflow] Selección de flujo de trabajo al crear el proyecto
 * [Configuración de canal] Activar/Desactivar cálculo de canal específico
@@ -191,7 +191,7 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 * [Capas] Posibilidad de actualizar a la última versión de las capas obsoletas a través de la notificación
 * [Project] Nuevos campos de metadatos en la creación de proyectos
 * [Inspire] Las variaciones generadas son específicas de un proyecto
-* [Vista 2D] Cambiar entre las entradas de capa, las salidas de capa y las salidas de material
+* [vista 2D] Cambiar entre las entradas de capa, las salidas de capa y las salidas de material
 * [Pantalla de bienvenida] Opción Agregar proyecto de importación (.alch)
 * [Preferencias] Nueva ventana Preferencias para definir la configuración de privacidad de análisis y ubicación de la caché
 * [UI] Nuevos botones de IU
@@ -205,18 +205,18 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 **Corregido:**
 
 * [Layers] Desactiva el parámetro de entrada de imagen al eliminar la capa
-* [Layers] Se ha solucionado un bloqueo al añadir una capa de parche de clonación
-* [Capas] Solucionar algunos bloqueos al mezclar capas y apilar materiales en otros materiales de pila de capas
+* [Layers] Corregir un bloqueo al añadir una capa de parche de clonación
+* [Capas] Corrección de algunos bloqueos al mezclar capas y apilar materiales en otros materiales de pila de capas
 * [Exportar] Ahora se respeta la selección de canales para la exportación
-* [Resources] No se bloquea al navegar por el panel Resources
-* [Recursos] Solucionar el bloqueo al importar archivos de Substance dañados
+* [Resources] No se crea un bloqueo al navegar en el panel Resources (Recursos)
+* [Recursos] Solucionar bloqueo al importar archivos de Substance dañados
 * [Recursos] Reducir el número de bloqueos al cargar carpetas grandes
 * [Miniatura] El cálculo de miniaturas no bloquea la interfaz
 * [Image Import] Uniformización del tipo de imagen compatible en toda la aplicación
 * [Ajuste preestablecido] Guarde la descripción al crear un ajuste preestablecido a partir de una SBSAR
 * [Inspire] Corrección de arrastrar y soltar imágenes
-* [Application] Fix se bloquea al salir
-* [Aplicación] Fix se bloquea al salir cuando se exportan materiales
+* [Aplicación] Solucionar bloqueos al salir
+* [Aplicación] Corrección de bloqueos en la salida al exportar materiales
 * [UI] Correcciones y mejoras
 * [UI] Cambiar el nombre del activo temporal a &quot;material no guardado&quot;
 * [Contenido] Actualización global y limpieza de todos los filtros
@@ -226,9 +226,9 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 * Importar una gran cantidad de recursos puede ralentizar al Substance Alchemist
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a Height puede bloquearse en MacOS
+* El filtro Normal a Height puede generar bloqueo en MacOS
 
 ### 2019.1.1 Sésamo
 
@@ -236,30 +236,30 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 
 **Agregado:**
 
-* [Fusionar] Nueva opacidad Modo de fusión
+* [Fusión] Nuevo modo de Fusión de opacidad
 * [Motor] Nueva versión del Substance Engine
 
 **Corregido:**
 
-* [Capas] Se ha solucionado el bloqueo al eliminar una capa que aún se está calculando
-* [Layers] Se corrige el bloqueo al eliminar la capa inferior
-* [Layers] Se corrige el bloqueo si el nombre del material contiene caracteres especiales
+* [Capas] Corrección de bloqueo al eliminar una capa que aún se está calculando
+* [Layers] Corrige el bloqueo al eliminar la capa inferior
+* [Layers] Corrige el bloqueo mientras el nombre del material contiene caracteres especiales
 * [Capas] Detener el cálculo de todos los filtros que utilizan un widget
-* [Capas] Evite el bloqueo al utilizar los filtros Clonar parche y Relleno según el contenido
-* [Layers] Se ha solucionado el bloqueo al arrastrar y soltar un filtro en ranuras de entrada de salpicaduras
-* [Resources] Solucionar el bloqueo al vincular carpetas locales o importar recursos en Substance Alchemist
-* [Colección] Se corrige un bloqueo al cambiar rápidamente de un material a otro
-* [UI] Se corrige el bloqueo si el valor es nulo o no es válido en los reguladores de mosaico y desplazamiento en la ventana gráfica
-* [Inspire] Se ha solucionado un bloqueo al acceder a la pestaña Inspire
-* [Inspire] Se ha solucionado un bloqueo al inspirar en un material de pila de capas recién guardado
+* [Capas] Evite el bloqueo al utilizar los filtros Clonar de parche y Relleno según el contenido
+* [Capas] Corrección de bloqueo al arrastrar y soltar un filtro en ranuras de entrada de salpicaduras
+* [Resources] Corrija el bloqueo al vincular carpetas locales o importar recursos en Substance Alchemist
+* [Colección] Corrija el bloqueo al cambiar rápidamente entre materiales
+* [UI] Se corrige el bloqueo mientras el valor es nulo o no es válido en el mosaico, los reguladores de desplazamiento en la ventana gráfica
+* [Inspire] Corrección del bloqueo al acceder a la ficha Inspire
+* [Inspire] Corrección de bloqueos al inspirar en un material de pila de capas recién guardado
 * [Rendimiento] Los materiales y filtros de Substance pesado (segmentación) calculan más rápido
 * [Ayuda] Solucionar problemas de archivo de registro de exportación
 * [Contenido] El filtro aleatorio funciona en todos los canales
 * [Contenido] El flujo de trabajo multiangular tiene en cuenta todas las digitalizaciones
-* [Contenido] Mezcla correcta de AO
-* [Contenido] Curvatura Fusión fusión correcta
-* [Contenido] Fusión de ID de color Fusión correcta
-* [Contenido] Fusión de máscara personalizada y fusión correcta
+* [Contenido] Mezcla correcta de Fusión de AO
+* [Contenido] Fusión correcta de Fusión de curvatura
+* [Contenido] Fusión correcta de Fusión de ID de color
+* [Contenido] Fusión correcta de Fusión de máscara personalizada
 * [Contenido] Fijar el filtro Ajuste para la modificación de rugosidad
 * [Contenido] Corrección del filtro de Material base para la carga personalizada de canales normales
 * [Contenido] Corrección del patrón de importación personalizado del filtro Relieve
@@ -267,9 +267,9 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a Height puede bloquearse en MacOS
+* El filtro Normal a Height puede generar bloqueo en MacOS
 
 ### 2019.1 Sésamo
 
@@ -287,17 +287,17 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 * [Pantalla de bienvenida] Acceda a la lista de todos sus proyectos en la pantalla de bienvenida
 * [Pantalla de bienvenida] Enlaces rápidos para acceder a la documentación, la información acerca de la gestión de licencias y ventanas emergentes
 * [File Menu] Integración de un menú de archivo
-* [Menú Archivo] Acceda a los comandos del proyecto desde la pestaña Archivo y guarde la pila de capas
+* [Menú Archivo] Acceda a los comandos del proyecto desde la ficha Archivo y guarde la pila de capas
 * [Menú Archivo] Acceda a los comandos de deshacer y rehacer desde la pestaña Editar
 * [File Menu] El menú de ayuda anterior se movía en el menú de archivo en la pestaña Ayuda
 * [Layers] Nueva arquitectura de la pila de capas
-* [Layers] Nueva interfaz de usuario de la pila de capas
+* [Layers] Nueva IU de la pila de capas
 * [Capas] Seleccione el modo de fusión directamente en la barra de herramientas
 * [Capas] Acceda por separado a los parámetros de mezcla y a los parámetros de material
-* [Capas] Añade materiales directamente en entradas dedicadas del filtro Salpicadura en la pila de capas
+* [Layers] Añade materiales directamente en las entradas dedicadas del filtro Splatter en la pila de capas
 * [Capas] Cambie el orden de digitalización directamente en la capa de importación de imágenes.
 * [Ventana gráfica] Control del campo de visión de la cámara
-* [Viewport] Posibilidad de cambiar entre cámara ortográfica o de perspectiva
+* [Viewport] Posibilidad de cambiar entre cámara ortográfica o de Perspectiva
 * [Viewport] Muestra la información de resolución y profundidad de bits de cada canal
 * Los Materiales base de [Resources] se abren por defecto
 * [Cache] Localiza tu carpeta de caché de miniaturas
@@ -308,30 +308,30 @@ Se han añadido algunas funciones nuevas a la ventana gráfica que mejoran su us
 * [Contenido] Nueva versión del filtro Delighter
 * [Contenido] Nueva imagen según el contenido Filtro de relleno
 * [Contenido] Nuevo filtro Relleno según el contenido de material
-* [Contenido] El filtro Transformar tiene una opción de transformación segura
+* [Contenido] Transformar filtro tiene una opción de transformar segura
 
 **Corregido:**
 
 * Todos los errores anteriores relacionados con Create no son válidos hoy con la nueva versión de la interfaz de usuario y la arquitectura
 * La información sobre herramientas no oculta los iconos de la barra superior (3D, 2D, 2D/3D)
-* [Contenido] Splatter filter acepta Atlas con mapa de height completo
-* [Contenido] El filtro de transformación funciona en imágenes (scan1, scan2,...)
+* [Contenido] El filtro de salpicaduras acepta Atlas con mapa de altura completo
+* [Contenido] Transformar filtro funciona en imágenes (scan1, scan2,...)
 
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a Height puede bloquearse en MacOS
+* El filtro Normal a Height puede generar bloqueo en MacOS
 
 **Agregado:**
 
-* [Fusionar] Nueva opacidad Modo de fusión
+* [Fusión] Nuevo modo de Fusión de opacidad
 * [Motor] Nueva versión del Substance Engine
 
 **Agregado:**
 
-* [Fusionar] Nueva opacidad Modo de fusión
+* [Fusión] Nuevo modo de Fusión de opacidad
 * [Motor] Nueva versión del Substance Engine
 
 **Agregado:**

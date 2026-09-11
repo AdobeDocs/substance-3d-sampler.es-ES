@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/old-versions/version-3-0.html"
 breadcrumb-title: ''
-description: Consulte las notas de la versión 3.0 de Substance 3D Sampler para obtener más información sobre la renovación de la interfaz de usuario, las luces de entorno, los filtros y la integración de Creative Cloud.
+description: Consulte las notas de la versión 3.0 de Substance 3D Sampler para obtener más información sobre la integración de Creative Cloud, filtros, luces ambientales y modificaciones de la interfaz de usuario.
 helpx_creative_field: ""
 helpx_description: Sampler > Release Notes > Old Versions > Version 3.0
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Versión 3.0
 
-**Substance 3D Sampler 3.0.0** es el nuevo nombre para Substance Alchemist ahora que está conectado a Adobe Creative Cloud. Incluye una completa renovación de la interfaz de usuario, compatibilidad con la creación de luces de entorno, filtros totalmente reprocesados y nuevos, funcionalidad Enviar a y compatibilidad con sombreadores de ASM.
+**Substance 3D Sampler 3.0.0** es el nuevo nombre para Substance Alchemist ahora que está conectado a Adobe Creative Cloud. Incluye una completa renovación de la interfaz de usuario, compatibilidad con la creación de Luces ambientales, filtros totalmente reprocesados y nuevos, funcionalidad Enviar a y compatibilidad con el sombreador de ASM.
 
 Fecha de publicación: *23 de junio de 2021*
 
@@ -51,11 +51,11 @@ El [panel de activos](../../interface/panels/assets-panel.md) es un diseño nuev
 * Vista estrecha/amplia
 * Filtros de filtro y búsqueda
 
-### Nueva creación de luz de entorno
+### Creación de nuevas Luces ambientales
 
 ![](../../assets/idl.jpg){width="600px"}
 
-Sampler ahora te permite hacer más que solo materiales. Las luces ambientales son un nuevo tipo de activo con su [propio conjunto de filtros](../../filters/hdri-tools/hdri-tools.md). Empieza a partir de [fotos de 360 horquilladas](../../filters/hdri-tools/hdr-merge.md), crea una luz ambiental [desde cero](../../filters/hdri-tools/shape-light.md) o [edita un archivo HDR existente](../../filters/hdri-tools/nadir-patch.md).
+Sampler ahora te permite hacer más que solo materiales. Las luces ambientales son un nuevo tipo de recurso con su [propio conjunto de filtros](../../filters/hdri-tools/hdri-tools.md). Empieza a partir de [fotos entre corchetes de 360](../../filters/hdri-tools/hdr-merge.md), crea una luz ambiental [desde cero](../../filters/hdri-tools/shape-light.md) o [edita un archivo HDR. existente](../../filters/hdri-tools/nadir-patch.md).
 
 ### Filtros reelaborados y nuevos
 
@@ -88,7 +88,7 @@ Ahora Sampler puede [compartir fácilmente materiales y entornos livianos](../..
 
 * Compatibilidad con materiales de ASM, lo que permite una apariencia coherente entre las aplicaciones con más canales de materiales.
 * Cambiar entre 2 [motores en tiempo real](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html)
-* Capacidad para controlar texturas predeterminadas en una malla
+* Posibilidad de controlar las texturas predeterminadas en una malla
 
 ### Mejoras generales
 
@@ -122,15 +122,15 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 * [UI] Desacople paneles para crear una ventana independiente en la misma pantalla o en otra diferente
 * [UI] Ventana emergente de paneles cerrados al hacer clic en sus iconos
 * [UI] Reorganiza la barra izquierda y derecha moviendo los iconos de los paneles
-* [UI] Nueva barra de herramientas para acceder directamente a filtros específicos (Recortar, Transformar, Transformación de perspectiva, Tampón de clonar)
+* [UI] Nueva barra de herramientas para acceder directamente a filtros específicos (Recortar, Transformar, Transformar Perspectiva, Sello de Clonar)
 * [UI] Nuevo botón &quot;Obtener contenido&quot; en la barra izquierda
 * [IU] Importe archivos directamente en los activos con el botón Obtener contenido
 * [UI] Importa archivos directamente a tus capas con el botón Obtener contenido
 * [UI] Acceder directamente al sitio web de Substance 3D Assets de Adobe con el botón Obtener contenido
 * [UI] Ahora se puede acceder directamente al widget de resolución en la ventana gráfica
 * [UI] Todos los elementos de la interfaz de usuario ahora se cargan dinámicamente
-* [UI] Método abreviado: utilice &quot;2&quot; para cambiar la visibilidad de la vista 2D
-* [UI] Método abreviado: utilice &quot;3&quot; para cambiar la visibilidad de la vista 3D
+* [UI] Método abreviado: utilice &quot;2&quot; para cambiar la visibilidad del Vista 2D.
+* [UI] Método abreviado: utilice &quot;3&quot; para cambiar la visibilidad de la vista 3D.
 * [Pantalla de bienvenida] Cree un proyecto con un solo clic con el botón Nuevo
 * [Pantalla de bienvenida] Nuevo banner de ilustración
 * [Project] Todos los proyectos se asocian ahora a un archivo único
@@ -153,13 +153,13 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 * [Resolución] Ahora puede establecer una resolución no cuadrada para todos sus recursos
 * [Resolución] El valor de resolución se guarda por recurso dentro de un proyecto
 * [Luz ambiental] Crear luz ambiental en Substance 3D Sampler
-* [Luz de entorno] Al crear una luz de entorno, al arrastrar y soltar imágenes, se mostrará la ventana Plantilla de creación de luz de entorno
-* [Luz de entorno] En Plantilla de creación de luz de entorno, seleccione Importar entorno para asignar la imagen al entorno en la vista 3D
-* [Luz de entorno] En la plantilla Creación de luz de entorno, seleccione Combinación de HDR para crear una luz de entorno a partir de varias imágenes de 360 grados con diferente exposición
-* [Luz ambiental] En la plantilla de creación de luz ambiental, seleccione &quot;Usar como mapa de bits&quot; para editar sus imágenes antes de crear una luz ambiental
-* [Luz de entorno] Asigne el uso del entorno en la capa de importación de imágenes para asignar directamente la imagen al entorno en la vista 3D
-* [Luz de entorno] En la vista 2D del canal de entorno, existe una corrección de color automática para que la representación aparezca igual que en la vista 3D
-* [Luz ambiental] Nuevo contenido dedicado para la creación de luz ambiental
+* [Luz ambiental] Al crear una luz ambiental, al arrastrar y soltar imágenes, se mostrará la ventana Plantilla de creación de Luces ambientales
+* [Luz ambiental] En la plantilla de creación de Luces ambientales, seleccione Importar entorno para asignar la imagen al entorno en la vista 3D
+* [Luz ambiental] En la plantilla de creación de Luces ambientales, seleccione HDR. merge para crear una luz ambiental a partir de varias imágenes de 360 grados con diferentes niveles de exposición
+* [Luz ambiental] En la plantilla de creación de Luces ambientales, seleccione &quot;Usar como mapa de bits&quot; para editar las imágenes antes de crear una luz ambiental
+* [Luz ambiental] Asigne el uso del entorno en la capa de importación de imágenes para asignar directamente la imagen al entorno en la vista 3D
+* [Luz ambiental] En la Vista 2D del canal de entorno, existe una corrección de color automática para que la representación tenga el mismo aspecto que en la vista 3D
+* [Luz ambiental] Nuevo contenido dedicado para la creación de luces ambientales
 * [Panel Activos] Los paneles Recursos y Filtros se combinan en un nuevo panel Activos
 * [Panel de recursos] El panel de recursos ahora admite los siguientes tipos de recursos: materiales, filtros e imágenes
 * [Panel de recursos] Todos los recursos de inicio están disponibles en la sección Recursos de inicio
@@ -182,7 +182,7 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 * [Panel de recursos] En el menú contextual del botón derecho, elimine el recurso (solo disponible en las secciones de no solo lectura)
 * [Panel de recursos] En el menú contextual del botón derecho, examine el recurso en Adobe Bridge
 * [Panel Capas] Nuevo icono para añadir directamente un material base sobre las capas
-* [Panel de capas] Método abreviado: Mayús + B añade un material base encima de las capas
+* [Panel de capas] Método abreviado : Mayús + B añadirá un material base encima de las capas
 * [Panel Capas] Las capas ahora tienen una vista previa en miniatura (miniatura de material, icono de filtro o vista previa de imagen)
 * [Panel Propiedades] Nuevo diseño del título del panel Propiedades con el nombre del recurso y la miniatura del recurso
 * [Panel Propiedades] Las capas de filtro ahora admiten ajustes preestablecidos
@@ -192,30 +192,30 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 * [Adobe Photoshop] En cada operación de guardar en Adobe Photoshop, la imagen editada se vuelve a cargar en Sampler
 * [Substance 3D Designer] Los contenidos enviados desde Adobe Substance 3D Designer aparecerán directamente en la sección &quot;Sus contenidos&quot; del panel de contenidos
 * [Exportar] Enviar recursos directamente a Adobe Substance 3D Painter y Adobe Substance 3D Stager
-* [Exportar] Enviar materiales y luces de entorno a Adobe Substance 3D Painter
-* [Exportar] Enviar luces de entorno a Adobe Substance 3D Stager
+* [Exportar] Enviar materiales y luces ambientales a Adobe Substance 3D Painter
+* [Exportar] Enviar luces ambientales a Adobe Substance 3D Stager
 * [Renderizado] Ahora se admiten nuevas propiedades de material, que se procesan en 3D
 * [Renderizado] Adición de compatibilidad con brillo (Color de brillo, opacidad y rugosidad de brillo)
-* [Renderización] Adición de soporte de recubrimiento (Color de la capa, Rugosidad de la capa, Normal de la capa, Specular level de la capa y IOR de la capa)
-* [Renderizado] Adición de compatibilidad con Anisotropías (nivel de Anisotropía y ángulo de Anisotropía)
+* [Renderizado] Agregando soporte de recubrimiento (Color de capa, Rugosidad de capa, Normal de capa, Nivel especular de capa y capa IOR)
+* [Renderizado] Adición de compatibilidad con Anisotropías (Nivel de anisotropía y Ángulo de anisotropía)
 * [Renderizado] Adición de compatibilidad con Speculares edges color
 * [Renderizado] Active estas nuevas propiedades en el panel Configuración de canal
 * [Renderizado] Introducción de un nuevo procesador de Realtime Engine (2021) en la versión beta
 * [Renderizado] Cambiar entre las dos versiones de Renderizado en el panel Ajustes del visor
-* [Renderizado] El procesador de motor en tiempo real (2021) admite las propiedades de translucidez, absorción y dispersión de materiales.
-* [Renderizado] El procesador de motor en tiempo real (2021) presenta una nueva forma de calcular las sombras a partir de la luz del entorno
-* [Renderizado] El procesador de motor en tiempo real (2021) calcula en tiempo real la irradiancia de la luz del entorno
-* [Panel de ajustes del sombreado] Nuevo panel de ajustes del sombreado para ajustar parámetros específicos del sombreado de materiales
-* [Panel Ajustes del sombreador] Nuevos parámetros (Escala normal, Escala de height, Nivel de height, Intensidad de emisión, IOR, Intensidad normal de capa e IOR de capa)
-* [Panel de ajustes del sombreador] Parámetros específicos del motor en tiempo real 2021 (dispersión subsuperficial, distancia de dispersión, desplazamiento rojo y dispersión de Rayleigh)
-* [Panel de configuración del sombreador] Los valores de configuración se guardan por recurso
-* [Panel de configuración del visor] Se ha añadido una vista previa de las luces de entorno predeterminadas
+* [Renderizado] El procesador del motor en tiempo real (2021) admite las propiedades de translucidez, absorción y material de dispersión
+* [Renderizado] El procesador del motor en tiempo real (2021) presenta una nueva forma de calcular sombras a partir de la luz ambiental
+* [Renderizado] El procesador de motor en tiempo real (2021) calcula en tiempo real la irradiancia de la luz ambiental
+* [Panel Ajustes de Sombreador] Nuevo panel Ajustes de Sombreador para ajustar parámetros específicos del sombreador de material
+* [Panel Ajustes de Sombreador] Nuevos parámetros (Escala normal, Escala de height, Nivel de height, Intensidad de emisión, IOR, Intensidad de Normal de capa y IOR de capa)
+* [Panel de ajustes del Sombreador] Parámetros específicos del motor en tiempo real 2021 (dispersión subsuperficial, distancia de dispersión, desplazamiento rojo y dispersión de Rayleigh)
+* [Panel de configuración de Sombreador] Los valores de configuración se guardan por recurso
+* [Panel de configuración del visor] Se ha añadido una vista previa de las luces ambientales predeterminadas
 * [Panel de configuración del visor] Se ha añadido una vista previa de las mallas predeterminadas
 * [Panel de configuración del visor] Nuevo parámetro de opacidad del entorno
 * [Panel de configuración del visor] Nuevo parámetro de desenfoque de entorno (específico del procesador Realtime Engine 2021)
 * [Localización] Nuevas traducciones en alemán y francés
 * [Contenido] Nuevos materiales de inicio predeterminados
-* [Contenido] Nuevas luces de entorno predeterminadas
+* [Contenido] Nuevas luces ambientales predeterminadas
 * [Contenido] Todos los filtros se han actualizado, limpiado y optimizado
 * [Contenido] El filtro Ajuste se ha dividido en varios filtros
 * [Contenido] Nuevo filtro Brillo/Contraste
@@ -226,13 +226,13 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 * [Contenido] Nuevo filtro de paneles
 * [Contenido] Nuevo filtro de difuminado
 * [Contenido] Nuevo filtro Tejidos
-* [Contenido] Nuevo filtro de transformación de deformación
+* [Contenido] Nuevo filtro transformar deformación
 * [Contenido] Nuevo Height para el filtro AO
 * [Contenido] Nuevo Height a filtro Normal
 * [Contenido] Reemplazo de color: Reemplazar en nuevos canales compatibles (brillo, revestimiento, Anisotropía, etc.)
 * [Contenido] Variación de color: modo manual para seleccionar exactamente los colores que desea cambiar
 * [Contenido] Mosaico - opción para visualizar el corte de las costuras
-* [Contenido] Mosaico - opción para pintar las costuras cortadas para un mosaico perfecto
+* [Contenido] Mosaico - opción de pintura de las costuras cortadas para un azulejo perfecto
 * [Contenido] Coincidencia : Opción para añadir un material para que coincida con su color y su rugosidad
 * [Contenido] Coincidencia: ahora funciona en imágenes para que coincidan con el color de otra imagen
 * [Contenido] Luz de ambiente: nuevo filtro de temperatura de color
@@ -243,14 +243,14 @@ A continuación, se muestran nuestros tutoriales en vídeo sobre las nuevas func
 * [Contenido] Luz de ambiente: nuevos filtros de luces (esfera, línea, forma, plano)
 * [Contenido] Luz de entorno: nuevo filtro de parche de panorama
 * [Contenido] Luz de ambiente: nuevo filtro Enderezar horizonte
-* [Contenido] Luz de entorno: nuevo filtro de combinación HDR
+* [Contenido] Luz de entorno: nuevo filtro HDR. merge
 
 **Problemas conocidos:**
 
-* [Realtime Engine 2021] Al cambiar el diseño, se bloquea la aplicación
+* [Realtime Engine 2021] Al cambiar el diseño, se crea un bloqueo de la aplicación
 * [Realtime Engine 2021] Cálculo intenso, bloqueo de la aplicación
 * [Panels] MacOS: los paneles no acoplados se encuentran delante de todas las aplicaciones
-* [Widgets] Los widgets de transformación y posición pueden desaparecer. Ocultar y mostrar la capa para que aparezcan.
+* [Widgets] Los widgets Transformar y Posiciones pueden desaparecer. Ocultar y mostrar la capa para que aparezcan.
 * [Export] La exportación SBSAR de una luz ambiental pierde la precisión de 32 profundidades de bits
 * [Panel de recursos] Los recursos se pueden resaltar al abrir una carpeta
 * [Panel Propiedades] Al restablecer los parámetros no se restablece la interfaz de usuario del cuadro combinado

@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## Descripción
 
-El Delighter le permite eliminar la información de iluminación del canal de color base. Esto es importante al convertir imágenes en materiales, ya que generalmente los materiales no deben incluir información de iluminación. Un material es una colección de información que explica cómo debe reaccionar la luz con una superficie, por lo que si ya hay información de luz horneada en un canal que no debe tener información de luz, puede romper la capacidad del material para representar la superficie de manera realista.
+El Delighter le permite eliminar la información de iluminación del canal de color base. Esto es importante al convertir imágenes en materiales, ya que generalmente los materiales no deben incluir información de iluminación. Un material es una colección de información que explica cómo debe reaccionar la luz con una superficie, por lo que si ya hay información de luz hecha un bake en un canal que no debe tener información de luz, puede romper la capacidad del material para representar la superficie de manera realista.
 
-*A **Un ejemplo de una imagen antes y después de ser procesada por el filtro**&#x200B;Deleite (con IA)**. Observe que las sombras y las iluminaciones se han quitado, solo permanece el color base.*
+*A **Un ejemplo de una imagen antes y después de ser procesada por el filtro**&#x200B;Deleite (con IA)**. Observe que se quitaron las sombras y las iluminaciones, solo queda el color base.*
 
 ![](../../assets/120-0-comparison.png)
 

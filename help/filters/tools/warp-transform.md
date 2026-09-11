@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/warp-transform.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Transformación de deformación de Substance 3D Sampler para aplicar efectos de deformación y distorsión no lineales a texturas y materiales.
+description: Utilice la herramienta Transformar deformación de Substance 3D Sampler para aplicar efectos de deformación y distorsión no lineales a texturas y materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Warp Transform
 helpx_experience_level: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descripción
 
-Deforma el material mediante controladores en la **vista 2D**.
+Deforma tu material usando identificadores en el **Vista 2D**.
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ Deforma el material mediante controladores en la **vista 2D**.
 
 ## Guía de uso
 
-El **filtro Transformación de deformación** te permite deformar manualmente el material con controladores en la **vista 2D**. Para usar el **filtro Transformación de deformación**:
+El filtro Transformar deformación **Warp** te permite deformar manualmente el material con controladores en el **Vista 2D**. Para usar el **filtro Transformar deformación**:
 
 1. Agregue el **filtro Transformación de deformación** a la parte superior de la pila de capas
 1. Ajuste el número de identificadores con **parámetros básicos > Cuadrícula**

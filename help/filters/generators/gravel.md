@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/gravel.html"
 breadcrumb-title: ''
-description: Utilice el generador de gravilla de Substance 3D Sampler para crear texturas de agregado de gravilla y piedra realistas para materiales.
+description: Utilice el generador de gravilla de Substance 3D Sampler para crear texturas de grava y piedra de agregado realistas para materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Generators > Gravel
 helpx_experience_level: ""
@@ -92,15 +92,15 @@ Estas imágenes muestran el **filtro de grava** que se está usando para llenar 
 * **Smoothness de superficie**: 0-1\
   Suaviza la parte superior de las piedras
 * **Usar máscara personalizada**: alternar\
-  Activar o desactivar el uso de una máscara personalizada para pintar ubicaciones de piedra. Los siguientes parámetros solo estarán visibles si está habilitado **Usar máscara personalizada**.
+  Activar o desactivar el uso de una máscara personalizada para pintura de ubicaciones de piedra. Los siguientes parámetros solo estarán visibles si está habilitado **Usar máscara personalizada**.
   * **Desenfoque de máscara**: 0-1\
     Desenfocar los bordes de la máscara pintada
   * **Máscara personalizada**: imagen/pincel\
-    Haga clic en el pincel para pintar una máscara personalizada en la que aparecerán las piedras. Haga clic en el cuadrado para importar una imagen y utilizarla como máscara.
+    Haga clic en el pincel para crear una pintura de una máscara personalizada en la que aparecerán los cálculos. Haga clic en el cuadrado para importar una imagen y utilizarla como máscara.
 
 **Parámetros avanzados**
 
 * **Tamaño de superficie (cm)**: 0-1000\
   Modifique el tamaño de la superficie que representa el material. El aumento del tamaño de la superficie significa que el tamaño físico de piedras de grava es mayor, y se modificarán en consecuencia.
 * **Profundidad de Height** **(cm)**: 0-100\
-  Modifique la profundidad física representada por el mapa de height del material. Una mayor profundidad del height significa que el tamaño físico de las piedras es más alto de lo que sería de otra manera, por lo que la intensidad normal de las piedras se incrementa.
+  Modifique la profundidad física representada por el mapa de altura del material. Una mayor profundidad del height significa que el tamaño físico de las piedras es más alto de lo que sería de otra manera, por lo que la intensidad normal de las piedras se incrementa.

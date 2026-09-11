@@ -25,7 +25,7 @@ ht-degree: 0%
 * El flujo de trabajo de Sampler con HP Z Captis solo está disponible en Windows por ahora.
 
 * La desconexión física del dispositivo mientras el análisis está en curso no detiene la captura. Si el dispositivo se desconecta durante la captura, espere 30 segundos antes de volver a conectarlo para que pueda volver a conectarse a la sesión de captura en curso.
-* Los cinco mapas que se exportan hoy son el color base, Rugosidad, Normal, Height, Opacidad.
+* Los cinco mapas que se exportan hoy son el Color base, Rugosidad, Normal, Height, Opacidad.
 * Al cerrar la ventana durante una captura, se pierden los metadatos que se rellenaron.
 * Al hacer clic en cualquiera de los botones &quot;Examinar contenido&quot; o &quot;Apagar&quot; durante la transferencia de los datos de Captis a través de USB, la transferencia se detiene.
 

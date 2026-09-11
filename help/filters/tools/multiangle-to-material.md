@@ -33,7 +33,7 @@ La plantilla **Multiángulo a material** crea un material de 2 a 8 imágenes de 
 A continuación se muestra un ejemplo de un material creado a partir de 8 imágenes de entrada:
 
 * Las primeras 8 imágenes son las imágenes escaneadas tomadas bajo 8 ángulos de luz.
-* Las imágenes inferiores son las salidas de la plantilla (color base, normal, height, metálico y rugosidad).
+* Las imágenes inferiores son los resultados de la plantilla (color base, normal, height, metálico y rugosidad).
 
 ![](../../assets/scan-801x697.jpg){width="400px"}
 

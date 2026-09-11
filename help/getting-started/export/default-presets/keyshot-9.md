@@ -22,4 +22,4 @@ ht-degree: 5%
 
 | Ajuste preestablecido | Compatibilidad | Descripción de salida de empaquetado |
 | --- | --- | --- |
-| Keyshot9+ | <ul data-preserve-html="true"> <li data-preserve-html="true">PBR Metálico/Rugosidad</li> </ul> | <b>base\_color</b> <b>normal</b> <b>rugosidad</b> <b>metálico</b> <b>desplazamiento</b> <b>emisor</b> <b>opacidad</b> <b>specular</b> |
+| Keyshot9+ | <ul data-preserve-html="true"> <li data-preserve-html="true">PBR Metálico/Rugosidad</li> </ul> | <b>base\_color</b> <b>normal</b> <b>rugosidad</b> <b>metálico</b> <b>desplazamiento</b> <b>emisivo</b> <b>opacidad</b> <b>specular</b> |

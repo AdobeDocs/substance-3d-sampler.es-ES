@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/paint.html"
 breadcrumb-title: ''
-description: Utilice el filtro Pintura de Substance 3D Sampler para añadir capas de pintura, recubrimientos y efectos de superficie pintada a los materiales.
+description: Usa el filtro de Pintura de Substance 3D Sampler para añadir capas de pintura, recubrimientos y efectos de superficie pintada a tus materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Wear and Finish > Paint
 helpx_experience_level: ""
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## Descripción
 
-El **filtro de pintura** te permite cubrir el material con una capa de pintura de thickness variable.
+El **filtro de Pintura** te permite cubrir tu material con una capa de pintura de thickness variable.
 
-*Se agregó sobre él un material metálico con pintura desgastada.*
+*Se agregó encima un material metálico con pintura desgastada.*
 
 <table>
 <tr style="border: 0;">
@@ -63,22 +63,22 @@ El **filtro de pintura** te permite cubrir el material con una capa de pintura d
 * **Raíz aleatoria**:\
   La velocidad aleatoria determina los valores aleatorios de otros parámetros que utilizan aleatoriedad en este filtro.
 * **Color**: selección de color\
-  Defina el color de pintura.
+  Defina el color de la pintura.
 * **Rugosidad**: 0-1\
   Establezca la rugosidad de las áreas que cubre la pintura.
 * **Thickness**: 0-1\
-  Ajuste la viscosidad y el thickness de la pintura. Esto afecta a la cantidad de height subyacente y a la información normal que se ve a través de la pintura.
+  Ajuste la viscosidad y el thickness de la pintura. Esto afecta a la cantidad de height subyacente e información normal que es visible a través de la pintura.
 * **Pelar**: 0-1\
-  Añade parches en los que la pintura se haya despegado del material subyacente.
+  Añada parches en los que la pintura se haya despegado del material subyacente.
 * **Grano**: 0-1\
-  Cambie el grano de la superficie de la pintura.
+  Cambie el granulado de la superficie de la pintura.
 * **Tamaño de grano**: 1-5\
   Ajuste la escala de la textura utilizada para crear los granos.
 
 **Máscara**
 
 * **Máscara de cavidad**: alternar\
-  Cree una máscara basada en las cavidades que se encuentran en el mapa de height. Si se ha activado, aparecerán los siguientes parámetros:
+  Cree una máscara basada en las cavidades que se encuentran en el mapa de altura. Si se ha activado, aparecerán los siguientes parámetros:
   * **Tamaño de cavidad**: 0-1\
     Ajuste el rango de height utilizado para crear la máscara de cavidad.
   * **Intensidad de la cavidad**: 0-1\
@@ -88,7 +88,7 @@ El **filtro de pintura** te permite cubrir el material con una capa de pintura d
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\
@@ -97,7 +97,7 @@ El **filtro de pintura** te permite cubrir el material con una capa de pintura d
 **Parámetros avanzados**
 
 * **Color base**: alternar\
-  Defina si el canal de color base se ve afectado por el filtro.
+  Establezca si el canal de color base se ve afectado por el filtro.
 * **Metálico**: alternar\
   Defina si el canal metálico se ve afectado por el filtro.
   * **Valor metálico**: 0-1\
@@ -111,18 +111,18 @@ El **filtro de pintura** te permite cubrir el material con una capa de pintura d
 * **Height**: alternar\
   Establezca si el canal de height se ve afectado por el filtro. Si se habilita, aparece un control adicional:
   * **Height - Intensidad**: 0-1\
-    Ajusta el contraste del mapa de height.
+    Ajuste el contraste del mapa de altura.
 * **Opacidad**: alternar\
   Establezca si el filtro afecta al canal de opacidad. Si se habilita, aparece un control adicional:
   * **Opacidad - Valor**: 0-1\
     Cambiar la opacidad del material.
-* **Emisor**: alternar\
-  Establezca si el canal de emisión se ve afectado por el filtro. Si se habilita, aparece un control adicional:
-  * **Emisor - Color**: selección de color\
-    Defina el color del canal de emisión.
-* **Oclusión de ambiente**: alternar\
+* **Emisivo**: alternar\
+  Establezca si el canal de emisivo se ve afectado por el filtro. Si se habilita, aparece un control adicional:
+  * **Emisivo - Color**: selección de color\
+    Defina el color del canal de emisivo.
+* **Oclusión ambiental**: alternar\
   Establezca si el canal de oclusión ambiente se ve afectado por el filtro. Si se habilita, aparecen los siguientes controles adicionales:
-  * **Oclusión ambiente - Intensidad**: 0-1\
+  * **Oclusión ambiental - Intensidad**: 0-1\
     Ajuste la intensidad del AO generado.
   * **Oclusión de ambiente** **- Radio**: 0-1\
     Ajuste el radio del efecto AO.

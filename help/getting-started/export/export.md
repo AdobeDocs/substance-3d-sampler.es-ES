@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Exportar
 
-Puedes exportar tus activos seleccionando **Exportar como** en el **menú Archivo**, o con el acceso directo **Ctrl + E**. Se abrirá la [ventana de exportación](../../getting-started/export/export-window/export-window.md), donde podrás personalizar tu exportación.
+Puedes exportar tus activos seleccionando **Exportar como** en el **menú Archivo** o con el método abreviado **Ctrl + E**. Se abrirá la [ventana de exportación](../../getting-started/export/export-window/export-window.md), donde podrás personalizar tu exportación.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Puedes exportar tus activos seleccionando **Exportar como** en el **menú Archiv
 Sampler admite los formatos de archivo principales de los contenidos:
 
 * Los materiales se pueden exportar como archivos **SBS** o **SBSAR**.
-* También se pueden exportar materiales por texturas de mapa de bits por canal en los siguientes formatos de archivo:
+* Como alternativa, los materiales se pueden exportar en las texturas de mapa de bits por canal en los siguientes formatos de archivo:
   * **EXR**
   * **JPEG**
   * **PNG**

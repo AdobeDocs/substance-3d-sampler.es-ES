@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/hdri-tools/hdr-merge.html"
 breadcrumb-title: ''
-description: Utiliza la herramienta Combinación HDR de Substance 3D Sampler para combinar varias imágenes de exposición en una sola imagen de alto rango dinámico.
+description: Utiliza la herramienta HDR. Combinar de Substance 3D Sampler para combinar varias imágenes de exposición en una sola imagen de alto rango dinámico.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > HDRI Tools > HDR Merge
 helpx_experience_level: ""
@@ -33,17 +33,17 @@ ht-degree: 2%
 
 ## Descripción
 
-La **combinación HDR** **filtro** te permite combinar una colección de imágenes SDR (rango dinámico estándar) para crear una imagen HDR.
+**HDR. Merge** **filter** te permite combinar una colección de imágenes SDR (rango dinámico estándar) para crear una imagen HDR.
 
-Las imágenes siguientes muestran los resultados de la **combinación HDR**.
+Las imágenes siguientes muestran los resultados de **HDR. Merge**.
 
 ![](../../assets/3d-2d-filters-cropped-0027-hdr-merge-in.jpg)
 
-Antes de que se realice la **combinación HDR**, la esfera de la **vista 3D** refleja la luz del entorno predeterminada. La **vista 2D** muestra los datos de imagen importados para la primera imagen digitalizada de forma predeterminada, que en este caso es la imagen con menor exposición.
+Antes de que **HDR. Merge** haya terminado, la esfera de la **vista 3D** refleja la luz ambiental predeterminada. **Vista 2D** muestra los datos de imagen importados para la primera imagen digitalizada de forma predeterminada, que en este caso es la imagen con menor exposición.
 
 ![](../../assets/3d-2d-filters-cropped-0026-hdr-merge-out.jpg)
 
-Después de agregar el **filtro** de combinación HDR **, la esfera refleja una nueva luz de entorno: la imagen HDR generada a partir de las imágenes de entrada.**
+Después de agregar **HDR. Merge** **filter**, la esfera refleja una nueva luz ambiental: la imagen HDR. generada a partir de las imágenes de entrada.
 
 </td>
 </tr>
@@ -62,10 +62,10 @@ Después de agregar el **filtro** de combinación HDR **, la esfera refleja una 
 
 ## Guía de uso
 
-Mira esto para descubrir cómo usar el **filtro Combinación HDR**, así como otros filtros que pueden ayudar a convertir imágenes SDR en una luz de entorno HDR.
+Observe esto para saber cómo usar el HDR **Merge filter**, así como otros filtros que pueden ayudar a convertir imágenes SDR en una luz ambiental HDR.
 
-Los pasos básicos para usar el **filtro** de combinación HDR **son los siguientes:**
+Los pasos básicos para usar el **HDR. Merge** **filter** son los siguientes:
 
 1. Importe el conjunto de imágenes que se van a combinar en la pila de capas.
-1. Agregue el **filtro de combinación HDR** a la pila de capas.
+1. Agregue el **HDR. Combine el filtro** en la pila de capas.
 1. Modifique los parámetros para asegurarse de que los valores de exposición son correctos.

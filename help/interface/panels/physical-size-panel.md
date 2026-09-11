@@ -73,7 +73,7 @@ Estas herramientas le permiten definir el aspecto de la superficie de su materia
 
 **Escala física:** Active o desactive la escala física. La escala física es la circunferencia de la malla a lo largo de los tres ejes.\
 Escala tu material con valores físicos. Manipular la anchura (X) del Height (Y) y la Profundidad (Z).\
-**Mosaico de texturas:** Establezca el mosaico del material
+**Mosaico de Textura:** Establezca el mosaico del material
 
 ### Material de salida
 

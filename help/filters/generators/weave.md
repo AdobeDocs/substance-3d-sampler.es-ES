@@ -48,7 +48,7 @@ Utilice los ajustes preestablecidos para cambiar rápidamente los parámetros y 
 * **Raíz aleatoria**:\
   Semilla aleatoria en la que se basan todos los demás parámetros aleatorios de este filtro.
 * **Imagen**: imagen/pincel\
-  Seleccione una imagen o pinte directamente en la **vista 2D**. El filtro **Tejer** funciona mejor cuando se selecciona una imagen.
+  Seleccione una imagen o pintura directamente en **Vista 2D**. El filtro **Tejer** funciona mejor cuando se selecciona una imagen.
 * **Recuento de colores**: 1-10\
   El **filtro de trama** desglosa automáticamente la entrada de imagen en varios colores según este parámetro. Los parámetros de cada Color se pueden controlar de forma independiente.
 * **Tamaño de área (cm)**: 2-50\

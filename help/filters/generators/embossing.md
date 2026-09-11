@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## Descripción
 
-Relieve de texto o motivos en los materiales.
+Relieve texto o patrones en tus materiales.
 
 </td>
 </tr>
@@ -43,12 +43,12 @@ Relieve de texto o motivos en los materiales.
 
 **Parámetros básicos**
 
-* **Tamaño de relieve**: 0-1\
+* **Tamaño de Relieve**: 0-1\
   Cambiar el tamaño de cada instancia
-* **Distancia de relieve**: 0-1\
+* **Distancia del Relieve**: 0-1\
   Cambiar el thickness de las líneas en relieve
 * **Selección de motivo**:\
-  Seleccione el patrón en relieve. Desde aquí, puede seleccionar la opción de relieve de texto o un motivo personalizado.
+  Seleccione el patrón que desea relieve. Desde aquí puede seleccionar un texto de relieve o un patrón personalizado.
 * **Mosaico De Motivo X**: 1-64\
   Cambiar el número de instancias en el eje X
 * **Mosaico De Motivo Y**: 1-64\
@@ -56,18 +56,18 @@ Relieve de texto o motivos en los materiales.
 
 **Relieve**
 
-* **Usar relieve de borde**: alternar\
-  Alternar si desea grabar en relieve el borde del motivo elegido
-* **Inversión de relieve de borde**: alternar\
-  Invertir el height del relieve del borde
-* **Intensidad de relieve del borde**: 0-1\
-  Cambio de la intensidad del efecto de relieve
-* **Usar relleno en relieve**: alternar\
-  Alternar si se va a grabar en relieve el relleno del motivo elegido
-* **Invertir relieve de relleno**: alternar\
-  Invertir el height del efecto de relleno en relieve
-* **Intensidad de relieve de relleno**: 0-1\
-  Cambio de la intensidad del efecto de relieve
+* **Usar Relieve fronterizo**: alternar\
+  Alternar entre colocar en relieve el borde del patrón elegido
+* **Invertir Relieve de borde**: alternar\
+  Invertir el height del relieve fronterizo
+* **Intensidad del Relieve fronterizo**: 0-1\
+  Cambio de la intensidad del efecto relieve
+* **Usar Relieve de relleno**: alternar\
+  Alternar entre aplicar relieve al relleno del motivo elegido
+* **Invertir Relieve de relleno**: alternar\
+  Invertir el height del efecto relieve de relleno
+* **Intensidad de Relieve de relleno**: 0-1\
+  Cambio de la intensidad del efecto relieve
 
 **Patrón**
 
@@ -85,10 +85,10 @@ Relieve de texto o motivos en los materiales.
 * **Desplazamiento de motivo**: 0-1\
   Desplace cada fila del motivo de la fila anterior.
 * **Usar rugosidad de motivo**: alternar\
-  Active esta opción para anular la rugosidad del material subyacente con un valor de rugosidad personalizado siempre que aparezca el efecto de relieve.\
+  Active esta opción para anular la rugosidad del material subyacente con un valor de rugosidad personalizado siempre que aparezca el efecto relieve.\
   Cuando se habilita, aparece un control **Rugosidad de motivo** para establecer la rugosidad.
 * **Usar motivo metálico**: alternar\
-  Active esta opción para anular los valores metálicos del material subyacente con un valor metálico personalizado siempre que aparezca el efecto de relieve.\
+  Active esta opción para anular los valores metálicos del material subyacente con un valor metálico personalizado siempre que aparezca el efecto relieve.\
   Cuando se habilita, aparece un control **Pattern Metallic** para establecer la rugosidad.
 
 **Texto**: esta sección solo aparece si **Selección de motivo** en **Parámetros básicos** está establecido en **Texto**
@@ -103,8 +103,8 @@ Relieve de texto o motivos en los materiales.
 **Borrador**
 
 * **Borrador normal**: 0-1
-* **Oclusión ambiental del borrador**: 0-1
-* **Opacidad del borrador**: 0-1
+* **Oclusión ambiental de Borrador**: 0-1
+* **Opacidad del Borrador**: 0-1
 
 **Parámetros avanzados**
 
@@ -118,6 +118,6 @@ Estos parámetros permiten ajustar los valores de todo el material.
 
 ## Guía de uso
 
-Añada el filtro Relieve a la parte superior de la pila de capas y comience a ajustar los parámetros.
+Añada el filtro Relieve a la parte superior de la pila de capas y, a continuación, comience a ajustar los parámetros.
 
 Los parámetros más importantes son generalmente **Parámetros básicos > Selección de motivo** para modificar el motivo que utilizará el filtro y **Motivo > Usar motivo** para activar y desactivar el mosaico.

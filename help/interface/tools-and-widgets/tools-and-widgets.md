@@ -22,7 +22,7 @@ Las herramientas disponibles en la barra lateral izquierda son métodos abreviad
 * [Recortar](../../filters/tools/crop-tool.md)
 * [Transformación de perspectiva](../../filters/tools/perspective-correction.md)
 * [Transformar](../../filters/tools/transform.md)
-* [Tampón de clonar](../../filters/tools/clone-stamp.md)
+* [Sello de Clonar](../../filters/tools/clone-stamp.md)
 
 Las herramientas y la funcionalidad que no son de filtro se describen en los siguientes artículos:
 

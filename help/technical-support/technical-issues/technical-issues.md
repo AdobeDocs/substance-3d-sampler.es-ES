@@ -48,4 +48,4 @@ Esta página reagrupa problemas conocidos comunes o preguntas relacionadas con S
 ## Problemas de inicio
 
 * [La aplicación no se inicia en Linux](startup-issues/application-doesn-t-start-on-linux.md)
-* [Bloqueo al iniciarse: versión OBS antigua](startup-issues/crash-at-start-up-old-obs-version.md)
+* [Bloqueo al inicio: versión antigua de OBS](startup-issues/crash-at-start-up-old-obs-version.md)

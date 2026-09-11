@@ -24,7 +24,7 @@ Cada panel de Sampler está dedicado a un propósito específico. De forma prede
 
 * **Panel Proyecto**: Le permite administrar activos en el proyecto abierto actualmente.
 * **Panel de activos**: Contiene contenido de inicio y otras bibliotecas de activos que puede utilizar en la creación de sus activos.
-* **Panel Capas**: Muestra la pila de capas del activo seleccionado.
+* **Panel Capas**: Muestra la pila de capas del recurso seleccionado.
 * **Panel Propiedades**: Muestra las propiedades y los parámetros de la capa seleccionada actualmente: los **paneles Capas** y **Propiedades** se usan a la vez
 
 Estos paneles se utilizan con más frecuencia en el proceso de creación de activos.
@@ -44,7 +44,7 @@ El **panel de configuración de canal** está disponible en la parte inferior de
 
 Los siguientes paneles se almacenan en la parte superior de la **barra lateral derecha** de forma predeterminada:
 
-* **Panel Parámetros expuestos**: Permite administrar los parámetros que estarán disponibles cuando el activo se exporte como archivos SBSAR o SBS.
+* **Panel Parámetros expuestos**: Permite administrar los parámetros que estarán disponibles cuando el recurso se exporte como archivos SBSAR o SBS.
 * **Panel de Tamaño físico**: Configure el tamaño físico real de las muestras e imágenes digitalizadas.
 * **Panel de metadatos**: Edite los metadatos añadiendo una descripción o cambiando el nombre del autor del activo seleccionado.
 * **Panel de exportación**: Envíe el contenido directamente a otras aplicaciones o expórtelo para uso general.

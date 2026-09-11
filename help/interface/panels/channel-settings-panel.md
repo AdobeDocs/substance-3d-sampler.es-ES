@@ -38,9 +38,9 @@ El panel **Configuración de canal** controla la lista de canales calculados par
 
 ## Modelo de material
 
-Utilice este menú desplegable para seleccionar la estructura de sombreado utilizada para procesar el material. Las opciones del **panel de configuración de canal** cambiarán en función del modelo de material seleccionado.
+Utilice este menú desplegable para seleccionar la estructura de sombreador utilizada para procesar el material. Las opciones del **panel de configuración de canal** cambiarán en función del modelo de material seleccionado.
 
-Al cambiar el modelo de material, la pila de capas deberá volver a calcularse para el nuevo modelo y se dispondrá de diferentes canales. Sampler intenta minimizar la pérdida de datos en la conversión; sin embargo, es posible que el cambio resulte en sutiles diferencias en apariencia con un nuevo modelo de material.
+Cuando cambie el modelo de material, deberá volver a calcular su pila de capas para el nuevo modelo y estarán disponibles diferentes canales. Sampler intenta minimizar la pérdida de datos en la conversión; sin embargo, es posible que el cambio resulte en sutiles diferencias en apariencia con un nuevo modelo de material.
 
 >[!NOTE]
 >
@@ -69,13 +69,13 @@ Puedes usar el **botón Editar lista** para abrir la **selección de canales** y
 
 >[!NOTE]
 >
-> Algunos materiales de Substance Source no emiten canales de oclusión de ambiente u opacidad, por ejemplo. Aunque el canal de opacidad esté marcado como &quot;calculado&quot;, si el archivo de Substance no genera, Sampler no lo genera.
+> Por ejemplo, algunos materiales de Substance Source no emiten canales de opacidad o oclusión ambiental. Aunque el canal de opacidad esté marcado como &quot;calculado&quot;, si el archivo de Substance no genera, Sampler no lo genera.
 
 ### Selección de canal
 
 La ventana de selección de canales le permite añadir o quitar canales del material.
 
-![Captura de pantalla de la ventana de selección de canales con Adobe Standard Material seleccionado como Modelo de material.](../../assets/6.0_ChannelSelectionWindow.png)
+![Captura de pantalla de la ventana de selección de canal con el Adobe Standard Material seleccionado como Modelo de material.](../../assets/6.0_ChannelSelectionWindow.png)
 
 Para agregar un canal a su material, seleccione un canal disponible y use el botón **>**.
 Para quitar un canal del material, selecciónelo en la **lista Canales seleccionados** y use el botón **&lt;**.

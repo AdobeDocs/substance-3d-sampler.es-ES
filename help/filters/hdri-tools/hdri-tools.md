@@ -24,9 +24,9 @@ ht-degree: 4%
 >
 > Cambio futuro
 > 
-> La compatibilidad con mallas y luces de entorno se eliminará con la versión 5.2 de Sampler. La eliminación de las luces ambientales también incluirá la eliminación de Herramientas HDRI y filtros.
+> La compatibilidad con luces ambientales y mallas se eliminará con la versión 5.2 de Sampler. La eliminación de luces ambientales también incluirá la eliminación de Herramientas HDRI y filtros.
 
-Los filtros de la sección Herramientas HDRI son herramientas específicas para trabajar con luces de entorno. HDRI es el acrónimo de Alto rango dinámico de imagen, pero se suele utilizar para referirse a las imágenes panorámicas utilizadas para crear luces de ambiente. La modificación de imágenes panorámicas en el software tradicional puede resultar difícil debido a la forma en que la información 3D esférica debe asignarse a un archivo de imagen 2D. Las Herramientas HDRI de Sampler se diseñan teniendo esto en cuenta, por lo que parchear y añadir luces a los HDRI es mucho más fácil.
+Los filtros de la sección Herramientas HDRI son herramientas específicas para trabajar con luces ambientales. HDRI es el acrónimo de Alto rango dinámico de imagen, pero se suele utilizar para referirse a las imágenes panorámicas utilizadas para crear luces ambientales. La modificación de imágenes panorámicas en el software tradicional puede resultar difícil debido a la forma en que la información 3D esférica debe asignarse a un archivo de imagen 2D. Las Herramientas HDRI de Sampler se diseñan teniendo esto en cuenta, por lo que parchear y añadir luces a los HDRI es mucho más fácil.
 
 Los siguientes filtros son Herramientas HDRI:
 

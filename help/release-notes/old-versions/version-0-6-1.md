@@ -26,7 +26,7 @@ Añadido:
 
 * [Motor] Actualización del Substance Engine para que sea compatible con la última versión del Substance Designer
 * [Licencia] Actualizar la carpeta de licencias para las primeras instalaciones
-* [Capas] Vuelva a cargar la pila de capas en cualquier momento para actualizar los filtros personalizados.
+* [Layers] Recarga en cualquier momento tu pila de capas para actualizar tus filtros personalizados
 
 Corregido:
 

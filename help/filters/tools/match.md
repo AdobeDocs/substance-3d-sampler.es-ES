@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/match.html"
 breadcrumb-title: ''
-description: Utilice la herramienta Coincidencia de Substance 3D Sampler para hacer coincidir los colores, los tonos y la iluminación entre diferentes texturas y capas de materiales.
+description: Utilice la herramienta Coincidencia de Substance 3D Sampler para hacer coincidir los colores, los tonos y la iluminación entre diferentes texturas y capas de material.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Tools > Match
 helpx_experience_level: ""
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 El **filtro de coincidencia** te permite hacer coincidir el color y la rugosidad de tu material con los parámetros elegidos u otro material.
 
-En las imágenes siguientes se muestra el **filtro Coincidencia** que se está utilizando para convertir un material de fibra de carbono en oro modelado mediante el ajuste del color base.
+En las imágenes que aparecen a continuación se muestra el **filtro Match** que se está utilizando para convertir un material de fibra de carbono en oro modelado mediante el ajuste del color base.
 
 <table>
 <tr style="border: 0;">

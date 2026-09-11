@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/generators/quilt-stitch.html"
 breadcrumb-title: ''
-description: Utilice el generador de punto de tejido en Substance 3D Sampler para crear patrones de tejidos acolchados y texturas de costura para materiales.
+description: Utilice el generador de punto de tejido en Substance 3D Sampler para crear patrones de tejidos acolchados y texturas de pespunte para materiales.
 helpx_creative_field: ""
 helpx_description: Sampler > Filters > Generators > Quilt Stitch
 helpx_experience_level: ""
@@ -74,7 +74,7 @@ Emula un patrón de tejido unido en tus materiales con este filtro.
   Activar para añadir una unión y ver la sección de parámetros correspondiente
 * **Tejido**: alternar\
   Active esta opción para añadir tejidos y ver la sección de parámetros correspondiente
-* **Pintura de borde**: alternar\
+* **Pintura perimetral**: alternar\
   Active esta opción para pintar la arista entre las secciones acolchadas y ver la sección del parámetro correspondiente
 * **Avanzado**: alternar\
   Habilitar para ver los parámetros **Advanced**
@@ -102,8 +102,8 @@ Emula un patrón de tejido unido en tus materiales con este filtro.
   Seleccione el estilo de costura a utilizar
 * **Intensidad de la costura**: 0-1\
   Modificar la intensidad normal y de height de la costura
-* **Intensidad de estiramiento**: 0-1\
-  Ajusta el impacto que tiene el estiramiento de la tela en la costura. Este efecto es bastante sutil.
+* **Estirar intensidad**: 0-1\
+  Ajusta el impacto que tiene el estiro de la tela en la costura. Este efecto es bastante sutil.
 
 **Tejido**
 
@@ -112,7 +112,7 @@ Emula un patrón de tejido unido en tus materiales con este filtro.
 * **Intensidad de tejido**:\
   Ajuste la intensidad normal y de height del efecto de tejido
 
-**Pintura de borde**
+**Pintura perimetral**
 
 * **Selección de bordes**:\
   Seleccione si el dolor anula o no los detalles normales y de height del material subyacente
@@ -124,6 +124,6 @@ Emula un patrón de tejido unido en tus materiales con este filtro.
 **Avanzado**
 
 * **Height de Material base**: 0-1\
-  Ajuste la intensidad del mapa de height a partir del material subyacente
+  Ajuste la intensidad del mapa de altura del material subyacente
 * **Intensidad normal**: 0-1\
-  Ajuste la intensidad de los cambios normales del mapa debido al filtro **Punto de tejido**. Esto no afecta a la normalidad del material subyacente.
+  Ajuste la intensidad de los cambios de mapa de normales debidos al filtro **Punto de tejido**. Esto no afecta a la normalidad del material subyacente.

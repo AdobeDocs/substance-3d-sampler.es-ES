@@ -37,7 +37,7 @@ Añade una **luz de línea** a la luz ambiental.
 
 Las imágenes siguientes muestran cómo puedes usar una **luz de línea** para ajustar la iluminación de tu entorno.![](../../assets/3d-2d-filters-cropped-0017-line-light-in.jpg)
 
-La imagen de arriba muestra una esfera sin modificaciones a la luz ambiental.
+La imagen de arriba muestra una esfera sin modificaciones en la luz ambiental.
 
 ![](../../assets/3d-2d-filters-cropped-0016-line-light-out.jpg)
 
@@ -67,7 +67,7 @@ Después de agregar una **luz de línea**, el aspecto de la esfera ha cambiado n
   * **Fondo de muestra**
     * El fondo de muestra no ofrece nuevos parámetros, sino que basa el color de la luz en los valores del fondo.
 * **Modo de posición**:\
-  Cambie el método utilizado para determinar la posición de las luces. Los parámetros de la sección **Coordenadas de posición** cambiarán en función de la selección. Con **Posición del mundo** seleccionado, los controladores desaparecerán de la **vista 2D**, en su lugar, utilice los parámetros de **Coordenadas de posición** para modificar la posición de la luz.
+  Cambie el método utilizado para determinar la posición de las luces. Los parámetros de la sección **Coordenadas de posición** cambiarán en función de la selección. Con **Posición del mundo** seleccionado, los controladores desaparecerán del **Vista 2D**, en su lugar, utilice los parámetros de **Coordenadas de posición** para modificar la posición de la luz.
 
 **Forma**
 
@@ -80,7 +80,7 @@ Después de agregar una **luz de línea**, el aspecto de la esfera ha cambiado n
 * **Dureza del motivo**: 0-1\
   Suaviza los bordes de la luz
 * **Modo UV De Patrón**:\
-  Modifique el patrón en el que se basa la luz. **Stretch** amplía toda la forma para que coincida con los puntos finales de línea. **Solo estirar el medio** estira el centro de la forma, manteniendo los extremos de la línea sin distorsionar. **Repetir + Espaciado** crea sellos de la forma a lo largo de la longitud de las líneas y agrega un parámetro adicional para administrar el espaciado:
+  Modifique el patrón en el que se basa la luz. **Estirar** estira toda la forma para que coincida con los puntos finales de línea. **Solo estirar el medio** estira el centro de la forma, manteniendo los extremos de la línea sin distorsionar. **Repetir + Espaciado** crea sellos de la forma a lo largo de la longitud de las líneas y agrega un parámetro adicional para administrar el espaciado:
   * **Espaciado de repetición de motivo**: 0-1\
     Ajustar el ancho del espaciado entre instancias de formas
 

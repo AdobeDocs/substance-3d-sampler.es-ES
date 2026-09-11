@@ -85,7 +85,7 @@ Añade chicle desechado a tu material. Este filtro es ideal para crear pavimento
 * **Máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. El siguiente control aparecerá si **Máscara personalizada** está habilitado:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
 
 **Parámetros avanzados**
 

@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # Formato de normales
 
-Las asignaciones normales se procesan con el formato <b>DirectX</b>. Mantén un flujo de trabajo de <b> OpenGL</b> para importar y exportar el formato de OpenGL cambiando la preferencia de formato normal.
+Los mapas de normales se procesan con el formato <b>DirectX</b>. Mantén un flujo de trabajo de <b> OpenGL</b> para importar y exportar el formato de OpenGL cambiando la preferencia de formato normal.
 
 *Valor predeterminado: DirectX*
 

@@ -75,8 +75,8 @@ Puede definir un nombre de proyecto para la captura y el tipo de resultados que 
 
 *Salidas*
 
-* De forma predeterminada, solo se guardarán los canales de material PBR (color base, normal, height y opacidad).\
-  Puede elegir el tipo de salida entre LDR (bajo rango dinámico) y HDR (alto rango dinámico).
+* De forma predeterminada, solo se guardarán los canales de PBR de material (Color base, normal, height y opacidad).\
+  Usted tiene la posibilidad de elegir el tipo de salida entre LDR (bajo rango dinámico) y HDR. (alto rango dinámico).
 
 
 *Resolución de captura*
@@ -152,7 +152,7 @@ La parte de procesamiento se divide en tres partes:
 
 * <b>Captura</b>: Tomar todas las fotos necesarias
 
-* <b>Procesando</b>: Procesamiento de fotografías para generar canales PBR (color base, normal, height, opacidad)
+* <b>Procesando</b>: Procesamiento de fotografías para generar canales PBR (Color base, normal, height, opacidad)
 
 * <b>Copiando</b>: Copia de los resultados del dispositivo HP Z Captis en el equipo
 
@@ -174,12 +174,12 @@ En ambos casos, encontrará los mapas digitalizados en la carpeta equivalente de
 
 ## Edición de material
 
-Después de salir de la ventana HP Z Captis, los canales (color base, normal, height, rugosidad y opacidad si es relevante) se añadirán como una capa en el panel Capas.
+Después de salir de la ventana HP Z Captis, los canales (color base, normal, height, rugosidad y opacidad, si procede) se añadirán como una capa en el panel Capas.
 
 ![texto alt](../../../help/assets/sampler_captis-imported-material.png)
 
 
-Utilice los filtros Sampler (Ecualizar, Recorte con perspectiva, Mosaico, ...) para procesar y limpiar el material.
+Utilice los filtros Sampler (Ecualizar, Recorte de Perspectiva, Mosaico, ...) para procesar y limpiar el material.
 
 Una vez que haya terminado, puede:
 

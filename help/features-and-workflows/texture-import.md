@@ -7,7 +7,7 @@ helpx_description: Sampler > Features and workflows > Texture Import
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Importación de textura
+title: Importación de texturas
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0f989901713dd30f8f936de2445caf5dc70a9225
@@ -18,11 +18,11 @@ ht-degree: 4%
 ---
 
 
-# Importación de textura
+# Importación de texturas
 
 ![](../assets/Capture-decran-2025-02-19-162128.png.img.png)
 
-La plantilla **Importación de textura** carga varias imágenes y las conecta automáticamente a los canales de salida correctos en función de sus nombres de archivo.
+La plantilla **Importación de Textura** carga varias imágenes y las conecta automáticamente a los canales de salida correctos en función de sus nombres de archivo.
 
 La coincidencia de canales se basa en las convenciones de nomenclatura específicas que se detallan a continuación. En el caso de duplicados o texturas sin coincidencia, las imágenes se marcarán como tales en la interfaz.
 
@@ -53,7 +53,7 @@ Sampler hará coincidir los archivos con los siguientes identificadores de OpenP
 | transmisión_dispersión_anisotropía | transmisiónDispersiónAnisotropía |
 | transmisión_dispersion_scale | transmisiónEscalaDeDispersión |
 | transmisión_dispersion_abbe_number | transmisiónDispersiónAbbeNumber |
-| subsurface_weight | subsuperficialPeso/translucidez |
+| subsurface_weight | subsuperficiePeso/translucidez |
 | subsurface_color | subsurfaceColor/scatteringColor |
 | subsurface_radius | subsurfaceRadius/scatteringDistance |
 | subsurface_radius_scale | subsurfaceRadiusScale/scatteringDistanceScale |

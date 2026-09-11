@@ -81,7 +81,7 @@ Al exportar materiales, el panel Ajustes de material de la ventana de exportaci�
 
 ![](../../../assets/SAPR_ResolutionTextures.png)
 
-* **Modelo de material** (todos los formatos están en el ajuste preestablecido predeterminado): Seleccione un estándar de sombreado para las texturas exportadas.
+* **Modelo de material** (todos los formatos están en el ajuste preestablecido predeterminado): Seleccione un estándar de sombreador para las texturas exportadas.
   * Cambiar el Modelo de material afectará a los nombres de archivo de los archivos exportados. Por ejemplo, el OpenPBR utiliza &quot;Metalness&quot; en lugar de ASM que utiliza &quot;Metallic&quot;.
 
 ### Más información

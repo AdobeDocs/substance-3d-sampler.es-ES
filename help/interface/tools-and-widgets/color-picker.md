@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/interface/tools-and-widgets/color-picker.html"
 breadcrumb-title: ''
-description: Aprenda a usar el selector de color en Substance 3D Sampler para seleccionar colores para materiales, filtros y edición de texturas.
+description: Aprenda a usar el selector de color en Substance 3D Sampler para seleccionar colores para materiales, filtros y edición de textura.
 helpx_creative_field: ""
 helpx_description: Sampler > Interface > Tools and Widgets > Color Picker
 helpx_experience_level: ""

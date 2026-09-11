@@ -72,7 +72,7 @@ Usa el **filtro de Grietas** para envejecer y dañar tu material al agregarle un
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Invertir**: alternar\
     Invierte la máscara.
 

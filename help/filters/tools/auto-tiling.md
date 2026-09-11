@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/auto-tiling.html"
 breadcrumb-title: ''
-description: Utiliza la herramienta Mosaico automático de Substance 3D Sampler para crear automáticamente patrones de mosaico perfectos a partir de texturas con tecnología de IA.
+description: Utilice la herramienta Mosaico automático de Substance 3D Sampler para crear automáticamente patrones de mosaico perfectos a partir de texturas con tecnología de IA.
 helpx_creative_field: ""
 helpx_description: Substance 3D Sampler
 helpx_experience_level: ""
@@ -51,7 +51,7 @@ El <b>filtro Mosaico automático</b> busca estructuras repetitivas en tu materia
 
 Al agregarlo a la pila de capas, <b>Mosaico automático</b> intentará encontrar automáticamente patrones repetidos y generar un material de mosaico. Si esto no funciona, puedes usar el botón <b>Configuración avanzada </b> para ajustar manualmente el proceso.
 
-Si estás planeando crear un material de mosaico a partir de una imagen, es mejor usar el <b>filtro Mosaico automático</b> primero y luego usar el filtro <b>Imagen a material</b>.
+Si estás planeando crear un material de mosaico a partir de una imagen, es mejor usar el <b>filtro Mosaico automático</b> primero y, a continuación, usar la <b>imagen para el Filtro de material</b>.
 
 <b>Mosaico automático</b> se ejecuta por completo en tu dispositivo, no se envía contenido a la nube.
 
@@ -62,7 +62,7 @@ A diferencia de la mayoría de los filtros, <b>Mosaico automático</b> no tiene 
 Este proceso consta de los siguientes pasos:
 
 1. <b>Introducción</b>: Explica cómo funciona el filtro. Use la casilla de verificación para ocultar esta pantalla en el futuro.
-1. <b>Asignar selección</b>: Seleccione el canal que debe utilizar el filtro. Se recomienda el canal con el patrón de repetición más visible. Este suele ser el color base o el canal de Height, pero otros canales pueden ser útiles en función del material.
+1. <b>Asignar selección</b>: Seleccione el canal que debe utilizar el filtro. Se recomienda el canal con el patrón de repetición más visible. Este suele ser el canal de Color base o de Height, pero otros canales pueden ser útiles en función del material.
 1. <b>Configuración de muestra</b>: Realice cambios en el material de entrada para obtener los mejores resultados. Esto incluye elegir una resolución y rotar o deformar la entrada. Si el patrón es muy pequeño, puede ser útil seleccionar una resolución más alta para asegurarse de que el patrón es visible. Sin embargo, para patrones más grandes, una resolución más baja puede proporcionar resultados mejores y más rápidos.
 1. <b>Tamaño de trama</b>: En este paso, el filtro busca el patrón más pequeño que puede encontrar. Puede seleccionar una detección automática mayor o menor, o seleccionar un tamaño personalizado para especificar su propio tamaño. Para obtener los mejores resultados, seleccione el tamaño más pequeño que tenga el patrón repetido una vez por cuadro.\
    Si todas las cajas tienen una forma irregular y no parecen coincidir con el patrón, utilice el tamaño personalizado para intentar obtener resultados más regulares.

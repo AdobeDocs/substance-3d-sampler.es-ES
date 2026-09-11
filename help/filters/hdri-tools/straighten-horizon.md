@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## Descripción
 
-Endereza el horizonte deformando tu entorno en la **vista en 2D**.
+Endereza el horizonte deformando tu entorno en el **Vista 2D**.
 
 </td>
 </tr>
@@ -44,6 +44,6 @@ Endereza el horizonte deformando tu entorno en la **vista en 2D**.
 **Parámetros básicos**
 
 * **Habilitar corrección de horizonte**: alternar\
-  Alterne entre mostrar el horizonte corregido o mostrar una línea que muestre la línea de horizonte resultante. Deshabilite esto y ajuste los controles en la **vista 2D** para obtener una mejor comprensión de cómo esta herramienta deforma el entorno para ajustar el horizonte.
+  Alterne entre mostrar el horizonte corregido o mostrar una línea que muestre la línea de horizonte resultante. Deshabilita esto y ajusta los identificadores en **Vista 2D** para obtener una mejor comprensión de cómo esta herramienta deforma el entorno para ajustar el horizonte.
 * **Rotación horizontal**: 0-1\
   Rota el entorno. Los resultados de este parámetro solo son visibles si **Habilitar corrección de horizonte** está habilitado.

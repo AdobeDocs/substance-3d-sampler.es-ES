@@ -19,7 +19,7 @@ Esta página cubre dos áreas que marcan la mayor diferencia: **preparando tu mu
 
 ## Prepare su muestra física
 
-Todo lo visible en la muestra cuando se captura se copia en los mapas. Unos minutos de preparación eliminan los problemas en el origen antes de que se conviertan en un trabajo de edición.
+Todo lo visible en la muestra cuando se captura se hace un bake en los mapas. Unos minutos de preparación eliminan los problemas en el origen antes de que se conviertan en un trabajo de edición.
 
 **Limpiar la muestra**
 
@@ -39,7 +39,7 @@ Para las telas y otros materiales flexibles, plancha siempre la muestra plana an
 
 **Eliminar manchas de superficies lisas**
 
-En materiales lisos y no porosos, limpie cualquier mancha, huella digital o manchas. Estos se muestran claramente en los canales de color base y de rugosidad.
+En materiales lisos y no porosos, limpie cualquier mancha, huella digital o manchas. Estos aparecen claramente en los canales de color base y rugosidad.
 
 **Conocer el thickness de muestra**
 
@@ -71,4 +71,4 @@ Si coloca varias muestras a la vez, no permita que se toquen o se superpongan. L
 
 Cuando el ejemplo está limpio, plano y centrado, los mapas que llegan a Sampler ya están cerca de estar listos para la producción. Dedicas tu tiempo a refinar el material en lugar de repararlo: menos tiempo para desdeformar, menos tiempo para limpiar dustes y fibras, y menos tiempo para eliminar manchas y arrugas de tus canales.
 
-Una vez importado el material, utilice los filtros de Sampler (Ecualizar, Mosaico automático, Recorte con perspectiva, Mosaico, ...) para los últimos retoques y exporte cuando esté satisfecho con el resultado.
+Una vez importado el material, utilice los filtros de Sampler (Ecualizar, Mosaico automático, Recorte de Perspectiva, Mosaico, ...) para los últimos retoques y exporte cuando esté satisfecho con el resultado.

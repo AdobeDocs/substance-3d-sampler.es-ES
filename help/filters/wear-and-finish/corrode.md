@@ -60,14 +60,14 @@ El filtro de corrosión imita el efecto del ácido que se come el material, deja
 * **Intensidad de Height**: 0-1\
   Controle el impacto de los daños en el mapa del height.
 * **Posición de extrusión**: alternar\
-  Cambie la dirección de los daños en el mapa del height. Cuando está desactivado, el daño se come en la superficie; cuando está activada, el daño se genera hacia fuera desde la superficie.
+  Cambie la dirección de los daños en el mapa de altura. Cuando está desactivado, el daño se come en la superficie; cuando está activada, el daño se genera hacia fuera desde la superficie.
 
 **Máscara**
 
 * **Usar máscara personalizada**: alternar\
   Activar o desactivar el uso de una máscara personalizada. Si se ha activado, aparecerán los siguientes parámetros:
   * **Máscara**: imagen/pincel\
-    Seleccione una imagen para utilizarla como máscara o utilice el pincel para pintar una máscara personalizada directamente en la vista 2D.
+    Seleccione una imagen para utilizarla como máscara o utilice el pincel para realizar la pintura de una máscara personalizada directamente en la Vista 2D.
   * **Máscara personalizada - Desenfocar**: 0-1\
     Desenfoca la máscara.
   * **Máscara personalizada - Invertir**: alternar\
@@ -78,7 +78,7 @@ El filtro de corrosión imita el efecto del ácido que se come el material, deja
 Algunos de los parámetros avanzados afectan al material completo en lugar de solo a las áreas modificadas por este filtro.
 
 * **Luminosidad**: 0-1\
-  Ajusta la luminosidad para todo el material.
+  Ajusta la luminosidad o la luminosidad de todo el material.
 * **Contraste**: -1 a 1\
   Ajusta el contraste del albedo para todo el material.
 * **Cambio de tono**: 0-1\
@@ -86,9 +86,9 @@ Algunos de los parámetros avanzados afectan al material completo en lugar de so
 * **Saturación**: 0-1\
   Ajuste la Saturación para todo el material.
 * **Intensidad normal**: 0-1\
-  Ajuste la intensidad del mapa normal en el que se ha visto afectado por el **filtro de corrosión**.
+  Ajuste la intensidad del mapa de normales en el que se ha visto afectado por el filtro **Corrode**.
 * **Intervalo de Height**: 0-1\
-  Aumente el rango de valores del mapa de height para todo el material.
+  Aumente el rango de valores del mapa de altura para todo el material.
 * **Posición del Height**: 0-1\
   Desplazar el height de todo el material.
 * **Intensidad de Oclusión ambiente**: 0-1\

@@ -21,4 +21,4 @@ ht-degree: 0%
 # Problemas de inicio
 
 * [La aplicación no se inicia en Linux](application-doesn-t-start-on-linux.md)
-* [Bloqueo al iniciar: versión antigua de Obs](crash-at-start-up-old-obs-version.md)
+* [Bloqueo en el arranque - Versión Obs antigua](crash-at-start-up-old-obs-version.md)

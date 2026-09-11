@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/wear-and-finish/stylization.html"
 breadcrumb-title: ''
-description: Usa el filtro Estilización en Substance 3D Sampler para aplicar efectos artísticos y estilos a tus materiales y texturas.
+description: Usa el filtro Estilización en Substance 3D Sampler para aplicar efectos artísticos y looks estilizados a tus materiales y texturas.
 helpx_creative_field: ""
 helpx_description: Substance 3D Sampler
 helpx_experience_level: ""
@@ -151,7 +151,7 @@ Las imágenes siguientes muestran el material de corteza antes y después de apl
   Elija el nivel de variación de la intensidad de la variación aplicada al mapa de suciedades añadido
 
 * <b>Suciedad</b>: Imagen \
-  Elija una imagen o un generador de texturas disponibles en la biblioteca de recursos de Sampler para utilizarlos como mapa de suciedades
+  Elija una imagen o un generador de Texturas disponibles en la biblioteca de recursos de Sampler para utilizarlos como mapa de suciedades
 
 ## Parámetros técnicos
 
@@ -165,7 +165,7 @@ Las imágenes siguientes muestran el material de corteza antes y después de apl
   Permita que Sampler vuelva a calcular la normal siguiendo los cambios que se han aplicado al material
 
 * <b>Intensidad normal</b>: 0-1 \
-  Ajustar la intensidad del mapa Normal
+  Ajustar la intensidad del Mapa de normales
 
 * <b>Suavizado normal</b>: 0-1\
   Suaviza la luz normal para darle un aspecto más suave a tu material
