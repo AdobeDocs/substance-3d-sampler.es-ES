@@ -4,13 +4,11 @@ description: Consulte las notas de la versión de Substance 3D Sampler 6.0 para 
 title: Versión 6.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 56f4ac8b2b5ec271edb8338d51f8ac51e6746c6c
+source-git-commit: 275dc218870f111aa99533840a5aea4c3d22f0cf
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1651'
 ht-degree: 1%
-
 ---
-
 
 # Versión 6.0
 
@@ -59,6 +57,17 @@ Más información *[aquí](../pipeline-and-integrations/hp-z-captis-support/your
 ![texto alt](../../help/assets/Captis_capture_optimization.JPG)
 
 ## Notas de la versión V6.0
+
+### **6.0.4**
+
+*(Lanzado: 24 de septiembre de 2026)*
+
+**Cambiado**
+[Motor] Actualizar el Substance Engine a la versión 9.6.1
+
+**Corregido**
+bloqueo de [capas] al agregar una imagen a la máscara de relieve
+[Correcciones generales de seguridad]
 
 ### **6.0.3**
 

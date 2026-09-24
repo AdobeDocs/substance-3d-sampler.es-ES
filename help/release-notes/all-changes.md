@@ -6,19 +6,28 @@ helpx_description: Sampler > Release Notes > All Changes
 title: Todos los cambios
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0484ed7ae81bd16687abe23ac0ce8f5ad84d1888
+source-git-commit: 275dc218870f111aa99533840a5aea4c3d22f0cf
 workflow-type: tm+mt
-source-wordcount: '24940'
+source-wordcount: '24964'
 ht-degree: 0%
-
 ---
-
 
 # Todos los cambios
 
 Esta página reagrupa todos los cambios que se han producido en Substance 3D Sampler, desde las nuevas funciones hasta las correcciones de errores.
 
 ## Versión 6
+
+### **6.0.4**
+
+*(Lanzado: 24 de septiembre de 2026)*
+
+**Cambiado**
+[Motor] Actualizar el Substance Engine a la versión 9.6.1
+
+**Corregido**
+bloqueo de [capas] al agregar una imagen a la máscara de relieve
+[Correcciones generales de seguridad]
 
 ### **6.0.3**
 
@@ -83,7 +92,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Aplicación&rbrack; Fijar actualizador de configuración
 * &lbrack;Aplicación&rbrack; Activar los canales de digitalización cuando están configurados en automático
 * &lbrack;Aplicación&rbrack; El botón Nuevo proyecto de la pantalla de inicio ya no borra el proyecto anterior con el mismo nombre
-* &lbrack;Aplicación&rbrack; Evitar un bloqueo al salir de macOS
+* &lbrack;Aplicación&rbrack; Evitar un bloqueo al salir en macOS
 * &lbrack;Aplicación&rbrack; Impedir el acceso al recurso de referencias de recursos no válidas
 * &lbrack;Aplicación&rbrack; Evitar bloqueos al acceder a la superficie desde VersionedImage en un ajuste
 * &lbrack;Aplicación&rbrack; Evitar el bloqueo al eliminar un escenario cuando no hay ninguno
@@ -94,7 +103,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Contenido&rbrack; Actualizar todas las unidades de malla de metros a centímetros para los valores de SSS
 * &lbrack;Exportar&rbrack; Asegúrese de que los valores predeterminados estén conectados a filtros dinámicos
 * &lbrack;Exportar&rbrack; Las imágenes ahora se guardan en un subproceso de trabajo para mejorar el rendimiento
-* &lbrack;Filters&rbrack; El Relleno según el contenido se bloquea al activar la escala
+* &lbrack;Filters&rbrack; Bloqueos de relleno según el contenido al activar la escala
 * &lbrack;Filters&rbrack; No se pudo abrir la ubicación de un filtro dinámico desde el panel de recursos
 * &lbrack;Filters&rbrack; Corregir restablecimiento de todo en el paso de ajuste de segmentación automática
 * &lbrack;Filters&rbrack; Restaurar y deshabilitar el procesamiento de uso en la creación de estructuras de árbol
@@ -173,8 +182,8 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 **Corregido:**
 
 * &lbrack;Aplicación&rbrack; Insertar un material en la pila de capas puede provocar un bloqueo en macOS
-* &lbrack;Aplicación&rbrack; Posible bloqueo con carga pesada en macOS
-* &lbrack;Aplicación&rbrack; Posible bloqueo al añadir capas cuando la memoria de vídeo está llena
+* &lbrack;Aplicación&rbrack; Posible bloqueo en carga pesada en macOS
+* &lbrack;Aplicación&rbrack; Bloqueo posible al añadir capas cuando la memoria de vídeo está llena
 * &lbrack;Aplicación&rbrack; Posible bloqueo al abrir un proyecto
 * &lbrack;Captis&rbrack; Error si el enfoque automático se ejecuta poco después de la calibración de intensidad automática
 * &lbrack;Captis&rbrack; Problemas de fiabilidad y rendimiento tras la primera captura
@@ -206,16 +215,16 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 
 **Agregado:**
 
-* &lbrack;vista 2D&rbrack; Ser capaz de alejar más el zoom en la Vista 2D para texturas de alta resolución
+* &lbrack;2D View&rbrack; Ser capaz de alejar más el zoom en la Vista 2D para texturas de alta resolución
 * &lbrack;Captis&rbrack; Advertencia a los usuarios sobre problemas al copiar archivos
 * &lbrack;Capas&rbrack; Al duplicar una capa, use un número incremental en el nuevo nombre de capa
 
 **Corregido:**
 
-* &lbrack;vista 2D&rbrack; Al pintar trazos después de restablecer todas las propiedades del sello del Clonar, los trazos creados anteriormente vuelven a aparecer
+* &lbrack;2D View&rbrack; Al pintar trazos después de restablecer todas las propiedades del sello del Clonar, los trazos creados anteriormente vuelven a aparecer
 * &lbrack;Aplicación&rbrack; &quot;¿Desea guardar el proyecto actual?&quot; popup utiliza un nombre de proyecto incorrecto
-* &lbrack;Aplicación&rbrack; Bloqueo a la salida
-* &lbrack;Aplicación&rbrack; Bloqueo potencial
+* &lbrack;Aplicación&rbrack; Bloqueo al salir
+* &lbrack;Aplicación&rbrack; Posible bloqueo
 * &lbrack;Aplicación&rbrack; A veces, se genera una miniatura con un material incorrecto
 * &lbrack;Captis&rbrack; En algunos dispositivos, cuando se realiza una digitalización en alta resolución, el mapa de altura es negro
 * &lbrack;Captis&rbrack; El botón &quot;Iniciar captura&quot; ya no se desactiva cuando no se ha definido ningún nombre de captura y cuando se está ejecutando una calibración
@@ -426,12 +435,12 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Vista&amp;rbrack 3D; Posibilidad de guardar una instantánea de procesamiento en el portapapeles o en archivos
 * &lbrack;Vista&amp;rbrack 3D; Visualización de una cuadrícula para visualizar el origen de la escena
 * &lbrack;Vista&amp;rbrack 3D; Activar el plano de tierra para capturar sombras y reflejos
-* &lbrack;Vista&amp;rbrack 3D; Controla lo reflectante y opaco que es tu plano del suelo
+* &lbrack;Vista 3D&rbrack; Controla lo reflectante y opaco que es tu plano del suelo
 * &lbrack;captura 3D&rbrack; Posición de la malla sobre el suelo
 * &lbrack;Aplicación&rbrack; Comprobar la compatibilidad del hardware al iniciar la aplicación
-* &lbrack;Aplicación&rbrack; Ahora se abre la ventana Informes de fallos justo después de que se produzca un bloqueo
+* &lbrack;Aplicación&rbrack; La ventana de informes de bloqueos ahora se abre justo después de que se produzca un bloqueo
 * &lbrack;Contenido&rbrack; Abra un proyecto de muestra para comenzar fácilmente
-* &lbrack;Exportar&rbrack; Exportación del sombreador de Adobe Standard Material en archivos USD
+* &lbrack;Exportar&rbrack; Exportar sombreador de Adobe Standard Material en archivos USD
 * &lbrack;Inteligencia artificial generativa&rbrack; Marque la opción &quot;No inferir&quot; cuando utilice image como entrada en los flujos de trabajo de Imagen a Textura
 * &lbrack;Proyecto&rbrack; Las miniaturas se almacenan en el archivo de proyecto para abrir los proyectos más rápido
 * &lbrack;Proyecto&rbrack; Configuración en las preferencias para almacenar datos de caché dentro del archivo de proyecto, con diferentes modos (sin caché, caché ligera, caché completa)
@@ -444,8 +453,8 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 
 **Corregido:**
 
-* &lbrack;captura 3D&rbrack; Bloqueo si no se puede iniciar la captura de objetos en macOS
-* &lbrack;Aplicación&rbrack; Bloqueo al salir
+* &lbrack;captura 3D&rbrack; Bloqueo si la captura de objetos no se puede iniciar en macOS
+* &lbrack;Aplicación&rbrack; Bloqueo a la salida
 * &lbrack;Aplicación&rbrack; Colgar al salir al añadir recursos al panel Proyecto
 * &lbrack;Aplicación&rbrack; El cambio de nombre de un recurso de proyecto no funciona a menos que pulse Intro
 * &lbrack;Aplicación&rbrack; Las entradas de menú Deshacer y Rehacer no se desactivan cuando deberían
@@ -509,7 +518,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 **Corregido:**
 
 * &lbrack;Contenido&rbrack; Falta el filtro de dirt
-* &lbrack;Inteligencia artificial generativa&rbrack; En ocasiones, se producen errores de red al utilizar Imagen para texturizar
+* &lbrack;Inteligencia artificial generativa&rbrack; En ocasiones, se producen errores de red al utilizar Imagen para Textura
 
 ### **FUENTE 4.4.0**
 
@@ -518,9 +527,9 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 **Agregado:**
 
 * &lbrack;Aplicación&rbrack; La caché de captura 3D ahora se almacena en una subcarpeta independiente
-* &lbrack;Inteligencia artificial generativa&rbrack; Imagen a textura (beta)
+* &lbrack;Inteligencia artificial generativa&rbrack; De imagen a Textura (beta)
 * &lbrack;Inteligencia artificial generativa&rbrack; Texto a motivo (beta)
-* &lbrack;Inteligencia artificial generativa&rbrack; Texto a textura (beta)
+* &lbrack;Inteligencia artificial generativa&rbrack; De texto a Textura (beta)
 * &lbrack;Secuencias de comandos&rbrack; Los activos ahora tienen una propiedad de recurso
 * &lbrack;Secuencias de comandos&rbrack; Las capas ahora tienen la propiedad &#39;output_usages&#39;
 
@@ -585,7 +594,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Exportar&rbrack; La exportación de un material con Recortar o relativo a la capa de directiva de entrada produce resultados no válidos
 * &lbrack;Capas&rbrack; Bloqueo raro al procesar una pila de capas
 * &lbrack;Filters&rbrack; Bordado: Se ha solucionado el problema al utilizar la entrada de material en MacOS.
-* &lbrack;Filters&rbrack; Estilización - Soporte de Generadores de Textura
+* &lbrack;Filters&rbrack; Estilización - Soporte de los generadores de texturas
 * &lbrack;Filters&rbrack; Patrón: corregir nombres de parámetros
 * &lbrack;Localización&rbrack; &quot;Guardar como...&quot; en la ventana información de hardware, en el menú ayuda, aparece sin localizar
 
@@ -696,7 +705,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Capas&rbrack; Se pueden añadir imágenes en las capas de importación de imágenes
 * &lbrack;Capas&rbrack; Las imágenes se pueden eliminar en las capas de importación de imágenes
 * &lbrack;Capas&rbrack; Ahora se pueden eliminar capas no válidas
-* &lbrack;vista 2D&rbrack; Mayús + C del método abreviado para retroceder por los canales
+* &lbrack;2D View&rbrack; Mayús + C del método abreviado para retroceder por los canales
 * &lbrack;captura 3D&rbrack; Mostrar un aviso cuando el usuario importe menos de 20 imágenes
 * &lbrack;Aplicación&rbrack; Nuevas preferencias para definir el valor de mosaico de textura de material por defecto
 * &lbrack;Incorporación&rbrack; Interfaz de usuario del tutorial actualizada para Imagen a material (IA) y Ampliación de escala
@@ -740,7 +749,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Plantilla de creación de material&rbrack; Proporcionar comentarios cuando no se puedan utilizar algunas imágenes importadas
 * &lbrack;Plantilla de creación de material&rbrack; Avisar cuando los tamaños de imagen no sean coherentes
 * &lbrack;Plantilla de creación de material&rbrack; Nuevas advertencias e información sobre herramientas
-* &lbrack;Capas&rbrack; Visualización de la resolución de las capas de la pila de capas
+* &lbrack;Capas&rbrack; Mostrar la resolución de las capas de la pila de capas
 * &lbrack;Capas&rbrack; La resolución de cálculo de capa ahora se puede establecer en Tamaño de documento o Tamaño de entrada
 * &lbrack;Capas&rbrack; Mostrar la resolución de las capas en la pila de capas
 * &lbrack;Capas&rbrack; Cambiar una directiva de resolución de capa a Documento o Entrada de capa cuando corresponda
@@ -847,7 +856,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;captura 3D&rbrack; Scripting: nueva propiedad dataset_info.camera
 * &lbrack;captura 3D&rbrack; Añadir compatibilidad con Linux (consulte la documentación)
 * &lbrack;captura 3D&rbrack; Comprobar el acceso de lectura de las imágenes importadas
-* &lbrack;Incorporación&rbrack; Formación - 2 nuevos tutoriales (Bordado y Deformación de pintura)
+* &lbrack;Incorporación&rbrack; Aprende - 2 nuevos tutoriales (Bordado y Deformación de Pintura)
 * &lbrack;Incorporación&rbrack; Contenido actualizado de novedades
 
 **Corregido:**
@@ -855,18 +864,18 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;captura 3D&rbrack; Mantener la posición de la cámara al cambiar la versión
 * &lbrack;captura 3D&rbrack; Fusionar todos los grupos de un objeto en uno
 * &lbrack;captura 3D&rbrack; Mallas generadas cuyo nombre ha cambiado a Original
-* &lbrack;Aplicación&rbrack; Bloqueo al intentar generar una miniatura de una imagen que no existe
+* &lbrack;Aplicación&rbrack; Bloqueo al intentar generar una miniatura de una imagen inexistente
 * &lbrack;Assets&rbrack; El icono de papelera no hace nada en el panel Activos
 * &lbrack;Contenido&rbrack; La actualización de filtros con ranuras de material no funciona del modo esperado
 * &lbrack;Exportar&rbrack; Posible bloqueo al exportar un recurso con filtros específicos
-* &lbrack;Exportar&rbrack; Exportación SBS/SBSAR: las capas de importación de imágenes tenían prioridad sobre los parámetros de la imagen
+* &lbrack;Exportar&rbrack; Exportación SBS/SBSAR: las capas de importación de imágenes tenían prioridad sobre los parámetros de imagen
 * &lbrack;Exportar&rbrack; El ajuste preestablecido de exportación UE4 no funciona con PNG
 * &lbrack;Capas&rbrack; Bloqueo al soltar un material y un filtro al mismo tiempo desde el explorador del sistema operativo
 * &lbrack;Capas&rbrack; Bloqueo al arrastrar cualquier archivo SBSAR con cualquier archivo de imagen
 * &lbrack;Capas&rbrack; El canal de opacidad del bordado puede ser completamente blanco
 * &lbrack;Localización&rbrack; El idioma chino se puede mostrar de forma predeterminada en Linux
 * &lbrack;Rendimiento&rbrack; Se ha corregido un problema de memoria al eliminar una capa de un recurso
-* &lbrack;Proyecto&rbrack; Posible bloqueo al guardar
+* &lbrack;Proyecto&rbrack; Bloqueo posible al guardar
 * &lbrack;UI&rbrack; Añadir el espaciado que falta en el botón de menú de la versión
 * &lbrack;UI&rbrack; El botón Cancelar no se muestra correctamente
 * &lbrack;UI&rbrack; Desactivación de la animación de los reguladores para los parámetros de posprocesamiento de captura 3D
@@ -905,14 +914,14 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;captura 3D&rbrack; Bloqueo al utilizar una ruta con caracteres que no son UTF8
 * &lbrack;captura 3D&rbrack; Errores tipográficos de aciertos y sugerencias
 * &lbrack;captura 3D&rbrack; Las mallas ya no se escalan para ajustarse al cubo de unidades
-* &lbrack;captura 3D&rbrack; Evitar un bloqueo al cerrar Captura 3D durante el procesamiento
+* &lbrack;captura 3D&rbrack; Evitar un bloqueo al cerrar la Captura 3D durante el procesamiento
 * &lbrack;captura 3D&rbrack; Al quitar una máscara, la imagen desaparece
 * &lbrack;Aplicación&rbrack; Bloqueo al importar dos veces un recurso simultáneamente
 * &lbrack;Aplicación&rbrack; Hacer una copia de seguridad de la versión anterior de los recursos al abrir un proyecto si nunca se hicieron copias de seguridad
-* &lbrack;Aplicación&rbrack; Almacenar mapas con bake correctamente en caché cuando no todos los mapas están procesados correctamente
-* &lbrack;Aplicación&rbrack; La pantalla completa se bloquea cuando se muestra un objeto 3D.
+* &lbrack;Aplicación&rbrack; Almacenar mapas con bake correctamente en caché cuando no se hacen un bake todos los mapas
+* &lbrack;Aplicación&rbrack; Bloqueos de pantalla completa cuando se muestra un objeto 3D.
 * &lbrack;Aplicación&rbrack; El último material se duplica al guardar el proyecto
-* &lbrack;Aplicación&rbrack; Evite el bloqueo al cancelar el procesamiento posterior de Mesh durante el paso de procesamiento
+* &lbrack;Aplicación&rbrack; Evite el bloqueo al cancelar el cálculo de procesamiento posterior a la malla durante el paso de hacer un bake
 * &lbrack;Aplicación&rbrack; La reapertura del proyecto actual no descarta los cambios
 * &lbrack;Aplicación&rbrack; Detener la generación de miniaturas para objetos 3D
 * &lbrack;2D View&rbrack; Bloqueo al utilizar la herramienta Pincel
@@ -971,16 +980,16 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;captura 3D&rbrack; Definir el área de reconstrucción con un widget de cuadro delimitador
 * &lbrack;captura 3D&rbrack; Escalar, trasladar y rotar en todos los ejes el widget de cuadro delimitador
 * &lbrack;captura 3D&rbrack; Definir la precisión geométrica de la malla reconstruida
-* &lbrack;captura 3D&rbrack; Optimice sus mallas y texturas creando una nueva versión
+* &lbrack;captura 3D&rbrack; Optimice la malla y las texturas creando una nueva versión
 * &lbrack;captura 3D&rbrack; Cada una de las versiones se diezma automáticamente al conjunto de números de caras de destino
-* &lbrack;captura 3D&rbrack; El paso posterior al proceso desenvuelve, vuelve a proyectar texturas automáticamente y, a continuación, hornea la información normal de height y AO de la malla de alta densidad de poli
+* &lbrack;captura 3D&rbrack; El paso posterior al proceso desenvuelve, vuelve a proyectar las texturas automáticamente y, a continuación, hace un bake la información normal de height y AO de la malla de alta densidad de poli
 * &lbrack;captura 3D&rbrack; Agregue el resultado original o una versión al proyecto de Sampler
 * &lbrack;captura 3D&rbrack; Nueva capa posterior al proceso de malla para diezmar, desajustar, volver a proyectar texturas y hacer un bake detalles de la capa de malla subyacente de forma automática
-* &lbrack;captura 3D&rbrack; Nueva capa de transformación de malla para escalar, rotar o trasladar la capa de malla subyacente
+* &lbrack;captura 3D&rbrack; Nueva capa de malla Transforma la capa para escalar, rotar o trasladar la capa de malla subyacente
 * &lbrack;Exportar&rbrack; Nueva ventana de exportación
-* &lbrack;Exportar&rbrack; Ajustes e interfaz de usuario dedicados en función del tipo de activo (material, luz de entorno, malla)
+* &lbrack;Exportar&rbrack; Configuración e interfaz de usuario dedicadas según el tipo de recurso (material, luz ambiental, malla)
 * &lbrack;Exportar&rbrack; Exportar la malla como USD, USDA, USDZ, glTF, glb, obj, fbx, stl
-* &lbrack;Exportar&rbrack; Definir el tipo de material al exportar ficheros de Substance (SBSAR, SBS)
+* &lbrack;Exportar&rbrack; Defina el tipo de material al exportar archivos de Substance (SBSAR, SBS)
 * &lbrack;UI&rbrack; Mueva la configuración de la caché a una nueva pestaña en el menú emergente Preferencias
 * &lbrack;Aplicación&rbrack; Las ventanas gráficas 2D y 3D ahora se pueden cambiar de tamaño, intercambiar y apilar verticalmente
 * &lbrack;Aplicación&rbrack; Nueva variable de entorno SAMPLER_RESOURCES_PATH para añadir recursos de inicio adicionales
@@ -1173,7 +1182,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Rendimiento&rbrack; Mejorar el consumo de memoria
 * &lbrack;Tamaño físico&rbrack; Puede faltar información de tamaño físico al habilitar la función
 * &lbrack;UI&rbrack; El desplazamiento del ratón a veces no funciona del modo esperado al pulsar la tecla Alt
-* &lbrack;Aplicación&rbrack; La aplicación puede bloquearse al abrir un proyecto guardado
+* &lbrack;Aplicación&rbrack; La aplicación puede entrar en bloqueo al abrir un proyecto guardado
 * &lbrack;Aplicación&rbrack; Bloqueo al arrastrar y soltar varias imágenes y utilizar Importar Textura en la ventana Plantilla de creación de material
 * &lbrack;Aplicación&rbrack; Bloqueo potencial al guardar un proyecto que contiene un filtro personalizado
 * &lbrack;Aplicación&rbrack; En ocasiones, el estado de la tecla Control se pierde al cambiar de aplicación
@@ -1198,22 +1207,22 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Interoperabilidad&rbrack; Enviar materiales a Adobe Substance 3D Stager
 * &lbrack;Herramientas&rbrack; Centrar la transformación pulsando Ctrl al cambiar el tamaño de las herramientas Transformar o Recortar
 * &lbrack;Herramientas&rbrack; Bloquee la proporción al cuadrado presionando Mayús al cambiar el tamaño de las herramientas Transformar o Recortar
-* &lbrack;Herramientas&rbrack; El cursor del tampón de clonar ofrece una vista previa de lo que se sellará
-* &lbrack;Herramientas&rbrack; Previsualización del contenido original en el cursor del Borrador al utilizar el Tampón de clonar
-* &lbrack;Herramientas&rbrack; Ctrl+Clic crea un nuevo sello en la capa Tampón de clonar
+* &lbrack;Herramientas&rbrack; El cursor de sello del Clonar ofrece una vista previa de lo que se va a estampar
+* &lbrack;Herramientas&rbrack; Vista previa del contenido original en el cursor del Borrador al utilizar el sello del Clonar
+* &lbrack;Herramientas&rbrack; Ctrl+Clic crea un nuevo sello en la capa Sello del Clonar
 * &lbrack;Herramientas&rbrack; Los sucesivos sellos de clonación ahora se agrupan en una sola capa
 * &lbrack;Herramientas&rbrack; Revampación de IU de barras de pinceles
 * &lbrack;Herramientas&rbrack; La posición de la barra de herramientas Pincel es persistente durante una sesión
 * &lbrack;Herramientas&rbrack; Nuevas opciones de mosaico de pinceles por eje
-* &lbrack;Herramientas&rbrack; Ocultar/mostrar la superposición sobre la vista 2D al pintar
+* &lbrack;Herramientas&rbrack; Ocultar/mostrar la superposición sobre el Vista 2D al pintar
 * &lbrack;Herramientas&rbrack; Nuevo método abreviado, tecla &quot;X&quot;, para alternar entre Pincel y Borrador
 * &lbrack;Herramientas&rbrack; Nuevo método abreviado, &quot;&brack;&quot; &quot;&brack;&quot; para cambiar el tamaño del pincel
 * &lbrack;Herramientas&rbrack; Nuevo método abreviado, tecla &quot;E&quot;, para cambiar el Borrador
-* &lbrack;2D View&rbrack; Nuevo modo de Proyección esférica al crear luz ambiental
-* &lbrack;2D View&rbrack; La herramienta Pincel es compatible con el modo de proyección esférica
-* &lbrack;2D View&rbrack; La herramienta Posición es compatible con el modo de proyección esférica
-* &lbrack;2D View&rbrack; La función Deshacer/Rehacer es compatible con el modo de proyección esférica
-* &lbrack;2D View&rbrack; En Proyección esférica, defina la posición predeterminada para que mire al centro del entorno
+* &lbrack;vista 2D&rbrack; Nuevo modo de Proyección esférica al crear una luz ambiental
+* &lbrack;vista 2D&rbrack; La herramienta Pincel es compatible con el modo de proyección esférica
+* &lbrack;vista 2D&rbrack; La herramienta Posición es compatible con el modo de proyección esférica
+* &lbrack;vista 2D&rbrack; La función Deshacer/Rehacer es compatible con el modo de proyección esférica
+* &lbrack;vista 2D&rbrack; En Proyección esférica, defina la posición predeterminada para que mire al centro del entorno
 * &lbrack;2D View&rbrack; Nuevo control de exposición
 * &lbrack;UI&rbrack; En el panel Propiedades, el ajuste de imagen muestra el origen del contenido (imagen o de una capa)
 * &lbrack;UI&rbrack; Se ha mejorado el fondo desplegable de las salidas de capa/material
@@ -1260,8 +1269,8 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; El botón de rotación de 90 grados de las herramientas Recortar y Transformar no funciona del modo esperado
-* &lbrack;2D View&rbrack; El widget de recorte a veces desaparece
+* &lbrack;vista 2D&rbrack; El botón de rotación de 90 grados de las herramientas Recortar y Transformar no funciona del modo esperado
+* &lbrack;vista 2D&rbrack; El widget de recorte a veces desaparece
 * &lbrack;Aplicación&rbrack; Borrar un parámetro de imagen no vuelve a conectar la capa subyacente
 * &lbrack;Aplicación&rbrack; Bloqueo al salir después de guardar un proyecto
 * &lbrack;Aplicación&rbrack; Bloqueo al arrastrar y soltar el material actual en una colección del panel de Recursos
@@ -1270,7 +1279,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Contenido&rbrack; El filtro Snow tiene una salida normal incorrecta en función de los valores de los parámetros de nieve fresca y derretida
 * &lbrack;Contenido&rbrack; Filtro de parquet: costuras inesperadas fijas
 * &lbrack;Contenido&rbrack; Filtro de bordado: quitar rosca en mapa metálico
-* &lbrack;Contenido&rbrack; Filtro de azulejos de piso: corregir el recuento de mosaicos x e y
+* &lbrack;Contenido&rbrack; Suelo azulejos, filtro: corregir el recuento de mosaicos x e y
 * &lbrack;Contenido&rbrack; Filtro de pared de ladrillo: salida normal y height a 16 bits
 * &lbrack;Exportar&rbrack; El nombre de archivo predeterminado en la ventana emergente de exportación no es el nombre de material actual
 * &lbrack;Exportar&rbrack; La exportación con una proporción física con un ajuste preestablecido de exportación produce dimensiones incorrectas
@@ -1617,7 +1626,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;UI&rbrack; Ahora se puede acceder directamente al widget de resolución en la ventana gráfica
 * &lbrack;UI&rbrack; Todos los elementos de la interfaz de usuario ahora se cargan dinámicamente
 * &lbrack;UI&rbrack; Método abreviado: utilice &quot;2&quot; para cambiar la visibilidad de la vista 2D
-* &lbrack;UI&rbrack; Método abreviado: utilice &quot;3&quot; para cambiar la visibilidad de la vista 3D
+* &lbrack;UI&rbrack; Método abreviado : utilice &quot;3&quot; para cambiar la visibilidad de la vista 3D
 * &lbrack;Pantalla de bienvenida&rbrack; Crear un proyecto con un solo clic con el botón Nuevo
 * &lbrack;Pantalla de bienvenida&rbrack; Banner de nueva ilustración
 * &lbrack;Proyecto&rbrack; Todos los proyectos se asocian ahora a un archivo único
@@ -1679,19 +1688,19 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Adobe Photoshop&rbrack; En cada operación de guardar en Adobe Photoshop, la imagen editada se volverá a cargar en Sampler
 * &lbrack;Substance 3D Designer&rbrack; Los contenidos enviados desde Adobe Substance 3D Designer aparecerán directamente en la sección &quot;Sus contenidos&quot; del panel de contenidos
 * &lbrack;Exportar&rbrack; Enviar recursos directamente a Adobe Substance 3D Painter y Adobe Substance 3D Stager
-* &lbrack;Exportar&rbrack; Enviar materiales y luces de entorno a Adobe Substance 3D Painter
-* &lbrack;Exportar&rbrack; Enviar luces de entorno a Adobe Substance 3D Stager
+* &lbrack;Exportar&rbrack; Enviar materiales y luces ambientales a Adobe Substance 3D Painter
+* &lbrack;Exportar&rbrack; Enviar luces ambientales a Adobe Substance 3D Stager
 * &lbrack;Procesando&rbrack; Las nuevas propiedades de material ahora son compatibles y se representan en 3D
 * &lbrack;Procesando&rbrack; Adición de la compatibilidad de brillo (Color de brillo, opacidad de brillo y rugosidad de brillo)
 * &lbrack;Procesando&rbrack; Adición de soporte de recubrimiento (Color de capa, Rugosidad de capa, Normal de capa, Nivel especular de capa y revestimiento IOR)
-* &lbrack;Procesando&rbrack; Adición de compatibilidad de Anisotropía (nivel de Anisotropía y ángulo de Anisotropía)
+* &lbrack;Procesando&rbrack; Adición de compatibilidad de Anisotropía (Nivel de anisotropía y Ángulo de anisotropía)
 * &lbrack;Procesando&rbrack; Adición de compatibilidad con Speculares edges color
 * &lbrack;Procesando&rbrack; Active estas nuevas propiedades en el panel Configuración de canal
 * &lbrack;Procesando&rbrack; Introducción de un nuevo procesador de Realtime Engine (2021) en la versión beta
 * &lbrack;Procesando&rbrack; Cambiar entre las dos versiones de procesador en el panel Configuración del visor
 * &lbrack;Procesando&rbrack; El procesador del motor en tiempo real (2021) admite las propiedades de translucidez, absorción y dispersión de materiales
-* &lbrack;Procesando&rbrack; El procesador del motor en tiempo real (2021) presenta una nueva forma de calcular las sombras a partir de la luz del entorno
-* &lbrack;Procesando&rbrack; El procesador del motor en tiempo real (2021) calcula en tiempo real la irradiancia de la luz del entorno
+* &lbrack;Procesando&rbrack; El procesador de motor en tiempo real (2021) presenta una nueva forma de calcular sombras a partir de la luz ambiental
+* &lbrack;Procesando&rbrack; El procesador del motor en tiempo real (2021) calcula en tiempo real la irradiancia de la luz ambiental
 * &lbrack;Panel Configuración del sombreador&rbrack; Nuevo panel Ajustes del sombreado para ajustar parámetros específicos del sombreado de material
 * &lbrack;Panel Configuración del sombreador&rbrack; Nuevos parámetros (Escala normal, Escala de height, Nivel de height, Intensidad de emisión, IOR, Intensidad de Normal de capa y Coat IOR)
 * &lbrack;Panel Configuración del sombreador&rbrack; Parámetros específicos para el motor en tiempo real 2021 (dispersión subsuperficial, distancia de dispersión, desplazamiento rojo y dispersión de Rayleigh)
@@ -1734,7 +1743,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 
 **Problemas conocidos:**
 
-* &lbrack;Motor en tiempo real 2021&rbrack; Al cambiar el diseño, se bloquea la aplicación
+* &lbrack;Motor en tiempo real 2021&rbrack; Al cambiar el diseño, se crea un bloqueo de la aplicación
 * &lbrack;Motor en tiempo real 2021&rbrack; Cálculo pesado, bloqueo la aplicación
 * &lbrack;Panels&rbrack; MacOS : los paneles no acoplados se encuentran delante de todas las aplicaciones
 * &lbrack;Widgets&rbrack; Los widgets transformar y Posiciones pueden desaparecer. Ocultar y mostrar la capa para que aparezcan.
@@ -1785,7 +1794,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;UI&rbrack; Actualizar créditos de imagen de pantalla de bienvenida
 * &lbrack;UI&rbrack; Corregir separador invisible en los menús
 * &lbrack;UI&rbrack; Los botones de opción muestran información sobre herramientas cuando se truncan
-* &lbrack;UI&rbrack; Tipografía: Materiales de inicio
+* &lbrack;UI&rbrack; Tipografía: Materiales de introducción
 * &lbrack;Aplicación&rbrack; Los caracteres UTF-8 en los nombres de recursos no funcionan
 * &lbrack;Localización&rbrack; Deshabilitar el estilo de fuente en cursiva para la configuración regional china
 * &lbrack;Localización&rbrack; Cadena localizada dividida en 2 líneas
@@ -1835,7 +1844,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Contenido&rbrack; Añadir filtro Invertir
 * &lbrack;Contenido&rbrack; Añadir filtro Colorear
 * &lbrack;Contenido&rbrack; Añadir filtro Reemplazar color
-* &lbrack;Contenido&rbrack; Transformar : Permite desactivar la transformación en un canal específico
+* &lbrack;Contenido&rbrack; Transformar : añada la posibilidad de desactivar la transformación en un canal específico
 * &lbrack;Contenido&rbrack; Transformar : añadir rotación cuando se activa el transformo seguro
 * &lbrack;Contenido&rbrack; Variación de color : añada una opción de segmentación para elegir cómo distribuir los colores
 
@@ -1878,7 +1887,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Capas&rbrack; La caché de disco no se utiliza al insertar una pila en una pila
 * &lbrack;Capas&rbrack; Algunos usos de canal se calculan aunque no se utilizan
 * &lbrack;Capas&rbrack; En ocasiones, se crean salidas en blanco al importar imágenes
-* &lbrack;vista 2D&rbrack; Cambiar a otra capa con el modo Dibujo activado bloquea la panorámica y el zoom
+* &lbrack;2D View&rbrack; Cambiar a otra capa con el modo Dibujo activado bloquea la panorámica y el zoom
 * &lbrack;Contenido&rbrack; Snow: problema de 8 bits en el mapa de normales
 * &lbrack;Contenido&rbrack; Patrón de pavimento - 8 bits problema en el mapa de normales
 * &lbrack;Contenido&rbrack; Ecualizador: problema de 8 bits en el mapa de normales
@@ -2027,7 +2036,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Capas&rbrack; Bloqueo al manipular capas
 * &lbrack;Capas&rbrack; Los canales personalizados no se muestran con un material guardado
 * &lbrack;Aplicación&rbrack; Se ha corregido un bloqueo raro al importar un recurso
-* &lbrack;Aplicación&rbrack; Bloqueo a la salida
+* &lbrack;Aplicación&rbrack; Bloqueo al salir
 * &lbrack;Aplicación&rbrack; Los cuadros combinados ahora muestran los valores correctos al cambiar los ajustes preestablecidos
 * &lbrack;Exportar&rbrack; Ajuste preestablecido de Enscape renombrado a Enscape Revit
 * &lbrack;Exportar&rbrack; La importación de un ajuste preestablecido de exportación después de eliminarlo funciona
@@ -2047,7 +2056,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * No se recomienda el uso de varios encantadores en un solo material
-* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
+* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
 
 ### 2.1.0 (2020.1.0) Tiramisu
@@ -2111,7 +2120,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;UI&rbrack; Corregir colores de capas ocultas
 * &lbrack;UI&rbrack; Mejoras en los botones de pantalla de bienvenida
 * &lbrack;Capas&rbrack; Menos cálculos innecesarios
-* &lbrack;Capas&rbrack; Bloqueos al utilizar el parche de Clonar
+* &lbrack;Capas&rbrack; Se bloquea al utilizar el parche de clonación
 * &lbrack;Capas&rbrack; La selección de una capa de importación de imágenes ya no activa un equipo
 * &lbrack;Capas&rbrack; Las capas de Relleno según el contenido y el parche de Clonar ya no se vuelven a calcular cuando se seleccionan
 * &lbrack;Configuración del canal&rbrack; La activación o desactivación de usos ahora activa un procesamiento
@@ -2121,9 +2130,9 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * &lbrack;Rendimiento&rbrack; Evite cargar materiales para acceder a sus parámetros
 * &lbrack;Rendimiento&rbrack; Realizar copia de seguridad de activos solo cuando se utilizan en un proyecto o en un material creado
 * &lbrack;Exportar&rbrack; En ocasiones, los materiales corregidos de la cola de exportación se omiten o se exportan con parámetros incorrectos
-* &lbrack;vista 2D&rbrack; Panorámica y zoom restaurados
+* &lbrack;2D View&rbrack; Panorámica y zoom restaurados
 * &lbrack;Contenido&rbrack; Parquet Patrón tiene en cuenta el canal de Oclusión ambiental
-* &lbrack;Contenido&rbrack; Pintura: mostrar la entrada de máscara al activar la máscara personalizada
+* &lbrack;Contenido&rbrack; Paint: muestra la entrada de máscara al activar la máscara personalizada
 * &lbrack;Contenido&rbrack; Motivo de Stonewall: elimina los posibles efectos de bandas en el mapa de normales
 * &lbrack;Contenido&rbrack; Modulación de height : Corrija entradas de color base doble en la vista 2D
 
@@ -2376,12 +2385,12 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
+* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a height puede generar bloqueo en MacOS
-* Todavía se puede realizar un bloqueo aleatorio al salir de MacOS
+* El filtro Normal a height puede bloquearse en MacOS
+* Todavía se puede bloquear aleatoriamente al salir de MacOS
 
 ### 0.8.0-beta Quinua
 
@@ -2433,8 +2442,8 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a height puede generar bloqueo en MacOS
-* Puede realizar el bloqueo aleatoriamente al salir de MacOS
+* El filtro Normal a height puede bloquearse en MacOS
+* Puede bloquearse aleatoriamente al salir de MacOS
 
 ### 0.7.0-beta Pepper
 
@@ -2540,14 +2549,14 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * Solucionar problemas con fuentes pequeñas en ventanas emergentes
 * Solucionar un problema de transparencia en la IU debido a un conflicto con el parámetro FXAA de algunas tarjetas NVIDIA
 * Quitar el enfoque del campo después de introducir un valor en un regulador
-* Asigne la cantidad mínima de VRAM al deleitador para reducir los bloqueos
+* Asigne la cantidad mínima de VRAM al encendedor para reducir los bloqueos
 * Corregir el bloqueo de la ventana al cambiar el tamaño de la ventana de la aplicación
-* Se ha corregido un bloqueo que se producía al eliminar la pila de capas durante la evaluación.
+* Se ha corregido un bloqueo que se producía al eliminar la pila de capas durante la evaluación
 
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
+* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
@@ -2567,7 +2576,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
+* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
@@ -2616,7 +2625,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
+* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
@@ -2685,7 +2694,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
+* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * Bloqueo al cargar su propio entorno
 
@@ -2810,7 +2819,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 
 * Los materiales creados con una versión anterior no estarán disponibles en la nueva versión.
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 
 ### 0.1.1-beta Jam
@@ -2839,7 +2848,7 @@ Esta página reagrupa todos los cambios que se han producido en Substance 3D Sam
 * Los materiales creados con una versión anterior no estarán disponibles en la nueva versión.
 * &lbrack;MacOS&rbrack; El Substance Alchemist de cierre puede necesitar un &quot;Forzar el cierre&quot;
 * No se recomienda el uso de varios encantadores en un solo material
-* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
+* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * Bloqueo de lata de exportación de material
 
