@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/es/substance-3d-sampler/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Revisa todos los cambios y actualizaciones en las versiones de Substance 3D Sampler para realizar un seguimiento de la evolución y las mejoras de las funciones a lo largo del tiempo.
 helpx_description: Sampler > Release Notes > All Changes
