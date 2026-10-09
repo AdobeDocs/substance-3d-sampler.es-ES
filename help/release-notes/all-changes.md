@@ -48,9 +48,9 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; No mostrar con proporción física si el tamaño físico está desactivado
+* &lbrack;vista 2D&rbrack; No mostrar con proporción física si el tamaño físico está desactivado
 * &lbrack;Análisis&rbrack; Faltan eventos de análisis
-* &lbrack;Análisis&rbrack; Evitar que crashpad informe de un bloqueo en el dispositivo vk perdido
+* &lbrack;Análisis&rbrack; Evitar que crashpad informe de un bloqueo en el dispositivo vk
 * &lbrack;Aplicación&rbrack; No destruya los dispositivos vk al salir para evitar un bloqueo en el controlador nvidia
 * &lbrack;Aplicación&rbrack; Corregir salida del Observador de colecciones vinculadas + Administrador de canales
 * &lbrack;Aplicación&rbrack; Evitar un bloqueo al salir
@@ -65,7 +65,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Proyecto&rbrack; Volver a abrir el proyecto actual utilizado para abrir la versión anterior
 * &lbrack;Proyecto&rbrack; Sampler ya no ofrece la restauración de una copia de seguridad de los proyectos dañados
 * &lbrack;Procesando&rbrack; Procesamiento de miniaturas de material con una resolución máxima de 2k
-* &lbrack;UI&rbrack; Código defensivo para evitar el bloqueo si el usuario es más rápido que la IU
+* &lbrack;UI&rbrack; Código defensivo para evitar bloqueos si el usuario es más rápido que la interfaz de usuario
 
 ### **6.0.1**
 
@@ -73,7 +73,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Agregado:**
 
-* &lbrack;Aplicación&rbrack; Advertir al usuario al abrir un proyecto con objetos 3D o luces de entorno
+* &lbrack;Aplicación&rbrack; Advertir al usuario al abrir un proyecto con objetos o luces ambientales 3D
 * &lbrack;Captis&rbrack; Haz que la interfaz de usuario se adapte a pantallas pequeñas
 * &lbrack;Captis&rbrack; Actualizar IU de mayúsculas
 * &lbrack;Configuración de canal&rbrack; Activar automáticamente SSS al utilizar el canal de SSS en ASM
@@ -82,7 +82,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Resources&rbrack; Mostrar &quot;todas las bibliotecas&quot; de forma predeterminada en lugar de &quot;activos de inicio&quot; en el panel de recursos
 * &lbrack;Secuencias de comandos&rbrack; Adición de funciones de Python para gestionar la aplicación a una capa
 * &lbrack;UI&rbrack; La lista de activos ahora es interactiva: el tamaño del activo se adapta al contenedor
-* &lbrack;UI&rbrack; Mostrar vista 3D/2D de forma predeterminada
+* &lbrack;UI&rbrack; Mostrar 3D/Vista 2D de forma predeterminada
 * &lbrack;UI&rbrack; Mostrar la optimización de materiales emergente al soltar un material del explorador
 * &lbrack;UI&rbrack; Activar la inversión de botones de la barra del dispositivo
 
@@ -119,10 +119,10 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Preferencias&rbrack; Al borrar la ruta de caché de preferencias se restablece el valor anterior
 * &lbrack;Procesando&rbrack; Pérdida de memoria al utilizar el rastreador de trazado
 * &lbrack;Procesando&rbrack; Evitar la eliminación de texturas mientras todavía se puede acceder a ellas por Vulkan
-* &lbrack;Procesando&rbrack; La rotación de textura no se convirtió de 0-1 a 0-360
+* &lbrack;Procesando&rbrack; La rotación de textura no se ha convertido de 0-1 a 0-360
 * &lbrack;Secuencias de comandos&rbrack; Quitar clases no existentes de la documentación de Python
 * &lbrack;Secuencias de comandos&rbrack; selectedAsset devuelve None si no hay ningún activo seleccionado
-* &lbrack;Herramientas&rbrack; Al restablecer un valor de textura, ahora se deja de pintar y se borra la vista de parches
+* &lbrack;Herramientas&rbrack; Al restablecer un valor de textura, ahora se detiene la pintura y se borra la vista de parches
 * &lbrack;UI&rbrack; No cierre las secciones del panel Propiedades siempre que se modifique algo
 * &lbrack;UI&rbrack; Etiqueta de ajuste de color expuesta invisible al pasar el cursor
 * &lbrack;UI&rbrack; Corregir el comportamiento interactivo de la lista de activos
@@ -215,16 +215,16 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Agregado:**
 
-* &lbrack;2D View&rbrack; Ser capaz de alejar más el zoom en la Vista 2D para texturas de alta resolución
+* &lbrack;vista 2D&rbrack; Ser capaz de alejar más el zoom en la Vista 2D para texturas de alta resolución
 * &lbrack;Captis&rbrack; Advertencia a los usuarios sobre problemas al copiar archivos
 * &lbrack;Capas&rbrack; Al duplicar una capa, use un número incremental en el nuevo nombre de capa
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; Al pintar trazos después de restablecer todas las propiedades del sello del Clonar, los trazos creados anteriormente vuelven a aparecer
+* &lbrack;vista 2D&rbrack; Al pintar trazos después de restablecer todas las propiedades del sello del Clonar, los trazos creados anteriormente vuelven a aparecer
 * &lbrack;Aplicación&rbrack; &quot;¿Desea guardar el proyecto actual?&quot; popup utiliza un nombre de proyecto incorrecto
-* &lbrack;Aplicación&rbrack; Bloqueo al salir
-* &lbrack;Aplicación&rbrack; Posible bloqueo
+* &lbrack;Aplicación&rbrack; Bloqueo a la salida
+* &lbrack;Aplicación&rbrack; Bloqueo potencial
 * &lbrack;Aplicación&rbrack; A veces, se genera una miniatura con un material incorrecto
 * &lbrack;Captis&rbrack; En algunos dispositivos, cuando se realiza una digitalización en alta resolución, el mapa de altura es negro
 * &lbrack;Captis&rbrack; El botón &quot;Iniciar captura&quot; ya no se desactiva cuando no se ha definido ningún nombre de captura y cuando se está ejecutando una calibración
@@ -282,11 +282,11 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; Es posible que la selección de &quot;Mostrar con proporción física&quot; no funcione al utilizar filtros de Substance
+* &lbrack;vista 2D&rbrack; Es posible que la selección de &quot;Mostrar con proporción física&quot; no funcione al utilizar filtros de Substance
 * &lbrack;captura 3D&rbrack; Los archivos SVG se muestran en el selector de archivos, pero no son compatibles
-* &lbrack;Vista&amp;rbrack 3D; El parámetro de intensidad de emisión de la configuración del Sombreador no funciona
-* &lbrack;Vista&amp;rbrack 3D; A veces, la posición de la malla es incorrecta al crear un activo nuevo
-* &lbrack;Vista&amp;rbrack 3D; Cambiar a bloqueos de procesamiento de seguimiento de trazado en hardware no compatible
+* &lbrack;Vista 3D&rbrack; El parámetro de intensidad de emisión de la configuración del Sombreador no funciona
+* &lbrack;Vista 3D&rbrack; A veces, la posición de la malla es incorrecta al crear un activo nuevo
+* &lbrack;Vista 3D&rbrack; Cambiar a bloqueos de procesamiento de seguimiento de trazado en hardware no compatible
 * &lbrack;Aplicación&rbrack; La aplicación se bloquea al cerrar la ventana emergente de medida manual sin establecer un tamaño
 * &lbrack;Aplicación&rbrack; Bloqueo
 * &lbrack;Aplicación&rbrack; Bloqueo en Windows al mostrar el escritorio (tecla Windows + método abreviado D)
@@ -296,7 +296,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Captis&rbrack; Falta la localización en algunos pasos del asistente
 * &lbrack;Captis&rbrack; Posible bloqueo al salir al utilizar Captis
 * &lbrack;Captis&rbrack; El análisis no funciona si el dispositivo no tiene archivos de calibración
-* &lbrack;Filters&rbrack; La vista previa del pincel al utilizar el filtro Tampón de clonar puede ser incorrecta según la textura y los tamaños de pincel
+* &lbrack;Filters&rbrack; La vista previa del pincel al utilizar el filtro Tampón de Clonar puede ser incorrecta según la textura y los tamaños de pincel
 * &lbrack;Filters&rbrack; Tamaño de salida incorrecto después de utilizar el filtro de aumento de escala
 * &lbrack;Filters&rbrack; Faltan iconos para los filtros de rotación de entorno y estilización
 * &lbrack;Filters&rbrack; La actualización de algunos filtros puede provocar una representación incorrecta
@@ -314,7 +314,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;UI&rbrack; El botón Restablecer el valor predeterminado para el parámetro de punto de vista no funciona
 * &lbrack;UI&rbrack; Superposición del botón Restablecer al valor predeterminado
 * &lbrack;UI&rbrack; No se puede hacer clic en algunos botones cuando un panel está desacoplado
-* &lbrack;UI&rbrack; Parámetro V de segmentación de texturas parcialmente oculto en Ajustes del visualizador y Vista 3D
+* &lbrack;UI&rbrack; Parámetro V de segmentación de textura parcialmente oculto en Ajustes y Vista 3D del visor
 
 **Eliminado:**
 
@@ -336,14 +336,14 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Corregido:**
 
 * &lbrack;captura 3D&rbrack; El filtro tras el proceso de malla no genera los mapas esperados
-* &lbrack;Vista&amp;rbrack 3D; La vista 3D no funciona debido a la corrupción de la caché de sombreado
-* &lbrack;Vista&amp;rbrack 3D; El plano de tierra y la cuadrícula son verticales cuando la escena es Z arriba
-* &lbrack;Vista&amp;rbrack 3D; La malla a veces desaparece
-* &lbrack;Aplicación&rbrack; Cerrar la ventana de inicio de sesión al iniciarse sin iniciar sesión a veces bloquea la aplicación
-* &lbrack;Aplicación&rbrack; Bloqueo al denegar el acceso al archivo de configuración de complementos
+* &lbrack;Vista 3D&rbrack; La vista 3D no funciona debido a que la caché de sombreador está dañada
+* &lbrack;Vista 3D&rbrack; El plano de tierra y la cuadrícula son verticales cuando la escena es Z arriba
+* &lbrack;Vista 3D&rbrack; La malla a veces desaparece
+* &lbrack;Aplicación&rbrack; Cerrar la ventana de inicio de sesión al inicio sin iniciar sesión a veces bloqueo la aplicación
+* &lbrack;Aplicación&rbrack; Bloqueo cuando se deniega el acceso al archivo de configuración de complementos
 * &lbrack;Aplicación&rbrack; El material actual no se selecciona al guardar el proyecto
 * &lbrack;Aplicación&rbrack; Al restablecer el diseño predeterminado, la resolución se establece en 64x64
-* &lbrack;Aplicación&rbrack; Sampler a veces se bloquea al procesar una pila de capas
+* &lbrack;Aplicación&rbrack; En ocasiones, Sampler genera bloqueos al procesar una pila de capas
 * &lbrack;Exportar&rbrack; La resolución de exportación se restablece a veces a 64x64
 * &lbrack;Exportar&rbrack; A veces no es posible exportar archivos .sbs/.sbsar
 * &lbrack;Capas&rbrack; El botón Añadir material base no hace nada cuando el material está vacío
@@ -383,33 +383,33 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Aplicación&rbrack; Lista actualizada de compatibilidad de controladores gráficos
 * &lbrack;Captis&rbrack; Mostrar una ventana emergente cuando las directivas del sistema operativo bloqueen el uso de HP Z Captis
 * &lbrack;Acciones rápidas&rbrack; Explicar por qué una acción rápida está desactivada en una información sobre herramientas
-* &lbrack;UI&rbrack; Estilo de IU de ventana de informe de bloqueos
+* &lbrack;UI&rbrack; Estilo de IU de ventana de informe de bloqueo
 * &lbrack;UI&rbrack; Al copiar en el portapapeles, mostrar un brindis para decir que se ha hecho
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; El regulador Exposición no tiene efecto cuando la proyección esférica está desactivada
-* &lbrack;2D View&rbrack; Pintar fuera de la textura crea un trazo interrumpido
-* &lbrack;2D View&rbrack; El botón de exposición no tiene información sobre herramientas.
-* &lbrack;2D View&rbrack; El zoom en el lateral de una imagen no cuadrada no sigue al ratón
+* &lbrack;vista 2D&rbrack; El regulador Exposición no tiene efecto cuando la proyección esférica está desactivada
+* &lbrack;vista 2D&rbrack; Pintar fuera de la textura crea un trazo interrumpido
+* &lbrack;vista 2D&rbrack; El botón de exposición no tiene información sobre herramientas.
+* &lbrack;vista 2D&rbrack; El zoom en el lateral de una imagen no cuadrada no sigue al ratón
 * &lbrack;captura 3D&rbrack; captura 3D no funciona en Windows 11 24H2
-* &lbrack;captura 3D&rbrack; Bloqueo al salir de Sampler durante el paso de reconstrucción de la malla
-* &lbrack;Vista&amp;rbrack 3D; El tiempo de cálculo a veces se muestra como 0 ms
-* &lbrack;Vista&amp;rbrack 3D; Al cambiar la proyección de ortográfica a Perspectiva, la ventana gráfica se vuelve gris
-* &lbrack;Aplicación&rbrack; Bloqueo al iniciarse al comprobar las capacidades de la GPU
+* &lbrack;captura 3D&rbrack; Bloqueo si salimos de Sampler durante el paso de reconstrucción de la malla
+* &lbrack;Vista 3D&rbrack; El tiempo de cálculo a veces se muestra como 0 ms
+* &lbrack;Vista 3D&rbrack; Al cambiar la proyección de ortográfica a Perspectiva, la ventana gráfica se vuelve gris
+* &lbrack;Aplicación&rbrack; Bloqueo al inicio al comprobar las funciones de la GPU
 * &lbrack;Aplicación&rbrack; Bloqueo durante la instalación
-* &lbrack;Aplicación&rbrack; Bloqueo al salir tras hacer clic con el botón derecho en un campo de metadatos
-* &lbrack;Aplicación&rbrack; Falta la luz del entorno al abrir un SBSAR desde el explorador de archivos del sistema operativo
-* &lbrack;Aplicación&rbrack; Al abrir un archivo .sbsar mientras se ejecuta Sampler, se cambia la configuración de Mosaico de texturas
+* &lbrack;Aplicación&rbrack; Bloqueo al salir después de hacer clic con el botón derecho en un campo de metadatos
+* &lbrack;Aplicación&rbrack; Falta la luz ambiental al abrir un SBSAR desde el explorador de archivos del sistema operativo
+* &lbrack;Aplicación&rbrack; Al abrir un archivo .sbsar mientras se ejecuta Sampler, se cambia la configuración de Mosaico de Texturas
 * &lbrack;Captis&rbrack; Algunos metadatos pueden no transferirse entre los pasos de captura
 * &lbrack;Captis&rbrack; El nombre del activo creado no es el introducido en el campo de metadatos
 * &lbrack;Contenido&rbrack; En el proyecto de ejemplo se solicita una actualización del filtro, pero ya está actualizado
 * &lbrack;Filters&rbrack; Filtro de ajuste normal/height sin icono
 * &lbrack;Capas&rbrack; No se pueden cambiar imágenes en una capa de importación de imágenes
-* &lbrack;Capas&rbrack; Se bloquea al utilizar el filtro de ampliación
+* &lbrack;Capas&rbrack; Bloqueos al utilizar el filtro Ampliación
 * &lbrack;Capas&rbrack; La actualización de un proyecto con una imagen antigua a Material vuelve negro el material
-* &lbrack;Procesando&rbrack; La modificación de una pila de capas inmediatamente después de crear un activo interrumpe el procesamiento
-* &lbrack;Secuencias de comandos&rbrack; El plugin de guardado automático se bloquea cuando no hay ningún recurso en el proyecto
+* &lbrack;Procesando&rbrack; Al retocar una pila de capas inmediatamente después de crearla, se rompe el procesamiento
+* &lbrack;Secuencias de comandos&rbrack; Los bloqueos de conexión de guardado automático cuando no hay recursos en el proyecto
 * &lbrack;Herramientas&rbrack; Falta el valor de tamaño de pincel en la barra de herramientas Pincel
 * &lbrack;UI&rbrack; Al cambiar el idioma de la aplicación no se actualizan algunas de las etiquetas de la pantalla de inicio
 * &lbrack;UI&rbrack; Pulsar Escape o Intro en los campos de texto del regulador no perderá el enfoque
@@ -430,11 +430,11 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Incorporación&rbrack; &lbrack;Contenido&rbrack; Las acciones rápidas son flujos de trabajo predefinidos que rellenan la pila de capas con la mayoría de las capas utilizadas
 * &lbrack;Incorporación&rbrack; Posibilidad de crear un nuevo proyecto mediante un nuevo menú Inicio rápido, acciones rápidas o Proyecto personalizado
 * &lbrack;Incorporación&rbrack; Posibilidad de crear un proyecto vacío directamente desde la página de inicio a través del botón dedicado
-* &lbrack;Vista&amp;rbrack 3D; Nuevo rasterizador y trazador de trazadores avanzados que aportan nuevas capacidades de representación (propiedades como el revestimiento, el brillo, la translucidez, la dispersión subsuperficial) y coherencia visual en todo el ecosistema Substance
-* &lbrack;Vista&amp;rbrack 3D; Ahora se puede acceder directamente a la configuración del visor en la vista 3D
-* &lbrack;Vista&amp;rbrack 3D; Posibilidad de guardar una instantánea de procesamiento en el portapapeles o en archivos
-* &lbrack;Vista&amp;rbrack 3D; Visualización de una cuadrícula para visualizar el origen de la escena
-* &lbrack;Vista&amp;rbrack 3D; Activar el plano de tierra para capturar sombras y reflejos
+* &lbrack;Vista 3D&rbrack; Nuevo rasterizador y trazador de trazadores avanzados que aportan nuevas capacidades de representación (propiedades como el revestimiento, el brillo, la translucidez, la dispersión subsuperficial) y coherencia visual en todo el ecosistema Substance
+* &lbrack;Vista 3D&rbrack; Ahora se puede acceder directamente a la configuración del visor en la vista 3D
+* &lbrack;Vista 3D&rbrack; Posibilidad de guardar una instantánea de procesamiento en el portapapeles o en archivos
+* &lbrack;Vista 3D&rbrack; Visualización de una cuadrícula para visualizar el origen de la escena
+* &lbrack;Vista 3D&rbrack; Activar el plano de tierra para capturar sombras y reflejos
 * &lbrack;Vista 3D&rbrack; Controla lo reflectante y opaco que es tu plano del suelo
 * &lbrack;captura 3D&rbrack; Posición de la malla sobre el suelo
 * &lbrack;Aplicación&rbrack; Comprobar la compatibilidad del hardware al iniciar la aplicación
@@ -467,7 +467,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Rendimiento&rbrack; La caché de procesamiento no se puede usar al reiniciar la aplicación
 * &lbrack;Resources&rbrack; Los archivos de solo lectura no están visibles en el panel Activos
 * &lbrack;Secuencias de comandos&rbrack; Permitir reutilizar una capa después de añadir otra
-* &lbrack;Secuencias de comandos&rbrack; El cambio de la estructura de la pila de capas varias veces en una secuencia de comandos puede fallar
+* &lbrack;Secuencias de comandos&rbrack; Puede producirse un error al cambiar varias veces la estructura de la pila de capas en un script
 
 **Eliminado:**
 
@@ -568,7 +568,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Exportar&rbrack; El mapa de ángulo de anisotropía no se exporta
 * &lbrack;Filters&rbrack; Añadir tejido de tela a la pila de capas puede provocar un bloqueo
 * &lbrack;Filters&rbrack; Añadir Relieve a la pila de capas puede provocar un bloqueo
-* &lbrack;Filters&rbrack; El Relleno según el contenido se bloquea al utilizar imágenes de 32 bits
+* &lbrack;Filters&rbrack; Bloqueos de relleno según el contenido al utilizar imágenes de 32 bits
 * &lbrack;Filters&rbrack; Relieve: La opacidad de las capas inferiores no se sobrescribe por completo
 * &lbrack;Filters&rbrack; Relleno: El modo de Fusión no funciona en Designer ni Painter
 * &lbrack;Filters&rbrack; Bordado: la selección automática de color está rota
@@ -594,7 +594,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Exportar&rbrack; La exportación de un material con Recortar o relativo a la capa de directiva de entrada produce resultados no válidos
 * &lbrack;Capas&rbrack; Bloqueo raro al procesar una pila de capas
 * &lbrack;Filters&rbrack; Bordado: Se ha solucionado el problema al utilizar la entrada de material en MacOS.
-* &lbrack;Filters&rbrack; Estilización - Soporte de los generadores de texturas
+* &lbrack;Filters&rbrack; Estilización - Soporte de Generadores de Textura
 * &lbrack;Filters&rbrack; Patrón: corregir nombres de parámetros
 * &lbrack;Localización&rbrack; &quot;Guardar como...&quot; en la ventana información de hardware, en el menú ayuda, aparece sin localizar
 
@@ -641,11 +641,11 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; El zoom con la rueda del ratón está bloqueado en un 244 %
-* &lbrack;Aplicación&rbrack; Bloqueo al inicio al inicializar la API de gráficos
+* &lbrack;vista 2D&rbrack; El zoom con la rueda del ratón está bloqueado en un 244 %
+* &lbrack;Aplicación&rbrack; Bloqueo al inicio al inicializar la API gráfica
 * &lbrack;Aplicación&rbrack; Bloqueo si el nombre del proyecto contiene el carácter #
-* &lbrack;Aplicación&rbrack; Posible bloqueo al abrir un proyecto antiguo
-* &lbrack;Aplicación&rbrack; Volver a abrir el proyecto actual puede producir un bloqueo
+* &lbrack;Aplicación&rbrack; Bloqueo posible al abrir un proyecto antiguo
+* &lbrack;Aplicación&rbrack; Volver a abrir el proyecto actual puede provocar un bloqueo
 * &lbrack;Aplicación&rbrack; Algunos cambios de proyecto no se registran y se pierden sin avisar al cerrar el proyecto si no se guardan
 * &lbrack;Exportar&rbrack; .sbs/.sbsar problemas de exportación al utilizar varios archivos con el mismo nombre
 * &lbrack;Exportar&rbrack; Espacio de color incorrecto para el archivo .sbs/.sbsar de imágenes en escala de grises exportado
@@ -673,26 +673,26 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;captura 3D&rbrack; Al hacer clic en &quot;Atrás&quot; después de la alineación, &quot;Siguiente&quot; no se actualiza la nube de puntos
 * &lbrack;captura 3D&rbrack; Malla mostrada con taladros después de agregarla al proyecto
 * &lbrack;Aplicación&rbrack; Bloqueo al salir del modo de pantalla completa después de un Captura 3D
-* &lbrack;Aplicación&rbrack; Bloqueo con archivos de imagen creados
+* &lbrack;Aplicación&rbrack; Bloqueo con archivos de imagen elaborados
 * &lbrack;Aplicación&rbrack; Si en &quot;Todas las bibliotecas&quot; al salir de Sampler, el panel Activos se vacía al reiniciar
 * &lbrack;Aplicación&rbrack; Pérdida de memoria al exportar material
-* &lbrack;Aplicación&rbrack; Abrir un proyecto guardado con versiones anteriores de Sampler puede producir un bloqueo
-* &lbrack;Aplicación&rbrack; Posibles bloqueos al no convertir mallas 3D
+* &lbrack;Aplicación&rbrack; Abrir un proyecto guardado con versiones anteriores de Sampler puede provocar un bloqueo
+* &lbrack;Aplicación&rbrack; Bloqueos potenciales al no convertir mallas 3D
 * &lbrack;Aplicación&rbrack; Bloqueo silencioso al abrir un archivo .sbsar mientras se ejecuta Sampler
 * &lbrack;Exportar&rbrack; Bloqueo al exportar un archivo .sbs/.sbsar con un uso personalizado
-* &lbrack;Exportar&rbrack; Los mapas normales exportados siempre son DirectX, independientemente de la configuración del usuario
+* &lbrack;Exportar&rbrack; Los mapas de normales exportados son siempre DirectX, independientemente de la configuración del usuario
 * &lbrack;Exportar&rbrack; La exportación de un objeto 3D a un archivo FBX en macos no funciona
-* &lbrack;Exportar&rbrack; Incoherencias al exportar una pila de capas con un filtro de bordado como archivo .sbs/.sbsar
+* &lbrack;Exportar&rbrack; Incoherencias al exportar una Pila de capas con un filtro de bordado como archivo .sbs/.sbsar
 * &lbrack;Exportar&rbrack; En ocasiones, la exportación de archivos .sbs/.sbsar no funciona
 * &lbrack;Exportar&rbrack; A veces, al exportar un archivo .sbs/.sbsar, las imágenes no tienen la profundidad de bits correcta
 * &lbrack;Capas&rbrack;  Al hacer invisible una capa de salpicaduras, se procesa su primer secundario
 * &lbrack;Capas&rbrack; Bloqueo al cargar la máscara en la capa Brillo/Contraste
 * &lbrack;Capas&rbrack; Se muestran mensajes de error engañosos después de eliminar la capa
-* &lbrack;Capas&rbrack; Posible bloqueo al degradar un activo
+* &lbrack;Capas&rbrack; Posible bloqueo al degradar un recurso
 * &lbrack;Capas&rbrack; Algunas salidas no están conectadas a las entradas a menos que el uso sea forzado en el panel Configuración de canal
 * &lbrack;Tamaño físico&rbrack; El menú desplegable de capas de referencia se puede restablecer por error
 * &lbrack;UI&rbrack; Es necesario actualizar los iconos de importación de información de plantilla
-* &lbrack;UI&rbrack; La sugerencia de método abreviado de ventana aparece cada vez que cambia el diseño de la ventana gráfica
+* &lbrack;UI&rbrack; La sugerencia de método abreviado de ventana gráfica aparece cada vez que cambia el diseño de la ventana gráfica
 
 ### **4.2.1 DORAYAKI**
 
@@ -705,7 +705,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; Se pueden añadir imágenes en las capas de importación de imágenes
 * &lbrack;Capas&rbrack; Las imágenes se pueden eliminar en las capas de importación de imágenes
 * &lbrack;Capas&rbrack; Ahora se pueden eliminar capas no válidas
-* &lbrack;2D View&rbrack; Mayús + C del método abreviado para retroceder por los canales
+* &lbrack;vista 2D&rbrack; Mayús + C del método abreviado para retroceder por los canales
 * &lbrack;captura 3D&rbrack; Mostrar un aviso cuando el usuario importe menos de 20 imágenes
 * &lbrack;Aplicación&rbrack; Nuevas preferencias para definir el valor de mosaico de textura de material por defecto
 * &lbrack;Incorporación&rbrack; Interfaz de usuario del tutorial actualizada para Imagen a material (IA) y Ampliación de escala
@@ -749,7 +749,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Plantilla de creación de material&rbrack; Proporcionar comentarios cuando no se puedan utilizar algunas imágenes importadas
 * &lbrack;Plantilla de creación de material&rbrack; Avisar cuando los tamaños de imagen no sean coherentes
 * &lbrack;Plantilla de creación de material&rbrack; Nuevas advertencias e información sobre herramientas
-* &lbrack;Capas&rbrack; Mostrar la resolución de las capas de la pila de capas
+* &lbrack;Capas&rbrack; Visualización de la resolución de las capas de la pila de capas
 * &lbrack;Capas&rbrack; La resolución de cálculo de capa ahora se puede establecer en Tamaño de documento o Tamaño de entrada
 * &lbrack;Capas&rbrack; Mostrar la resolución de las capas en la pila de capas
 * &lbrack;Capas&rbrack; Cambiar una directiva de resolución de capa a Documento o Entrada de capa cuando corresponda
@@ -810,7 +810,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;captura 3D&rbrack; Las aplicaciones se bloquean cuando falla el procesador de captura 3D
+* &lbrack;captura 3D&rbrack; Aplicaciones bloqueos cuando falla el procesador de captura 3D
 * &lbrack;captura 3D&rbrack; Bloqueo cuando no se puede cargar una imagen
 * &lbrack;captura 3D&rbrack; Bloqueo al alcanzar el paso de reconstrucción de malla
 * &lbrack;captura 3D&rbrack; Bloqueo al cambiar el tamaño del cuadro delimitador
@@ -924,21 +924,21 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Aplicación&rbrack; Evite el bloqueo al cancelar el cálculo de procesamiento posterior a la malla durante el paso de hacer un bake
 * &lbrack;Aplicación&rbrack; La reapertura del proyecto actual no descarta los cambios
 * &lbrack;Aplicación&rbrack; Detener la generación de miniaturas para objetos 3D
-* &lbrack;2D View&rbrack; Bloqueo al utilizar la herramienta Pincel
+* &lbrack;vista 2D&rbrack; Bloqueo al utilizar la herramienta pincel
 * &lbrack;Contenido&rbrack; Relleno según el contenido: el cálculo puede bloquearse
 * &lbrack;Contenido&rbrack; El filtro Atlas Creator está reduciendo la escala del canal Opacidad
 * &lbrack;Exportar&rbrack; Corregir borrar cola de exportaciones fallidas
-* &lbrack;Exportar&rbrack; La exportación OBJ crea un objeto 100 veces más pequeño de lo esperado
+* &lbrack;Exportar&rbrack; OBJ exportación crea un objeto 100 veces más pequeño de lo esperado
 * &lbrack;Capas&rbrack; Las imágenes en color importadas como canales en escala de grises ahora se consideran en escala de grises
 * &lbrack;Exportar&rbrack; FBX archivos no se pueden importar en aplicaciones de terceros
-* &lbrack;Exportar&rbrack; Los nombres de salida del sombreador en archivos USD no son correctos
+* &lbrack;Exportar&rbrack; Los nombres de salida de sombreador en USD archivos no son correctos
 * &lbrack;Capas&rbrack; El nombre de la imagen no se actualiza al cambiar su nombre en el explorador del sistema operativo
 * &lbrack;Secuencias de comandos&rbrack; Mostrar un mensaje de error al volver a cargar un script no válido
 * &lbrack;UI&rbrack; Botón de material base desactivado cuando no está disponible
 * &lbrack;UI&rbrack; Bloqueo al acceder al cuadro de diálogo de archivo en la ventana Plantilla de creación de material
 * &lbrack;UI&rbrack; Se puede acceder al descriptor de acceso rápido incluso cuando el panel Capas está cerrado
 * &lbrack;UI&rbrack; Los iconos de Enviar a están alineados incorrectamente
-* &lbrack;UI&rbrack; El icono de capa cambia al hacer clic en el icono de fusión
+* &lbrack;UI&rbrack; El icono de capa cambia al hacer clic en el icono de Fusión
 
 **Problemas conocidos:**
 
@@ -1026,8 +1026,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Problemas conocidos:**
 
 * &lbrack;captura 3D&rbrack; Al utilizar máscaras, la proyección de textura puede romperse
-* &lbrack;captura 3D&rbrack; Pueden aparecer pequeños defectos en el objeto si la escala en la transformación de malla es demasiado pequeña
-* &lbrack;captura 3D&rbrack; La malla exportada puede ser muy pequeña. Restablecer la escala de la transformación de malla y volver a exportar
+* &lbrack;captura 3D&rbrack; Pueden aparecer pequeños defectos en el objeto si la escala en el transforme de malla es demasiado pequeña
+* &lbrack;captura 3D&rbrack; La malla exportada puede ser muy pequeña. Restablecer la escala de la malla transformar y volver a exportar
 * &lbrack;Selector de color&rbrack; Es posible que no funcione seleccionar un color en un segundo monitor con una resolución diferente
 * &lbrack;Contenido&rbrack; El widget de luz de forma no funciona en el modo de proyección esférica
 * &lbrack;Interoperabilidad&rbrack; El material con el desplazamiento enviado a Stager perderá los controles de desplazamiento
@@ -1054,8 +1054,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Exportar&rbrack; Exportar un archivo .sbsar con una capa de bordado produce un material gris
 * &lbrack;Exportar&rbrack; La exportación de un material a un archivo .sbs/sbsar puede generar un material totalmente transparente
 * &lbrack;Exportar&rbrack; El parámetro Formato normal no se expone correctamente en archivos .sbs/.sbsar
-* &lbrack;Exportar&rbrack; La exportación de Sbs/Sbsar de una pila de capas que hace referencia a un archivo .svg está dañada
-* &lbrack;Exportar&rbrack; La capa de transformación no se exporta correctamente / Se ha actualizado el ajuste preestablecido de exportación de Enscape - Revit
+* &lbrack;Exportar&rbrack; La exportación de SBR/SBSAR de una pila de capas que hace referencia a un archivo .svg está dañada
+* &lbrack;Exportar&rbrack; Transformar capa no se exporta correctamente / Actualización de ajuste preestablecido de exportación de Enscape - Revit
 * &lbrack;Parámetros expuestos&rbrack; Bloqueo al eliminar una capa que contiene un parámetro expuesto
 * &lbrack;Parámetros expuestos&rbrack; La actualización de una capa obsoleta en la pila de capas puede generar una lista dañada de parámetros expuestos
 * &lbrack;Parámetros expuestos&rbrack; Los parámetros que no se deben exportar se exportan de todos modos
@@ -1064,8 +1064,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; Bloqueo al soltar una pila de capas en otra pila de capas
 * &lbrack;Capas&rbrack; Bloqueo al no cargar un filtro
 * &lbrack;Capas&rbrack; No se puede volver a cargar la imagen anterior al restablecer el campo Imagen
-* &lbrack;Capas&rbrack; No se pueden deshacer/rehacer los cambios de la herramienta de transformación
-* &lbrack;Capas&rbrack; La capa Tampón de clonar se bloquea tras hacer clic en &quot;Restablecer todas las configuraciones&quot;
+* &lbrack;Capas&rbrack; No se pueden deshacer/rehacer los cambios de la herramienta transformar
+* &lbrack;Capas&rbrack; La capa de sello del Clonar se bloquea tras hacer clic en &quot;Restablecer todos los ajustes&quot;
 * &lbrack;Capas&rbrack; El uso de cualquiera de los botones de restablecimiento impide dibujar en el campo Imagen
 * &lbrack;Capas&rbrack; El botón Restablecer no borra la máscara de dibujo en el campo Imagen
 * &lbrack;Capas&rbrack; El botón Restablecer del campo Imagen no hace nada si el usuario ha pintado algo
@@ -1073,7 +1073,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; La capa eliminada puede seguir apareciendo en el panel Propiedades
 * &lbrack;Capas&rbrack; El cálculo de capas se puede detener al cambiar entre recursos del proyecto
 * &lbrack;Proyecto&rbrack; En ocasiones, Sampler no puede abrir un proyecto desde el disco
-* &lbrack;2D View&rbrack; La vista 2D siempre vuelve por defecto a Salida de material
+* &lbrack;vista 2D&rbrack; La Vista 2D siempre vuelve por defecto a Salida de material
 
 **Problemas conocidos:**
 
@@ -1124,19 +1124,19 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;Aplicación&rbrack; La aplicación podía bloquearse al salir cuando estaba en curso una generación de miniaturas
-* &lbrack;Aplicación&rbrack; La aplicación puede bloquearse al utilizar Guardar como al salir
+* &lbrack;Aplicación&rbrack; La aplicación podía entrar en bloqueo al salir cuando estaba en curso una generación de miniaturas
+* &lbrack;Aplicación&rbrack; La aplicación podría entrar en bloqueo al utilizar Guardar como al salir
 * &lbrack;Aplicación&rbrack; La aplicación se podría bloquear durante el apagado en MacOS
 * &lbrack;Aplicación&rbrack; Al guardar con el cuadro de diálogo de color abierto, no se guardan los cambios
 * &lbrack;Exportar&rbrack; La convención de nomenclatura de uso no es correcta al exportar
-* &lbrack;Capas&rbrack; La colocación de un material sobre un filtro podría bloquearse
+* &lbrack;Capas&rbrack; Colocar un material encima de un filtro puede provocar un bloqueo
 * &lbrack;Capas&rbrack; La actualización de una pila de capas obsoleta podría actualizar pilas de capas no relacionadas
 * &lbrack;Metadatos&rbrack; Se exportan los campos vacíos
 * &lbrack;Metadatos&rbrack; Cuando solo hay un elemento de metadatos, la interfaz de usuario le permite intentar reordenarlo
 * &lbrack;Proyecto&rbrack; La computación nunca termina después de duplicar un material
 * &lbrack;Proyecto&rbrack; El recurso del proyecto se duplica después de guardar el proyecto inicial
 * &lbrack;Proyecto&rbrack; Cálculos innecesarios al cambiar de recurso
-* &lbrack;Procesando&rbrack; Algunas pilas de capas no se procesan correctamente después de eliminar una capa
+* &lbrack;Procesando&rbrack; Algunas pilas de capas no se procesan correctamente después de eliminarlas
 * &lbrack;Seguridad&rbrack; Corrección de CVE-2015-20107
 * &lbrack;UI&rbrack; Las salidas 2D pueden ser borrosas dependiendo del tamaño de la ventana
 * &lbrack;UI&rbrack; La vista previa de activos puede permanecer abierta en la parte superior cuando la aplicación pierde el enfoque
@@ -1154,9 +1154,9 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;Aplicación&rbrack; Solucionar un posible bloqueo al abrir un proyecto
+* &lbrack;Aplicación&rbrack; Corregir posibles bloqueos al abrir un proyecto
 * &lbrack;Exportar&rbrack; Al reiniciar Sampler, se rompe la lista de ajustes preestablecidos de exportación personalizados importados
-* &lbrack;Interoperabilidad&rbrack; Solucionar bloqueo cuando se elimina un material enviado desde Designer y luego se vuelve a enviar desde Designer
+* &lbrack;Interoperabilidad&rbrack; Corregir bloqueo cuando se elimina un material enviado desde Designer y luego se vuelve a enviar desde Designer
 * &lbrack;Proyecto&rbrack; No es posible eliminar el último material o luz ambiental si es el último recurso del proyecto
 * &lbrack;Proyecto&rbrack; Al hacer clic con el botón derecho en una luz ambiental, aparece el asterisco &quot;modificaciones no guardadas&quot;
 
@@ -1223,10 +1223,10 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;vista 2D&rbrack; La herramienta Posición es compatible con el modo de proyección esférica
 * &lbrack;vista 2D&rbrack; La función Deshacer/Rehacer es compatible con el modo de proyección esférica
 * &lbrack;vista 2D&rbrack; En Proyección esférica, defina la posición predeterminada para que mire al centro del entorno
-* &lbrack;2D View&rbrack; Nuevo control de exposición
+* &lbrack;vista 2D&rbrack; Nuevo control de exposición
 * &lbrack;UI&rbrack; En el panel Propiedades, el ajuste de imagen muestra el origen del contenido (imagen o de una capa)
 * &lbrack;UI&rbrack; Se ha mejorado el fondo desplegable de las salidas de capa/material
-* &lbrack;UI&rbrack; Nueva posición de la información de resolución en la vista 2D
+* &lbrack;UI&rbrack; Nueva posición de la información sobre la resolución en la vista 2D
 * &lbrack;UI&rbrack; Nueva información sobre herramientas con métodos abreviados de los controles de navegación de la vista 3D
 * &lbrack;UI&rbrack; Nueva información sobre herramientas con controles de pincel
 * &lbrack;UI&rbrack; Nueva información sobre herramientas con métodos abreviados de controles de navegación de proyección
@@ -1241,7 +1241,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Aplicación&rbrack; Corregir un posible interbloqueo o bloqueo al exportar varias veces
 * &lbrack;Aplicación&rbrack; Hacer que los valores predeterminados de los canales sean coherentes con Substance 3D Designer
 * &lbrack;Aplicación&rbrack; La carga de un proyecto no activa el recálculo de material
-* &lbrack;Aplicación&rbrack; Se ha actualizado la URL de la documentación de importación de texturas
+* &lbrack;Aplicación&rbrack; Se ha actualizado la URL para la documentación de importación de texturas.
 * &lbrack;Contenido&rbrack; Cuando se utiliza un filtro compuesto, solicita que se actualice cuando no debería, al volver a cargar
 * &lbrack;Contenido&rbrack; Los detalles del mapa de altura desaparecen al utilizar la Fusión de opacidad
 * &lbrack;UI&rbrack; En el cuadro de diálogo Color, es posible salirse del rango mediante los campos de texto del regulador
@@ -1316,7 +1316,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Tamaño físico&rbrack; Herramienta Agregar medida automática de Tamaño físico
 * &lbrack;Tamaño físico&rbrack; Herramienta Agregar diagnóstico de Tamaño físico
 * &lbrack;Tamaño físico&rbrack; Permitir la configuración del valor z del Tamaño físico
-* &lbrack;Tamaño físico&rbrack; Widget desplegable para establecer el nivel de zoom en la vista 2D
+* &lbrack;Tamaño físico&rbrack; Widget desplegable para establecer el nivel de zoom en el Vista 2D
 * &lbrack;Tamaño físico&rbrack; Nueva opción &quot;Mostrar con proporción física&quot; en el menú desplegable de nivel de zoom
 * &lbrack;Tamaño físico&rbrack; Nueva opción &quot;Ajustar al tamaño físico&quot; en el menú desplegable de nivel de zoom
 * &lbrack;Tamaño físico&rbrack; Mostrar el Tamaño físico en la Vista 2D
@@ -1351,16 +1351,16 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; El canal permanece en la lista cuando se elimina
+* &lbrack;vista 2D&rbrack; El canal permanece en la lista cuando se elimina
 * &lbrack;Aplicación&rbrack; No se puede duplicar un recurso cargado desde el explorador de archivos del sistema operativo
-* &lbrack;Aplicación&rbrack; Bloqueo al salir
-* &lbrack;Aplicación&rbrack; Se produce un bloqueo al hacer clic en &quot;Activos iniciales&quot; en el panel Activos
-* &lbrack;Aplicación&rbrack; Bloqueo al eliminar un material
+* &lbrack;Aplicación&rbrack; Bloqueo a la salida
+* &lbrack;Aplicación&rbrack; Bloqueo a veces al hacer clic en &quot;Activos iniciales&quot; en el panel Activos
+* &lbrack;Aplicación&rbrack; Bloqueo al borrar un material
 * &lbrack;Aplicación&rbrack; La variable de entorno &quot;SUBSTANCE_DISABLE_SPECIFIC_FEATURES&quot; sigue activa cuando se define en &quot;0&quot; o &quot;&quot;.
 * &lbrack;Aplicación&rbrack; Bloqueo al guardar un proyecto con varios materiales
 * &lbrack;Aplicación&rbrack; Importar una imagen puede provocar un bloqueo
 * &lbrack;Aplicación&rbrack; Faltan algunos recursos de inicio en el primer inicio
-* &lbrack;Exportar&rbrack; La exportación de un activo a veces produce un bloqueo
+* &lbrack;Exportar&rbrack; La exportación de un recurso a veces provoca un bloqueo
 * &lbrack;Capas&rbrack; No se pueden importar imágenes cuando el panel Capa está cerrado o es invisible
 * &lbrack;Capas&rbrack; Al cambiar el idioma, se vuelve a calcular el activo actual
 * &lbrack;Capas&rbrack; Al cambiar el uso de una imagen importada, no se actualiza la variación de filtro que se debe utilizar
@@ -1369,9 +1369,9 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; No se sugiere ninguna actualización cuando se actualiza un filtro personalizado en el disco
 * &lbrack;Capas&rbrack; El canal normal a veces tiene un formato de píxel incorrecto
 * &lbrack;Capas&rbrack; Algunas capas aún se calculan incluso cuando no están visibles
-* &lbrack;Capas&rbrack; Las herramientas de la vista 2D pueden romperse al cambiar la visibilidad de una capa
+* &lbrack;Capas&rbrack; Las herramientas de Vista 2D se pueden romper al cambiar la visibilidad de una capa
 * &lbrack;Capas&rbrack; La interfaz de usuario se bloquea al utilizar Imagen a material (AI)
-* &lbrack;Capas&rbrack; Al cambiar la visibilidad de la capa de filtro Transformar, se rompe la herramienta de vista 2D y puede producirse un bloqueo
+* &lbrack;Capas&rbrack; Al cambiar la visibilidad de la capa Transformar filtro, se rompe la herramienta Vista 2D y puede provocar un bloqueo
 * &lbrack;Capas&rbrack; Demasiados cálculos al eliminar una capa de la pila de capas
 * &lbrack;Capas&rbrack; Cuando un filtro compuesto contiene una entrada/salida inusual o personalizada, Sampler no la calcula
 * &lbrack;Rendimiento&rbrack; El panel Activos tarda en abrirse
@@ -1380,7 +1380,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Rendimiento&rbrack; No se puede usar la caché de procesamiento en el disco
 * &lbrack;Rendimiento&rbrack; El cambio entre capas es lento
 * &lbrack;Rendimiento&rbrack; La modificación de un material o un filtro es lenta
-* &lbrack;Proyecto&rbrack; Guardar un proyecto al salir puede producir un bloqueo
+* &lbrack;Proyecto&rbrack; Guardar un proyecto al salir puede provocar un bloqueo
 * &lbrack;Procesando&rbrack; Al quitar una imagen, es posible que se eliminen todas las salidas
 * &lbrack;Procesando&rbrack; El tiempo de procesamiento mostrado en la ventana gráfica es incorrecto al realizar ajustes
 * &lbrack;UI&rbrack; No se puede desplazar verticalmente en la ventana emergente de exportación cuando es necesario
@@ -1410,8 +1410,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Problemas conocidos:**
 
-* &lbrack;Motor en tiempo real 2021&rbrack; El cálculo intensivo puede bloquear la aplicación
-* &lbrack;Motor en tiempo real 2021&rbrack; Realtime Engine 2021 se bloqueará en un equipo Windows con la CPU AMD y la GPU NVIDIA instaladas
+* &lbrack;Motor en tiempo real 2021&rbrack; El cálculo intenso puede bloqueo la aplicación
+* &lbrack;Motor en tiempo real 2021&rbrack; El motor en tiempo real de 2021 entrará en bloqueo en un equipo Windows con la CPU AMD y la GPU NVIDIA instaladas
 * &lbrack;Selector de color&rbrack; Es posible que no funcione seleccionar un color en un segundo monitor con una resolución diferente
 
 ### 3.1.1 Xocoatl
@@ -1435,7 +1435,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Contenido&rbrack; Recortar: conservar proporción al recortar imágenes no cuadradas
 * &lbrack;Contenido&rbrack; Transformar : La transformación horizontal no se invierte al utilizar el widget
 * &lbrack;Contenido&rbrack; Grava: corrija la pintura de máscara personalizada en todos los canales
-* &lbrack;Contenido&rbrack; Baldosas de suelo: solucione problemas con el azulejo de motivos y la repetición
+* &lbrack;Contenido&rbrack; azulejos de Suelo: solucione problemas con el mosaico de motivos y la repetición
 * &lbrack;Assets&rbrack; Opción Gris hacia fuera en Adobe Bridge si no está instalada
 * &lbrack;Selector de color&rbrack; La tecla Escape cierra el Selector de color
 * &lbrack;Procesando&rbrack; Corrección de la escala de distancia de dispersión al utilizar la entrada de escala de grises
@@ -1444,8 +1444,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Problemas conocidos:**
 
-* &lbrack;Motor en tiempo real 2021&rbrack; El cálculo intensivo puede bloquear la aplicación
-* &lbrack;Motor en tiempo real 2021&rbrack; Realtime Engine 2021 se bloqueará en un equipo Windows con la CPU AMD y la GPU NVIDIA instaladas
+* &lbrack;Motor en tiempo real 2021&rbrack; El cálculo intenso puede bloqueo la aplicación
+* &lbrack;Motor en tiempo real 2021&rbrack; El motor en tiempo real de 2021 entrará en bloqueo en un equipo Windows con la CPU AMD y la GPU NVIDIA instaladas
 * &lbrack;Selector de color&rbrack; Es posible que no funcione seleccionar un color en un segundo monitor con una resolución diferente
 
 ### 3.1.0 Xocoatl
@@ -1472,7 +1472,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Aplicación&rbrack; En la Vista 2D, la normal se muestra siguiendo el formato normal establecido en las preferencias
 * &lbrack;Aplicación&rbrack; La normal se exporta en el formato normal definido en las preferencias
 * &lbrack;Exportar&rbrack; Agregar un parámetro de formato normal a las exportaciones de archivos SBS y SBSAR
-* &lbrack;Exportar&rbrack; Añadir configuración de sombreado a las exportaciones de archivos SBS y SBSAR
+* &lbrack;Exportar&rbrack; Añadir configuración de sombreador a las exportaciones de archivos SBS y SBSAR
 * &lbrack;Exportar&rbrack; Definir la resolución predeterminada de los gráficos de SBS exportados
 * &lbrack;Filtros compuestos&rbrack; Empaquetar filtros SSA con 7z
 * &lbrack;Filtros compuestos&rbrack; Adición de metadatos de categoría en filtros compuestos
@@ -1484,7 +1484,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Corregido:**
 
 * &lbrack;Aplicación&rbrack; Las carpetas locales conectadas pueden bloquearse
-* &lbrack;Aplicación&rbrack; Bloqueo al salir
+* &lbrack;Aplicación&rbrack; Bloqueo a la salida
 * &lbrack;Aplicación&rbrack; Bloqueo al iniciar dos instancias de Sampler
 * &lbrack;Contenido&rbrack; El filtro Recortar tiene un ajuste aleatorio de la velocidad
 * &lbrack;Contenido&rbrack; Algunos materiales de Substance a veces no se actualizan
@@ -1496,7 +1496,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Filtros compuestos&rbrack; Bloqueo al reordenar una pila de capas con un filtro compuesto
 * &lbrack;Filtros compuestos&rbrack; El renderizado a veces se bloquea
 * &lbrack;Importación de imágenes&rbrack; Importar una imagen activa varias representaciones
-* &lbrack;Capas&rbrack; Bloqueo al deshacer o rehacer
+* &lbrack;Capas&rbrack; Bloqueo al deshacer/rehacer
 * &lbrack;Capas&rbrack; Bloqueo al añadir un Material base
 * &lbrack;Capas&rbrack; Bloqueo al utilizar una imagen no válida como luz ambiental
 * &lbrack;Capas&rbrack; Corregir la importación duplicada al insertar un filtro con varios gráficos
@@ -1514,8 +1514,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Problemas conocidos:**
 
-* &lbrack;Motor en tiempo real 2021&rbrack; El cálculo intensivo puede bloquear la aplicación
-* &lbrack;Motor en tiempo real 2021&rbrack; Realtime Engine 2021 se bloqueará en un equipo Windows con la CPU AMD y la GPU NVIDIA instaladas
+* &lbrack;Motor en tiempo real 2021&rbrack; El cálculo intenso puede bloqueo la aplicación
+* &lbrack;Motor en tiempo real 2021&rbrack; El motor en tiempo real de 2021 entrará en bloqueo en un equipo Windows con la CPU AMD y la GPU NVIDIA instaladas
 * &lbrack;Selector de color&rbrack; Es posible que no funcione seleccionar un color en un segundo monitor con una resolución diferente
 
 ### 3.0.1 Waffle
@@ -1528,7 +1528,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Brush&rbrack; Si mantiene pulsada la tecla Mayús en la herramienta Pincel, se dibujarán líneas rectas
 * &lbrack;Brush&rbrack; Mostrar una previsualización de línea al mantener pulsada la tecla Mayús en la herramienta Pincel
 * &lbrack;Brush&rbrack; La herramienta Pincel ahora admite deshacer y rehacer
-* &lbrack;2D View&rbrack; El color predeterminado de entrada de imagen se utiliza al pintar
+* &lbrack;vista 2D&rbrack; El color predeterminado de entrada de imagen se utiliza al pintar
 * &lbrack;Capas&rbrack; Leer el valor predeterminado de entrada del Substance en archivos SBSAR
 * &lbrack;Procesando&rbrack; Permitir combinar el height con normal
 * &lbrack;Procesando&rbrack; Compatibilidad con la dispersión subsuperficial (no disponible en MacOS)
@@ -1547,10 +1547,10 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* &lbrack;2D View&rbrack; El primer trazo de la herramienta Pincel a veces se rompe
-* &lbrack;2D View&rbrack; Recursos libres cuando la herramienta Pincel no está visible
-* &lbrack;2D View&rbrack; Utilice el cursor de cambio de tamaño adecuado en el widget transformar
-* &lbrack;2D View&rbrack; Los widgets no se muestran si el usuario ha realizado una panorámica en la Vista 2D antes
+* &lbrack;vista 2D&rbrack; El primer trazo de la herramienta Pincel a veces se rompe
+* &lbrack;vista 2D&rbrack; Recursos libres cuando la herramienta Pincel no está visible
+* &lbrack;vista 2D&rbrack; Utilice el cursor de cambio de tamaño adecuado en el widget transformar
+* &lbrack;vista 2D&rbrack; Los widgets no se muestran si el usuario ha realizado una panorámica en la Vista 2D antes
 * &lbrack;Aplicación&rbrack; Bloqueo al abrir un proyecto con flujo de trabajo interrumpido
 * &lbrack;Aplicación&rbrack; Solucionar el cierre de la aplicación para evitar que el registro se llene de errores inútiles
 * &lbrack;Aplicación&rbrack; Los métodos abreviados de teclado para rehacer, eliminar y guardar no funcionan en algunos sistemas operativos
@@ -1594,8 +1594,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;UI&rbrack; Imagen del banner de la pantalla de bienvenida
 * &lbrack;Contenido&rbrack; El filtro de segmentación no procesa el canal de oclusión ambiental
 * &lbrack;Contenido&rbrack; Problema de puntada de tejido con la selección de la costura del conjunto de soldadura y el patrón de diamante
-* &lbrack;Contenido&rbrack; El filtro de relieve funciona en 256 x 256 px
-* &lbrack;Contenido&rbrack; Corregir el problema de mosaico con los mosaicos de suelo cuando el desplazamiento es mayor que 0
+* &lbrack;Contenido&rbrack; Filtro de relieve funciona en 256px por 256px
+* &lbrack;Contenido&rbrack; Solucionar el problema de segmentación con los mosaicos de Suelo cuando el desplazamiento es mayor que 0
 
 **Problemas conocidos:**
 
@@ -1625,7 +1625,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;UI&rbrack; Acceder directamente al sitio web de Adobe Substance 3D Assets con el botón Obtener contenido
 * &lbrack;UI&rbrack; Ahora se puede acceder directamente al widget de resolución en la ventana gráfica
 * &lbrack;UI&rbrack; Todos los elementos de la interfaz de usuario ahora se cargan dinámicamente
-* &lbrack;UI&rbrack; Método abreviado: utilice &quot;2&quot; para cambiar la visibilidad de la vista 2D
+* &lbrack;UI&rbrack; Método abreviado : use &quot;2&quot; para cambiar la visibilidad del Vista 2D
 * &lbrack;UI&rbrack; Método abreviado : utilice &quot;3&quot; para cambiar la visibilidad de la vista 3D
 * &lbrack;Pantalla de bienvenida&rbrack; Crear un proyecto con un solo clic con el botón Nuevo
 * &lbrack;Pantalla de bienvenida&rbrack; Banner de nueva ilustración
@@ -1701,11 +1701,11 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Procesando&rbrack; El procesador del motor en tiempo real (2021) admite las propiedades de translucidez, absorción y dispersión de materiales
 * &lbrack;Procesando&rbrack; El procesador de motor en tiempo real (2021) presenta una nueva forma de calcular sombras a partir de la luz ambiental
 * &lbrack;Procesando&rbrack; El procesador del motor en tiempo real (2021) calcula en tiempo real la irradiancia de la luz ambiental
-* &lbrack;Panel Configuración del sombreador&rbrack; Nuevo panel Ajustes del sombreado para ajustar parámetros específicos del sombreado de material
-* &lbrack;Panel Configuración del sombreador&rbrack; Nuevos parámetros (Escala normal, Escala de height, Nivel de height, Intensidad de emisión, IOR, Intensidad de Normal de capa y Coat IOR)
-* &lbrack;Panel Configuración del sombreador&rbrack; Parámetros específicos para el motor en tiempo real 2021 (dispersión subsuperficial, distancia de dispersión, desplazamiento rojo y dispersión de Rayleigh)
-* &lbrack;Panel Configuración del sombreador&rbrack; Los valores de configuración se guardan por recurso
-* &lbrack;Panel de configuración del visor&rbrack; Se ha añadido una previsualización de las luces de entorno predeterminadas
+* &lbrack;Panel Configuración de Sombreador&rbrack; Nuevo panel Ajustes de Sombreador para ajustar parámetros específicos del sombreador de material
+* &lbrack;Panel Configuración de Sombreador&rbrack; Nuevos parámetros (Escala normal, Escala de height, Nivel de height, Intensidad de emisión, IOR, Intensidad de Normal de capa y Coat IOR)
+* &lbrack;Panel Configuración de Sombreador&rbrack; Parámetros específicos para el motor en tiempo real 2021 (dispersión subsuperficial, distancia de dispersión, desplazamiento rojo y dispersión de Rayleigh)
+* &lbrack;Panel Configuración de Sombreador&rbrack; Los valores de configuración se guardan por recurso
+* &lbrack;Panel de configuración del visor&rbrack; Se ha añadido una vista previa de las luces ambientales predeterminadas
 * &lbrack;Panel de configuración del visor&rbrack; Se ha añadido una vista previa de las mallas predeterminadas
 * &lbrack;Panel de configuración del visor&rbrack; Nuevo parámetro de opacidad del entorno
 * &lbrack;Panel de configuración del visor&rbrack; Nuevo parámetro de desenfoque de entorno (específico del procesador de Realtime Engine 2021)
@@ -1782,9 +1782,9 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Motor&rbrack; Actualización del Substance Engine
 * &lbrack;Aplicación&rbrack; Variable de entorno para desactivar funciones específicas
 * &lbrack;Contenido&rbrack; Reemplazar color: nueva opción de segmentación avanzada
-* &lbrack;Contenido&rbrack; Azulejos de piso - nuevos patrones y opciones disponibles
+* &lbrack;Contenido&rbrack; Azulejos de Suelo: nuevos patrones y opciones disponibles
 * &lbrack;Contenido&rbrack; Bordado - Completa renovación del filtro
-* &lbrack;Contenido&rbrack; Ajuste: nuevo parámetro metálico + corrección de transformación segura de opacidad
+* &lbrack;Contenido&rbrack; Ajuste: nuevo parámetro metálico + corrección de transformo segura de opacidad
 
 **Corregido:**
 
@@ -1844,7 +1844,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Contenido&rbrack; Añadir filtro Invertir
 * &lbrack;Contenido&rbrack; Añadir filtro Colorear
 * &lbrack;Contenido&rbrack; Añadir filtro Reemplazar color
-* &lbrack;Contenido&rbrack; Transformar : añada la posibilidad de desactivar la transformación en un canal específico
+* &lbrack;Contenido&rbrack; Transformar : Permite desactivar la transformación en un canal específico
 * &lbrack;Contenido&rbrack; Transformar : añadir rotación cuando se activa el transformo seguro
 * &lbrack;Contenido&rbrack; Variación de color : añada una opción de segmentación para elegir cómo distribuir los colores
 
@@ -1887,13 +1887,13 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; La caché de disco no se utiliza al insertar una pila en una pila
 * &lbrack;Capas&rbrack; Algunos usos de canal se calculan aunque no se utilizan
 * &lbrack;Capas&rbrack; En ocasiones, se crean salidas en blanco al importar imágenes
-* &lbrack;2D View&rbrack; Cambiar a otra capa con el modo Dibujo activado bloquea la panorámica y el zoom
+* &lbrack;vista 2D&rbrack; Cambiar a otra capa con el modo Dibujo activado bloquea la panorámica y el zoom
 * &lbrack;Contenido&rbrack; Snow: problema de 8 bits en el mapa de normales
 * &lbrack;Contenido&rbrack; Patrón de pavimento - 8 bits problema en el mapa de normales
 * &lbrack;Contenido&rbrack; Ecualizador: problema de 8 bits en el mapa de normales
 * &lbrack;Contenido&rbrack; Generador de grava - 8 bits problema en el mapa de normales
-* &lbrack;Contenido&rbrack; Azulejos de piso - Manejar la opacidad y el specular level
-* &lbrack;Contenido&rbrack; Ciclos de fusión aún exportar ajuste preestablecido - invertir mapa normal
+* &lbrack;Contenido&rbrack; Azulejos de Suelo - Manejar la opacidad y el specular level
+* &lbrack;Contenido&rbrack; Ajustes preestablecidos de exportación de ciclos de mezclador: invertir mapa de normales
 * &lbrack;Contenido&rbrack; Corregir el problema con imágenes enormes con Imagen a material (con tecnología de IA)
 * &lbrack;Aplicación&rbrack; Bloqueo al elegir &quot;Copia de seguridad y reinicio&quot; en el error de base de datos
 * &lbrack;Aplicación&rbrack; Bloqueo al hacer clic rápidamente en el mismo recurso
@@ -1912,7 +1912,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Problemas conocidos:**
 
 * El uso de Imagen a material (con IA) en imágenes de alta resolución puede ser lento
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
 * Imposible guardar dos veces la misma pila de capas de material
@@ -1930,15 +1930,15 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Importación de imágenes&rbrack; Posibilidad de arrastrar y soltar imágenes adicionales en la plantilla Creación de material
 * &lbrack;Importación de imágenes&rbrack; Posibilidad de eliminar imágenes en la plantilla Creación de material
 * &lbrack;Importación de imágenes&rbrack; Asignar automáticamente un canal a mapas de bits importados en función del nombre de archivo
-* &lbrack;Importación de imágenes&rbrack; Ser capaz de invertir mapas normales
-* &lbrack;2D View&rbrack; Introducción de un modo de pintura
-* &lbrack;2D View&rbrack; Los azulejos de pintura
-* &lbrack;2D View&rbrack; Establecer un valor de escala de grises para el color del pincel
-* &lbrack;2D View&rbrack; Panorámica y zoom al pintar
-* &lbrack;2D View&rbrack; Método abreviado X para invertir el valor de escala de grises del pincel
-* &lbrack;2D View&rbrack; &lbrack; y &brack; métodos abreviados para cambiar el tamaño del pincel
-* &lbrack;2D View&rbrack; Ctrl (o Cmd) + Rueda del ratón para cambiar el tamaño del pincel
-* &lbrack;2D View&rbrack; Ahora es posible modificar la posición de origen al utilizar el parche de clonación
+* &lbrack;Importación de imágenes&rbrack; Poder invertir los mapas de normales
+* &lbrack;vista 2D&rbrack; Introducción de un modo de pintura
+* &lbrack;vista 2D&rbrack; Los azulejos de pintura
+* &lbrack;vista 2D&rbrack; Establecer un valor de escala de grises para el color del pincel
+* &lbrack;vista 2D&rbrack; Panorámica y zoom al pintar
+* &lbrack;vista 2D&rbrack; Valor de escala de grises del método abreviado X al pincel invertido
+* &lbrack;vista 2D&rbrack; &lbrack; y &brack; métodos abreviados para cambiar el tamaño del pincel
+* &lbrack;vista 2D&rbrack; Ctrl (o Cmd) + Rueda del ratón para cambiar el tamaño del pincel
+* &lbrack;vista 2D&rbrack; Ahora es posible modificar la posición de origen al utilizar el parche de Clonar
 * &lbrack;Capas&rbrack; Mayús + arrastrar y soltar en atlas de dispersión automática
 * &lbrack;Capas&rbrack; Alt + arrastrar y soltar inserta un material como una pegatina
 * &lbrack;Capas&rbrack; Exponga fácilmente los transformares matrices de Substance Designer
@@ -1956,7 +1956,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Rendimiento&rbrack; Mejorar el rendimiento de la pila de capas al añadir, eliminar o mover capas
 * &lbrack;Rendimiento&rbrack; De imagen a material (con tecnología de IA) se ejecuta más rápido en las GPU RTX
 * &lbrack;Contenido&rbrack; Nuevas mallas: Camiseta de mujer, Camiseta de hombre, Zapato
-* &lbrack;Contenido&rbrack; Nuevo modo de fusión: fusión por canal
+* &lbrack;Contenido&rbrack; Nuevo modo de Fusión: Fusión por canal
 * &lbrack;Contenido&rbrack; Corrección del height de mezcla de opacidad con 2 nuevos parámetros (posición de height y escala de height)
 * &lbrack;Contenido&rbrack; Añadir ajustes de Height en el modo de Fusión de Height
 * &lbrack;Contenido&rbrack; Opción Usar información de Height en la Fusión Máscara personalizada
@@ -1983,12 +1983,12 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; Filtrar tras importar imágenes no funciona correctamente
 * &lbrack;Capas&rbrack; el valor workflow_type no se actualiza al cambiar el flujo de trabajo entre proyectos con un filtro personalizado
 * &lbrack;Capas&rbrack; Desactivar el botón &quot;Eliminar capa&quot; cuando no hay ninguna capa seleccionada
-* &lbrack;Capas&rbrack; Bloqueo al cargar un recurso que contiene un parche de clonación
-* &lbrack;Capas&rbrack; El filtro Normal a Height se bloquea en MacOs
-* &lbrack;Aplicación&rbrack; Bloqueo al cargar mapas de entorno hacia delante y hacia atrás
+* &lbrack;Capas&rbrack; Bloqueo al cargar un recurso que contiene un parche de Clonar
+* &lbrack;Capas&rbrack; Normal a bloqueos de Height en MacOs
+* &lbrack;Aplicación&rbrack; Bloqueo al cargar mapas de entorno de ida y vuelta
 * &lbrack;Aplicación&rbrack; Problemas de rendimiento cuando se instala un controlador de la tableta gráfica
-* &lbrack;Aplicación&rbrack; La importación de archivos EXR de 32 bits es negra
-* &lbrack;Aplicación&rbrack; Se bloquea al cargar y descargar recursos
+* &lbrack;Aplicación&rbrack; EXR archivos de 32 bits importados son negros
+* &lbrack;Aplicación&rbrack; Bloqueos al cargar y descargar recursos
 * &lbrack;Aplicación&rbrack; Bloqueo al cambiar de explorar a crear
 * &lbrack;Aplicación&rbrack; La colección de destino al guardar un material no es del proyecto actual
 * &lbrack;Aplicación&rbrack; Corregir copia de seguridad y reiniciar
@@ -1998,7 +1998,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Contenido&rbrack; Corrección del cambio de color con el filtro avanzado Hacer azulejo
 * &lbrack;Rendimiento&rbrack; Abrir un cuadro de diálogo de color es lento y vuelve a calcular la capa actual
 * &lbrack;UI&rbrack; Los métodos abreviados de teclado a veces no funcionan
-* &lbrack;2D View&rbrack; El Relleno según el contenido necesita un primer clic inútil para funcionar
+* &lbrack;vista 2D&rbrack; El Relleno según el contenido necesita un primer clic inútil para funcionar
 * &lbrack;Resources&rbrack; En las carpetas de los discos locales se sigue buscando actualizaciones después de quitarlas
 * &lbrack;Resources&rbrack; Al eliminar una carpeta vinculada del sistema de archivos, no se elimina
 * &lbrack;Exportar&rbrack; Los usos personalizados en los ajustes preestablecidos de exportación personalizados no se exportan
@@ -2011,7 +2011,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * El uso de Imagen a material (con IA) en imágenes de alta resolución puede ser lento
 * El uso de Imagen a material (con IA) en la GPU con poca VRAM puede desencadenar un bloqueo (sin memoria)
 * Imagen a material (con tecnología de IA) no está disponible en el Specular/Brillo PBR
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
 * Imposible guardar dos veces la misma pila de capas de material
@@ -2036,7 +2036,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; Bloqueo al manipular capas
 * &lbrack;Capas&rbrack; Los canales personalizados no se muestran con un material guardado
 * &lbrack;Aplicación&rbrack; Se ha corregido un bloqueo raro al importar un recurso
-* &lbrack;Aplicación&rbrack; Bloqueo al salir
+* &lbrack;Aplicación&rbrack; Bloqueo a la salida
 * &lbrack;Aplicación&rbrack; Los cuadros combinados ahora muestran los valores correctos al cambiar los ajustes preestablecidos
 * &lbrack;Exportar&rbrack; Ajuste preestablecido de Enscape renombrado a Enscape Revit
 * &lbrack;Exportar&rbrack; La importación de un ajuste preestablecido de exportación después de eliminarlo funciona
@@ -2056,7 +2056,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
 
 ### 2.1.0 (2020.1.0) Tiramisu
@@ -2065,7 +2065,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Agregado:**
 
-* &lbrack;Exportar&rbrack; Exportar selección de ajustes preestablecidos para empaquetar texturas para procesadores y motores de juegos
+* &lbrack;Exportar&rbrack; Exportar selección de ajustes preestablecidos para empaquetar las texturas para procesadores y motores de juegos
 * &lbrack;Exportar&rbrack; Exportar ajuste preestablecido a Unreal Engine 4
 * &lbrack;Exportar&rbrack; Exportar ajuste preestablecido a Unity Standard
 * &lbrack;Exportar&rbrack; Exportar ajuste preestablecido a Unity HDRP
@@ -2092,7 +2092,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Pantalla de bienvenida&rbrack; Nuevo banner de bienvenida
 * &lbrack;Proyecto&rbrack; Abrir el último proyecto al iniciar
 * &lbrack;UI&rbrack; Nuevo estilo de cuadro combinado
-* &lbrack;Vista 2D&rbrack; Método abreviado F para enfocar en la vista 2D
+* &lbrack;Vista 2D&rbrack; F método abreviado para enfocar en la vista 2D
 * &lbrack;Filters&rbrack; Se ha agregado la compatibilidad con la etiqueta alchemist::parameterVisibility en los gráficos de Substance
 * &lbrack;Filters&rbrack; Realizar un ajuste global para administrar la visibilidad de los parámetros en función del flujo de trabajo
 * &lbrack;Resources&rbrack; Nueva opción de línea de comandos para configurar recursos y carpetas vinculadas con un archivo de configuración
@@ -2108,8 +2108,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Proyecto&rbrack; Se ha corregido el bloqueo al importar y abrir proyectos varias veces
 * &lbrack;Aplicación&rbrack; Bloqueo al cargar un material sin nombre
 * &lbrack;Aplicación&rbrack; Reconocer los archivos que faltan al volver a importarlos
-* &lbrack;Aplicación&rbrack; Solucionar bloqueo aleatorio al apagar
-* &lbrack;Aplicación&rbrack; Se ha corregido un raro bloqueo al descargar un material en Crear
+* &lbrack;Aplicación&rbrack; Corregir bloqueo aleatorio al apagar
+* &lbrack;Aplicación&rbrack; Se ha corregido un bloqueo raro al descargar un material en Crear.
 * &lbrack;Aplicación&rbrack; Se ha corregido el bloqueo aleatorio al utilizar controles de IU
 * &lbrack;Aplicación&rbrack; Se ha corregido la exportación de archivos de registro al escritorio en Windows 10
 * &lbrack;UI&rbrack; El panel Exportar tiene un tamaño incorrecto al abrirlo en Crear
@@ -2120,7 +2120,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;UI&rbrack; Corregir colores de capas ocultas
 * &lbrack;UI&rbrack; Mejoras en los botones de pantalla de bienvenida
 * &lbrack;Capas&rbrack; Menos cálculos innecesarios
-* &lbrack;Capas&rbrack; Se bloquea al utilizar el parche de clonación
+* &lbrack;Capas&rbrack; Bloqueos al utilizar el parche de Clonar
 * &lbrack;Capas&rbrack; La selección de una capa de importación de imágenes ya no activa un equipo
 * &lbrack;Capas&rbrack; Las capas de Relleno según el contenido y el parche de Clonar ya no se vuelven a calcular cuando se seleccionan
 * &lbrack;Configuración del canal&rbrack; La activación o desactivación de usos ahora activa un procesamiento
@@ -2130,9 +2130,9 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Rendimiento&rbrack; Evite cargar materiales para acceder a sus parámetros
 * &lbrack;Rendimiento&rbrack; Realizar copia de seguridad de activos solo cuando se utilizan en un proyecto o en un material creado
 * &lbrack;Exportar&rbrack; En ocasiones, los materiales corregidos de la cola de exportación se omiten o se exportan con parámetros incorrectos
-* &lbrack;2D View&rbrack; Panorámica y zoom restaurados
+* &lbrack;vista 2D&rbrack; Panorámica y zoom restaurados
 * &lbrack;Contenido&rbrack; Parquet Patrón tiene en cuenta el canal de Oclusión ambiental
-* &lbrack;Contenido&rbrack; Paint: muestra la entrada de máscara al activar la máscara personalizada
+* &lbrack;Contenido&rbrack; Pintura: mostrar la entrada de máscara al activar la máscara personalizada
 * &lbrack;Contenido&rbrack; Motivo de Stonewall: elimina los posibles efectos de bandas en el mapa de normales
 * &lbrack;Contenido&rbrack; Modulación de height : Corrija entradas de color base doble en la vista 2D
 
@@ -2140,7 +2140,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
 
 ## Versión 1
@@ -2156,16 +2156,16 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Corregido:**
 
 * &lbrack;Capas&rbrack; Mover capas a dos o más capas superiores o inferiores
-* &lbrack;Crear&rbrack; Asignación de suficiente presupuesto de VRAM para tener un buen rendimiento
+* &lbrack;Crear&rbrack; Asignación de suficiente presupuesto VRAM para tener buenos resultados
 
 **Problemas conocidos:**
 
 * Importar una gran cantidad de recursos puede ralentizar al Substance Alchemist
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a Height puede bloquearse en MacOS
+* El filtro Normal a Height puede generar bloqueo en MacOS
 
 ### 1.1.3 (2019.1.3) Sésamo
 
@@ -2174,7 +2174,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Agregado:**
 
 * &lbrack;Flujo de trabajo&rbrack; Compatibilidad con varios flujos de trabajo
-* &lbrack;Flujo de trabajo&rbrack; Compatibilidad con el flujo de trabajo Brillo de Specular PBR
+* &lbrack;Flujo de trabajo&rbrack; Compatibilidad con el flujo de trabajo de Brillo de Specular PBR
 * &lbrack;Flujo de trabajo&rbrack; Nuevo panel Configuración de canal
 * &lbrack;Flujo de trabajo&rbrack; Selección de flujo de trabajo en la creación de proyectos
 * &lbrack;Configuración de canal&rbrack; Activar o desactivar cálculo de canal específico
@@ -2187,7 +2187,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Capas&rbrack; Posibilidad de actualizar a la última versión de las capas obsoletas a través de la notificación
 * &lbrack;Proyecto&rbrack; Nuevos campos de metadatos en la creación de proyectos
 * &lbrack;Inspire&rbrack; Las variaciones generadas son específicas de un proyecto
-* &lbrack;2D View&rbrack; Cambiar entre las entradas de capa, las salidas de capa y las salidas de material
+* &lbrack;vista 2D&rbrack; Cambiar entre las entradas de capa, las salidas de capa y las salidas de material
 * &lbrack;Pantalla de bienvenida&rbrack; Opción Agregar proyecto de importación (.alch)
 * &lbrack;Preferencias&rbrack; Nueva ventana Preferencias para definir la configuración de privacidad de análisis y ubicación de la caché
 * &lbrack;UI&rbrack; Nuevos botones de IU
@@ -2222,9 +2222,9 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * Importar una gran cantidad de recursos puede ralentizar al Substance Alchemist
 * Los filtros de relleno según el contenido son lentos en alta resolución
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a Height puede bloquearse en MacOS
+* El filtro Normal a Height puede generar bloqueo en MacOS
 
 ### 1.1.2 (2019.1.2) Sesame
 
@@ -2385,12 +2385,12 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a height puede bloquearse en MacOS
-* Todavía se puede bloquear aleatoriamente al salir de MacOS
+* El filtro Normal a height puede generar bloqueo en MacOS
+* Todavía se puede realizar un bloqueo aleatorio al salir de MacOS
 
 ### 0.8.0-beta Quinua
 
@@ -2442,8 +2442,8 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a height puede bloquearse en MacOS
-* Puede bloquearse aleatoriamente al salir de MacOS
+* El filtro Normal a height puede generar bloqueo en MacOS
+* Puede realizar el bloqueo aleatoriamente al salir de MacOS
 
 ### 0.7.0-beta Pepper
 
@@ -2480,21 +2480,21 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* Solucionar un bloqueo al guardar la pila de capas
+* Corregir un bloqueo al guardar la pila de capas
 * Se puede añadir un valor por encima de 1 en el regulador de rotación de entorno
-* No pierda parámetros de fusión cuando una capa de fusión se transforme de una capa de fusión a otra de una capa de material
+* No pierda los parámetros de fusión cuando se transforma una capa de fusión de una capa de fusión a otra de material
 * Corregir duplicados al generar variaciones de la misma pila de capas varias veces
 * Al volver a abrir un material, Alchemist recuerda los rangos modificados (mínimo y máximo) de los reguladores
 
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
 * La coma o el punto se pueden ignorar al escribir un valor específico en un regulador
-* El filtro Normal a height puede bloquearse en MacOS
+* El filtro Normal a height puede generar bloqueo en MacOS
 
 ### 0.6.1-beta Orange
 
@@ -2504,7 +2504,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 * &lbrack;Motor&rbrack; La actualización de Substance Engine será compatible con la última versión de Substance Designer
 * &lbrack;Licencia&rbrack; Actualizar la carpeta de licencias para las primeras instalaciones
-* &lbrack;Capas&rbrack; Vuelva a cargar en cualquier momento la pila de capas para actualizar los filtros personalizados
+* &lbrack;Capas&rbrack; Vuelva a cargar en cualquier momento su pila de capas para actualizar sus filtros personalizados
 
 **Corregido:**
 
@@ -2513,7 +2513,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
@@ -2538,7 +2538,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Contenido&rbrack; Nuevo material genérico de piedra
 * &lbrack;Contenido&rbrack; Actualización del filtro de relieve
 * &lbrack;Contenido&rbrack; Actualización del filtro de bordado
-* &lbrack;Contenido&rbrack; Actualización del filtro de pintura
+* &lbrack;Contenido&rbrack; actualización del filtro de pintura
 * &lbrack;Contenido&rbrack; Actualización del filtro Delighter
 
 **Corregido:**
@@ -2549,14 +2549,14 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * Solucionar problemas con fuentes pequeñas en ventanas emergentes
 * Solucionar un problema de transparencia en la IU debido a un conflicto con el parámetro FXAA de algunas tarjetas NVIDIA
 * Quitar el enfoque del campo después de introducir un valor en un regulador
-* Asigne la cantidad mínima de VRAM al encendedor para reducir los bloqueos
+* Asigne la cantidad mínima de VRAM al deleitador para reducir los bloqueos
 * Corregir el bloqueo de la ventana al cambiar el tamaño de la ventana de la aplicación
-* Se ha corregido un bloqueo que se producía al eliminar la pila de capas durante la evaluación
+* Se ha corregido un bloqueo que se producía al eliminar la pila de capas durante la evaluación.
 
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * No se recomienda el cambio de visibilidad rápida de una etapa de Delighter
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
@@ -2576,7 +2576,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
@@ -2625,7 +2625,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * La importación de entorno personalizado puede volverse negra
 * Las imágenes TIF no se muestran en el panel Propiedades de la capa de importación de imágenes
@@ -2651,7 +2651,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 * Los caracteres especiales de la ruta de archivo impiden guardar un material
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * Bloqueo al cargar su propio entorno
 
@@ -2661,12 +2661,12 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* Solucionar errores de informes de errores y licencias emergentes
+* Corregir informes de Bloqueos, informes de errores y ventanas emergentes de licencias
 
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * Bloqueo al cargar su propio entorno
 
@@ -2694,7 +2694,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * Bloqueo al cargar su propio entorno
 
@@ -2711,7 +2711,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;Datos&rbrack; Guardar como material pulsando Ctrl+Mayús+S
 * &lbrack;Datos&rbrack; Guarde el material pulsando Ctrl+S
 * &lbrack;Datos&rbrack; Las colecciones y los materiales son compatibles entre versiones
-* &lbrack;Datos&rbrack; Actualizar la pila de capas de material con filtros actualizados
+* &lbrack;Datos&rbrack; Actualiza tu pila de capas de materiales con filtros actualizados
 * &lbrack;Datos&rbrack; Recarga en caliente de filtros personalizados importados
 * &lbrack;UI&rbrack; Retroalimentación visual en la ventana gráfica mientras se está computando
 * &lbrack;UI&rbrack; Nuevo estilo de botón
@@ -2724,12 +2724,12 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* Mapa de bits a material controla el flujo de trabajo Specular/Brillo
+* Bitmap to Material gestiona el flujo de trabajo de Specular/Brillo
 
 **Problemas conocidos:**
 
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * Delighter no es compatible con tarjetas RTX GPU
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 
@@ -2739,15 +2739,15 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 
 **Corregido:**
 
-* Generar una variación de color con 10 bloqueos extraídos de color
-* Generar una variación de color con una pila de capas que se acaba de guardar se bloquea
+* Generación de una variación de color con 10 bloqueos extraídos de color
+* Generación de una variación de color con bloqueos de pila de capas recién guardados
 * Vínculos incorrectos en la ventana emergente de actualización de la versión del Substance Alchemist
 
 **Problemas conocidos:**
 
 * El mapa de bits a material no gestiona el flujo de trabajo de Specular/Rugosidad
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 
 ### 0.3.0-beta Lasaña
@@ -2785,7 +2785,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * Los materiales creados con una versión anterior no estarán disponibles en la nueva versión.
 * El mapa de bits a material no gestiona el flujo de trabajo de Specular/Rugosidad
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 
 ### 0.2.0-beta Kiwi
@@ -2836,7 +2836,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * &lbrack;MacOS&rbrack; El Substance Alchemist se puede configurar en pantalla completa
 * &lbrack;Filtro&rbrack; Importar máscara personalizada para administrar la fusión entre dos materiales
 * &lbrack;Filtro&rbrack; Escala de control de musgo
-* &lbrack;Filtro&rbrack; Actualización del parche de clonación
+* &lbrack;Filtro&rbrack; Actualización del parche de Clonar
 
 **Corregido:**
 
@@ -2848,7 +2848,7 @@ bloqueo de [capas] al agregar una imagen a la máscara de relieve
 * Los materiales creados con una versión anterior no estarán disponibles en la nueva versión.
 * &lbrack;MacOS&rbrack; El Substance Alchemist de cierre puede necesitar un &quot;Forzar el cierre&quot;
 * No se recomienda el uso de varios encantadores en un solo material
-* Delighter se bloquea con controladores NVIDIA antiguos (menos de 400.x)
+* Bloqueos más atractivos con controladores NVIDIA más antiguos (menos de 400.x)
 * El cambio de visibilidad rápida de una etapa de Delighter afectará al rendimiento
 * Bloqueo de lata de exportación de material
 
