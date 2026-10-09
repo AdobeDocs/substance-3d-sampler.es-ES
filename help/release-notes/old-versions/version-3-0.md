@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/release-notes/old-versions/version-3-0.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-sampler/release-notes/old-versions/version-3-0.html"
+breadcrumb-title: ""
 description: Consulte las notas de la versión 3.0 de Substance 3D Sampler para obtener más información sobre la integración de Creative Cloud, filtros, luces ambientales y modificaciones de la interfaz de usuario.
 helpx_creative_field: ""
 helpx_description: Sampler > Release Notes > Old Versions > Version 3.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Versión 3.0
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 55277f7a92e97bf530dd2a2edf4e16c88bb57793
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
-
 ---
-
 
 # Versión 3.0
 
@@ -74,7 +72,7 @@ El filtro de ajuste se ha dividido en filtros independientes según su funcional
 
 Se han añadido algunos filtros nuevos:
 
-* [Transformación de deformación](../../filters/tools/warp-transform.md)
+* [Transformar deformación](../../filters/tools/warp-transform.md)
 * [Tejer](../../filters/generators/weave.md)
 * [Panel](../../filters/generators/panel.md)
 
@@ -87,7 +85,7 @@ Ahora Sampler puede [compartir fácilmente materiales y entornos livianos](../..
 ### Nuevo motor de procesamiento en tiempo real
 
 * Compatibilidad con materiales de ASM, lo que permite una apariencia coherente entre las aplicaciones con más canales de materiales.
-* Cambiar entre 2 [motores en tiempo real](https://helpx.adobe.com/es/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html)
+* Cambiar entre 2 [motores en tiempo real](https://helpx.adobe.com/substance-3d/unlisted/documentation/sadoc/viewer-settings-188973164.html)
 * Posibilidad de controlar las texturas predeterminadas en una malla
 
 ### Mejoras generales
