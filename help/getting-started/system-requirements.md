@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/es/substance-3d-sampler/getting-started/system-requirements.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-sampler/getting-started/system-requirements.html'
 breadcrumb-title: ''
 description: Revise los requisitos del sistema de Substance 3D Sampler para asegurarse de que el hardware y el software cumplen los estándares de compatibilidad.
 helpx_creative_field: ''
@@ -10,13 +10,11 @@ helpx_tags: ''
 title: Requisitos del sistema
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: cd61972eaf1567863dc8c3549a1c90c84ffee825
+source-git-commit: ce5a9fcca6e535a54340dda0d225076a62de39d6
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
-
+source-wordcount: '647'
+ht-degree: 0%
 ---
-
 
 # Sistemas compatibles
 
@@ -45,11 +43,15 @@ A continuación se muestra una lista de hardware y sistemas compatibles con la a
 
 |  | Mínimo | Recomendado | Óptimo |
 | --- | --- | --- | --- |
-| **SO** | macOS 13 Ventura | macOS 14 Sonoma | macOS 26 Tahoe |
+| **SO** | macOS 15 Sequoia | macOS 27 Golden Gate | macOS 27 Golden Gate |
 | **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **RAM** | 24 GB | 32 GB | 64 GB |
 | **Almacenamiento** | SSD con 30 GB de espacio disponible | SSD con 50 GB de espacio disponible | SSD con 70 GB de espacio disponible |
+
+>[!WARNING]
+>
+> Para las canalizaciones creadas teniendo en cuenta la [plataforma de referencia VFX](https://vfxplatform.com/), Substance 3D Sampler se puede instalar en macOS 14 Sonoma. Sin embargo, Sampler ya no se prueba en versiones de sistemas operativos que no cumplan los requisitos mínimos del sistema, por lo que no se garantiza su estabilidad. Se recomienda actualizar a una versión más reciente del sistema operativo.
 
 ### Linux
 
@@ -95,7 +97,7 @@ A continuación se muestra una lista de hardware y sistemas compatibles con la a
 
 A continuación se muestra una lista de las versiones mínimas del controlador de la GPU necesarias para que la aplicación se ejecute sin problemas. Esta lista está sujeta a cambios a medida que se lancen nuevas versiones.
 
-Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/es/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
+Para descargar nuevos controladores, consulte: [La GPU tiene controladores obsoletos](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | SO | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
