@@ -28,7 +28,7 @@ Además, el modo de especificación baja impide las exportaciones por encima de 
 
 ![](../assets/low-spec-mode-export-message.png)
 
-*Este mensaje aparece en la **ventana de exportación**mientras está en **modo de especificación baja**para proporcionar información adicional.*
+*Este mensaje aparece en la **ventana de exportación**&#x200B;mientras está en **modo de especificación baja**&#x200B;para proporcionar información adicional.*
 
 ## ¿Cómo puedo saber si el modo de especificaciones bajas está activado?
 
