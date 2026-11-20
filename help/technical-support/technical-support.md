@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-sampler/technical-support.html"
+helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support.html"
 description: Acceda a los recursos de asistencia técnica de Substance 3D Sampler para encontrar respuestas a preguntas comunes y guías de solución de problemas.
 title: Asistencia técnica
 hold: true
