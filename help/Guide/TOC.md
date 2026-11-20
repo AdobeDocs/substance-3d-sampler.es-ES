@@ -2,15 +2,11 @@
 user-guide-title: Substance 3D Sampler
 breadcrumb-title: Substance 3D Sampler
 user-guide-description: Substance 3D Sampler
-hide: false
-hold: true
-source-git-commit: a0034da3bee13d0d7423828a902da62cf2219474
+source-git-commit: 09278e59a21757710d15d1bb447002a4aecb25a7
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 15%
-
+source-wordcount: '641'
+ht-degree: 14%
 ---
-
 
 # Substance 3D Sampler {#using}
 
@@ -21,7 +17,6 @@ ht-degree: 15%
   + [Requisitos del sistema](/help/getting-started/system-requirements.md)
   + [Mét. abreviados](/help/getting-started/shortcuts.md)
   + [Importación de recursos](/help/getting-started/importing-resources.md)
-  + [Informar de un error](/help/getting-started/report-a-bug.md)
   + [Gestión de proyectos](/help/getting-started/project-management.md)
   + Exportar{#export}
     + [Exportar información general](/help/getting-started/export/export.md)
@@ -116,6 +111,7 @@ ht-degree: 15%
     + [Generación de canales](/help/filters/tools/channels-generation.md)
     + [Conmutador de canal](/help/filters/tools/channel-switch.md)
     + [Sello de Clonar](/help/filters/tools/clone-stamp.md)
+    + {hide-from-toc}[Relleno según el contenido](/help/filters/tools/content-aware-fill.md)
     + [Herramienta Recortar](/help/filters/tools/crop-tool.md)
     + [Deleite: con tecnología de IA](/help/filters/tools/delight-ai-powered.md)
     + [HEIGHT a AO](/help/filters/tools/height-to-ao.md)
@@ -126,11 +122,12 @@ ht-degree: 15%
     + [Multiángulo a material](/help/filters/tools/multiangle-to-material.md)
     + [Normal al Height](/help/filters/tools/normal-to-height.md)
     + [Validación PBR](/help/filters/tools/pbr-validate.md)
-    + [Corrección de perspectiva](/help/filters/tools/perspective-correction.md)
+    + [Perspectiva Transformar](/help/filters/tools/perspective-correction.md)
     + [Mosaico](/help/filters/tools/tiling.md)
     + [Transformar](/help/filters/tools/transform.md)
+    + {hide-from-toc}[Deformación de Pintura](/help/filters/tools/paint-warp.md)
     + [Deformar](/help/filters/tools/warp.md)
-    + [Transformación de deformación](/help/filters/tools/warp-transform.md)
+    + [Transformar deformación](/help/filters/tools/warp-transform.md)
     + [Ampliar](/help/filters/tools/upscale.md)
   + Herramientas HDRI{#hdri-tools}
     + [Introducción a herramientas HDRI](/help/filters/hdri-tools/hdri-tools.md)
@@ -155,6 +152,7 @@ ht-degree: 15%
     + [Dust](/help/filters/wear-and-finish/dust.md)
     + [Erosionar](/help/filters/wear-and-finish/erode.md)
     + [Acabado Metálico](/help/filters/wear-and-finish/metal-finish.md)
+    + {hide-from-toc}[Acabado en madera](/help/filters/wear-and-finish/wood-finish.md)
     + [Musgo](/help/filters/wear-and-finish/moss.md)
     + [Oxidar](/help/filters/wear-and-finish/oxidate.md)
     + [Pintura](/help/filters/wear-and-finish/paint.md)
@@ -192,9 +190,12 @@ ht-degree: 15%
     + [Requisitos del sistema para utilizar el dispositivo HP Z Captis](/help/pipeline-and-integrations/hp-z-captis-support/system-requirements-to-use-hp-z-captis.md)
     + [Preguntas frecuentes sobre la compatibilidad con HP Z en Sampler](/help/pipeline-and-integrations/hp-z-captis-support/faq-hp-z-captis-support-in-sampler.md)
     + [Limitaciones y problemas conocidos](/help/pipeline-and-integrations/hp-z-captis-support/known-issues-and-limitations-hp-z-captis-support.md)
-  + [Complemento Exportador de Tajima](/help/pipeline-and-integrations/tajima-exporter-plugin.md)
+  + [Complemento Tajima Exportador](/help/pipeline-and-integrations/tajima-exporter-plugin.md)
 + Asistencia técnica{#technical-support}
   + [Información general sobre asistencia técnica](/help/technical-support/technical-support.md)
+  + {hide-from-toc}[Modo de rendimiento](/help/technical-support/performance-mode.md)
+  + {hide-from-toc}[Modo de especificación baja](/help/technical-support/low-spec-mode.md)
+  + {hide-from-toc}[Informar de un error](/help/getting-started/report-a-bug.md)
   + [Exportación del archivo de registro](/help/technical-support/exporting-the-log-file.md)
   + Configuración{#configuration}
     + [Introducción a la configuración](/help/technical-support/configuration/configuration.md)
@@ -231,6 +232,7 @@ ht-degree: 15%
   + [Introducción a las notas de la versión](/help/release-notes/release-notes.md)
   + [Todos los cambios](/help/release-notes/all-changes.md)
   + [Beta](/help/release-notes/beta-version.md)
+  + {hide-from-toc}[Versión 6.1](/help/release-notes/version-6-1.md)
   + [Versión 6.0](/help/release-notes/version-6-0.md)
   + [Versión 5.1](/help/release-notes/version-5-1-substance-3d-sampler.md)
   + [Versión 5.0](/help/release-notes/version-5-0-substance-3d-sampler.md)

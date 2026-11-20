@@ -1,27 +1,20 @@
 ---
 helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/technical-support.html"
-breadcrumb-title: ''
 description: Acceda a los recursos de asistencia técnica de Substance 3D Sampler para encontrar respuestas a preguntas comunes y guías de solución de problemas.
-helpx_creative_field: ""
-helpx_description: Sampler > Technical Support
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Asistencia técnica
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 55277f7a92e97bf530dd2a2edf4e16c88bb57793
+hold: true
+source-git-commit: 8b2438eb381e35c19ab379a5fc14c962fd5b9b0a
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 2%
-
+source-wordcount: '68'
+ht-degree: 4%
 ---
-
 
 # Asistencia técnica
 
-Aquí puede encontrar las preguntas más frecuentes sobre Substance 3D Sampler.
+El servicio de asistencia técnica cubre aquellos casos que no aparecen en el uso diario de Sampler. Informe de errores, encuentre respuestas a preguntas comunes o aprenda a configurar Sampler para administrar el rendimiento, conectar periféricos y personalizar su entorno de trabajo.
 
+* [Modo de rendimiento](performance-mode.md)
+* [Informar de un error](../getting-started/report-a-bug.md)
 * [Exportación del archivo de registro](exporting-the-log-file.md)
 * [Configuración](../technical-support/configuration/configuration.md)
 * [Problemas técnicos](../technical-support/technical-issues/technical-issues.md)
