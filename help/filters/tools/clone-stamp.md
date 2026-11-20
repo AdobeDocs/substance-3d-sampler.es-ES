@@ -1,22 +1,11 @@
 ---
-helpx_url: "https://helpx.adobe.com/es/substance-3d-sampler/filters/tools/clone-stamp.html"
-breadcrumb-title: ''
 description: Utiliza la herramienta Sello de Clonar de Substance 3D Sampler para clonar y pintura áreas de textura para una edición y reparación de materiales perfectas.
-helpx_creative_field: ""
-helpx_description: Sampler > Filters > Tools > Clone Stamp
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Sello de Clonar
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 55277f7a92e97bf530dd2a2edf4e16c88bb57793
+source-git-commit: 09278e59a21757710d15d1bb447002a4aecb25a7
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 0%
-
+source-wordcount: '872'
+ht-degree: 1%
 ---
-
 
 # Sello de Clonar
 
@@ -33,71 +22,113 @@ ht-degree: 0%
 
 ## Descripción
 
-La **herramienta Sello de Clonar** te ayuda a duplicar o parchear manualmente partes de tu material. Esto es útil para arreglar costuras o eliminar errores de su material. El filtro **Sello de Clonar** es una de las herramientas disponibles en la barra lateral izquierda.
+La herramienta **Sello de Clonar** te permite duplicar o parchear manualmente partes de tu material. Se utiliza principalmente para corregir costuras y eliminar errores de materiales escaneados, como escombros, sombras o artefactos. Puede pintura varios trazos de sello desde distintas áreas de origen dentro de una sola capa de sello de Clonar y administrar cada sello individualmente en el **panel Capas**.
 
 En las imágenes que aparecen a continuación se muestra el **Sello de Clonar** que se está utilizando para eliminar los escombros de un material de nieve.
 
 ![](../../assets/3d-2d-filters-cropped-0049-clone-stamp-in.jpg)
 
-En la imagen de arriba, el material de nieve incluye una serie de ramitas y otros escombros dispersos alrededor.
+El material de nieve incluye una serie de ramitas y otros escombros dispersos alrededor.
 
 ![](../../assets/3d-2d-filters-cropped-0048-clone-stamp-out.jpg)
 
-La herramienta **Sello de Clonar** se usa para quitar algunas ramitas y reemplazarlas con nieve limpia.
+Después de usar la herramienta **Sello de Clonar**, las ramitas se reemplazan por nieve limpia.
 
 </td>
 </tr>
 </table>
 
-## Tutorial sobre el sello de Clonar
-
 ## Parámetros
 
-<b>Parámetros básicos</b>
+**Parámetros básicos**
 
-* <b>Expandir máscara</b>: 0-1\
+* **Expandir máscara**: 0-1
+
   Ajuste la distancia alrededor del área pintada en la que el filtro intentará hacer coincidir el material subyacente.
-* <b>Fusión de transición</b>: 0-1\
-  Suaviza el borde del área clonada para que se mezcle mejor con el material subyacente.
-* <b>Desenfocar máscara</b>: 0-1\
-  Ajuste la cantidad de detalle del borde del tampón de clonar. Si se aumenta este valor, los bordes del área clonada tendrán un aspecto más blob.
-* <b>Mantener proporción</b>: alternar\
-  Si se desactiva, permite ajustar las proporciones del área estampada.
-  * <b>Horizontal</b>: 0-2
-  * <b>Vertical</b>: 0-2
-* <b>Rotación</b>: De -180 a 180\
-  Gire el área estampada.
-* <b>Voltear horizontal</b>: alternar\
+
+* **Fusión de transición**: 0-1
+
+  Suaviza el borde del área clonada para que se mezcle de forma más natural con el material circundante.
+
+* **Desenfocar máscara**: 0-1
+
+  Ajuste la cantidad de detalles de borde en el tampón de clonar. Los valores más altos producen bordes más suaves y más parecidos a los de una mancha.
+
+* **Mantener proporción**: alternar
+
+  Cuando está desactivada, permite ajustar las proporciones horizontales y verticales del área estampada de forma independiente.
+
+  * **Horizontal**: 0-2
+  * **Vertical**: 0-2
+* **Rotación**: De -180 a 180
+
+  Gire el área estampada para que coincida con la dirección o el granulado del material circundante.
+
+* **Voltear horizontal**: alternar
+
   Reflejar el área estampada a lo largo de un eje horizontal.
-* <b>Voltear verticalmente</b>: alternar\
+
+* **Voltear verticalmente**: alternar
+
   Reflejar el área estampada a lo largo de un eje vertical.
 
-<b>Fusión de transición</b>
+**Fusión de transición**
 
-Utilice los controles de fusión de fundido para ajustar individualmente la fusión de fundido para cada canal del material.
+Utilice los controles de fusión de fundido por canal para ajustar de forma independiente la intensidad de fusión de cada canal de material.
 
-<b>Avanzado</b>
+**Avanzado**
 
-* <b>Intensidad normal</b>: 0-2\
-  Ajuste la intensidad de las normales en el área estampada.
-* <b>Posición de origen</b>: \
-  0-1: Ajuste la posición de origen horizontal.\
-  0-1: Ajuste la posición de origen vertical.
-* <b>Posición de destino</b>:\
-  0-1: Ajuste la posición de destino horizontal.\
-  0-1: Ajuste la posición de destino vertical.
-* <b>Modo de segmentación</b>: menú desplegable\
-  Activar o desactivar el mosaico.
+* **Intensidad normal**: 0-2
 
-## Guía de uso
+  Ajuste la intensidad del mapa de normales en el área estampada para controlar cómo reacciona la superficie clonada al alumbrado.
 
-Haz clic en la **herramienta Sello de Clonar** para crear una nueva capa de filtro Sello de Clonar en la parte superior de la pila de capas. También puedes añadir un Clonar de sello con el botón **Añadir una capa** en el **panel Capas**.
+* **Posición de origen**:
+  * Horizontal: 0-1: ajusta la posición horizontal del origen de clonación.
+  * Vertical: 0-1: ajusta la posición vertical del origen de clonación.
+* **Posición de destino**:
+  * Horizontal: 0-1 — Ajusta la posición horizontal del objetivo de pintura.
+  * Vertical: 0-1 — Ajusta la posición vertical del objetivo de pintura.
+* **Modo de segmentación**: menú desplegable
 
-La creación de una capa de Clonar de sello abre automáticamente el **Vista 2D** en el **área de visualización**. Aparece una **Barra de herramientas** en la parte superior del **Vista 2D** cuando se selecciona la capa de sello del Clonar.
+  Habilite o deshabilite el mosaico al clonar cerca de los bordes de materiales.
 
-![](../../assets/alchemist-2020-2-clone.gif){width="300px"}
+## Cómo usar el sello del Clonar
 
-Para empezar a usar la herramienta Tampón de Clonar, haz clic y arrastra el cursor sobre el área problemática de **Vista 2D**. El material comenzará a actualizarse automáticamente en función de la fuente. Las áreas en las que use la **herramienta Sello de Clonar** aparecen resaltadas.
+1. Haz clic en **Sello de Clonar** en la barra lateral izquierda o añádelo desde el botón **Añadir una capa** en el **panel Capas**. Aparece una nueva capa de sello del Clonar en la parte superior de la pila de capas y **Vista 2D** se abre automáticamente.
+
+1. **Establecer un punto de origen**: Mantenga presionado `Ctrl` (`Cmd` en macOS) y haga clic en un área limpia del material en el **Vista 2D**. Esto define la región que se copiará.
+
+   > 📸 CAPTURA DE PANTALLA [ID: clone-stamp-001]
+   > Mostrar: Ventana gráfica en 2D con una cruz de punto de origen visible en una zona limpia de un material de nieve
+   > Estado: Clonar Sello capa seleccionada; Ctrl pulsado; indicador de origen visible
+   > Anotación: Etiquetar la forma de cruz de origen
+
+1. **Pintura sobre el área del problema**: Haga clic y arrastre el puntero sobre el área que desea corregir. El material del punto de origen reemplaza el área pintada en tiempo real.
+
+   ![](../../assets/alchemist-2020-2-clone.gif){width="300px"}
+
+1. Ajusta **Fusionar fusión** y **Expandir máscara** en el **panel Propiedades** para ajustar la forma en que el área clonada se fusiona con su entorno.
+
+>[!NOTE]
+>
+> Evite colocar el punto de origen cerca del área que está clonando. Si el origen se superpone al área problemática, el artefacto se puede clonar junto con el contenido limpio.
+
+## Trabajar con varios orígenes
+
+Puede añadir varios puntos de origen dentro de una sola capa de sello del Clonar, cada uno con su propia configuración de posición, rotación y fusión. Esto le permite corregir varias áreas diferentes (o dibujar a partir de varias regiones limpias diferentes) sin apilar varias capas.
+
+Para agregar un nuevo origen, mantenga presionada la tecla `Ctrl` (`Cmd` en macOS) y haga clic en un área nueva en **Vista 2D**. Aparece una nueva entrada de sello debajo de la capa Sello de Clonar en el **panel Capas**.
+
+> 📸 CAPTURA DE PANTALLA [ID: clone-stamp-002]
+> Mostrar: El panel Capas con una capa de sello de Clonar expandida que muestra tres entradas de sello individuales anidadas debajo
+> Estado: Clonar Sello capa expandida; tres sellos visibles con diferentes posiciones de origen
+> Anotación: Flecha que señala a las entradas de sello anidadas en el panel Capas
+
+Seleccione cualquier entrada de sello individual en el **panel Capas** para ajustar sus parámetros de forma independiente en el **panel Propiedades**, incluidos sus ajustes de posición, rotación y fusión de origen.
+
+>[!TIP]
+>
+> Use la **vista previa del pincel** en el **Vista 2D** para ver el resultado del sello antes de confirmar un trazo. Esto le ayuda a comprobar que la región de origen coincide con el área circundante antes de pintar.
 
 ## Barra de herramientas
 
@@ -110,16 +141,15 @@ Para empezar a usar la herramienta Tampón de Clonar, haz clic y arrastra el cur
 </td>
 <td width="83.33%" style="border: 0;" valign="top">
 
-Mientras está seleccionada la capa Tampón de clonar, aparece una barra de herramientas en la vista 2D con controles adicionales.
+Mientras se selecciona una capa de sello de Clonar, aparece una barra de herramientas en **Vista 2D**.
 
-* Selecciona la <b>herramienta Pincel </b> para añadir a la máscara o la <b>herramienta Borrar </b> para quitar de la máscara.
+* Seleccione **Herramienta Pincel** para agregarla a la máscara.
+* Seleccione **Herramienta Borrar** para quitarla de la máscara.
 * Defina el tamaño de la herramienta seleccionada actualmente.
 * Acceder a controles adicionales:
-  * <b>Mosaico de pincel</b>: \
-    Alternar el mosaico de pinceles X e Y.
-  * <b>Superposición:</b>\
-    Alterne si la superposición se muestra al pasar el ratón sobre el Vista 2D.
-* Ver controles de vista 2D.
+  * **Mosaico de pincel**: Alternar el mosaico de pinceles X e Y.
+  * **Superposición**: Alterne la visibilidad de la superposición al pasar el cursor sobre el Vista 2D.
+* Ver **controles de Vista 2D**.
 
 </td>
 </tr>
@@ -127,20 +157,18 @@ Mientras está seleccionada la capa Tampón de clonar, aparece una barra de herr
 
 >[!NOTE]
 >
-> Al igual que con otras barras de herramientas de Ventana gráfica, puede arrastrar el controlador situado en la parte superior de la barra de herramientas para cambiar la posición de la barra de herramientas dentro de la ventana gráfica, hacer doble clic en el controlador para cambiar entre el modo vertical y horizontal o utilizar el doble cursor para ocultar o expandir la barra de herramientas.
-
-## Selección de origen
-
-Utilice Ctrl+Clic en el vista 2D para añadir un nuevo origen. Al agregar un nuevo origen, se creará un sello adicional bajo la capa de sello del Clonar en el <b>panel Capas</b>. Puede controlar cada sello de forma individual.
-
->[!NOTE]
->
-> Por lo general, es una buena idea tratar de evitar tener el punto de origen cerca del área sobre la que está clonando. Si el punto de origen está cerca del área problemática, es posible clonar el área problemática.
+> Al igual que con otras barras de herramientas de la ventana gráfica, puede arrastrar el controlador situado en la parte superior de la barra de herramientas para cambiar su posición, hacer doble clic en el controlador para cambiar entre el diseño vertical y horizontal o utilizar el doble cursor para ocultarlo o expandirlo.
 
 ## Mét. abreviados
 
-| Acción | Windows + Linux | MacOs |
+| Acción | Windows + Linux | macOS |
 | --- | --- | --- |
-| Aumentar tamaño de pincel | &rbrack; o Ctrl + Rueda del ratón | &rbrack; o Cmd + Rueda del ratón |
-| Reducir tamaño de pincel | &lbrack; o Ctrl + Rueda del ratón | &lbrack; o Cmd + Rueda del ratón |
-| Establecer el origen | Ctrl + clic izquierdo | Cmd + clic izquierdo |
+| Aumentar tamaño de pincel | `]` o `Ctrl` + rueda del ratón | `]` o `Cmd` + rueda del ratón |
+| Reducir tamaño de pincel | `[` o `Ctrl` + rueda del ratón | `[` o `Cmd` + rueda del ratón |
+| Establecer el origen | `Ctrl` + clic izquierdo | `Cmd` + clic izquierdo |
+
+## Relacionado
+
+* [Deformar](./warp.md)
+* [Convertir en mosaico](./make-it-tile.md)
+* [De imagen a material](./image-to-material.md)
